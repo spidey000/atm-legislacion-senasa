@@ -1,1 +1,93 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Simulador ATCO</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f5f7;color:#1d1d1f;display:grid;place-items:center;min-height:100vh;margin:0}p{color:#6e6e73}</style></head><body><p>Cargando simulador…</p><script>(async()=>{const s=(await fetch("app.b64").then(r=>r.text())).trim(),b=Uint8Array.from(atob(s),c=>c.charCodeAt(0)),z=new Blob([b]).stream().pipeThrough(new DecompressionStream("gzip")),h=await new Response(z).text();document.open();document.write(h);document.close()})().catch(e=>{document.body.innerHTML="<p>No se pudo cargar el simulador. Ábrelo desde GitHub Pages o un servidor HTTP local.</p>";console.error(e)});</script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Simulador de estudio ATCO de Legislación y Air Traffic Management.">
+  <title>Simulador ATCO · Legislación + ATM</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+ <div class="topbar">
+   <div class="brand"><div class="radar"></div><div><h1>ATCO Exam Trainer</h1><small>SENASA · Legislación + ATM</small></div></div>
+   <div class="badge">Aprobado ≥ 75% · 4 opciones · 1 válida</div>
+ </div>
+
+ <section id="home">
+  <div class="hero">
+    <div class="eyebrow">Banco de preguntas verificado</div>
+    <h2>Practica con feedback o simula el examen real.</h2>
+    <p>Las preguntas se seleccionan y ordenan aleatoriamente. Las explicaciones se han revisado contra los manuales de Legislación Aeronáutica v9.1 y Air Traffic Management v9.1: explican la regla, comparan los distractores y añaden una clave relacionada.</p>
+  </div>
+  <div class="subject-grid">
+    <article class="card">
+      <div class="eyebrow">55 preguntas en el banco</div><h3>Legislación</h3>
+      <p class="meta">En modo examen se seleccionan 25 preguntas aleatorias sin repetir una pregunta idéntica dentro del intento.</p>
+      <div class="mode-actions">
+        <button class="btn practice" onclick="startSession('leg','practice')">Practicar preguntas</button>
+        <button class="btn" onclick="startSession('leg','exam')">Hacer examen · 25</button>
+      </div>
+      <div class="tiprow">
+       <span class="tip" tabindex="0" data-tip="Práctica: utiliza todo el banco en orden aleatorio. En cuanto respondes una pregunta, ves si es correcta y la explicación. Al entregar, recibes la nota y la revisión de todas.">ⓘ ¿Qué hace «Practicar preguntas»?</span>
+       <span class="tip" tabindex="0" data-tip="Examen: selecciona 25 preguntas aleatorias del banco. No muestra ninguna corrección durante el intento. Al entregar, muestra nota, respuestas y explicaciones.">ⓘ ¿Qué hace «Hacer examen»?</span>
+      </div>
+    </article>
+    <article class="card">
+      <div class="eyebrow">367 preguntas en el banco · 250 de Fernando</div><h3>ATM</h3>
+      <p class="meta">En modo examen se seleccionan 40 preguntas aleatorias del banco completo. Los cuadros azules de Fernando se han incorporado literalmente, conservando el orden A–D de sus opciones.</p>
+      <div class="mode-actions atm-actions">
+        <button class="btn practice" onclick="startSession('atm','practice')">Practicar preguntas</button>
+        <button class="btn" onclick="startSession('atm','exam')">Hacer examen · 40</button>
+        <button class="btn fernando" onclick="startSession('fernando','practice')">Cuadros azules de Fernando · 250</button>
+      </div>
+      <div class="tiprow">
+       <span class="tip" tabindex="0" data-tip="Práctica: utiliza el banco completo de ATM en orden aleatorio. En cuanto respondes una pregunta, ves si es correcta y la explicación. Al entregar, recibes la nota y la revisión de todas.">ⓘ ¿Qué hace «Practicar preguntas»?</span>
+       <span class="tip" tabindex="0" data-tip="Examen: selecciona 40 preguntas aleatorias del banco completo de ATM. No muestra ninguna corrección durante el intento. Al entregar, muestra nota, respuestas y explicaciones.">ⓘ ¿Qué hace «Hacer examen»?</span>
+       <span class="tip" tabindex="0" data-tip="Fernando: practica únicamente las 250 preguntas de los cuadros azules del PDF Tema 3 ATM. Se mantienen literalmente el enunciado, las cuatro opciones, su orden A–D y la respuesta indicada en el documento; el feedback es inmediato.">ⓘ ¿Qué son los «cuadros azules de Fernando»?</span>
+      </div>
+    </article>
+  </div>
+ </section>
+
+ <section id="exam" class="hidden">
+   <div class="exam-shell">
+    <main class="qcard">
+      <div class="qhead"><div><div class="eyebrow" id="subject"></div><span class="mode-pill" id="mode"></span></div><div class="counter" id="qcount"></div></div>
+      <h2 id="qtitle"></h2><div id="options"></div><div id="practiceFeedback"></div>
+      <div class="nav">
+       <div class="nav-left"><button class="btn secondary" id="prev" onclick="move(-1)">Anterior</button><button class="btn secondary" onclick="requestExit()">Salir</button></div>
+       <div class="nav-right"><button class="btn danger" onclick="requestRestart()">Reiniciar</button><button class="btn" id="next">Siguiente</button></div>
+      </div>
+    </main>
+    <aside class="side">
+      <h3>Intento</h3>
+      <div class="stat"><span>Respondidas</span><strong id="answered">0/0</strong></div>
+      <div class="stat"><span>Banco disponible</span><strong id="bankSize">0</strong></div>
+      <div class="stat"><span>Tiempo</span><strong id="clock">00:00</strong></div>
+      <div class="grid" id="grid"></div>
+      <button class="btn" style="width:100%;margin-top:6px" onclick="requestFinish()">Entregar ahora</button>
+      <button class="btn secondary" style="width:100%;margin-top:8px" onclick="requestExit()">Salir al menú</button>
+    </aside>
+   </div>
+ </section>
+
+ <section id="results" class="hidden"></section>
+ <div class="footer">Simulador local. No envía datos ni necesita conexión a Internet.</div>
+</div>
+
+<div id="confirm" class="modal-back hidden" role="dialog" aria-modal="true">
+ <div class="modal"><h3 id="confirmTitle"></h3><p id="confirmText"></p><div class="modal-actions"><button class="btn secondary" onclick="closeConfirm()">Cancelar</button><button id="confirmDo" class="btn" onclick="if(confirmAction)confirmAction()">Aceptar</button></div></div>
+</div>
+
+<script src="data/legislacion.js"></script>
+<script src="data/atm-1.js"></script>
+<script src="data/atm-2.js"></script>
+<script src="data/fernando-1.js"></script>
+<script src="data/fernando-2.js"></script>
+<script src="data/fernando-3.js"></script>
+<script src="data/fernando-4.js"></script>
+<script src="data/fernando-5.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
