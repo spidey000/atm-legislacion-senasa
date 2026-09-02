@@ -1,33 +1,48 @@
 # Simulador ATCO — Legislación + ATM
 
-Simulador de estudio tipo test para formación inicial ATCO/SENASA.
+Web estática local para practicar preguntas de Legislación Aeronáutica y Air Traffic Management.
 
 ## Contenido
 
-- **Legislación:** 55 preguntas en el banco.
-- **ATM:** 367 preguntas en el banco.
-- **Cuadros azules de Fernando:** 250 preguntas, disponibles como bloque independiente y también incluidas en el banco general de ATM.
-- **Modo práctica:** feedback inmediato tras responder y revisión final completa.
-- **Modo examen:** 25 preguntas aleatorias de Legislación o 40 de ATM, sin feedback hasta entregar.
-- Cada pregunta incluye explicación, análisis de distractores y una clave adicional de estudio cuando está disponible.
+- **Legislación:** 55 preguntas.
+- **ATM base:** 117 preguntas.
+- **Cuadros azules de Fernando:** 250 preguntas.
+- **Banco ATM total:** 367 preguntas (ATM base + Fernando).
+- **Práctica:** feedback inmediato y revisión final.
+- **Examen:** 25 preguntas de Legislación o 40 de ATM, sin feedback hasta entregar.
 
-## Uso
+## Ejecutar
 
-Abre `index.html` en un navegador. No requiere backend. Para servirlo localmente:
+No necesita backend ni dependencias. Desde esta carpeta:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Después abre `http://localhost:8000`.
+Abrir <http://localhost:8000>.
 
 ## Estructura
 
-- `index.html` — interfaz y lógica del simulador.
-- `data/leg.js` — banco de Legislación.
-- `data/atm.js` — banco base de ATM.
-- `data/fernando.js` — 250 “cuadros azules de Fernando”.
+```text
+atmlaw/
+├── index.html              # Interfaz y marcado de la aplicación
+├── css/
+│   └── styles.css          # Estilos
+├── js/
+│   └── app.js              # Lógica del simulador
+├── data/
+│   ├── legislacion.js      # 55 preguntas
+│   ├── atm.js              # 117 preguntas ATM base
+│   └── fernando.js         # 250 preguntas de Fernando
+└── README.md
+```
 
-## Fuentes
+Los bancos están almacenados como JavaScript plano con objetos JSON asignados a `window.*_QUESTIONS`. No se cargan archivos Base64, gzip, tar ni partes de transporte en tiempo de ejecución.
 
-El contenido de estudio se ha preparado a partir de materiales de formación proporcionados por el usuario. Los manuales originales de terceros no se incluyen en este repositorio público.
+## Procedencia y normalización
+
+La interfaz y la lógica proceden del repositorio `spidey000/atm-legislacion-senasa`. Los datos se materializaron a partir del HTML de referencia adjunto, que contiene los bancos completos y compatibles con la aplicación: 55 de Legislación, 117 de ATM base y 250 de Fernando.
+
+El repositorio original publica además archivos de transporte codificados y una materialización incompleta/corrupta en algunos artefactos de `build/`; esos archivos se han eliminado del proyecto final para dejar una web estática convencional y legible.
+
+El contenido de estudio se ha preparado a partir de materiales de formación proporcionados por el usuario. Los manuales originales de terceros no se incluyen.
