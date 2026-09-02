@@ -31,6 +31,7 @@ function getPool(kind,mode){
 
 function showHome(){
   clearInterval(tick);state=null;
+  document.body.classList.remove("exam-active");
   document.getElementById("home").classList.remove("hidden");
   document.getElementById("exam").classList.add("hidden");
   document.getElementById("results").classList.add("hidden");
@@ -38,6 +39,7 @@ function showHome(){
 }
 
 function startSession(kind,mode){
+  document.body.classList.add("exam-active");
   clearInterval(tick);
   const questions=getPool(kind,mode);
   state={kind,mode,questions,answers:Array(questions.length).fill(null),locked:Array(questions.length).fill(false),current:0,start:Date.now(),finished:false};
@@ -146,6 +148,7 @@ function requestExit(){
 function finishSession(){
  closeConfirm();if(!state||state.finished)return;
  state.finished=true;clearInterval(tick);
+ document.body.classList.remove("exam-active");
  const sec=Math.floor((Date.now()-state.start)/1000);
  let correct=0;state.questions.forEach((q,i)=>{if(state.answers[i]===q.a)correct++});
  const pct=Math.round(correct/state.questions.length*100),deg=Math.round(pct*3.6),pass=pct>=75;
