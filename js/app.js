@@ -99,9 +99,17 @@ function render(){
    b.onclick=()=>answer(i);box.appendChild(b);
  });
  document.getElementById("practiceFeedback").innerHTML=(state.mode==="practice"&&locked)?feedbackHtml(q,ans):"";
- document.getElementById("prev").disabled=state.current===0;
- document.getElementById("next").textContent=state.current===n-1?"Entregar":"Siguiente";
- document.getElementById("next").onclick=()=>state.current===n-1?requestFinish():move(1);
+ const previousButtons=[document.getElementById("prev"),document.getElementById("prevTop")];
+ const nextButtons=[document.getElementById("next"),document.getElementById("nextTop")];
+ const isLast=state.current===n-1;
+ previousButtons.forEach(button=>{
+   button.disabled=state.current===0;
+   button.onclick=()=>move(-1);
+ });
+ nextButtons.forEach(button=>{
+   button.textContent=isLast?"Entregar":"Siguiente";
+   button.onclick=()=>isLast?requestFinish():move(1);
+ });
  renderSide();
 }
 
