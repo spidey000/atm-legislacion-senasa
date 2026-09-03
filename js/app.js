@@ -11,10 +11,57 @@ BANKS.atm = BANKS.atm.concat(BANKS.fernando);
 const EXAM_SIZE={leg:25,atm:40,nav:40};
 const LABEL={leg:"Legislación",atm:"ATM",fernando:"ATM · Cuadros azules de Fernando",nav:"Navegación"};
 const letters=["A","B","C","D"];
+const SESSION_STORAGE_KEY="atco-exam-trainer.session.v1";
+const VALID_KINDS=new Set(Object.keys(BANKS));
+const VALID_MODES=new Set(["practice","exam"]);
 let state=null,tick=null,confirmAction=null;
 
 function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
 function normQ(s){return (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim().replace(/\s+/g," ")}
+
+function updateSaveStatus(text){
+  const el=document.getElementById("saveStatus");
+  if(el)el.textContent=text;
+}
+function clearSavedSession(){
+  try{localStorage.removeItem(SESSION_STORAGE_KEY)}catch(e){}
+}
+function saveSession(){
+  if(!state)return;
+  try{
+    localStorage.setItem(SESSION_STORAGE_KEY,JSON.stringify({...state,savedAt:Date.now()}));
+    updateSaveStatus("Guardado localmente");
+  }catch(e){
+    updateSaveStatus("No se pudo guardar localmente");
+  }
+}
+function validSavedSession(candidate){
+  if(!candidate||!VALID_KINDS.has(candidate.kind)||!VALID_MODES.has(candidate.mode))return false;
+  if(!Array.isArray(candidate.questions)||candidate.questions.length===0)return false;
+  if(!Array.isArray(candidate.answers)||candidate.answers.length!==candidate.questions.length)return false;
+  if(!Array.isArray(candidate.locked)||candidate.locked.length!==candidate.questions.length)return false;
+  if(!Number.isFinite(candidate.start)||typeof candidate.finished!=="boolean")return false;
+  if(candidate.current<0||candidate.current>=candidate.questions.length)return false;
+  if(candidate.finished&&!Number.isFinite(candidate.durationSec))return false;
+  return candidate.questions.every(q=>q&&typeof q.q==="string"&&Array.isArray(q.opts)&&q.opts.length===4&&Number.isInteger(q.a)&&q.a>=0&&q.a<4&&Array.isArray(q.optionExp)&&q.optionExp.length===4)
+    &&candidate.answers.every(a=>a===null||(Number.isInteger(a)&&a>=0&&a<4))
+    &&candidate.locked.every(v=>typeof v==="boolean");
+}
+function restoreSession(){
+  let saved=null;
+  try{saved=JSON.parse(localStorage.getItem(SESSION_STORAGE_KEY)||"null")}catch(e){clearSavedSession();return}
+  if(!validSavedSession(saved)){if(saved)clearSavedSession();return}
+  state=saved;
+  document.body.classList.add("exam-active");
+  document.getElementById("home").classList.add("hidden");
+  document.getElementById("results").classList.add("hidden");
+  if(state.finished){renderResults();}
+  else{
+    document.getElementById("exam").classList.remove("hidden");
+    clearInterval(tick);tick=setInterval(updateClock,1000);updateClock();render();
+  }
+  updateSaveStatus("Sesión restaurada");
+}
 
 function getPool(kind,mode){
   let pool=BANKS[kind].map((q,idx)=>({...q,origin:idx}));
@@ -32,6 +79,7 @@ function getPool(kind,mode){
 
 function showHome(){
   closeConfirm();
+  clearSavedSession();
   clearInterval(tick);state=null;
   document.body.classList.remove("exam-active");
   document.getElementById("home").classList.remove("hidden");
@@ -48,6 +96,7 @@ function startSession(kind,mode){
   document.getElementById("home").classList.add("hidden");
   document.getElementById("results").classList.add("hidden");
   document.getElementById("exam").classList.remove("hidden");
+  saveSession();
   tick=setInterval(updateClock,1000);updateClock();render();
   window.scrollTo({top:0});
 }
@@ -64,10 +113,11 @@ function answer(i){
  if(state.mode==="practice" && state.locked[state.current])return;
  state.answers[state.current]=i;
  if(state.mode==="practice")state.locked[state.current]=true;
+ saveSession();
  render();
 }
-function move(d){state.current=Math.max(0,Math.min(state.questions.length-1,state.current+d));render();window.scrollTo({top:0,behavior:"smooth"})}
-function gotoQ(i){state.current=i;render();window.scrollTo({top:0,behavior:"smooth"})}
+function move(d){state.current=Math.max(0,Math.min(state.questions.length-1,state.current+d));saveSession();render();window.scrollTo({top:0,behavior:"smooth"})}
+function gotoQ(i){state.current=i;saveSession();render();window.scrollTo({top:0,behavior:"smooth"})}
 
 function sourceText(q){
   return q.sourceRef || `Fuente de estudio: ${q.manualName} · pág. ${q.manualPage}`;
@@ -153,9 +203,14 @@ function requestExit(){
 
 function finishSession(){
  closeConfirm();if(!state||state.finished)return;
- state.finished=true;clearInterval(tick);
+ state.finished=true;state.finishedAt=Date.now();
+ state.durationSec=Math.floor((state.finishedAt-state.start)/1000);
+ clearInterval(tick);saveSession();renderResults();
+}
+function renderResults(){
+ if(!state||!state.finished)return;
  document.body.classList.remove("exam-active");
- const sec=Math.floor((Date.now()-state.start)/1000);
+ const sec=state.durationSec;
  let correct=0;state.questions.forEach((q,i)=>{if(state.answers[i]===q.a)correct++});
  const pct=Math.round(correct/state.questions.length*100),deg=Math.round(pct*3.6),pass=pct>=75;
  const reviews=state.questions.map((q,i)=>{
@@ -197,3 +252,6 @@ function openConfirm(title,text,actionLabel,action,danger){
 }
 function closeConfirm(){confirmAction=null;document.getElementById("confirm").classList.add("hidden")}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!document.getElementById("confirm").classList.contains("hidden"))closeConfirm()});
+window.addEventListener("pagehide",saveSession);
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="hidden")saveSession()});
+restoreSession();

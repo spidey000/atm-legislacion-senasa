@@ -140,6 +140,7 @@ button{font:inherit;-webkit-tap-highlight-color:transparent}
 .side h3{margin:0 0 15px;font-size:18px;letter-spacing:-.025em}
 .stat{display:flex;justify-content:space-between;gap:14px;color:var(--muted);font-size:13px;margin:8px 0}
 .stat strong{color:var(--text);font-size:13px;font-weight:650}
+.save-status{margin-top:14px;padding:8px 10px;border-radius:10px;background:#f0f0f2;color:var(--muted);font-size:11px;text-align:center}
 .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:17px 0 18px}
 .qdot{height:36px;border:0;border-radius:11px;background:#eeeeef;color:#77777c;cursor:pointer;font-weight:600;transition:.13s}
 .qdot:hover{background:#e5e5e7}.qdot.answered{background:#dedee1;color:#1d1d1f}.qdot.current{background:#1d1d1f;color:#fff}.qdot.good{background:#d5d5d8;color:#111}.qdot.bad{background:#c4c4c8;color:#111}
