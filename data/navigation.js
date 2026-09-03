@@ -790,7 +790,8 @@ window.NAVIGATION_QUESTIONS = [
     "topic": "Simbología y publicación aeronáutica",
     "manualPage": 215,
     "manualName": "TBATC_5 Navigation 4.1",
-    "preserveOptions": true
+    "preserveOptions": true,
+    "sourceRef": "Anexo 4 · símbolo gráfico (referencia del HTML; el gráfico no aparece en el PDF suministrado)"
   },
   {
     "navNo": 37,
@@ -812,7 +813,8 @@ window.NAVIGATION_QUESTIONS = [
     "topic": "Simbología y publicación aeronáutica",
     "manualPage": 215,
     "manualName": "TBATC_5 Navigation 4.1",
-    "preserveOptions": true
+    "preserveOptions": true,
+    "sourceRef": "Anexo 4 · símbolo gráfico (referencia del HTML; el gráfico no aparece en el PDF suministrado)"
   },
   {
     "navNo": 38,
@@ -2886,7 +2888,8 @@ window.NAVIGATION_QUESTIONS = [
     "topic": "Simbología ICAO Anexo 4: VOR",
     "manualPage": 215,
     "manualName": "TBATC_5 Navigation 4.1 — Navigation",
-    "preserveOptions": true
+    "preserveOptions": true,
+    "sourceRef": "Anexo 4 · símbolo gráfico (referencia del HTML; el gráfico no aparece en el PDF suministrado)"
   },
   {
     "navNo": 132,
@@ -2908,7 +2911,8 @@ window.NAVIGATION_QUESTIONS = [
     "topic": "Simbología ICAO Anexo 4: restricción de altitud superior",
     "manualPage": 215,
     "manualName": "TBATC_5 Navigation 4.1 — Navigation",
-    "preserveOptions": true
+    "preserveOptions": true,
+    "sourceRef": "Anexo 4 · símbolo gráfico (referencia del HTML; el gráfico no aparece en el PDF suministrado)"
   },
   {
     "navNo": 133,
@@ -2930,7 +2934,8 @@ window.NAVIGATION_QUESTIONS = [
     "topic": "Simbología ICAO Anexo 4: altitud obligatoria",
     "manualPage": 215,
     "manualName": "TBATC_5 Navigation 4.1 — Navigation",
-    "preserveOptions": true
+    "preserveOptions": true,
+    "sourceRef": "Anexo 4 · símbolo gráfico (referencia del HTML; el gráfico no aparece en el PDF suministrado)"
   },
   {
     "navNo": 134,
