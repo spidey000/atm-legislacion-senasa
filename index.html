@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Simulador de estudio ATCO de Legislación y Air Traffic Management.">
-  <title>Simulador ATCO · Legislación + ATM</title>
+  <meta name="description" content="Simulador de estudio ATCO de Legislación, ATM y Navegación.">
+  <title>Simulador ATCO · Legislación + ATM + Navegación</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <div class="wrap">
  <div class="topbar">
-   <div class="brand"><div class="radar"></div><div><h1>ATCO Exam Trainer</h1><small>SENASA · Legislación + ATM</small></div></div>
+   <div class="brand"><div class="radar"></div><div><h1>ATCO Exam Trainer</h1><small>SENASA · Legislación + ATM + Navegación</small></div></div>
    <div class="badge">Aprobado ≥ 75% · 4 opciones · 1 válida</div>
  </div>
 
@@ -18,7 +18,7 @@
   <div class="hero">
     <div class="eyebrow">Banco de preguntas verificado</div>
     <h2>Practica con feedback o simula el examen real.</h2>
-    <p>Las preguntas se seleccionan y ordenan aleatoriamente. Las explicaciones se han revisado contra los manuales de Legislación Aeronáutica v9.1 y Air Traffic Management v9.1: explican la regla, comparan los distractores y añaden una clave relacionada.</p>
+    <p>Las preguntas se seleccionan y ordenan aleatoriamente. Las explicaciones se han revisado contra los manuales de Legislación Aeronáutica, Air Traffic Management y Navigation: explican la regla, comparan los distractores y añaden una clave relacionada.</p>
   </div>
   <div class="subject-grid">
     <article class="card">
@@ -45,6 +45,18 @@
        <span class="tip" tabindex="0" data-tip="Práctica: utiliza el banco completo de ATM en orden aleatorio. En cuanto respondes una pregunta, ves si es correcta y la explicación. Al entregar, recibes la nota y la revisión de todas.">ⓘ ¿Qué hace «Practicar preguntas»?</span>
        <span class="tip" tabindex="0" data-tip="Examen: selecciona 40 preguntas aleatorias del banco completo de ATM. No muestra ninguna corrección durante el intento. Al entregar, muestra nota, respuestas y explicaciones.">ⓘ ¿Qué hace «Hacer examen»?</span>
        <span class="tip" tabindex="0" data-tip="Fernando: practica únicamente las 250 preguntas de los cuadros azules del PDF Tema 3 ATM. Se mantienen literalmente el enunciado, las cuatro opciones, su orden A–D y la respuesta indicada en el documento; el feedback es inmediato.">ⓘ ¿Qué son los «cuadros azules de Fernando»?</span>
+      </div>
+    </article>
+    <article class="card">
+      <div class="eyebrow">136 preguntas en el banco</div><h3>Navegación</h3>
+      <p class="meta">Incluye Tierra y cartografía, navegación básica, sistemas instrumentales, procedimientos de vuelo y navegación basada en prestaciones.</p>
+      <div class="mode-actions">
+        <button class="btn practice" onclick="startSession('nav','practice')">Practicar preguntas</button>
+        <button class="btn" onclick="startSession('nav','exam')">Hacer examen · 40</button>
+      </div>
+      <div class="tiprow">
+       <span class="tip" tabindex="0" data-tip="Práctica: utiliza las 136 preguntas de Navegación en orden aleatorio. En cuanto respondes una pregunta, ves si es correcta y la explicación completa.">ⓘ ¿Qué hace «Practicar preguntas»?</span>
+       <span class="tip" tabindex="0" data-tip="Examen: selecciona 40 preguntas aleatorias del banco de Navegación y no muestra correcciones hasta entregar.">ⓘ ¿Qué hace «Hacer examen»?</span>
       </div>
     </article>
   </div>
@@ -87,6 +99,7 @@
 <script src="data/legislacion.js"></script>
 <script src="data/atm.js"></script>
 <script src="data/fernando.js"></script>
+<script src="data/navigation.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

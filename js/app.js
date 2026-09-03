@@ -1,14 +1,15 @@
 const BANKS = {
   leg: window.LEG_QUESTIONS || [],
   atm: window.ATM_QUESTIONS || [],
-  fernando: window.FERNANDO_QUESTIONS || []
+  fernando: window.FERNANDO_QUESTIONS || [],
+  nav: window.NAVIGATION_QUESTIONS || []
 };
 
 // Los «cuadros azules de Fernando» también forman parte del banco general de ATM.
 BANKS.atm = BANKS.atm.concat(BANKS.fernando);
 
-const EXAM_SIZE={leg:25,atm:40};
-const LABEL={leg:"Legislación",atm:"ATM",fernando:"ATM · Cuadros azules de Fernando"};
+const EXAM_SIZE={leg:25,atm:40,nav:40};
+const LABEL={leg:"Legislación",atm:"ATM",fernando:"ATM · Cuadros azules de Fernando",nav:"Navegación"};
 const letters=["A","B","C","D"];
 let state=null,tick=null,confirmAction=null;
 
@@ -30,6 +31,7 @@ function getPool(kind,mode){
 }
 
 function showHome(){
+  closeConfirm();
   clearInterval(tick);state=null;
   document.body.classList.remove("exam-active");
   document.getElementById("home").classList.remove("hidden");
@@ -67,6 +69,10 @@ function answer(i){
 function move(d){state.current=Math.max(0,Math.min(state.questions.length-1,state.current+d));render();window.scrollTo({top:0,behavior:"smooth"})}
 function gotoQ(i){state.current=i;render();window.scrollTo({top:0,behavior:"smooth"})}
 
+function sourceText(q){
+  return q.sourceRef || `Fuente de estudio: ${q.manualName} · pág. ${q.manualPage}`;
+}
+
 function feedbackHtml(q,ans){
  const ok=ans===q.a;
  if(ans===null)return "";
@@ -79,7 +85,7 @@ function feedbackHtml(q,ans){
    <div class="teach-title">Por qué no son las otras</div>
    <div class="why-list">${all}</div>
    ${q.extra?`<div class="extra-box"><strong>Dato relacionado / clave de examen:</strong> ${escapeHtml(q.extra)}</div>`:""}
-   <div class="source-ref">Fuente de estudio: ${escapeHtml(q.manualName)} · pág. ${q.manualPage}</div>
+   <div class="source-ref">${escapeHtml(sourceText(q))}</div>
  </div>`;
 }
 
@@ -162,7 +168,7 @@ function finishSession(){
     <div class="teach-title">Por qué la correcta es correcta</div><div class="teach-body">${escapeHtml(q.deepExp)}</div>
     <div class="teach-title">Análisis de las cuatro opciones</div><div class="option-review">${opts}</div>
     ${q.extra?`<div class="extra-box"><strong>Dato relacionado / clave de examen:</strong> ${escapeHtml(q.extra)}</div>`:""}
-    <p class="source" style="color:var(--muted);font-size:12px">Fuente de estudio: ${escapeHtml(q.manualName)} · pág. ${q.manualPage}</p>
+    <p class="source" style="color:var(--muted);font-size:12px">${escapeHtml(sourceText(q))}</p>
     <span class="topic">${escapeHtml(q.topic||"")}${q.sourceTag?" · "+escapeHtml(q.sourceTag):""}</span>
    </article>`;
  }).join("");

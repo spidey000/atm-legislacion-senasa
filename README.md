@@ -1,6 +1,6 @@
-# Simulador ATCO — Legislación + ATM
+# Simulador ATCO — Legislación + ATM + Navegación
 
-Web estática local para practicar preguntas de Legislación Aeronáutica y Air Traffic Management.
+Web estática local para practicar preguntas de Legislación Aeronáutica, Air Traffic Management y Navegación.
 
 ## Contenido
 
@@ -8,8 +8,9 @@ Web estática local para practicar preguntas de Legislación Aeronáutica y Air 
 - **ATM base:** 117 preguntas.
 - **Cuadros azules de Fernando:** 250 preguntas.
 - **Banco ATM total:** 367 preguntas (ATM base + Fernando).
+- **Navegación:** 136 preguntas del HTML de referencia.
 - **Práctica:** feedback inmediato y revisión final.
-- **Examen:** 25 preguntas de Legislación o 40 de ATM, sin feedback hasta entregar.
+- **Examen:** 25 preguntas de Legislación o 40 de ATM/Navegación, sin feedback hasta entregar.
 
 ## Ejecutar
 
@@ -33,7 +34,8 @@ atmlaw/
 ├── data/
 │   ├── legislacion.js      # 55 preguntas
 │   ├── atm.js              # 117 preguntas ATM base
-│   └── fernando.js         # 250 preguntas de Fernando
+│   ├── fernando.js         # 250 preguntas de Fernando
+│   └── navigation.js       # 136 preguntas de Navegación
 └── README.md
 ```
 
