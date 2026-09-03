@@ -32,7 +32,7 @@ window.NAVIGATION_QUESTIONS = [
       "The length of any minor circle, which is identical to the Earth’s perimeter, is 40,000km approximately, (considering the Earth as a perfect sphere)."
     ],
     "a": 2,
-    "deepExp": "Los círculos máximos son los que resultan de un plano que pasa por el centro y dividen la esfera en dos hemisferios; por eso, la afirmación verdadera es la de la opción 3. Los círculos menores no pasan por el centro y su longitud es variable (2.1.1, pp. 11–12).",
+    "deepExp": "Los círculos máximos son los que resultan de un plano que pasa por el centro y dividen la esfera en dos hemisferios; por eso, la afirmación verdadera es la de la opción 3. Los círculos menores no pasan por el centro y su longitud es variable (2.1.1, pp. 11–12). Fuente: TBATC_5 Navigation 4.1, p. 11.",
     "optionExp": [
       "NO — Esa es la definición de círculo máximo, no de círculo menor: el plano sí pasa por el centro.",
       "NO — El arco más corto entre dos puntos de la esfera es el arco menor del círculo máximo que los une, no un círculo menor en general.",
@@ -54,7 +54,7 @@ window.NAVIGATION_QUESTIONS = [
       "a circle on the surface of the sphere, with its plane running perpendicular to the axis of rotation."
     ],
     "a": 1,
-    "deepExp": "Un círculo máximo es el círculo de la superficie esférica cuyo plano pasa por el centro de la esfera. Esa condición le da el radio máximo y, en navegación, permite obtener la ruta ortodrómica más corta (2.1.1, p. 11).",
+    "deepExp": "Un círculo máximo es el círculo de la superficie esférica cuyo plano pasa por el centro de la esfera. Esa condición le da el radio máximo y, en navegación, permite obtener la ruta ortodrómica más corta (2.1.1, p. 11). Fuente: TBATC_5 Navigation 4.1, p. 11.",
     "optionExp": [
       "NO — Un círculo situado en cualquier plano puede ser menor si el plano no pasa por el centro.",
       "CORRECTA — El plano secante que atraviesa el centro es precisamente el criterio definitorio de un círculo máximo.",
@@ -186,7 +186,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above statements is correct."
     ],
     "a": 1,
-    "deepExp": "Se aplica ‘variación Este, magnético menor’: M = T − VAR. Por tanto, 165° − 3° = 162°, conforme a la relación de 2.3.1, p. 20.",
+    "deepExp": "Se aplica ‘variación Este, magnético menor’: M = T − VAR. Por tanto, 165° − 3° = 162°, conforme a la relación de 2.3.1, p. 20. Fuente: TBATC_5 Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — 168° resultaría de sumar una variación Este, justamente el signo contrario al procedimiento indicado.",
       "CORRECTA — Con variación 3°E se resta: 165° − 3° = 162° magnéticos.",
@@ -208,7 +208,7 @@ window.NAVIGATION_QUESTIONS = [
       "353º."
     ],
     "a": 1,
-    "deepExp": "Para variación Oeste se suma: 359° + 6° = 365°. Al expresar una dirección aeronáutica en el intervalo 000–359°, 365° se normaliza a 005°, por lo que la opción correcta es 005° (2.3.1, p. 20).",
+    "deepExp": "Para variación Oeste se suma: 359° + 6° = 365°. Al expresar una dirección aeronáutica en el intervalo 000–359°, 365° se normaliza a 005°, por lo que la opción correcta es 005° (2.3.1, p. 20). Fuente: TBATC_5 Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — 359° es el rumbo verdadero sin aplicar la variación Oeste.",
       "CORRECTA — Variación Oeste, magnético mejor: 359° + 6° = 365° = 005° al completar la vuelta.",
@@ -230,7 +230,7 @@ window.NAVIGATION_QUESTIONS = [
       "Magnetic heading."
     ],
     "a": 2,
-    "deepExp": "La variación convierte una dirección verdadera en una dirección magnética. Si la dirección de partida es el curso verdadero, el resultado es el curso magnético, mediante M = T ± VAR (2.3.1, p. 20).",
+    "deepExp": "La variación convierte una dirección verdadera en una dirección magnética. Si la dirección de partida es el curso verdadero, el resultado es el curso magnético, mediante M = T ± VAR (2.3.1, p. 20). Fuente: TBATC_5 Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — El rumbo verdadero describe la orientación longitudinal del avión respecto del Norte geográfico; no es el resultado de aplicar variación al curso.",
       "NO — El track verdadero es la trayectoria sobre el suelo respecto del Norte verdadero y no se obtiene únicamente aplicando variación al curso.",
@@ -252,7 +252,7 @@ window.NAVIGATION_QUESTIONS = [
       "the dip angle is maximum at the magnetic poles."
     ],
     "a": 3,
-    "deepExp": "El dip o inclinación magnética es el ángulo vertical de las líneas del campo terrestre respecto de la horizontal. Es mínimo cerca del Ecuador magnético y máximo en los polos magnéticos (2.3.3, pp. 24–25).",
+    "deepExp": "El dip o inclinación magnética es el ángulo vertical de las líneas del campo terrestre respecto de la horizontal. Es mínimo cerca del Ecuador magnético y máximo en los polos magnéticos (2.3.3, pp. 24–25). Fuente: TBATC_5 Navigation 4.1, p. 24.",
     "optionExp": [
       "NO — La variación no tiene por definición 90° en los polos geográficos; además, la pregunta trata del campo y del dip.",
       "NO — El dip aumenta, no disminuye, hacia las altas latitudes y alcanza su máximo cerca de los polos magnéticos.",
@@ -274,7 +274,7 @@ window.NAVIGATION_QUESTIONS = [
       "of equal variation."
     ],
     "a": 3,
-    "deepExp": "Las isógonas son líneas que unen lugares de igual variación magnética. No deben confundirse con las líneas agónicas, que unen puntos donde la variación es 0° (2.3.1, p. 22).",
+    "deepExp": "Las isógonas son líneas que unen lugares de igual variación magnética. No deben confundirse con las líneas agónicas, que unen puntos donde la variación es 0° (2.3.1, p. 22). Fuente: TBATC_5 Navigation 4.1, p. 22.",
     "optionExp": [
       "NO — La desviación es un error local de la brújula producido por el avión; no es la magnitud que define una isógona.",
       "NO — Los lugares de dip 0° corresponden aproximadamente al Ecuador magnético, no a las isógonas.",
@@ -296,7 +296,7 @@ window.NAVIGATION_QUESTIONS = [
       "dip."
     ],
     "a": 1,
-    "deepExp": "La separación angular entre Norte verdadero y Norte magnético recibe el nombre de variación. La desviación, en cambio, es la diferencia entre Norte magnético y Norte de brújula (2.3.1–2.3.2, pp. 19 y 22–23).",
+    "deepExp": "La separación angular entre Norte verdadero y Norte magnético recibe el nombre de variación. La desviación, en cambio, es la diferencia entre Norte magnético y Norte de brújula (2.3.1–2.3.2, pp. 19 y 22–23). Fuente: TBATC_5 Navigation 4.1, p. 19.",
     "optionExp": [
       "NO — La desviación se refiere al efecto de los campos del avión sobre la brújula, no a la diferencia entre los dos Nortes terrestres.",
       "CORRECTA — La diferencia angular entre Norte verdadero y Norte magnético es la variación.",
@@ -318,7 +318,7 @@ window.NAVIGATION_QUESTIONS = [
       "180ºN/S."
     ],
     "a": 0,
-    "deepExp": "La latitud se mide angularmente desde el Ecuador, que es el paralelo 0°. Por ello, un aeródromo situado en el Ecuador tiene latitud 0° (2.4.1, p. 28).",
+    "deepExp": "La latitud se mide angularmente desde el Ecuador, que es el paralelo 0°. Por ello, un aeródromo situado en el Ecuador tiene latitud 0° (2.4.1, p. 28). Fuente: TBATC_5 Navigation 4.1, p. 28.",
     "optionExp": [
       "CORRECTA — El Ecuador es el datum de latitud y se expresa como 0° N/S.",
       "NO — 90°N identifica el Polo Norte, no el Ecuador.",
@@ -340,7 +340,7 @@ window.NAVIGATION_QUESTIONS = [
       "West."
     ],
     "a": 0,
-    "deepExp": "Ambos aeropuertos tienen la misma longitud 005°W, pero el segundo está en 40°N frente a 40°S. El desplazamiento desde A hacia una latitud mayor y norte es aproximadamente hacia el Norte (2.4.1, pp. 28–30).",
+    "deepExp": "Ambos aeropuertos tienen la misma longitud 005°W, pero el segundo está en 40°N frente a 40°S. El desplazamiento desde A hacia una latitud mayor y norte es aproximadamente hacia el Norte (2.4.1, pp. 28–30). Fuente: TBATC_5 Navigation 4.1, p. 30.",
     "optionExp": [
       "CORRECTA — Manteniendo la misma longitud y pasando de 40°S a 40°N, la ruta se dirige hacia el Norte.",
       "NO — No cambia la longitud: ambos puntos están en 005°W, así que no hay componente cardinal Este dominante.",
@@ -362,7 +362,7 @@ window.NAVIGATION_QUESTIONS = [
       "West."
     ],
     "a": 3,
-    "deepExp": "Los dos puntos están a 40°N, por lo que comparten latitud; el segundo pasa de 005°E a 005°W, hacia el oeste. La dirección cardinal aproximada de la unión es Oeste (2.4.1, pp. 28–30).",
+    "deepExp": "Los dos puntos están a 40°N, por lo que comparten latitud; el segundo pasa de 005°E a 005°W, hacia el oeste. La dirección cardinal aproximada de la unión es Oeste (2.4.1, pp. 28–30). Fuente: TBATC_5 Navigation 4.1, p. 30.",
     "optionExp": [
       "NO — La latitud no aumenta: ambos puntos están en 40°N.",
       "NO — El destino está al oeste del punto situado en 005°E, no al este.",
@@ -384,7 +384,7 @@ window.NAVIGATION_QUESTIONS = [
       "23º27’."
     ],
     "a": 0,
-    "deepExp": "Los trópicos están en 23°27′N y 23°27′S. La diferencia de latitud es 23°27′ + 23°27′ = 46°54′, como se desprende de los paralelos descritos en 2.4.1, p. 28.",
+    "deepExp": "Los trópicos están en 23°27′N y 23°27′S. La diferencia de latitud es 23°27′ + 23°27′ = 46°54′, como se desprende de los paralelos descritos en 2.4.1, p. 28. Fuente: TBATC_5 Navigation 4.1, p. 28.",
     "optionExp": [
       "CORRECTA — La separación entre ambos trópicos es 46°54′.",
       "NO — 66°33′ es la latitud de los círculos polares, no la diferencia entre los trópicos.",
@@ -406,7 +406,7 @@ window.NAVIGATION_QUESTIONS = [
       "680ft."
     ],
     "a": 0,
-    "deepExp": "La milla náutica tiene exactamente 1.852 metros. Es la unidad de distancia de navegación vinculada al arco de un minuto de círculo máximo (2.5.1, p. 33).",
+    "deepExp": "La milla náutica tiene exactamente 1.852 metros. Es la unidad de distancia de navegación vinculada al arco de un minuto de círculo máximo (2.5.1, p. 33). Fuente: TBATC_5 Navigation 4.1, p. 33.",
     "optionExp": [
       "CORRECTA — 1 NM = 1.852 m exactamente.",
       "NO — 1.852 km equivaldrían a 1.852.000 m, mil veces la milla náutica indicada.",
@@ -428,7 +428,7 @@ window.NAVIGATION_QUESTIONS = [
       "60Km."
     ],
     "a": 1,
-    "deepExp": "Por definición aeronáutica, un minuto de arco de un círculo máximo equivale a una milla náutica. Así, 1′ de latitud equivale aproximadamente a 1 NM (2.5.1, p. 33).",
+    "deepExp": "Por definición aeronáutica, un minuto de arco de un círculo máximo equivale a una milla náutica. Así, 1′ de latitud equivale aproximadamente a 1 NM (2.5.1, p. 33). Fuente: TBATC_5 Navigation 4.1, p. 33.",
     "optionExp": [
       "NO — 60 NM corresponden aproximadamente a un grado de arco (60 minutos), no a un minuto.",
       "CORRECTA — Un minuto de arco de latitud equivale aproximadamente a una milla náutica.",
@@ -472,7 +472,7 @@ window.NAVIGATION_QUESTIONS = [
       "66º33’."
     ],
     "a": 3,
-    "deepExp": "El eje de rotación forma aproximadamente 66°33′ con el plano de la Eclíptica; el ángulo complementario asociado al plano ecuatorial es 23°27′. La relación se explica en 2.6.3, p. 38.",
+    "deepExp": "El eje de rotación forma aproximadamente 66°33′ con el plano de la Eclíptica; el ángulo complementario asociado al plano ecuatorial es 23°27′. La relación se explica en 2.6.3, p. 38. Fuente: TBATC_5 Navigation 4.1, p. 38.",
     "optionExp": [
       "NO — 23°27′ es el complemento y la inclinación del Ecuador respecto de la Eclíptica, no el ángulo entre el eje y la Eclíptica.",
       "NO — 27°23′ no es el valor de la oblicuidad indicado por el manual.",
@@ -494,7 +494,7 @@ window.NAVIGATION_QUESTIONS = [
       "gravitational effect of the Sun and Moon on the speed of rotation of the Earth."
     ],
     "a": 0,
-    "deepExp": "La inclinación del eje hace que el plano ecuatorial esté inclinado respecto del plano de la Eclíptica, variando durante el año la declinación solar y la insolación de cada hemisferio. Esa geometría altera la duración de la luz diurna y de la noche (2.6.3, pp. 38–42).",
+    "deepExp": "La inclinación del eje hace que el plano ecuatorial esté inclinado respecto del plano de la Eclíptica, variando durante el año la declinación solar y la insolación de cada hemisferio. Esa geometría altera la duración de la luz diurna y de la noche (2.6.3, pp. 38–42). Fuente: TBATC_5 Navigation 4.1, p. 38.",
     "optionExp": [
       "CORRECTA — La inclinación de la Eclíptica respecto del plano del Ecuador produce la variación estacional de declinación y duración del día y la noche.",
       "NO — La rotación explica la alternancia diaria entre día y noche, pero no su distinta duración a lo largo del año.",
@@ -538,7 +538,7 @@ window.NAVIGATION_QUESTIONS = [
       "Bounding."
     ],
     "a": 1,
-    "deepExp": "La escala es la relación constante entre la distancia lineal real entre dos puntos y la distancia lineal que representa el mapa. Esa definición aparece en 3.3, p. 54.",
+    "deepExp": "La escala es la relación constante entre la distancia lineal real entre dos puntos y la distancia lineal que representa el mapa. Esa definición aparece en 3.3, p. 54. Fuente: TBATC_5 Navigation 4.1, p. 54.",
     "optionExp": [
       "NO — La proyección es el método para representar una superficie tridimensional en un plano; no es la relación de reducción.",
       "CORRECTA — La escala expresa la proporción entre el tamaño real y su representación cartográfica.",
@@ -560,7 +560,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above."
     ],
     "a": 0,
-    "deepExp": "Una proyección conforme conserva los ángulos locales y mantiene la misma escala en todas las direcciones en un punto, aunque la escala pueda variar de un punto a otro. La definición de 3.4, p. 55, no exige escala idéntica en todo el chart ni que todas las loxodrómicas sean rectas.",
+    "deepExp": "Una proyección conforme conserva los ángulos locales y mantiene la misma escala en todas las direcciones en un punto, aunque la escala pueda variar de un punto a otro. La definición de 3.4, p. 55, no exige escala idéntica en todo el chart ni que todas las loxodrómicas sean rectas. Fuente: TBATC_5 Navigation 4.1, p. 55.",
     "optionExp": [
       "CORRECTA — La conformidad preserva los ángulos entre líneas sin grandes deformaciones locales.",
       "NO — Escala exactamente igual en todos los puntos es una propiedad ideal incompatible en general con la proyección de una esfera, no la definición de conformidad.",
@@ -626,7 +626,7 @@ window.NAVIGATION_QUESTIONS = [
       "Stereographic or azimuthal projection."
     ],
     "a": 0,
-    "deepExp": "La proyección Mercator se obtiene proyectando la retícula terrestre sobre un cilindro tangente al Ecuador y desarrollándolo en un plano. Por eso es una proyección cilíndrica (3.4.1, p. 56).",
+    "deepExp": "La proyección Mercator se obtiene proyectando la retícula terrestre sobre un cilindro tangente al Ecuador y desarrollándolo en un plano. Por eso es una proyección cilíndrica (3.4.1, p. 56). Fuente: TBATC_5 Navigation 4.1, p. 56.",
     "optionExp": [
       "CORRECTA — Mercator es la proyección cilíndrica descrita por el manual.",
       "NO — ‘Graticule matemáticamente construido’ es otra categoría de proyección, no la clasificación geométrica de Mercator.",
@@ -648,7 +648,7 @@ window.NAVIGATION_QUESTIONS = [
       "The parallels of latitude cross the meridians at right angles."
     ],
     "a": 2,
-    "deepExp": "Mercator no puede proyectar los polos: la escala crece indefinidamente al aproximarse a ellos. Las otras opciones sí son características de la retícula Mercator (3.4.1, pp. 56–57).",
+    "deepExp": "Mercator no puede proyectar los polos: la escala crece indefinidamente al aproximarse a ellos. Las otras opciones sí son características de la retícula Mercator (3.4.1, pp. 56–57). Fuente: TBATC_5 Navigation 4.1, p. 56.",
     "optionExp": [
       "NO — En Mercator los meridianos son líneas rectas verticales, paralelas y equidistantes.",
       "NO — Los paralelos aparecen como líneas rectas paralelas, aunque su separación aumenta con la latitud.",
@@ -670,7 +670,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above."
     ],
     "a": 1,
-    "deepExp": "La loxodrómica mantiene un ángulo constante con los meridianos. En la carta Mercator esa propiedad se representa como una línea recta, según 3.4.1, p. 57.",
+    "deepExp": "La loxodrómica mantiene un ángulo constante con los meridianos. En la carta Mercator esa propiedad se representa como una línea recta, según 3.4.1, p. 57. Fuente: TBATC_5 Navigation 4.1, p. 57.",
     "optionExp": [
       "NO — La curva cóncava hacia el polo es una característica de otras representaciones, como Lambert para rhumb lines.",
       "CORRECTA — En Mercator, una ruta loxodrómica o rhumb line aparece recta.",
@@ -692,7 +692,7 @@ window.NAVIGATION_QUESTIONS = [
       "Chart scale is correct at the Pole and increases the same in all directions."
     ],
     "a": 0,
-    "deepExp": "En la Polar Stereographic los meridianos parten del polo y divergen como líneas rectas; no son paralelos. Las demás características —paralelos concéntricos, ortogonalidad y escala correcta en el polo— sí figuran en 3.4.3, p. 59.",
+    "deepExp": "En la Polar Stereographic los meridianos parten del polo y divergen como líneas rectas; no son paralelos. Las demás características —paralelos concéntricos, ortogonalidad y escala correcta en el polo— sí figuran en 3.4.3, p. 59. Fuente: TBATC_5 Navigation 4.1, p. 59.",
     "optionExp": [
       "CORRECTA — Es la afirmación que no corresponde: los meridianos divergen desde el polo, en lugar de ser paralelos.",
       "NO — Los paralelos de latitud se representan como círculos concéntricos.",
@@ -714,7 +714,7 @@ window.NAVIGATION_QUESTIONS = [
       "A conical projection."
     ],
     "a": 3,
-    "deepExp": "Lambert es una proyección cónica: la retícula se proyecta sobre un cono cuyo eje coincide con la prolongación del eje terrestre. Su clasificación aparece en 3.4.4, p. 60.",
+    "deepExp": "Lambert es una proyección cónica: la retícula se proyecta sobre un cono cuyo eje coincide con la prolongación del eje terrestre. Su clasificación aparece en 3.4.4, p. 60. Fuente: TBATC_5 Navigation 4.1, p. 60.",
     "optionExp": [
       "NO — Una proyección cilíndrica emplea un cilindro, como Mercator.",
       "NO — Una azimutal o estereográfica emplea un plano tangente, como la polar estereográfica.",
@@ -736,7 +736,7 @@ window.NAVIGATION_QUESTIONS = [
       "Is based on a simple conical projection but it is modified mathematically so that the projection cone is tangent to the reduced Earth instead of secant."
     ],
     "a": 0,
-    "deepExp": "La Lambert cónica conforme modificada parte de una proyección cónica simple y modifica matemáticamente el cono para hacerlo secante a la Tierra reducida. Esto reduce las zonas de distorsión y mantiene una escala casi constante (3.4.4, p. 60).",
+    "deepExp": "La Lambert cónica conforme modificada parte de una proyección cónica simple y modifica matemáticamente el cono para hacerlo secante a la Tierra reducida. Esto reduce las zonas de distorsión y mantiene una escala casi constante (3.4.4, p. 60). Fuente: TBATC_5 Navigation 4.1, p. 60.",
     "optionExp": [
       "CORRECTA — Es la descripción exacta: base cónica simple, modificación matemática y cono secante.",
       "NO — Lambert no parte de Mercator, que es cilíndrica.",
@@ -802,7 +802,7 @@ window.NAVIGATION_QUESTIONS = [
       "An NDB station."
     ],
     "a": 1,
-    "deepExp": "El banco conserva como respuesta la opción ‘A VOR/DME station’, pero el símbolo gráfico de Annex 4 está ausente de la extracción textual. Se mantiene literalmente la clave del banco y se deja constancia de que la identificación visual no puede verificarse con la fuente textual disponible (Attachment 1, p. 215).",
+    "deepExp": "El banco conserva como respuesta la opción ‘A VOR/DME station’, pero el símbolo gráfico de Annex 4 está ausente de la extracción textual. Se mantiene literalmente la clave del banco y se deja constancia de que la identificación visual no puede verificarse con la fuente textual disponible (Attachment 1, p. 215). Fuente: TBATC_5 Navigation 4.1, p. 215.",
     "optionExp": [
       "NO — La alternativa corresponde a DME solamente, pero la figura necesaria para excluirla no aparece en la extracción.",
       "CORRECTA — El banco marca ‘A VOR/DME station’. Al no haberse extraído el símbolo de p. 215, no se describe ni se inventa su geometría.",
@@ -868,7 +868,7 @@ window.NAVIGATION_QUESTIONS = [
       "Track"
     ],
     "a": 3,
-    "deepExp": "El track es la dirección del movimiento del avión sobre la Tierra, es decir, la proyección en el suelo de su trayectoria al intentar volar una ruta. La definición y su relación con el viento aparecen en 4.1, p. 70.",
+    "deepExp": "El track es la dirección del movimiento del avión sobre la Tierra, es decir, la proyección en el suelo de su trayectoria al intentar volar una ruta. La definición y su relación con el viento aparecen en 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Route es el trayecto previsto entre origen y destino, no necesariamente la trayectoria efectiva sobre el suelo.",
       "NO — Drift es el ángulo entre heading y track producido por el viento.",
@@ -890,7 +890,7 @@ window.NAVIGATION_QUESTIONS = [
       "Wind vector"
     ],
     "a": 1,
-    "deepExp": "El drift es la diferencia angular entre el heading y el track causada por el viento. El drift correction o wind correction angle es la corrección que se aplica al rumbo para hacer coincidir el track con el curso deseado (4.1, p. 70).",
+    "deepExp": "El drift es la diferencia angular entre el heading y el track causada por el viento. El drift correction o wind correction angle es la corrección que se aplica al rumbo para hacer coincidir el track con el curso deseado (4.1, p. 70). Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Track es la dirección efectiva sobre el suelo, no el ángulo que lo separa del heading.",
       "CORRECTA — Drift es el ángulo entre heading y track debido al viento.",
@@ -912,7 +912,7 @@ window.NAVIGATION_QUESTIONS = [
       "Heading 070º / Track 050º / Drift 20º"
     ],
     "a": 1,
-    "deepExp": "El avión mantiene heading 070° y el viento hace que el track quede 20° a la derecha: 070° + 20° = 090°. Por tanto, la combinación correcta es heading 070°, track 090° y drift 20° a la derecha, conforme a 4.1, p. 70.",
+    "deepExp": "El avión mantiene heading 070° y el viento hace que el track quede 20° a la derecha: 070° + 20° = 090°. Por tanto, la combinación correcta es heading 070°, track 090° y drift 20° a la derecha, conforme a 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Cambia indebidamente el heading a 090° y contiene un drift 200° sin sentido para el desplazamiento descrito.",
       "CORRECTA — Conserva el heading 070°, suma 20° hacia la derecha para obtener track 090° y expresa el drift como 20°.",
@@ -934,7 +934,7 @@ window.NAVIGATION_QUESTIONS = [
       "10º"
     ],
     "a": 2,
-    "deepExp": "El drift es la diferencia angular entre heading y track. Entre 010° y 355° hay una diferencia mínima de 15° hacia la izquierda (010° − 15° = 355°), por lo que su magnitud es 15° (4.1, p. 70).",
+    "deepExp": "El drift es la diferencia angular entre heading y track. Entre 010° y 355° hay una diferencia mínima de 15° hacia la izquierda (010° − 15° = 355°), por lo que su magnitud es 15° (4.1, p. 70). Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — 90° sería una componente transversal completa, no la diferencia entre 010° y 355°.",
       "NO — 05° no coincide con la separación angular mínima entre ambos valores.",
@@ -956,7 +956,7 @@ window.NAVIGATION_QUESTIONS = [
       "Drift correction will depend on the wind’s intensity"
     ],
     "a": 2,
-    "deepExp": "Un viento desde 270° sopla hacia 090°, exactamente en la dirección del heading 090°; es viento de cola y no tiene componente transversal. Sin componente transversal no hay drift y heading y track coinciden (4.1, pp. 70 y 74–75).",
+    "deepExp": "Un viento desde 270° sopla hacia 090°, exactamente en la dirección del heading 090°; es viento de cola y no tiene componente transversal. Sin componente transversal no hay drift y heading y track coinciden (4.1, pp. 70 y 74–75). Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — El viento no empuja lateralmente: está alineado con el eje de vuelo, así que no produce deriva a la derecha.",
       "NO — Tampoco produce deriva a la izquierda; la componente transversal es cero.",
@@ -978,7 +978,7 @@ window.NAVIGATION_QUESTIONS = [
       "True course."
     ],
     "a": 1,
-    "deepExp": "El heading es la dirección hacia la que apunta el eje longitudinal del avión. Cuando se mide en grados en sentido horario desde el Norte geográfico, se denomina true heading, según las definiciones de 4.1, pp. 69–70.",
+    "deepExp": "El heading es la dirección hacia la que apunta el eje longitudinal del avión. Cuando se mide en grados en sentido horario desde el Norte geográfico, se denomina true heading, según las definiciones de 4.1, pp. 69–70. Fuente: TBATC_5 Navigation 4.1, p. 69.",
     "optionExp": [
       "NO — Magnetic heading se mide desde el Norte magnético, no desde el geográfico.",
       "CORRECTA — True heading es la orientación del eje longitudinal medida desde el Norte verdadero/geográfico.",
@@ -1022,7 +1022,7 @@ window.NAVIGATION_QUESTIONS = [
       "True course."
     ],
     "a": 2,
-    "deepExp": "Aquí se describe la proyección sobre el suelo de la trayectoria de la aeronave al intentar seguir una ruta. Esa dirección es el track; al estar referida al norte magnético, se llama magnetic track. El viento puede hacer que track y heading sean distintos. Sección 4.1, p. 70.",
+    "deepExp": "Aquí se describe la proyección sobre el suelo de la trayectoria de la aeronave al intentar seguir una ruta. Esa dirección es el track; al estar referida al norte magnético, se llama magnetic track. El viento puede hacer que track y heading sean distintos. Sección 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Magnetic heading es la orientación del eje longitudinal respecto al norte magnético; no la trayectoria efectiva sobre el suelo.",
       "NO — Compass heading es el rumbo indicado por la brújula, con referencia de compás, no la proyección de la trayectoria.",
@@ -1066,7 +1066,7 @@ window.NAVIGATION_QUESTIONS = [
       "Answers b and c are both correct"
     ],
     "a": 0,
-    "deepExp": "Aunque los informes y pronósticos meteorológicos expresan normalmente el viento desde dirección verdadera, el viento comunicado verbalmente por TWR o en la radiodifusión del aeródromo se da en grados magnéticos. Así se relaciona directamente con la designación magnética de la pista y se pueden obtener los componentes de viento. Sección 4.2, p. 73.",
+    "deepExp": "Aunque los informes y pronósticos meteorológicos expresan normalmente el viento desde dirección verdadera, el viento comunicado verbalmente por TWR o en la radiodifusión del aeródromo se da en grados magnéticos. Así se relaciona directamente con la designación magnética de la pista y se pueden obtener los componentes de viento. Sección 4.2, p. 73. Fuente: TBATC_5 Navigation 4.1, p. 73.",
     "optionExp": [
       "CORRECTA — La torre comunica la dirección del viento en referencia magnética para que sea compatible con la dirección magnética de la pista.",
       "NO — La dirección verdadera es la convención de cartas, METAR y pronósticos, no la referencia verbal de TWR justo antes de despegar o aterrizar.",
@@ -1088,7 +1088,7 @@ window.NAVIGATION_QUESTIONS = [
       "120 kt"
     ],
     "a": 0,
-    "deepExp": "La velocidad sobre el suelo se obtiene sumando algebraicamente a la TAS el componente de viento en la dirección de vuelo: GS = TAS ± Wc. Un headwind de 20 kt se resta de 145 kt, por lo que GS = 125 kt. Sección 4.3.1, p. 79.",
+    "deepExp": "La velocidad sobre el suelo se obtiene sumando algebraicamente a la TAS el componente de viento en la dirección de vuelo: GS = TAS ± Wc. Un headwind de 20 kt se resta de 145 kt, por lo que GS = 125 kt. Sección 4.3.1, p. 79. Fuente: TBATC_5 Navigation 4.1, p. 79.",
     "optionExp": [
       "CORRECTA — Con GS = TAS − HWc, 145 − 20 = 125 kt.",
       "NO — 145 kt es la TAS a través de la masa de aire; ignora la reducción producida por el viento de frente.",
@@ -1110,7 +1110,7 @@ window.NAVIGATION_QUESTIONS = [
       "Calibrated Airspeed."
     ],
     "a": 2,
-    "deepExp": "El ASI/anemómetro está conectado al sistema pitot-estático y muestra directamente la velocidad indicada. Esa lectura se denomina IAS; después puede corregirse por errores de instrumento, posición, compresibilidad y densidad para obtener otras velocidades. Sección 4.3.1, p. 78.",
+    "deepExp": "El ASI/anemómetro está conectado al sistema pitot-estático y muestra directamente la velocidad indicada. Esa lectura se denomina IAS; después puede corregirse por errores de instrumento, posición, compresibilidad y densidad para obtener otras velocidades. Sección 4.3.1, p. 78. Fuente: TBATC_5 Navigation 4.1, p. 78.",
     "optionExp": [
       "NO — Groundspeed es la velocidad respecto al suelo y se obtiene considerando la TAS y el componente de viento; el ASI no la muestra directamente.",
       "NO — True Airspeed es la velocidad real a través de la masa de aire, corregida respecto a la lectura indicada.",
@@ -1132,7 +1132,7 @@ window.NAVIGATION_QUESTIONS = [
       "Equivalent Airspeed."
     ],
     "a": 0,
-    "deepExp": "La TAS representa la velocidad real de la aeronave a través del flujo de aire no perturbado por la propia aeronave. Se obtiene corrigiendo la EAS por el error de densidad atmosférica. Sección 4.3.1, p. 79.",
+    "deepExp": "La TAS representa la velocidad real de la aeronave a través del flujo de aire no perturbado por la propia aeronave. Se obtiene corrigiendo la EAS por el error de densidad atmosférica. Sección 4.3.1, p. 79. Fuente: TBATC_5 Navigation 4.1, p. 79.",
     "optionExp": [
       "CORRECTA — True Airspeed es la velocidad efectiva de la aeronave a través de la corriente de aire no perturbada.",
       "NO — Groundspeed es la velocidad respecto a la superficie terrestre e incluye el efecto del movimiento de la masa de aire.",
@@ -1154,7 +1154,7 @@ window.NAVIGATION_QUESTIONS = [
       "Indicated Airspeed."
     ],
     "a": 2,
-    "deepExp": "El número Mach compara la TAS con la velocidad local del sonido en la misma zona de la atmósfera: M = TAS/LSS. Por eso la magnitud que completa la frase es True Airspeed. Sección 4.3.1, p. 80.",
+    "deepExp": "El número Mach compara la TAS con la velocidad local del sonido en la misma zona de la atmósfera: M = TAS/LSS. Por eso la magnitud que completa la frase es True Airspeed. Sección 4.3.1, p. 80. Fuente: TBATC_5 Navigation 4.1, p. 80.",
     "optionExp": [
       "NO — Calibrated Airspeed es IAS corregida por errores de posición, presión e instrumento; no es la variable de la definición de Mach.",
       "NO — Equivalent Airspeed es CAS corregida por compresibilidad, pero Mach se define con TAS.",
@@ -1176,7 +1176,7 @@ window.NAVIGATION_QUESTIONS = [
       "Local Speed of Sound is 85% of TAS."
     ],
     "a": 2,
-    "deepExp": "Por definición M = TAS/LSS. Un valor de 0,85 significa que la TAS es 0,85 veces la velocidad local del sonido, es decir, el 85 % de ella; no significa que el sonido viaje a 850 kt. Sección 4.3.1, p. 80.",
+    "deepExp": "Por definición M = TAS/LSS. Un valor de 0,85 significa que la TAS es 0,85 veces la velocidad local del sonido, es decir, el 85 % de ella; no significa que el sonido viaje a 850 kt. Sección 4.3.1, p. 80. Fuente: TBATC_5 Navigation 4.1, p. 80.",
     "optionExp": [
       "NO — 0,85 no convierte la velocidad local del sonido en 850 kt; Mach es una razón adimensional.",
       "NO — La TAS no es automáticamente 850 kt; depende de la velocidad local del sonido y equivale al 85 % de ella.",
@@ -1242,7 +1242,7 @@ window.NAVIGATION_QUESTIONS = [
       "Surface waves."
     ],
     "a": 1,
-    "deepExp": "Las transmisiones VHF solo disponen, esencialmente, del camino de línea de vista; por ello predominan las ondas espaciales o directas. La curvatura terrestre y los obstáculos limitan su alcance. Sección 5.1.1, pp. 95–96.",
+    "deepExp": "Las transmisiones VHF solo disponen, esencialmente, del camino de línea de vista; por ello predominan las ondas espaciales o directas. La curvatura terrestre y los obstáculos limitan su alcance. Sección 5.1.1, pp. 95–96. Fuente: TBATC_5 Navigation 4.1, p. 96.",
     "optionExp": [
       "NO — Sky waves dependen de refracción/reflexión ionosférica y predominan en frecuencias medias, no en VHF.",
       "CORRECTA — Space or direct waves son de línea de vista y son el camino disponible para VHF.",
@@ -1264,7 +1264,7 @@ window.NAVIGATION_QUESTIONS = [
       "Sky waves."
     ],
     "a": 0,
-    "deepExp": "Las ondas de superficie se desplazan siguiendo los contornos de la Tierra gracias a la difracción. La difracción es más pronunciada cuanto mayor es la longitud de onda, es decir, cuanto menor es la frecuencia. Sección 5.1.1, p. 97.",
+    "deepExp": "Las ondas de superficie se desplazan siguiendo los contornos de la Tierra gracias a la difracción. La difracción es más pronunciada cuanto mayor es la longitud de onda, es decir, cuanto menor es la frecuencia. Sección 5.1.1, p. 97. Fuente: TBATC_5 Navigation 4.1, p. 97.",
     "optionExp": [
       "CORRECTA — Surface waves siguen la curvatura terrestre debido a la difracción.",
       "NO — Direct waves viajan directamente del transmisor al receptor en línea de vista.",
@@ -1286,7 +1286,7 @@ window.NAVIGATION_QUESTIONS = [
       "Sky waves."
     ],
     "a": 3,
-    "deepExp": "Las ondas de cielo son las que la ionosfera refracta y devuelve hacia la Tierra desde capas ionizadas. Este mecanismo puede causar alcance y errores de propagación, especialmente en bandas bajas. Sección 5.1.1, p. 97.",
+    "deepExp": "Las ondas de cielo son las que la ionosfera refracta y devuelve hacia la Tierra desde capas ionizadas. Este mecanismo puede causar alcance y errores de propagación, especialmente en bandas bajas. Sección 5.1.1, p. 97. Fuente: TBATC_5 Navigation 4.1, p. 97.",
     "optionExp": [
       "NO — Surface waves siguen el contorno terrestre por difracción y no son las ondas devueltas desde la ionosfera.",
       "NO — Direct waves son ondas espaciales de línea de vista entre transmisor y receptor.",
@@ -1308,7 +1308,7 @@ window.NAVIGATION_QUESTIONS = [
       "The NDBis the airborne system which comprises a radio receiver, a set of two antennas and an indicator that shows the great circle bearing of the transmitting station from the aircraft."
     ],
     "a": 0,
-    "deepExp": "El NDB es el transmisor radioeléctrico situado en tierra y emite energía en todas las direcciones. El ADF es el equipo instalado a bordo que determina desde qué dirección llegan las señales del NDB y muestra la marcación relativa. Sección 5.1.2, p. 102.",
+    "deepExp": "El NDB es el transmisor radioeléctrico situado en tierra y emite energía en todas las direcciones. El ADF es el equipo instalado a bordo que determina desde qué dirección llegan las señales del NDB y muestra la marcación relativa. Sección 5.1.2, p. 102. Fuente: TBATC_5 Navigation 4.1, p. 102.",
     "optionExp": [
       "CORRECTA — NDB significa Non-Directional Beacon: una estación terrestre que transmite energía en todas las direcciones.",
       "NO — ADF no es una estación terrestre; es el equipo receptor/direccionador instalado en la aeronave.",
@@ -1330,7 +1330,7 @@ window.NAVIGATION_QUESTIONS = [
       "At dawn and dusk."
     ],
     "a": 3,
-    "deepExp": "Durante la noche desaparece la absorción diurna de la región D y pueden llegar ondas de cielo de NDB lejanas, mezclándose con la onda de superficie. El efecto es máximo en la transición ionosférica de amanecer y anochecer. Sección 5.1.2, pp. 108–109.",
+    "deepExp": "Durante la noche desaparece la absorción diurna de la región D y pueden llegar ondas de cielo de NDB lejanas, mezclándose con la onda de superficie. El efecto es máximo en la transición ionosférica de amanecer y anochecer. Sección 5.1.2, pp. 108–109. Fuente: TBATC_5 Navigation 4.1, p. 109.",
     "optionExp": [
       "NO — Autumn and winter no es el criterio descrito; el fenómeno depende principalmente del ciclo día/noche y de la transición de la ionosfera.",
       "NO — Los inland beacons no son por sí mismos la condición determinante del night effect.",
@@ -1352,7 +1352,7 @@ window.NAVIGATION_QUESTIONS = [
       "DME."
     ],
     "a": 0,
-    "deepExp": "Las descargas de un cumulonimbo producen potentes perturbaciones de estática que pueden causar errores de marcación en el ADF e incluso enmascarar la señal. Por eso el sistema especialmente susceptible en este supuesto es el ADF. Sección 5.1.2, p. 107.",
+    "deepExp": "Las descargas de un cumulonimbo producen potentes perturbaciones de estática que pueden causar errores de marcación en el ADF e incluso enmascarar la señal. Por eso el sistema especialmente susceptible en este supuesto es el ADF. Sección 5.1.2, p. 107. Fuente: TBATC_5 Navigation 4.1, p. 107.",
     "optionExp": [
       "CORRECTA — El ADF puede recibir bearing falsos por estática de tormentas; el manual recomienda cautela ante actividad tormentosa.",
       "NO — VOR opera en VHF y es prácticamente inmune a la interferencia estática atmosférica descrita.",
@@ -1396,7 +1396,7 @@ window.NAVIGATION_QUESTIONS = [
       "The magnetic direction of the loop aerial with reference to the sense aerial."
     ],
     "a": 0,
-    "deepExp": "La información básica del ADF es una marcación relativa: el ángulo entre la dirección de vuelo y la dirección desde la que llega la onda del NDB. En un RBI la aguja muestra directamente RB; otros indicadores pueden convertirla en bearing magnético, pero esa es información derivada. Sección 5.1.2, pp. 99 y 103–105.",
+    "deepExp": "La información básica del ADF es una marcación relativa: el ángulo entre la dirección de vuelo y la dirección desde la que llega la onda del NDB. En un RBI la aguja muestra directamente RB; otros indicadores pueden convertirla en bearing magnético, pero esa es información derivada. Sección 5.1.2, pp. 99 y 103–105. Fuente: TBATC_5 Navigation 4.1, p. 103.",
     "optionExp": [
       "CORRECTA — El ADF proporciona la relative bearing desde la aeronave hacia el NDB, es decir, dónde está la estación respecto al eje de vuelo.",
       "NO — La magnetic bearing requiere combinar la marcación relativa con el rumbo magnético mediante una tarjeta/indicador apropiado; no es la información básica universal.",
@@ -1462,7 +1462,7 @@ window.NAVIGATION_QUESTIONS = [
       "The true bearing from the VOR station."
     ],
     "a": 1,
-    "deepExp": "Un radial VOR es una línea de posición definida por la marcación magnética outbound desde la estación. Así, el radial 090 es la línea que parte de la estación hacia el este magnético, aunque una aeronave situada allí pueda volar inbound con rumbo aproximado 270. Sección 5.1.2, p. 116.",
+    "deepExp": "Un radial VOR es una línea de posición definida por la marcación magnética outbound desde la estación. Así, el radial 090 es la línea que parte de la estación hacia el este magnético, aunque una aeronave situada allí pueda volar inbound con rumbo aproximado 270. Sección 5.1.2, p. 116. Fuente: TBATC_5 Navigation 4.1, p. 116.",
     "optionExp": [
       "NO — La expresión confunde la estación con su bearing; un radial no es el bearing de la estación, sino una línea que sale de ella.",
       "CORRECTA — Radial es el magnetic bearing FROM el VOR, o sea, la dirección magnética desde la estación hacia la aeronave.",
@@ -1484,7 +1484,7 @@ window.NAVIGATION_QUESTIONS = [
       "Pulse technique."
     ],
     "a": 0,
-    "deepExp": "El VOR transmite dos modulaciones: una referencia y otra variable. El receptor compara la fase de ambas; la diferencia de fase equivale al bearing magnético desde la estación. Por tanto, el principio de medida es la comparación de fase. Sección 5.1.2, p. 115.",
+    "deepExp": "El VOR transmite dos modulaciones: una referencia y otra variable. El receptor compara la fase de ambas; la diferencia de fase equivale al bearing magnético desde la estación. Por tanto, el principio de medida es la comparación de fase. Sección 5.1.2, p. 115. Fuente: TBATC_5 Navigation 4.1, p. 115.",
     "optionExp": [
       "CORRECTA — La bearing VOR se determina mediante phase comparison entre las dos modulaciones de 30 Hz.",
       "NO — Frequency comparison no es el principio de medida: la frecuencia de las señales no es la variable que codifica el radial.",
@@ -1528,7 +1528,7 @@ window.NAVIGATION_QUESTIONS = [
       "It always transmits bearing and distance information."
     ],
     "a": 0,
-    "deepExp": "El monitor automático del VOR desconecta el equipo defectuoso y conecta un transmisor de reserva si está disponible cuando detecta desviación de bearing, pérdida de potencia de modulación o fallo del propio monitor. La frecuencia 118,15 MHz no es VOR porque queda fuera del límite superior 117,95 MHz; los radiales son magnéticos y VOR no proporciona distancia por sí solo. Sección 5.1.2, pp. 112–114.",
+    "deepExp": "El monitor automático del VOR desconecta el equipo defectuoso y conecta un transmisor de reserva si está disponible cuando detecta desviación de bearing, pérdida de potencia de modulación o fallo del propio monitor. La frecuencia 118,15 MHz no es VOR porque queda fuera del límite superior 117,95 MHz; los radiales son magnéticos y VOR no proporciona distancia por sí solo. Sección 5.1.2, pp. 112–114. Fuente: TBATC_5 Navigation 4.1, p. 113.",
     "optionExp": [
       "CORRECTA — El monitor VOR provoca el cese de la transmisión defectuosa y, si existe, activa un transmisor standby.",
       "NO — 118,15 MHz está por encima de 117,95 MHz, límite superior indicado para VOR.",
@@ -1550,7 +1550,7 @@ window.NAVIGATION_QUESTIONS = [
       "A tracking VOR."
     ],
     "a": 1,
-    "deepExp": "Entre los tipos de VOR, TVOR significa Terminal VOR. Es una estación de alcance más corto utilizada dentro de la estructura terminal de aproximación y salida de aeropuertos principales. Sección 5.1.2, p. 114.",
+    "deepExp": "Entre los tipos de VOR, TVOR significa Terminal VOR. Es una estación de alcance más corto utilizada dentro de la estructura terminal de aproximación y salida de aeropuertos principales. Sección 5.1.2, p. 114. Fuente: TBATC_5 Navigation 4.1, p. 114.",
     "optionExp": [
       "NO — Test VOR sería VOT en la nomenclatura del manual; VOT sirve para comprobar el equipo y no para navegación normal.",
       "CORRECTA — Terminal VOR es la expansión de TVOR y designa el VOR de menor alcance para el área terminal.",
@@ -1572,7 +1572,7 @@ window.NAVIGATION_QUESTIONS = [
       "Ionospheric activity."
     ],
     "a": 3,
-    "deepExp": "El alcance VOR depende de la altitud de la aeronave, los obstáculos y la potencia de transmisión, porque la señal VHF es una onda directa de línea de vista. La actividad ionosférica no es un factor determinante: VHF no usa propagación por sky waves y la DOC VOR vale de día y de noche. Sección 5.1.2, pp. 119–120.",
+    "deepExp": "El alcance VOR depende de la altitud de la aeronave, los obstáculos y la potencia de transmisión, porque la señal VHF es una onda directa de línea de vista. La actividad ionosférica no es un factor determinante: VHF no usa propagación por sky waves y la DOC VOR vale de día y de noche. Sección 5.1.2, pp. 119–120. Fuente: TBATC_5 Navigation 4.1, p. 119.",
     "optionExp": [
       "NO — La altitud eleva la línea de vista y es uno de los factores explícitos.",
       "NO — Obstáculos y terreno pueden bloquear o limitar una transmisión VHF directa.",
@@ -1594,7 +1594,7 @@ window.NAVIGATION_QUESTIONS = [
       "The principle of wavelength difference."
     ],
     "a": 1,
-    "deepExp": "El DME funciona como radar secundario: la aeronave interroga con pares de pulsos y el transpondedor terrestre responde. El equipo mide el tiempo transcurrido entre interrogación y respuesta para calcular la distancia oblicua. Sección 5.1.2, pp. 121 y 123.",
+    "deepExp": "El DME funciona como radar secundario: la aeronave interroga con pares de pulsos y el transpondedor terrestre responde. El equipo mide el tiempo transcurrido entre interrogación y respuesta para calcular la distancia oblicua. Sección 5.1.2, pp. 121 y 123. Fuente: TBATC_5 Navigation 4.1, p. 123.",
     "optionExp": [
       "NO — Phase difference es el principio del VOR, no el del DME.",
       "CORRECTA — DME se basa en el principio de secondary radar, con interrogador aéreo y transpondedor terrestre.",
@@ -1616,7 +1616,7 @@ window.NAVIGATION_QUESTIONS = [
       "DME."
     ],
     "a": 3,
-    "deepExp": "El transpondedor DME puede transmitir unos 2.700 pares de pulsos por segundo y la respuesta media por aeronave es de unos 27 pares por segundo; por ello su capacidad aproximada es 2.700/27 = 100 aeronaves simultáneas. Sección 5.1.2, p. 128.",
+    "deepExp": "El transpondedor DME puede transmitir unos 2.700 pares de pulsos por segundo y la respuesta media por aeronave es de unos 27 pares por segundo; por ello su capacidad aproximada es 2.700/27 = 100 aeronaves simultáneas. Sección 5.1.2, p. 128. Fuente: TBATC_5 Navigation 4.1, p. 128.",
     "optionExp": [
       "NO — VOR no tiene una capacidad de respuestas interrogativas limitada a unos 100 usuarios simultáneos.",
       "NO — NDB transmite de forma continua y no gestiona interrogaciones individuales de aeronaves.",
@@ -1660,7 +1660,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above."
     ],
     "a": 1,
-    "deepExp": "DME es el sistema de esta lista cuya función propia es medir distancia a una estación terrestre. VOR entrega bearing y el ILS guía lateral/vertical; aunque un ILS pueda incorporar DME asociado, el ILS por sí mismo no es la respuesta a distance information en esta pregunta. Sección 5.1.2, pp. 121–124 y 131–132.",
+    "deepExp": "DME es el sistema de esta lista cuya función propia es medir distancia a una estación terrestre. VOR entrega bearing y el ILS guía lateral/vertical; aunque un ILS pueda incorporar DME asociado, el ILS por sí mismo no es la respuesta a distance information en esta pregunta. Sección 5.1.2, pp. 121–124 y 131–132. Fuente: TBATC_5 Navigation 4.1, p. 121.",
     "optionExp": [
       "NO — VOR proporciona bearing/radiales; necesita DME para añadir distancia.",
       "CORRECTA — DME significa Distance Measuring Equipment y proporciona la distancia a la estación.",
@@ -1682,7 +1682,7 @@ window.NAVIGATION_QUESTIONS = [
       "The DME operating frequencies are in the UHF frequency band."
     ],
     "a": 3,
-    "deepExp": "DME mide distancia oblicua y opera en UHF. No siempre está coemplazado con ILS o VOR; puede ser independiente o asociado. Además, dos círculos DME pueden cortarse en dos posiciones, por lo que dos líneas no garantizan un fix inequívoco. Sección 5.1.2, pp. 123–127.",
+    "deepExp": "DME mide distancia oblicua y opera en UHF. No siempre está coemplazado con ILS o VOR; puede ser independiente o asociado. Además, dos círculos DME pueden cortarse en dos posiciones, por lo que dos líneas no garantizan un fix inequívoco. Sección 5.1.2, pp. 123–127. Fuente: TBATC_5 Navigation 4.1, p. 123.",
     "optionExp": [
       "NO — Dos líneas de posición circulares de dos DME pueden producir dos intersecciones; no siempre dan un fix inequívoco sin información adicional.",
       "NO — El DME puede ser stand-alone o asociado a una ayuda, así que no siempre está coemplazado con ILS/VOR.",
@@ -1704,7 +1704,7 @@ window.NAVIGATION_QUESTIONS = [
       "Ground range only if the beacon is co-located with a VOR ."
     ],
     "a": 0,
-    "deepExp": "La distancia que presenta el DME es la línea recta entre la antena de la aeronave y la estación terrestre: slant range. No es ground range. Sobre la vertical de la estación la indicación no es cero, sino aproximadamente la altura en millas náuticas. Sección 5.1.2, p. 127.",
+    "deepExp": "La distancia que presenta el DME es la línea recta entre la antena de la aeronave y la estación terrestre: slant range. No es ground range. Sobre la vertical de la estación la indicación no es cero, sino aproximadamente la altura en millas náuticas. Sección 5.1.2, p. 127. Fuente: TBATC_5 Navigation 4.1, p. 127.",
     "optionExp": [
       "CORRECTA — DME indica slant range, distancia oblicua entre aeronave y estación.",
       "NO — Ground range es la distancia horizontal sobre la superficie y no coincide con la medición DME.",
@@ -1726,7 +1726,7 @@ window.NAVIGATION_QUESTIONS = [
       "Phase difference between emitted wave and reflected wave."
     ],
     "a": 0,
-    "deepExp": "El interrogador transmite un par de pulsos y el transpondedor responde. El equipo aéreo mide el tiempo transcurrido entre la emisión de la interrogación y la recepción de la respuesta; con la velocidad conocida de la señal obtiene el slant range. Sección 5.1.2, p. 123.",
+    "deepExp": "El interrogador transmite un par de pulsos y el transpondedor responde. El equipo aéreo mide el tiempo transcurrido entre la emisión de la interrogación y la recepción de la respuesta; con la velocidad conocida de la señal obtiene el slant range. Sección 5.1.2, p. 123. Fuente: TBATC_5 Navigation 4.1, p. 123.",
     "optionExp": [
       "CORRECTA — El parámetro medido es el tiempo entre transmitir la interrogación y recibir los pulsos de respuesta.",
       "NO — Un cambio de frecuencia entre ondas emitida y reflejada no es la técnica DME; además, la respuesta procede de un transpondedor.",
@@ -1770,7 +1770,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above."
     ],
     "a": 1,
-    "deepExp": "TACAN proporciona a los usuarios civiles el componente de distancia porque su unidad DME tiene las mismas especificaciones que un DME civil. El equipo TACAN aéreo de bearing no es interoperable con el VOR civil para suministrar marcación. Sección 5.1.2, pp. 129–131.",
+    "deepExp": "TACAN proporciona a los usuarios civiles el componente de distancia porque su unidad DME tiene las mismas especificaciones que un DME civil. El equipo TACAN aéreo de bearing no es interoperable con el VOR civil para suministrar marcación. Sección 5.1.2, pp. 129–131. Fuente: TBATC_5 Navigation 4.1, p. 131.",
     "optionExp": [
       "NO — La marcación magnética TACAN requiere el equipo TACAN de a bordo, que no es el equipo civil VOR convencional.",
       "CORRECTA — Un usuario civil puede recibir del TACAN la información DME mediante un equipo DME compatible.",
@@ -1792,7 +1792,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 1,
-    "deepExp": "TACAN es un sistema pulsado que opera en UHF, aproximadamente entre 960 y 1.215 MHz. La misma banda explica la analogía de su componente de distancia con el DME civil. Sección 5.1.2, p. 129.",
+    "deepExp": "TACAN es un sistema pulsado que opera en UHF, aproximadamente entre 960 y 1.215 MHz. La misma banda explica la analogía de su componente de distancia con el DME civil. Sección 5.1.2, p. 129. Fuente: TBATC_5 Navigation 4.1, p. 129.",
     "optionExp": [
       "NO — SHF no es la banda del sistema TACAN descrita.",
       "CORRECTA — TACAN (Tactical Air Navigation) transmite en la banda UHF.",
@@ -1836,7 +1836,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 1,
-    "deepExp": "La senda de planeo del ILS transmite en UHF, aproximadamente 329,15–335 MHz, y se selecciona automáticamente al sintonizar la frecuencia VHF del localizador porque ambas están emparejadas. Sección 5.1.2, p. 137.",
+    "deepExp": "La senda de planeo del ILS transmite en UHF, aproximadamente 329,15–335 MHz, y se selecciona automáticamente al sintonizar la frecuencia VHF del localizador porque ambas están emparejadas. Sección 5.1.2, p. 137. Fuente: TBATC_5 Navigation 4.1, p. 137.",
     "optionExp": [
       "NO — SHF es una banda superior a las frecuencias de la senda de planeo.",
       "CORRECTA — El glide-slope/GP transmite en UHF.",
@@ -1858,7 +1858,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 2,
-    "deepExp": "El localizador ILS transmite en VHF, en 108–112 MHz, usando las frecuencias con primera cifra decimal impar. Su antena está alineada con la prolongación del eje de pista y proporciona guía lateral. Sección 5.1.2, p. 135.",
+    "deepExp": "El localizador ILS transmite en VHF, en 108–112 MHz, usando las frecuencias con primera cifra decimal impar. Su antena está alineada con la prolongación del eje de pista y proporciona guía lateral. Sección 5.1.2, p. 135. Fuente: TBATC_5 Navigation 4.1, p. 135.",
     "optionExp": [
       "NO — SHF está muy por encima de la banda 108–112 MHz.",
       "NO — UHF es la banda del glide slope, no la del localizador.",
@@ -1880,7 +1880,7 @@ window.NAVIGATION_QUESTIONS = [
       "On the same frequency and have different modulations."
     ],
     "a": 3,
-    "deepExp": "La senda de planeo genera dos lóbulos verticales en una sola frecuencia ILS, pero con modulaciones diferentes: el lóbulo superior lleva 90 Hz y el inferior 150 Hz. La comparación de la profundidad de modulación permite determinar la posición respecto a la senda. Sección 5.1.2, pp. 137–138.",
+    "deepExp": "La senda de planeo genera dos lóbulos verticales en una sola frecuencia ILS, pero con modulaciones diferentes: el lóbulo superior lleva 90 Hz y el inferior 150 Hz. La comparación de la profundidad de modulación permite determinar la posición respecto a la senda. Sección 5.1.2, pp. 137–138. Fuente: TBATC_5 Navigation 4.1, p. 138.",
     "optionExp": [
       "NO — No se separan por phase comparison: el criterio de guía es la diferencia de modulación de 90/150 Hz.",
       "NO — Los lóbulos no usan frecuencias distintas; se transmiten en la misma frecuencia del GP.",
@@ -1902,7 +1902,7 @@ window.NAVIGATION_QUESTIONS = [
       "Localiser and marker beacons."
     ],
     "a": 3,
-    "deepExp": "El localizador ILS está en VHF y los marcadores también son VHF; la senda de planeo está en UHF. Por ello, entre las opciones, los elementos que transmiten en VHF son localiser y marker beacons. Sección 5.1.2, pp. 135, 137 y 139.",
+    "deepExp": "El localizador ILS está en VHF y los marcadores también son VHF; la senda de planeo está en UHF. Por ello, entre las opciones, los elementos que transmiten en VHF son localiser y marker beacons. Sección 5.1.2, pp. 135, 137 y 139. Fuente: TBATC_5 Navigation 4.1, p. 139.",
     "optionExp": [
       "NO — Localiser sí es VHF, pero la palabra “only” excluye a los marker beacons, que también son VHF.",
       "NO — Marker beacons son VHF, pero no son los únicos; el localizador también transmite en VHF.",
@@ -1946,7 +1946,7 @@ window.NAVIGATION_QUESTIONS = [
       "Not less than 200ft."
     ],
     "a": 3,
-    "deepExp": "CAT I se define con una decision height no inferior a 200 ft. Por tanto, la guía precisa de una instalación CAT I llega hasta una altura de decisión de 200 ft, pero no por debajo de ella. Sección 5.1.2, p. 134.",
+    "deepExp": "CAT I se define con una decision height no inferior a 200 ft. Por tanto, la guía precisa de una instalación CAT I llega hasta una altura de decisión de 200 ft, pero no por debajo de ella. Sección 5.1.2, p. 134. Fuente: TBATC_5 Navigation 4.1, p. 134.",
     "optionExp": [
       "NO — Llegar hasta la superficie corresponde a capacidades CAT III, no a CAT I.",
       "NO — Menos de 100 ft describe mínimos más bajos de CAT II/III, no CAT I.",
