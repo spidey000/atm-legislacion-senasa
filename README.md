@@ -23,6 +23,14 @@ python3 -m http.server 8000
 
 Abrir <http://localhost:8000>.
 
+## Pruebas
+
+La prueba de persistencia usa los bancos reales y un almacenamiento local aislado:
+
+```bash
+node --test tests/persistence.test.js
+```
+
 ## Estructura
 
 ```text
@@ -37,6 +45,8 @@ atmlaw/
 │   ├── atm.js              # 117 preguntas ATM base
 │   ├── fernando.js         # 250 preguntas de Fernando
 │   └── navigation.js       # 136 preguntas de Navegación
+├── tests/
+│   └── persistence.test.js # Pruebas de guardado y restauración
 └── README.md
 ```
 
