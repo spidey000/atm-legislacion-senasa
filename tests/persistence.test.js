@@ -357,9 +357,13 @@ test("every navigation question has a general topic explanation and renders it",
   }
 
   vm.runInContext("startSession('nav', 'practice'); answer(state.questions[0].a)", mount.context);
-  assert.match(mount.document.getElementById("practiceFeedback").innerHTML, /Contexto general del tema/);
+  const practiceFeedback = mount.document.getElementById("practiceFeedback").innerHTML;
+  assert.match(practiceFeedback, /Contexto general del tema/);
+  assert.ok(practiceFeedback.indexOf("Por qué la correcta es correcta") < practiceFeedback.indexOf("Contexto general del tema"));
   vm.runInContext("finishSession()", mount.context);
-  assert.match(mount.document.getElementById("results").innerHTML, /Contexto general del tema/);
+  const results = mount.document.getElementById("results").innerHTML;
+  assert.match(results, /Contexto general del tema/);
+  assert.ok(results.indexOf("Por qué la correcta es correcta") < results.indexOf("Contexto general del tema"));
 });
 
 test("removes malformed or incompatible persisted sessions without crashing", () => {

@@ -149,9 +149,9 @@ function feedbackHtml(q,ans){
  return `<div class="feedback ${ok?"ok":"ko"}">
    <h4>${ok?"✓ Correcto":"✕ Incorrecto"}</h4>
    ${ok?"":`<p><strong>Respuesta correcta:</strong> ${letters[q.a]}. ${escapeHtml(q.opts[q.a])}</p>`}
-   ${topicContextHtml(q)}
    <div class="teach-title">Por qué la correcta es correcta</div>
    <div class="teach-body">${escapeHtml(q.deepExp)}</div>
+   ${topicContextHtml(q)}
    <div class="teach-title">Por qué no son las otras</div>
    <div class="why-list">${all}</div>
    ${q.extra?`<div class="extra-box"><strong>Dato relacionado / clave de examen:</strong> ${escapeHtml(q.extra)}</div>`:""}
@@ -240,8 +240,8 @@ function renderResults(){
     <h4>${i+1}. ${escapeHtml(q.q)}</h4>
     <p class="${ok?"correctText":"yourText"}"><strong>Tu respuesta:</strong> ${ans===null?"Sin responder":letters[ans]+". "+escapeHtml(q.opts[ans])}</p>
     ${ok?"":`<p class="correctText"><strong>Correcta:</strong> ${letters[q.a]}. ${escapeHtml(q.opts[q.a])}</p>`}
-    ${topicContextHtml(q)}
     <div class="teach-title">Por qué la correcta es correcta</div><div class="teach-body">${escapeHtml(q.deepExp)}</div>
+    ${topicContextHtml(q)}
     <div class="teach-title">Análisis de las cuatro opciones</div><div class="option-review">${opts}</div>
     ${q.extra?`<div class="extra-box"><strong>Dato relacionado / clave de examen:</strong> ${escapeHtml(q.extra)}</div>`:""}
     <p class="source" style="color:var(--muted);font-size:12px">${escapeHtml(sourceText(q))}</p>
