@@ -47,11 +47,20 @@ function validSavedSession(candidate){
     &&candidate.answers.every(a=>a===null||(Number.isInteger(a)&&a>=0&&a<4))
     &&candidate.locked.every(v=>typeof v==="boolean");
 }
+function hydrateSavedSession(saved){
+  if(saved.kind!=="nav")return saved;
+  const currentByQuestion=new Map(BANKS.nav.map(question=>[normQ(question.q),question]));
+  return {...saved,questions:saved.questions.map(question=>{
+    if(question.topicExp)return question;
+    const current=currentByQuestion.get(normQ(question.q));
+    return current?{...question,topic:current.topic,topicExp:current.topicExp}:question;
+  })};
+}
 function restoreSession(){
   let saved=null;
   try{saved=JSON.parse(localStorage.getItem(SESSION_STORAGE_KEY)||"null")}catch(e){clearSavedSession();return}
   if(!validSavedSession(saved)){if(saved)clearSavedSession();return}
-  state=saved;
+  state=hydrateSavedSession(saved);
   document.body.classList.add("exam-active");
   document.getElementById("home").classList.add("hidden");
   document.getElementById("results").classList.add("hidden");
@@ -124,6 +133,14 @@ function gotoQ(i){state.current=i;saveSession();render();window.scrollTo({top:0,
 function sourceText(q){
   return q.sourceRef || `Fuente de estudio: ${q.manualName} · pág. ${q.manualPage}`;
 }
+function topicContextHtml(q){
+  if(!q.topicExp)return "";
+  return `<section class="topic-context">
+    <div class="topic-context-title">Contexto general del tema</div>
+    <div class="topic-context-name">${escapeHtml(q.topic||"Navegación")}</div>
+    <div class="topic-context-body">${escapeHtml(q.topicExp)}</div>
+  </section>`;
+}
 
 function feedbackHtml(q,ans){
  const ok=ans===q.a;
@@ -132,6 +149,7 @@ function feedbackHtml(q,ans){
  return `<div class="feedback ${ok?"ok":"ko"}">
    <h4>${ok?"✓ Correcto":"✕ Incorrecto"}</h4>
    ${ok?"":`<p><strong>Respuesta correcta:</strong> ${letters[q.a]}. ${escapeHtml(q.opts[q.a])}</p>`}
+   ${topicContextHtml(q)}
    <div class="teach-title">Por qué la correcta es correcta</div>
    <div class="teach-body">${escapeHtml(q.deepExp)}</div>
    <div class="teach-title">Por qué no son las otras</div>
@@ -222,6 +240,7 @@ function renderResults(){
     <h4>${i+1}. ${escapeHtml(q.q)}</h4>
     <p class="${ok?"correctText":"yourText"}"><strong>Tu respuesta:</strong> ${ans===null?"Sin responder":letters[ans]+". "+escapeHtml(q.opts[ans])}</p>
     ${ok?"":`<p class="correctText"><strong>Correcta:</strong> ${letters[q.a]}. ${escapeHtml(q.opts[q.a])}</p>`}
+    ${topicContextHtml(q)}
     <div class="teach-title">Por qué la correcta es correcta</div><div class="teach-body">${escapeHtml(q.deepExp)}</div>
     <div class="teach-title">Análisis de las cuatro opciones</div><div class="option-review">${opts}</div>
     ${q.extra?`<div class="extra-box"><strong>Dato relacionado / clave de examen:</strong> ${escapeHtml(q.extra)}</div>`:""}

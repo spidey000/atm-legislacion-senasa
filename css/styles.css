@@ -157,6 +157,10 @@ button{font:inherit;-webkit-tap-highlight-color:transparent}
 .option-note{padding:11px 12px;border-radius:14px;background:#fff;color:#48484a;font-size:13px;box-shadow:0 1px 0 rgba(0,0,0,.025)}
 .option-note.iscorrect{background:#ececee;color:#1d1d1f}
 .topic{display:inline-flex;margin-top:9px;padding:5px 9px;border-radius:999px;background:#efeff1;color:var(--muted);font-size:11px}
+.topic-context{margin:14px 0;padding:13px 14px;border-radius:16px;background:#eef5ff;border:1px solid #d9e8fb;color:#2c3b4f}
+.topic-context-title{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#4d6f9e;font-weight:800}
+.topic-context-name{margin-top:4px;font-size:14px;font-weight:750;color:#243b5a}
+.topic-context-body{margin-top:6px;font-size:13px;line-height:1.55;white-space:pre-line}
 .teach-title{margin-top:14px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .teach-body{margin:6px 0 10px;color:#2c2c2e}
 .why-list{display:grid;gap:8px;margin-top:9px}

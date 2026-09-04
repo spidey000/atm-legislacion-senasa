@@ -212,6 +212,24 @@ test("restores the active session, question order, answers and position after re
   vm.runInContext("showHome()", secondMount.context);
 });
 
+test("hydrates topic explanations in legacy saved navigation sessions", () => {
+  const storage = new FakeStorage();
+  const firstMount = loadApp(storage);
+  vm.runInContext("startSession('nav', 'practice')", firstMount.context);
+  const legacy = savedState(storage);
+  legacy.questions = legacy.questions.map((question) => {
+    const copy = { ...question };
+    delete copy.topicExp;
+    return copy;
+  });
+  storage.setItem("atco-exam-trainer.session.v1", JSON.stringify(legacy));
+
+  const remounted = loadApp(storage);
+  const restored = currentState(remounted.context);
+  assert.equal(restored.questions.length, 136);
+  assert.ok(restored.questions.every((question) => typeof question.topicExp === "string" && question.topicExp.length >= 120));
+});
+
 test("restores a session whose saved timestamp is one hour old", () => {
   const storage = new FakeStorage();
   const firstMount = loadApp(storage);
@@ -324,6 +342,24 @@ test("the last exam answer stays on the last question for manual delivery", () =
   assert.notEqual(state.answers[state.current], null);
   assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 40 de 40");
   assert.equal(mount.document.getElementById("next").textContent, "Entregar");
+});
+
+test("every navigation question has a general topic explanation and renders it", () => {
+  const mount = loadApp(new FakeStorage());
+  const questions = vm.runInContext("BANKS.nav", mount.context);
+
+  assert.equal(questions.length, 136);
+  for (const question of questions) {
+    assert.equal(typeof question.topic, "string");
+    assert.ok(question.topic.length > 0);
+    assert.equal(typeof question.topicExp, "string");
+    assert.ok(question.topicExp.length >= 120, `short topic explanation for ${question.navNo}`);
+  }
+
+  vm.runInContext("startSession('nav', 'practice'); answer(state.questions[0].a)", mount.context);
+  assert.match(mount.document.getElementById("practiceFeedback").innerHTML, /Contexto general del tema/);
+  vm.runInContext("finishSession()", mount.context);
+  assert.match(mount.document.getElementById("results").innerHTML, /Contexto general del tema/);
 });
 
 test("removes malformed or incompatible persisted sessions without crashing", () => {
