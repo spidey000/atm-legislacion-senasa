@@ -269,7 +269,7 @@ test("keeps the normal home state when there is no persisted session", () => {
   assert.equal(storage.getItem("atco-exam-trainer.session.v1"), null);
 });
 
-test("an exam answer click stays on the same question and shows no feedback", () => {
+test("an exam answer click advances to the next question without feedback", () => {
   for (const kind of ["leg", "atm", "nav"]) {
     const mount = loadApp(new FakeStorage());
     vm.runInContext(`startSession('${kind}', 'exam')`, mount.context);
@@ -281,9 +281,9 @@ test("an exam answer click stays on the same question and shows no feedback", ()
     });
 
     const state = currentState(mount.context);
-    assert.equal(state.current, 0, `${kind}: answering must not advance`);
+    assert.equal(state.current, 1, `${kind}: answering must advance`);
     assert.equal(state.answers.filter((answer) => answer !== null).length, 1);
-    assert.equal(mount.document.getElementById("qcount").textContent, `Pregunta 1 de ${state.questions.length}`);
+    assert.equal(mount.document.getElementById("qcount").textContent, `Pregunta 2 de ${state.questions.length}`);
     assert.equal(mount.document.getElementById("practiceFeedback").innerHTML, "");
   }
 });
@@ -306,7 +306,24 @@ test("an exam answer click prevents default submission and propagation", () => {
 
   assert.equal(prevented, true);
   assert.equal(stopped, true);
-  assert.equal(currentState(mount.context).current, 0);
+  assert.equal(currentState(mount.context).current, 1);
+});
+
+test("the last exam answer stays on the last question for manual delivery", () => {
+  const mount = loadApp(new FakeStorage());
+  vm.runInContext("startSession('nav', 'exam'); gotoQ(state.questions.length - 1)", mount.context);
+  const option = mount.document.getElementById("options").children[0];
+
+  option.onclick({
+    preventDefault() {},
+    stopPropagation() {},
+  });
+
+  const state = currentState(mount.context);
+  assert.equal(state.current, state.questions.length - 1);
+  assert.notEqual(state.answers[state.current], null);
+  assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 40 de 40");
+  assert.equal(mount.document.getElementById("next").textContent, "Entregar");
 });
 
 test("removes malformed or incompatible persisted sessions without crashing", () => {

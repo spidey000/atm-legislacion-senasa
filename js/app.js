@@ -113,8 +113,10 @@ function answer(i){
  if(state.mode==="practice" && state.locked[state.current])return;
  state.answers[state.current]=i;
  if(state.mode==="practice")state.locked[state.current]=true;
+ if(state.mode==="exam"&&state.current<state.questions.length-1)state.current++;
  saveSession();
  render();
+ if(state.mode==="exam")window.scrollTo({top:0,behavior:"smooth"});
 }
 function move(d){state.current=Math.max(0,Math.min(state.questions.length-1,state.current+d));saveSession();render();window.scrollTo({top:0,behavior:"smooth"})}
 function gotoQ(i){state.current=i;saveSession();render();window.scrollTo({top:0,behavior:"smooth"})}
