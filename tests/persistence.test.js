@@ -10,7 +10,6 @@ const dataFiles = [
   "data/atm.js",
   "data/fernando.js",
   "data/navigation.js",
-  "data/acronym-glossary.js",
 ];
 const appSource = fs.readFileSync(path.join(projectRoot, "js/app.js"), "utf8");
 
@@ -399,35 +398,108 @@ test("every navigation question has a general topic explanation and renders it",
   assert.ok(results.indexOf("Por qué la correcta es correcta") < results.indexOf("Contexto general del tema"));
 });
 
-test("every glossary acronym in a correct-answer explanation has a parenthetical meaning", () => {
+test("every acronym in every deepExp has its literal expansion inline", () => {
   const mount = loadApp(new FakeStorage());
-  const glossary = vm.runInContext("window.ATCO_ACRONYM_MEANINGS", mount.context);
   const questions = [
     ...vm.runInContext("BANKS.leg", mount.context),
     ...vm.runInContext("BANKS.atm", mount.context),
     ...vm.runInContext("BANKS.fernando", mount.context),
     ...vm.runInContext("BANKS.nav", mount.context),
   ];
-  const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
-  const boundary = "A-Za-zÁÉÍÓÚÜÑ0-9_";
+  const expected = {
+    OACI: "Organización de Aviación Civil Internacional",
+    AESA: "Agencia Estatal de Seguridad Aérea",
+    EASA: "European Union Aviation Safety Agency",
+    ATC: "Air Traffic Control",
+    ATS: "Air Traffic Services",
+    DME: "Distance Measuring Equipment",
+    VOR: "VHF Omnidirectional Range",
+    NDB: "Non-Directional Beacon",
+    ADF: "Automatic Direction Finder",
+    ILS: "Instrument Landing System",
+    TACAN: "Tactical Air Navigation",
+    RNAV: "Area Navigation",
+    RNP: "Required Navigation Performance",
+    PBN: "Performance-Based Navigation",
+    GNSS: "Global Navigation Satellite System",
+    GPS: "Global Positioning System",
+    INS: "Inertial Navigation System",
+    IRS: "Inertial Reference System",
+    SID: "Standard Instrument Departure",
+    STAR: "Standard Instrument Arrival",
+    "PANS-ATM": "Procedures for Air Navigation Services — Air Traffic Management",
+    ACAS: "Airborne Collision Avoidance System",
+    TCAS: "Traffic Alert and Collision Avoidance System",
+    RA: "Resolution Advisory",
+    TAWS: "Terrain Awareness and Warning System",
+    GPWS: "Ground Proximity Warning System",
+    QNH: "Altimeter Setting to Mean Sea Level",
+    QFE: "Atmospheric Pressure at Aerodrome Elevation",
+    QNE: "Standard Pressure Setting 1013.25 hPa",
+    RVR: "Runway Visual Range",
+    FL: "Flight Level",
+    AIP: "Aeronautical Information Publication",
+    IFPS: "Initial Integrated Flight Plan Processing System",
+    ATFM: "Air Traffic Flow Management",
+    ATFCM: "Air Traffic Flow and Capacity Management",
+    CTOT: "Calculated Take-Off Time",
+    AUP: "Airspace Use Plan",
+    UUP: "Updated Airspace Use Plan",
+    CDR: "Conditional Route",
+    FIS: "Flight Information Service",
+    SDP: "Servicio de Dirección de Plataforma",
+  };
+  const ignored = new Set([
+    "PAN", "MAYDAY", "SOS", "MEDIA", "PESADA", "LIGERA", "SÚPER", "SUPER",
+    "ROGER", "ACKNOWLEDGE", "CORRECTION", "COMA", "SAY", "AGAIN", "MEDICAL",
+    "XXX", "ONE", "THOUSAND", "FOR", "STAND", "BY", "LLEGADAS", "ARRIVAL",
+    "CLEAR", "OF", "CONFLICT", "BREAK", "RADIO", "DISTRESS", "EMERGENCY",
+    "CLIMB", "TO", "FLIGHT", "LEVEL", "TRANSMITIENDO", "CIEGAS", "DEBIDO",
+    "FALLA", "RECEPTOR", "IDENT", "INFO", "REVISAR", "RESPUESTA", "MARCADA",
+    "CIENTOS", "NUEVA", "AUTORIZACIÓN", "RECLEARED", "APROXIMACIÓN", "RADAR",
+    "CONTROL", "TRÁNSITO", "SOCORRO", "TERMINADO", "TRAFFIC", "ENDED", "CHECK",
+    "VERIFICACIÓN", "REPITO", "AFIRMO", "NEGATIVO", "SIETE", "CERO", "DOS", "UNO", "CORRECCIÓN",
+    "ENAIRE", "SLOT", "ALT", "MIL", "II", "III", "IIIA", "IIIB", "TBATC", "WILCO", "DE",
+  ]);
+  const tokenRe = /(?<![A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9_])[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9]*(?:[-/][A-ZÁÉÍÓÚÜÑ0-9]+)*(?![A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9_])/g;
+  const maskParentheticalContents = (text) => {
+    const chars = [...text]; let depth = 0;
+    for (let i = 0; i < chars.length; i++) {
+      if (chars[i] === "(") { depth++; continue; }
+      if (chars[i] === ")") { depth--; continue; }
+      if (depth > 0) chars[i] = " ";
+    }
+    return chars.join("");
+  };
+  const readParenthetical = (text, index) => {
+    let p = index; while (/\s/.test(text[p] || "")) p++;
+    if (text[p] !== "(") return null;
+    let depth = 0;
+    for (let i = p; i < text.length; i++) {
+      if (text[i] === "(") depth++;
+      if (text[i] === ")" && --depth === 0) return text.slice(p + 1, i);
+    }
+    return null;
+  };
 
   for (const question of questions) {
     const text = question.deepExp || "";
-    for (const acronym of Object.keys(glossary)) {
-      const pattern = new RegExp(`(?<![${boundary}])${escapeRegExp(acronym)}(?![${boundary}])`, "g");
-      let match;
-      while ((match = pattern.exec(text))) {
-        const after = text.slice(match.index + acronym.length).trimStart();
-        if (after.startsWith("(")) continue;
+    for (const match of maskParentheticalContents(text).matchAll(tokenRe)) {
+      const token = match[0];
+      if (token.length < 2 || ignored.has(token) || token.split(/[/-]/).every((part) => part.length < 2 || ignored.has(part)) || /^[A-Z]{2}-[A-Z]{3}$/.test(token) || /^[A-Z]{3}\d/.test(token)) continue;
+      const expansion = readParenthetical(text, match.index + token.length);
+      assert.ok(expansion !== null, `${question.q}: ${token} lacks an inline parenthetical expansion`);
+    }
+  }
 
-        const containingCompound = Object.keys(glossary).find((compound) => {
-          if (compound === acronym || !compound.includes(acronym)) return false;
-          return text.slice(match.index, match.index + compound.length) === compound
-            && text.slice(match.index + compound.length).trimStart().startsWith("(");
-        });
-        if (containingCompound) continue;
-
-        assert.fail(`${question.navNo || question.q}: ${acronym} lacks meaning in deepExp`);
+  for (const [token, expansion] of Object.entries(expected)) {
+    const re = new RegExp(`(?<![A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9_])${token.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}(?![A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9_])`, "g");
+    for (const question of questions) {
+      const text = question.deepExp || "";
+      for (const match of text.matchAll(re)) {
+        if (text[match.index - 1] === "-") continue;
+        const actual = readParenthetical(text, match.index + token.length);
+        if (actual !== null) assert.equal(actual, expansion, `${question.q}: wrong expansion for ${token}`);
       }
     }
   }
