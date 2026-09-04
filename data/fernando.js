@@ -2868,7 +2868,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — De otro modo tienen conocimiento las dependencias ATS: La aeronave conocida por otro medio por ATS queda incluida.",
       "NO — Se les suministre servicio SDP.: SDP no es una categoría de servicio mencionada en el alcance del FIS."
     ],
-    "deepExp": "El FIS se suministra a las aeronaves que puedan verse afectadas por la información y que reciben ATC (control de tránsito aéreo) o son conocidas de otro modo por las dependencias ATS (servicios de tránsito aéreo). La opción marcada conserva literalmente ese segundo criterio; RCC (centro coordinador de salvamento) y las denominaciones no definidas «SDP (denominación no definida en el temario)» no son categorías alternativas del alcance del FIS. Véase §1.3.1, p. 20.",
+    "deepExp": "El FIS se suministra a las aeronaves que puedan verse afectadas por la información y que reciben ATC (control de tránsito aéreo) o son conocidas de otro modo por las dependencias ATS (servicios de tránsito aéreo). La opción marcada conserva literalmente ese segundo criterio; RCC (centro coordinador de salvamento) y las denominaciones no definidas «SDP (servicio de dirección de plataforma)» no son categorías alternativas del alcance del FIS. Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 115 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.3.1",
     "sourceTag": "Fernando Nº 115",
     "preserveOptions": true,
