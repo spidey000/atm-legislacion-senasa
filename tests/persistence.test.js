@@ -47,6 +47,13 @@ class FakeClassList {
   contains(name) {
     return this.values.has(name);
   }
+
+  toggle(name, force) {
+    const shouldAdd = force === undefined ? !this.values.has(name) : Boolean(force);
+    if (shouldAdd) this.values.add(name);
+    else this.values.delete(name);
+    return shouldAdd;
+  }
 }
 
 class FakeElement {
@@ -88,6 +95,10 @@ class FakeDocument {
       "next",
       "nextTop",
       "answered",
+      "totalQuestions",
+      "correctAnswers",
+      "incorrectAnswers",
+      "liveStats",
       "bankSize",
       "clock",
       "grid",
@@ -342,6 +353,27 @@ test("the last exam answer stays on the last question for manual delivery", () =
   assert.notEqual(state.answers[state.current], null);
   assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 40 de 40");
   assert.equal(mount.document.getElementById("next").textContent, "Entregar");
+});
+
+test("shows correct and incorrect counters outside exam mode only", () => {
+  const expectedTotals = { leg: 55, atm: 367, nav: 136, fernando: 250 };
+
+  for (const [kind, total] of Object.entries(expectedTotals)) {
+    const mount = loadApp(new FakeStorage());
+    vm.runInContext(`startSession('${kind}', 'practice'); answer(state.questions[0].a); move(1); answer((state.questions[1].a + 1) % state.questions[1].opts.length)`, mount.context);
+
+    assert.equal(String(mount.document.getElementById("totalQuestions").textContent), String(total));
+    assert.equal(String(mount.document.getElementById("correctAnswers").textContent), "1");
+    assert.equal(String(mount.document.getElementById("incorrectAnswers").textContent), "1");
+    assert.equal(mount.document.getElementById("liveStats").classList.contains("hidden"), false);
+  }
+
+  const examMount = loadApp(new FakeStorage());
+  vm.runInContext("startSession('nav', 'exam'); answer(state.questions[0].a)", examMount.context);
+  assert.equal(examMount.document.getElementById("liveStats").classList.contains("hidden"), true);
+  assert.equal(examMount.document.getElementById("totalQuestions").textContent, "");
+  assert.equal(examMount.document.getElementById("correctAnswers").textContent, "");
+  assert.equal(examMount.document.getElementById("incorrectAnswers").textContent, "");
 });
 
 test("every navigation question has a general topic explanation and renders it", () => {

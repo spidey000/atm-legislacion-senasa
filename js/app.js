@@ -193,7 +193,14 @@ function render(){
 
 function renderSide(){
  const answered=state.answers.filter(x=>x!==null).length;
+ const isPractice=state.mode==="practice";
+ const correct=isPractice?state.questions.reduce((total,q,i)=>total+(state.answers[i]!==null&&state.answers[i]===q.a?1:0),0):0;
+ const incorrect=isPractice?answered-correct:0;
  document.getElementById("answered").textContent=`${answered}/${state.questions.length}`;
+ document.getElementById("totalQuestions").textContent=isPractice?state.questions.length:"";
+ document.getElementById("correctAnswers").textContent=isPractice?correct:"";
+ document.getElementById("incorrectAnswers").textContent=isPractice?incorrect:"";
+ document.getElementById("liveStats").classList.toggle("hidden",!isPractice);
  document.getElementById("bankSize").textContent=BANKS[state.kind].length;
  const g=document.getElementById("grid");g.innerHTML="";
  state.questions.forEach((q,i)=>{
