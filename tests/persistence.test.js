@@ -398,6 +398,19 @@ test("every navigation question has a general topic explanation and renders it",
   assert.ok(results.indexOf("Por qué la correcta es correcta") < results.indexOf("Contexto general del tema"));
 });
 
+test("expands MDA and related acronyms in visible navigation topic context", () => {
+  const mount = loadApp(new FakeStorage());
+  const navigation = vm.runInContext("BANKS.nav", mount.context);
+  const withMda = navigation.filter(question => /\bMDA\b/.test(question.topicExp || ""));
+  assert.equal(withMda.length, 18);
+  for (const question of withMda) {
+    assert.match(question.topicExp, /MDA \(Minimum Descent Altitude\)/);
+    assert.match(question.topicExp, /MAPt \(Missed Approach Point\)/);
+    assert.match(question.topicExp, /DA \(Decision Altitude\)/);
+    assert.doesNotMatch(question.topicExp, /\bMDA\b(?!\s*\()/);
+  }
+});
+
 test("every acronym in every deepExp has its literal expansion inline", () => {
   const mount = loadApp(new FakeStorage());
   const questions = [
