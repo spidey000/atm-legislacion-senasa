@@ -484,12 +484,16 @@ test("every acronym in every deepExp has its literal expansion inline", () => {
 
   for (const question of questions) {
     const text = question.deepExp || "";
+    let hasInlineAcronym = false;
     for (const match of maskParentheticalContents(text).matchAll(tokenRe)) {
       const token = match[0];
-      if (token.length < 2 || ignored.has(token) || token.split(/[/-]/).every((part) => part.length < 2 || ignored.has(part)) || /^[A-Z]{2}-[A-Z]{3}$/.test(token) || /^[A-Z]{3}\d/.test(token)) continue;
+      if (token.length < 2 || ignored.has(token) || token.split(/[/-]/).every((part) => part.length < 2 || ignored.has(part)) || /^FL\d+$/.test(token) || /^[A-Z]{2}-[A-Z]{3}$/.test(token) || /^[A-Z]{3}\d/.test(token)) continue;
       const expansion = readParenthetical(text, match.index + token.length);
       assert.ok(expansion !== null, `${question.q}: ${token} lacks an inline parenthetical expansion`);
+      hasInlineAcronym = true;
     }
+    if (hasInlineAcronym) assert.match(text, /^[A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9]*(?:[-/][A-ZÁÉÍÓÚÜÑ0-9]+)* \([^()\n]+\)(?:; [A-ZÁÉÍÓÚÜÑ][A-ZÁÉÍÓÚÜÑ0-9]*(?:[-/][A-ZÁÉÍÓÚÜÑ0-9]+)* \([^()\n]+\))*$/,
+      `${question.q}: acronym explanation must contain only inline expansion lines`);
   }
 
   for (const [token, expansion] of Object.entries(expected)) {
