@@ -148,13 +148,13 @@ function render(){
  document.getElementById("qtitle").textContent=q.q;
  const box=document.getElementById("options");box.innerHTML="";
  q.opts.forEach((opt,i)=>{
-   const b=document.createElement("button");b.className="option";
+   const b=document.createElement("button");b.type="button";b.className="option";
    if(ans===i)b.classList.add("selected");
    if(state.mode==="practice"&&locked){
      b.disabled=true;if(i===q.a)b.classList.add("correct");if(i===ans&&ans!==q.a)b.classList.add("wrong");
    }
    b.innerHTML=`<span class="letter">${letters[i]}</span><span>${escapeHtml(opt)}</span>`;
-   b.onclick=()=>answer(i);box.appendChild(b);
+   b.onclick=event=>{event.preventDefault();event.stopPropagation();answer(i)};box.appendChild(b);
  });
  document.getElementById("practiceFeedback").innerHTML=(state.mode==="practice"&&locked)?feedbackHtml(q,ans):"";
  const previousButtons=[document.getElementById("prev"),document.getElementById("prevTop")];

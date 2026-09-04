@@ -269,6 +269,46 @@ test("keeps the normal home state when there is no persisted session", () => {
   assert.equal(storage.getItem("atco-exam-trainer.session.v1"), null);
 });
 
+test("an exam answer click stays on the same question and shows no feedback", () => {
+  for (const kind of ["leg", "atm", "nav"]) {
+    const mount = loadApp(new FakeStorage());
+    vm.runInContext(`startSession('${kind}', 'exam')`, mount.context);
+    const option = mount.document.getElementById("options").children[0];
+
+    option.onclick({
+      preventDefault() {},
+      stopPropagation() {},
+    });
+
+    const state = currentState(mount.context);
+    assert.equal(state.current, 0, `${kind}: answering must not advance`);
+    assert.equal(state.answers.filter((answer) => answer !== null).length, 1);
+    assert.equal(mount.document.getElementById("qcount").textContent, `Pregunta 1 de ${state.questions.length}`);
+    assert.equal(mount.document.getElementById("practiceFeedback").innerHTML, "");
+  }
+});
+
+test("an exam answer click prevents default submission and propagation", () => {
+  const mount = loadApp(new FakeStorage());
+  vm.runInContext("startSession('nav', 'exam')", mount.context);
+  const option = mount.document.getElementById("options").children[0];
+  let prevented = false;
+  let stopped = false;
+
+  option.onclick({
+    preventDefault() {
+      prevented = true;
+    },
+    stopPropagation() {
+      stopped = true;
+    },
+  });
+
+  assert.equal(prevented, true);
+  assert.equal(stopped, true);
+  assert.equal(currentState(mount.context).current, 0);
+});
+
 test("removes malformed or incompatible persisted sessions without crashing", () => {
   for (const invalidValue of [
     "{not-json",
