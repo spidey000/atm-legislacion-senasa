@@ -18,7 +18,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
       "NO — No encaja con las condiciones del enunciado. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
     ],
-    "deepExp": "La OACI es el organismo especializado de la ONU encargado de los aspectos de la aviación civil. Se estableció en 1947 en Montreal como consecuencia del Convenio de Chicago de 1944. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
+    "deepExp": "La OACI (Organización de Aviación Civil Internacional) es el organismo especializado de la ONU (Organización de las Naciones Unidas) encargado de los aspectos de la aviación civil. Se estableció en 1947 en Montreal como consecuencia del Convenio de Chicago de 1944. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA (Agencia Estatal de Seguridad Aérea) supervisa e inspecciona; ENAIRE (gestor español de navegación aérea) presta servicios de navegación aérea; AENA (Aeropuertos Españoles y Navegación Aérea) gestiona aeropuertos. En el plano internacional, OACI (Organización de Aviación Civil Internacional) establece el marco mundial, EASA (Agencia de la Unión Europea para la Seguridad Aérea) regula/certifica en la UE (Unión Europea) y EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) coordina la red europea.",
     "extra": "Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
   },
   {
@@ -40,7 +40,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
       "NO — No encaja con las condiciones del enunciado. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
     ],
-    "deepExp": "EUROCONTROL tiene como misión armonizar e integrar los servicios de navegación aérea en Europa para lograr operaciones seguras, eficientes y respetuosas con el medio ambiente. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
+    "deepExp": "EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) tiene como misión armonizar e integrar los servicios de navegación aérea en Europa para lograr operaciones seguras, eficientes y respetuosas con el medio ambiente. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA (Agencia Estatal de Seguridad Aérea) supervisa e inspecciona; ENAIRE (gestor español de navegación aérea) presta servicios de navegación aérea; AENA (Aeropuertos Españoles y Navegación Aérea) gestiona aeropuertos. En el plano internacional, OACI (Organización de Aviación Civil Internacional) establece el marco mundial, EASA (Agencia de la Unión Europea para la Seguridad Aérea) regula/certifica en la UE (Unión Europea) y EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) coordina la red europea.",
     "extra": "Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
   },
   {
@@ -62,7 +62,7 @@ window.LEG_QUESTIONS = [
       "NO — EUROCONTROL es una organización paneuropea de gestión de la navegación aérea. Coordina funciones de red, ATFM y armonización; no sustituye a las autoridades nacionales de aviación civil.",
       "NO — No encaja con las condiciones del enunciado. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
     ],
-    "deepExp": "Entre las competencias de EASA figuran la regulación de seguridad y la certificación de tipo de aeronavegabilidad y medioambiental de productos aeronáuticos. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
+    "deepExp": "Entre las competencias de EASA (Agencia de la Unión Europea para la Seguridad Aérea) figuran la regulación de seguridad y la certificación de tipo de aeronavegabilidad y medioambiental de productos aeronáuticos. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA (Agencia Estatal de Seguridad Aérea) supervisa e inspecciona; ENAIRE (gestor español de navegación aérea) presta servicios de navegación aérea; AENA (Aeropuertos Españoles y Navegación Aérea) gestiona aeropuertos. En el plano internacional, OACI (Organización de Aviación Civil Internacional) establece el marco mundial, EASA (Agencia de la Unión Europea para la Seguridad Aérea) regula/certifica en la UE (Unión Europea) y EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) coordina la red europea.",
     "extra": "Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
   },
   {
@@ -84,7 +84,7 @@ window.LEG_QUESTIONS = [
       "NO — ENAIRE es el proveedor público español de navegación aérea y presta, entre otros, servicios ATS de ruta y aproximación. No es la autoridad inspectora y sancionadora.",
       "NO — CIAIAC investiga técnicamente accidentes e incidentes de aviación civil con finalidad preventiva y sin atribuir culpa o responsabilidad."
     ],
-    "deepExp": "AESA ejerce las potestades inspectoras y sancionadoras en materia de aviación civil y actúa, entre otras funciones, como Autoridad Nacional de Supervisión. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea.",
+    "deepExp": "AESA (Agencia Estatal de Seguridad Aérea) ejerce las potestades inspectoras y sancionadoras en materia de aviación civil y actúa, entre otras funciones, como Autoridad Nacional de Supervisión. Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA (Agencia Estatal de Seguridad Aérea) supervisa e inspecciona; ENAIRE (gestor español de navegación aérea) presta servicios de navegación aérea; AENA (Aeropuertos Españoles y Navegación Aérea) gestiona aeropuertos. En el plano internacional, OACI (Organización de Aviación Civil Internacional) establece el marco mundial, EASA (Agencia de la Unión Europea para la Seguridad Aérea) regula/certifica en la UE (Unión Europea) y EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) coordina la red europea.",
     "extra": "Clave de examen: distingue regulador/supervisor de proveedor operativo. En España, AESA supervisa e inspecciona; ENAIRE presta servicios de navegación aérea; AENA gestiona aeropuertos. En el plano internacional, OACI establece el marco mundial, EASA regula/certifica en la UE y EUROCONTROL coordina la red europea."
   },
   {
@@ -106,7 +106,7 @@ window.LEG_QUESTIONS = [
       "NO — Anexo 11 — Servicios de tránsito aéreo. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado.",
       "NO — Anexo 10 — Telecomunicaciones aeronáuticas. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado."
     ],
-    "deepExp": "Anexo 1: Licencias al personal. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "Anexo 1: Licencias al personal. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -128,7 +128,7 @@ window.LEG_QUESTIONS = [
       "NO — Anexo 12 — Búsqueda y salvamento. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado.",
       "NO — Anexo 17 — Seguridad (protección de la aviación civil contra actos de interferencia ilícita). Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado."
     ],
-    "deepExp": "Anexo 2: Reglamento del aire. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "Anexo 2: Reglamento del aire. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -150,7 +150,7 @@ window.LEG_QUESTIONS = [
       "NO — Anexo 15 — Servicios de información aeronáutica. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado.",
       "NO — Anexo 6 — Operación de aeronaves. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado."
     ],
-    "deepExp": "El Anexo 10 está dedicado a las telecomunicaciones aeronáuticas. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "El Anexo 10 está dedicado a las telecomunicaciones aeronáuticas. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -172,7 +172,7 @@ window.LEG_QUESTIONS = [
       "NO — Anexo 8 — Aeronavegabilidad. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado.",
       "NO — Anexo 13 — Investigación de accidentes e incidentes de aviación. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado."
     ],
-    "deepExp": "Anexo 11: Servicios de tránsito aéreo. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "Anexo 11: Servicios de tránsito aéreo. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -194,7 +194,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — Anexo 19: Gestión de la seguridad operacional. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
       "NO — Anexo 18 — Transporte sin riesgos de mercancías peligrosas por vía aérea. Es una materia real de OACI, pero pertenece a otro Anexo distinto del que pregunta el enunciado."
     ],
-    "deepExp": "Anexo 19: Gestión de la seguridad operacional. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "Anexo 19: Gestión de la seguridad operacional. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -216,7 +216,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. PANS-ATM es el Doc 4444. No confundas un “Anexo” del Convenio de Chicago con un documento PANS: los PANS desarrollan procedimientos operativos de mayor detalle.",
       "NO — No encaja con las condiciones del enunciado. PANS-ATM es el Doc 4444. No confundas un “Anexo” del Convenio de Chicago con un documento PANS: los PANS desarrollan procedimientos operativos de mayor detalle."
     ],
-    "deepExp": "PANS-ATM (Reglamento del Aire y Servicios de Tránsito Aéreo) corresponde al Doc. 4444 de OACI. PANS-ATM es el Doc 4444. No confundas un “Anexo” del Convenio de Chicago con un documento PANS: los PANS desarrollan procedimientos operativos de mayor detalle.",
+    "deepExp": "PANS-ATM (Procedimientos para los servicios de navegación aérea — Gestión del tránsito aéreo) corresponde al Doc. 4444 de OACI (Organización de Aviación Civil Internacional). PANS-ATM (Procedimientos para los servicios de navegación aérea — Gestión del tránsito aéreo) es el Doc 4444. No confundas un “Anexo” del Convenio de Chicago con un documento PANS (Procedimientos para los servicios de navegación aérea): los PANS (Procedimientos para los servicios de navegación aérea) desarrollan procedimientos operativos de mayor detalle.",
     "extra": "PANS-ATM es el Doc 4444. No confundas un “Anexo” del Convenio de Chicago con un documento PANS: los PANS desarrollan procedimientos operativos de mayor detalle."
   },
   {
@@ -238,7 +238,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
     ],
-    "deepExp": "Debe presentarse plan de vuelo antes de cualquier vuelo o parte del mismo al que tenga que prestarse servicio de control de tránsito aéreo, entre otros supuestos. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "Debe presentarse plan de vuelo antes de cualquier vuelo o parte del mismo al que tenga que prestarse servicio de control de tránsito aéreo, entre otros supuestos. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -260,7 +260,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — El temario establece al menos 60 minutos antes de la salida para esos vuelos. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
     ],
-    "deepExp": "El temario establece al menos 60 minutos antes de la salida para esos vuelos. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "El temario establece al menos 60 minutos antes de la salida para esos vuelos. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -282,7 +282,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — 30 min no es la antelación general del FPL previo de este supuesto. El temario fija 60 min para los vuelos indicados."
     ],
-    "deepExp": "Debe recibirse por la dependencia apropiada al menos 10 minutos antes de ese punto. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "Debe recibirse por la dependencia apropiada al menos 10 minutos antes de ese punto. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -304,7 +304,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "CORRECTA — La presentación no puede realizarse con una antelación superior a 120 horas respecto de la hora prevista de fuera de calzos. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
     ],
-    "deepExp": "La presentación no puede realizarse con una antelación superior a 120 horas respecto de la hora prevista de fuera de calzos. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "La presentación no puede realizarse con una antelación superior a 120 horas respecto de la hora prevista de fuera de calzos. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -326,7 +326,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — IFPS está orientado al procesamiento del tráfico IFR/GAT de su ámbito; VFR no es la categoría que define la respuesta de esta pregunta."
     ],
-    "deepExp": "El IFPS recibe y procesa los planes de vuelo IFR/GAT afectados; el temario indica que VFR y OAT no están afectados por IFPS. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "El IFPS (sistema integrado inicial de procesamiento de planes de vuelo) recibe y procesa los planes de vuelo IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) afectados; el temario indica que VFR (reglas de vuelo visual) y OAT (tránsito aéreo operativo) no están afectados por IFPS (sistema integrado inicial de procesamiento de planes de vuelo). Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -348,7 +348,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
       "NO — No encaja con las condiciones del enunciado. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
     ],
-    "deepExp": "La persona solicitante debe tener 18 años cumplidos. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
+    "deepExp": "La persona solicitante debe tener 18 años cumplidos. No confundas habilitación con anotación. APS (control de vigilancia de aproximación) es vigilancia de aproximación; APP (control de aproximación) es aproximación por procedimientos. Las anotaciones (como PAR (radar de aproximación de precisión)/SRA (aproximación con radar de vigilancia)) añaden capacidades concretas a una habilitación.",
     "extra": "No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
   },
   {
@@ -370,7 +370,7 @@ window.LEG_QUESTIONS = [
       "NO — ACP corresponde a control de área por procedimientos, no de aproximación.",
       "NO — No encaja con las condiciones del enunciado. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
     ],
-    "deepExp": "APS es Control de Vigilancia de Aproximación; APP es aproximación por procedimientos, sin equipos de vigilancia. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
+    "deepExp": "APS (control de vigilancia de aproximación) es Control de Vigilancia de Aproximación; APP (control de aproximación) es aproximación por procedimientos, sin equipos de vigilancia. No confundas habilitación con anotación. APS (control de vigilancia de aproximación) es vigilancia de aproximación; APP (control de aproximación) es aproximación por procedimientos. Las anotaciones (como PAR (radar de aproximación de precisión)/SRA (aproximación con radar de vigilancia)) añaden capacidades concretas a una habilitación.",
     "extra": "No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
   },
   {
@@ -392,7 +392,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — La anotación de unidad será válida por el período definido en el plan de capacitación de unidad, que no puede superar tres años. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
       "NO — No encaja con las condiciones del enunciado. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
     ],
-    "deepExp": "La anotación de unidad será válida por el período definido en el plan de capacitación de unidad, que no puede superar tres años. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
+    "deepExp": "La anotación de unidad será válida por el período definido en el plan de capacitación de unidad, que no puede superar tres años. No confundas habilitación con anotación. APS (control de vigilancia de aproximación) es vigilancia de aproximación; APP (control de aproximación) es aproximación por procedimientos. Las anotaciones (como PAR (radar de aproximación de precisión)/SRA (aproximación con radar de vigilancia)) añaden capacidades concretas a una habilitación.",
     "extra": "No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
   },
   {
@@ -414,7 +414,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Los objetivos ATS no se limitan a evitar colisiones: incluyen ordenar y acelerar el tránsito, proporcionar información útil y activar/ayudar a búsqueda y salvamento cuando sea necesario.",
       "NO — No encaja con las condiciones del enunciado. Los objetivos ATS no se limitan a evitar colisiones: incluyen ordenar y acelerar el tránsito, proporcionar información útil y activar/ayudar a búsqueda y salvamento cuando sea necesario."
     ],
-    "deepExp": "El manual resume el objetivo del ATC como proporcionar seguridad, orden y eficiencia al tráfico aéreo. Los objetivos ATS no se limitan a evitar colisiones: incluyen ordenar y acelerar el tránsito, proporcionar información útil y activar/ayudar a búsqueda y salvamento cuando sea necesario.",
+    "deepExp": "El manual resume el objetivo del ATC (control de tránsito aéreo) como proporcionar seguridad, orden y eficiencia al tráfico aéreo. Los objetivos ATS (servicios de tránsito aéreo) no se limitan a evitar colisiones: incluyen ordenar y acelerar el tránsito, proporcionar información útil y activar/ayudar a búsqueda y salvamento cuando sea necesario.",
     "extra": "Los objetivos ATS no se limitan a evitar colisiones: incluyen ordenar y acelerar el tránsito, proporcionar información útil y activar/ayudar a búsqueda y salvamento cuando sea necesario."
   },
   {
@@ -436,7 +436,7 @@ window.LEG_QUESTIONS = [
       "NO — Cualquier opción que admita VFR queda descartada: la clase A está reservada a IFR.",
       "NO — Cualquier opción que admita VFR queda descartada: la clase A está reservada a IFR."
     ],
-    "deepExp": "La clase A solo admite vuelos IFR. Todos están sujetos a autorización/control ATC y se separan entre sí. Cualquier opción que permita VFR corresponde a otra clase de espacio aéreo, no a A.",
+    "deepExp": "La clase A solo admite vuelos IFR (reglas de vuelo por instrumentos). Todos están sujetos a autorización/control ATC (control de tránsito aéreo) y se separan entre sí. Cualquier opción que permita VFR (reglas de vuelo visual) corresponde a otra clase de espacio aéreo, no a A.",
     "extra": "La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
   },
   {
@@ -458,7 +458,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
       "NO — No encaja con las condiciones del enunciado. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
     ],
-    "deepExp": "En clase C, los VFR reciben separación respecto de IFR; entre VFR se proporciona información de tránsito y, a solicitud, asesoramiento anticolisión. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
+    "deepExp": "En clase C, los VFR (reglas de vuelo visual) reciben separación respecto de IFR (reglas de vuelo por instrumentos); entre VFR (reglas de vuelo visual) se proporciona información de tránsito y, a solicitud, asesoramiento anticolisión. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC (control de tránsito aéreo) y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR (reglas de vuelo por instrumentos); B admite IFR (reglas de vuelo por instrumentos) y VFR (reglas de vuelo visual) y separa a todos.",
     "extra": "La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
   },
   {
@@ -480,7 +480,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — A 10.000 ft AMSL o por encima, la visibilidad VMC es de 8 km, con 1.500 m horizontal y 1.000 ft vertical respecto de nubes. Las mínimas VMC cambian con altitud/clase de espacio aéreo. En la tabla del temario, a 10 000 ft AMSL o por encima la visibilidad de vuelo relevante es 8 km.",
       "NO — No encaja con las condiciones del enunciado. Las mínimas VMC cambian con altitud/clase de espacio aéreo. En la tabla del temario, a 10 000 ft AMSL o por encima la visibilidad de vuelo relevante es 8 km."
     ],
-    "deepExp": "A 10.000 ft AMSL o por encima, la visibilidad VMC es de 8 km, con 1.500 m horizontal y 1.000 ft vertical respecto de nubes. Las mínimas VMC cambian con altitud/clase de espacio aéreo. En la tabla del temario, a 10 000 ft AMSL o por encima la visibilidad de vuelo relevante es 8 km.",
+    "deepExp": "A 10.000 ft AMSL (sobre el nivel medio del mar) o por encima, la visibilidad VMC (condiciones meteorológicas visuales) es de 8 km, con 1.500 m horizontal y 1.000 ft vertical respecto de nubes. Las mínimas VMC (condiciones meteorológicas visuales) cambian con altitud/clase de espacio aéreo. En la tabla del temario, a 10 000 ft AMSL (sobre el nivel medio del mar) o por encima la visibilidad de vuelo relevante es 8 km.",
     "extra": "Las mínimas VMC cambian con altitud/clase de espacio aéreo. En la tabla del temario, a 10 000 ft AMSL o por encima la visibilidad de vuelo relevante es 8 km."
   },
   {
@@ -502,7 +502,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. VFR sobre zonas congestionadas: 1000 ft sobre el obstáculo más alto dentro de 600 m; en otras zonas, 500 ft sobre tierra/agua u obstáculo dentro de 150 m. IFR en terreno montañoso: 2000 ft sobre el obstáculo más alto dentro de 8 km; en otros casos, 1000 ft.",
       "NO — Comprueba el par completo de la regla, no solo una cifra: sobre zonas congestionadas VFR son 1000 ft sobre el obstáculo más alto dentro de 600 m; fuera de ellas la regla general es 500 ft/150 m."
     ],
-    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
+    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR (reglas de vuelo visual) exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
     "extra": "VFR sobre zonas congestionadas: 1000 ft sobre el obstáculo más alto dentro de 600 m; en otras zonas, 500 ft sobre tierra/agua u obstáculo dentro de 150 m. IFR en terreno montañoso: 2000 ft sobre el obstáculo más alto dentro de 8 km; en otros casos, 1000 ft."
   },
   {
@@ -524,7 +524,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — En terreno montañoso o elevado, la mínima IFR del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
       "NO — No encaja con las condiciones del enunciado. VFR sobre zonas congestionadas: 1000 ft sobre el obstáculo más alto dentro de 600 m; en otras zonas, 500 ft sobre tierra/agua u obstáculo dentro de 150 m. IFR en terreno montañoso: 2000 ft sobre el obstáculo más alto dentro de 8 km; en otros casos, 1000 ft."
     ],
-    "deepExp": "En terreno montañoso o elevado, la mínima IFR del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
+    "deepExp": "En terreno montañoso o elevado, la mínima IFR (reglas de vuelo por instrumentos) del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
     "extra": "VFR sobre zonas congestionadas: 1000 ft sobre el obstáculo más alto dentro de 600 m; en otras zonas, 500 ft sobre tierra/agua u obstáculo dentro de 150 m. IFR en terreno montañoso: 2000 ft sobre el obstáculo más alto dentro de 8 km; en otros casos, 1000 ft."
   },
   {
@@ -546,7 +546,7 @@ window.LEG_QUESTIONS = [
       "NO — 1 minuto es el tiempo de alejamiento a o por debajo de FL140; por encima de FL140 se usa 1 min 30 s.",
       "NO — No encaja con las condiciones del enunciado. En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
     ],
-    "deepExp": "FL110 está por debajo de FL140, por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 pasa a 1 minuto y 30 segundos. El límite de FL140 es el dato que decide entre los dos valores.",
+    "deepExp": "FL110 (nivel de vuelo 110) está por debajo de FL140 (nivel de vuelo 140), por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 (nivel de vuelo 140) pasa a 1 minuto y 30 segundos. El límite de FL140 (nivel de vuelo 140) es el dato que decide entre los dos valores.",
     "extra": "En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
   },
   {
@@ -592,7 +592,7 @@ window.LEG_QUESTIONS = [
       "NO — El Convenio se firmó en 1944. 1947 se asocia a la entrada en vigor/establecimiento de OACI como organismo especializado, no a la firma del Convenio.",
       "NO — El Convenio se firmó en 1944. 1947 se asocia a la entrada en vigor/establecimiento de OACI como organismo especializado, no a la firma del Convenio."
     ],
-    "deepExp": "El Convenio sobre Aviación Civil Internacional se firmó en Chicago en 1944. El Convenio de Aviación Civil Internacional se firmó en Chicago en 1944. La OACI comenzó formalmente como organismo especializado de la ONU en 1947.",
+    "deepExp": "El Convenio sobre Aviación Civil Internacional se firmó en Chicago en 1944. El Convenio de Aviación Civil Internacional se firmó en Chicago en 1944. La OACI (Organización de Aviación Civil Internacional) comenzó formalmente como organismo especializado de la ONU (Organización de las Naciones Unidas) en 1947.",
     "extra": "El Convenio de Aviación Civil Internacional se firmó en Chicago en 1944. La OACI comenzó formalmente como organismo especializado de la ONU en 1947."
   },
   {
@@ -615,7 +615,7 @@ window.LEG_QUESTIONS = [
       "NO — No corresponde al Anexo preguntado. Los distractores son materias reales de otros Anexos OACI, por lo que conviene asociar número y título como pareja fija.",
       "CORRECTA — El Anexo 2 de OACI corresponde a las Reglas del Aire. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
     ],
-    "deepExp": "El Anexo 2 de OACI corresponde a las Reglas del Aire. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
+    "deepExp": "El Anexo 2 de OACI (Organización de Aviación Civil Internacional) corresponde a las Reglas del Aire. Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS (servicios de tránsito aéreo), 12 SAR (búsqueda y salvamento), 13 investigación, 14 aeródromos, 15 AIS (servicio de información aeronáutica), 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos.",
     "extra": "Regla útil: 1 licencias, 2 reglas del aire, 10 telecomunicaciones, 11 ATS, 12 SAR, 13 investigación, 14 aeródromos, 15 AIS, 18 mercancías peligrosas y 19 safety management. Los distractores suelen ser títulos reales de otros anexos."
   },
   {
@@ -638,7 +638,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. EUROCONTROL realiza funciones paneuropeas y también opera el centro de control de área superior de Maastricht (MUAC), un ejemplo operativo que suele aparecer en test.",
       "NO — No encaja con las condiciones del enunciado. EUROCONTROL realiza funciones paneuropeas y también opera el centro de control de área superior de Maastricht (MUAC), un ejemplo operativo que suele aparecer en test."
     ],
-    "deepExp": "EUROCONTROL opera, entre otras actividades, el Maastricht Upper Area Control Centre (MUAC). EUROCONTROL realiza funciones paneuropeas y también opera el centro de control de área superior de Maastricht (MUAC), un ejemplo operativo que suele aparecer en test.",
+    "deepExp": "EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) opera, entre otras actividades, el Maastricht Upper Area Control Centre; MUAC (Centro de Control de Área Superior de Maastricht). EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea) realiza funciones paneuropeas y también opera el centro de control de área superior de Maastricht; MUAC (Centro de Control de Área Superior de Maastricht), un ejemplo operativo que suele aparecer en test.",
     "extra": "EUROCONTROL realiza funciones paneuropeas y también opera el centro de control de área superior de Maastricht (MUAC), un ejemplo operativo que suele aparecer en test."
   },
   {
@@ -661,7 +661,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — El Real Decreto 57/2002 aprueba el Reglamento de Circulación Aérea. El RD 57/2002 aprobó el Reglamento de Circulación Aérea (RCA). No debe confundirse con SERA ni con la Ley de Navegación Aérea.",
       "NO — Ese texto normativo no es el aprobado por el RD 57/2002. El RD 57/2002 aprueba el Reglamento de Circulación Aérea (RCA)."
     ],
-    "deepExp": "El Real Decreto 57/2002 aprueba el Reglamento de Circulación Aérea. El RD 57/2002 aprobó el Reglamento de Circulación Aérea (RCA). No debe confundirse con SERA ni con la Ley de Navegación Aérea.",
+    "deepExp": "El Real Decreto 57/2002 aprueba el Reglamento de Circulación Aérea. El RD (Real Decreto) 57/2002 aprobó el Reglamento de Circulación Aérea (RCA (Reglamento de Circulación Aérea)). No debe confundirse con SERA (Reglas del Aire y Servicios de Tránsito Aéreo) ni con la Ley de Navegación Aérea.",
     "extra": "El RD 57/2002 aprobó el Reglamento de Circulación Aérea (RCA). No debe confundirse con SERA ni con la Ley de Navegación Aérea."
   },
   {
@@ -684,7 +684,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — ESARR 5 se refiere a requisitos reglamentarios de seguridad para el personal ATM. ESARR 5 se refiere a requisitos de seguridad del personal ATM. La clave del test es asociar el número de ESARR con su ámbito, no con una función operativa del controlador.",
       "NO — ESARR 5 se centra en requisitos de seguridad relativos al personal ATM. Las otras opciones pertenecen a otros ámbitos de regulación/gestión de seguridad, no al objeto de ESARR 5."
     ],
-    "deepExp": "ESARR 5 se refiere a requisitos reglamentarios de seguridad para el personal ATM. ESARR 5 se refiere a requisitos de seguridad del personal ATM. La clave del test es asociar el número de ESARR con su ámbito, no con una función operativa del controlador.",
+    "deepExp": "ESARR (requisitos reglamentarios de seguridad ATM (gestión del tránsito aéreo)) 5 se refiere a requisitos reglamentarios de seguridad para el personal ATM (gestión del tránsito aéreo). ESARR (requisitos reglamentarios de seguridad ATM (gestión del tránsito aéreo)) 5 se refiere a requisitos de seguridad del personal ATM (gestión del tránsito aéreo). La clave del test es asociar el número de ESARR (requisitos reglamentarios de seguridad ATM (gestión del tránsito aéreo)) con su ámbito, no con una función operativa del controlador.",
     "extra": "ESARR 5 se refiere a requisitos de seguridad del personal ATM. La clave del test es asociar el número de ESARR con su ámbito, no con una función operativa del controlador."
   },
   {
@@ -730,7 +730,7 @@ window.LEG_QUESTIONS = [
       "NO — Esa combinación pertenece a otras anotaciones/habilitaciones. Para APS, el manual contempla anotaciones de vigilancia de aproximación como PAR/SRA; no todas las anotaciones son intercambiables entre habilitaciones.",
       "NO — ACP corresponde a control de área por procedimientos, no de aproximación."
     ],
-    "deepExp": "Entre las anotaciones asociadas a APS se encuentran PAR y SRA. No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación.",
+    "deepExp": "Entre las anotaciones asociadas a APS (control de vigilancia de aproximación) se encuentran PAR (radar de aproximación de precisión) y SRA (aproximación con radar de vigilancia). No confundas habilitación con anotación. APS (control de vigilancia de aproximación) es vigilancia de aproximación; APP (control de aproximación) es aproximación por procedimientos. Las anotaciones (como PAR (radar de aproximación de precisión)/SRA (aproximación con radar de vigilancia)) añaden capacidades concretas a una habilitación.",
     "extra": "No confundas habilitación con anotación. APS es vigilancia de aproximación; APP es aproximación por procedimientos. Las anotaciones (como PAR/SRA) añaden capacidades concretas a una habilitación."
   },
   {
@@ -753,7 +753,7 @@ window.LEG_QUESTIONS = [
       "NO — ATC es servicio de control de tránsito aéreo. Por tanto, aunque sea un concepto aeronáutico válido, no cumple la categoría concreta solicitada por el enunciado.",
       "CORRECTA — CNS es un conjunto de servicios de comunicaciones, navegación y vigilancia; no es uno de los servicios ATS definidos como ATC, FIS y servicio de alerta. ATS comprende ATC, FIS y servicio de alerta. CNS es infraestructura/servicio de navegación aérea, pero no un servicio ATS."
     ],
-    "deepExp": "CNS es un conjunto de servicios de comunicaciones, navegación y vigilancia; no es uno de los servicios ATS definidos como ATC, FIS y servicio de alerta. ATS comprende ATC, FIS y servicio de alerta. CNS es infraestructura/servicio de navegación aérea, pero no un servicio ATS.",
+    "deepExp": "CNS (comunicaciones, navegación y vigilancia) es un conjunto de servicios de comunicaciones, navegación y vigilancia; no es uno de los servicios ATS (servicios de tránsito aéreo) definidos como ATC (control de tránsito aéreo), FIS y servicio de alerta. ATS (servicios de tránsito aéreo) comprende ATC (control de tránsito aéreo), FIS y servicio de alerta. CNS (comunicaciones, navegación y vigilancia) es infraestructura/servicio de navegación aérea, pero no un servicio ATS (servicios de tránsito aéreo).",
     "extra": "ATS comprende ATC, FIS y servicio de alerta. CNS es infraestructura/servicio de navegación aérea, pero no un servicio ATS."
   },
   {
@@ -776,7 +776,7 @@ window.LEG_QUESTIONS = [
       "NO — CNS (comunicaciones, navegación y vigilancia) es un servicio/infraestructura de navegación aérea, pero no uno de los servicios ATS. Por tanto, aunque sea un concepto aeronáutico válido, no cumple la categoría concreta solicitada por el enunciado.",
       "NO — No encaja con las condiciones del enunciado. Dentro de las telecomunicaciones aeronáuticas existen servicios como el móvil aeronáutico. No hay que confundir “servicio de comunicaciones” con servicios ATS como asesoramiento o alerta."
     ],
-    "deepExp": "El servicio móvil aeronáutico es un servicio de comunicaciones aeronáuticas. Dentro de las telecomunicaciones aeronáuticas existen servicios como el móvil aeronáutico. No hay que confundir “servicio de comunicaciones” con servicios ATS como asesoramiento o alerta.",
+    "deepExp": "El servicio móvil aeronáutico es un servicio de comunicaciones aeronáuticas. Dentro de las telecomunicaciones aeronáuticas existen servicios como el móvil aeronáutico. No hay que confundir “servicio de comunicaciones” con servicios ATS (servicios de tránsito aéreo) como asesoramiento o alerta.",
     "extra": "Dentro de las telecomunicaciones aeronáuticas existen servicios como el móvil aeronáutico. No hay que confundir “servicio de comunicaciones” con servicios ATS como asesoramiento o alerta."
   },
   {
@@ -822,7 +822,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
       "NO — Comprueba el par completo de la regla, no solo una cifra: sobre zonas congestionadas VFR son 1000 ft sobre el obstáculo más alto dentro de 600 m; fuera de ellas la regla general es 500 ft/150 m."
     ],
-    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
+    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR (reglas de vuelo visual) exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
     "extra": "Memoria: “1000/600 en ciudad; 500/150 fuera”. Son dos pares distintos: altura vertical y radio horizontal de obstáculos."
   },
   {
@@ -845,7 +845,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — La autorización ATC es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”.",
       "NO — Ser VFR no elimina automáticamente la necesidad de autorización. La autorización se exige cuando el vuelo, total o parcialmente, opera como vuelo controlado en un espacio/procedimiento que la requiera; las otras opciones generalizan por exceso o por defecto."
     ],
-    "deepExp": "La autorización ATC es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”.",
+    "deepExp": "La autorización ATC (control de tránsito aéreo) es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR (reglas de vuelo visual) necesita autorización ATC (control de tránsito aéreo) cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR (reglas de vuelo visual) no significa automáticamente “sin autorización”.",
     "extra": "Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”."
   },
   {
@@ -868,7 +868,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — Con QNH, la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH → ALT es la asociación correcta.",
       "NO — No encaja con las condiciones del enunciado. Trío básico: QNH → altitud; QFE → altura respecto al datum; 1013,2 hPa → nivel de vuelo. Muchos test cambian solo la referencia de presión."
     ],
-    "deepExp": "Con QNH, la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH → ALT es la asociación correcta.",
+    "deepExp": "Con QNH (reglaje altimétrico referido al nivel medio del mar), la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH (reglaje altimétrico referido al nivel medio del mar) → ALT es la asociación correcta.",
     "extra": "Trío básico: QNH → altitud; QFE → altura respecto al datum; 1013,2 hPa → nivel de vuelo. Muchos test cambian solo la referencia de presión."
   },
   {
@@ -891,7 +891,7 @@ window.LEG_QUESTIONS = [
       "NO — En IFR, el terreno montañoso/elevado exige 2000 ft (600 m) sobre el obstáculo más alto dentro de 8 km. Los 1000 ft (300 m) son el mínimo general de otros terrenos, salvo mínimos superiores publicados.",
       "NO — En IFR, el terreno montañoso/elevado exige 2000 ft (600 m) sobre el obstáculo más alto dentro de 8 km. Los 1000 ft (300 m) son el mínimo general de otros terrenos, salvo mínimos superiores publicados."
     ],
-    "deepExp": "En terreno montañoso o elevado, la mínima IFR del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
+    "deepExp": "En terreno montañoso o elevado, la mínima IFR (reglas de vuelo por instrumentos) del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
     "extra": "Memoria: terreno montañoso/elevado = 2000 ft (600 m) dentro de 8 km; resto = 1000 ft (300 m) dentro de 8 km, salvo mínimos publicados o excepciones de despegue/aterrizaje."
   },
   {
@@ -914,7 +914,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — El límite inferior de una CTA se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
       "NO — No encaja con las condiciones del enunciado. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
     ],
-    "deepExp": "El límite inferior de una CTA se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
+    "deepExp": "El límite inferior de una CTA (área de control) se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC (control de tránsito aéreo) y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR (reglas de vuelo por instrumentos); B admite IFR (reglas de vuelo por instrumentos) y VFR (reglas de vuelo visual) y separa a todos.",
     "extra": "La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
   },
   {
@@ -937,7 +937,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Clase B: IFR y VFR, separación entre todas las aeronaves. Clase C: VFR separado de IFR, pero no de otros VFR. Esa diferencia suele ser el distractor principal.",
       "CORRECTA — La clase B admite vuelos IFR y VFR y ATC proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR se separa de IFR pero no de otros VFR. El distractor “solo IFR” describe la clase A."
     ],
-    "deepExp": "La clase B admite vuelos IFR y VFR y ATC proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR se separa de IFR pero no de otros VFR. El distractor “solo IFR” describe la clase A.",
+    "deepExp": "La clase B admite vuelos IFR (reglas de vuelo por instrumentos) y VFR (reglas de vuelo visual) y ATC (control de tránsito aéreo) proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR (reglas de vuelo visual) se separa de IFR (reglas de vuelo por instrumentos) pero no de otros VFR (reglas de vuelo visual). El distractor “solo IFR (reglas de vuelo por instrumentos)” describe la clase A.",
     "extra": "Clase B: IFR y VFR, separación entre todas las aeronaves. Clase C: VFR separado de IFR, pero no de otros VFR. Esa diferencia suele ser el distractor principal."
   },
   {
@@ -960,7 +960,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
     ],
-    "deepExp": "Entre los supuestos de presentación de plan de vuelo figuran los vuelos a través de fronteras internacionales, salvo disposición contraria. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "Entre los supuestos de presentación de plan de vuelo figuran los vuelos a través de fronteras internacionales, salvo disposición contraria. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -983,7 +983,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento.",
       "CORRECTA — FL110 está por debajo de FL140, por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 pasa a 1 minuto y 30 segundos. El límite de FL140 es el dato que decide entre los dos valores."
     ],
-    "deepExp": "FL110 está por debajo de FL140, por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 pasa a 1 minuto y 30 segundos. El límite de FL140 es el dato que decide entre los dos valores.",
+    "deepExp": "FL110 (nivel de vuelo 110) está por debajo de FL140 (nivel de vuelo 140), por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 (nivel de vuelo 140) pasa a 1 minuto y 30 segundos. El límite de FL140 (nivel de vuelo 140) es el dato que decide entre los dos valores.",
     "extra": "En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
   },
   {
@@ -1006,7 +1006,7 @@ window.LEG_QUESTIONS = [
       "NO — “Segregada” no es un procedimiento de entrada a una espera OACI.",
       "NO — “Independiente” no es una entrada de espera OACI; puede aparecer en otros contextos operacionales, pero no como entrada al patrón."
     ],
-    "deepExp": "La entrada paralela es una de las tres entradas OACI por sectores, junto con la desplazada/offset (gota) y la directa. “Segregada”, “indirecta” o “independiente” no son denominaciones de entrada del procedimiento de espera descrito en el manual.",
+    "deepExp": "La entrada paralela es una de las tres entradas OACI (Organización de Aviación Civil Internacional) por sectores, junto con la desplazada/offset (gota) y la directa. “Segregada”, “indirecta” o “independiente” no son denominaciones de entrada del procedimiento de espera descrito en el manual.",
     "extra": "En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
   },
   {
@@ -1052,7 +1052,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
       "NO — Comprueba el par completo de la regla, no solo una cifra: sobre zonas congestionadas VFR son 1000 ft sobre el obstáculo más alto dentro de 600 m; fuera de ellas la regla general es 500 ft/150 m."
     ],
-    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
+    "deepExp": "Sobre zonas congestionadas, ciudades, pueblos o concentraciones de personas, la regla VFR (reglas de vuelo visual) exige al menos 300 m (1000 ft) sobre el obstáculo más alto situado dentro de un radio de 600 m. La cifra de 500 ft pertenece a la regla general fuera de esas zonas, por eso no es válida aquí. La pregunta mezcla deliberadamente la altura vertical con el radio horizontal de protección.",
     "extra": "Memoria: “1000/600 en ciudad; 500/150 fuera”. Son dos pares distintos: altura vertical y radio horizontal de obstáculos."
   },
   {
@@ -1075,7 +1075,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — La autorización ATC es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”.",
       "NO — Ser VFR no elimina automáticamente la necesidad de autorización. La autorización se exige cuando el vuelo, total o parcialmente, opera como vuelo controlado en un espacio/procedimiento que la requiera; las otras opciones generalizan por exceso o por defecto."
     ],
-    "deepExp": "La autorización ATC es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”.",
+    "deepExp": "La autorización ATC (control de tránsito aéreo) es necesaria para la parte del vuelo que vaya a efectuarse como vuelo controlado en espacio en el que se requiera autorización. Un vuelo VFR (reglas de vuelo visual) necesita autorización ATC (control de tránsito aéreo) cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR (reglas de vuelo visual) no significa automáticamente “sin autorización”.",
     "extra": "Un vuelo VFR necesita autorización ATC cuando opera como vuelo controlado en un espacio/procedimiento que la exige. Ser VFR no significa automáticamente “sin autorización”."
   },
   {
@@ -1098,7 +1098,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — Con QNH, la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH → ALT es la asociación correcta.",
       "NO — No encaja con las condiciones del enunciado. Trío básico: QNH → altitud; QFE → altura respecto al datum; 1013,2 hPa → nivel de vuelo. Muchos test cambian solo la referencia de presión."
     ],
-    "deepExp": "Con QNH, la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH → ALT es la asociación correcta.",
+    "deepExp": "Con QNH (reglaje altimétrico referido al nivel medio del mar), la referencia es el nivel medio del mar y la posición vertical se expresa como altitud. Un nivel de vuelo usa la presión estándar 1013,2 hPa; una altura se refiere a un datum diferente, típicamente el aeródromo/terreno. Por tanto, QNH (reglaje altimétrico referido al nivel medio del mar) → ALT es la asociación correcta.",
     "extra": "Trío básico: QNH → altitud; QFE → altura respecto al datum; 1013,2 hPa → nivel de vuelo. Muchos test cambian solo la referencia de presión."
   },
   {
@@ -1121,7 +1121,7 @@ window.LEG_QUESTIONS = [
       "NO — En IFR, el terreno montañoso/elevado exige 2000 ft (600 m) sobre el obstáculo más alto dentro de 8 km. Los 1000 ft (300 m) son el mínimo general de otros terrenos, salvo mínimos superiores publicados.",
       "NO — En IFR, el terreno montañoso/elevado exige 2000 ft (600 m) sobre el obstáculo más alto dentro de 8 km. Los 1000 ft (300 m) son el mínimo general de otros terrenos, salvo mínimos superiores publicados."
     ],
-    "deepExp": "En terreno montañoso o elevado, la mínima IFR del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
+    "deepExp": "En terreno montañoso o elevado, la mínima IFR (reglas de vuelo por instrumentos) del supuesto es 600 m (2000 ft) sobre el obstáculo más alto dentro de un radio de 8 km. Los 300 m (1000 ft) corresponden al mínimo general fuera de terreno montañoso cuando no hay una altitud mínima superior publicada. La clave es identificar “terreno montañoso/elevado”.",
     "extra": "Memoria: terreno montañoso/elevado = 2000 ft (600 m) dentro de 8 km; resto = 1000 ft (300 m) dentro de 8 km, salvo mínimos publicados o excepciones de despegue/aterrizaje."
   },
   {
@@ -1144,7 +1144,7 @@ window.LEG_QUESTIONS = [
       "CORRECTA — El límite inferior de una CTA se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
       "NO — No encaja con las condiciones del enunciado. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
     ],
-    "deepExp": "El límite inferior de una CTA se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos.",
+    "deepExp": "El límite inferior de una CTA (área de control) se establecerá a una altura no inferior a 200 m (700 ft) sobre el terreno o agua. La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC (control de tránsito aéreo) y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR (reglas de vuelo por instrumentos); B admite IFR (reglas de vuelo por instrumentos) y VFR (reglas de vuelo visual) y separa a todos.",
     "extra": "La letra de la clase determina qué vuelos se admiten, qué separación proporciona ATC y qué requisitos de autorización/comunicación existen. A y B son fáciles de confundir: A solo IFR; B admite IFR y VFR y separa a todos."
   },
   {
@@ -1167,7 +1167,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Clase B: IFR y VFR, separación entre todas las aeronaves. Clase C: VFR separado de IFR, pero no de otros VFR. Esa diferencia suele ser el distractor principal.",
       "CORRECTA — La clase B admite vuelos IFR y VFR y ATC proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR se separa de IFR pero no de otros VFR. El distractor “solo IFR” describe la clase A."
     ],
-    "deepExp": "La clase B admite vuelos IFR y VFR y ATC proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR se separa de IFR pero no de otros VFR. El distractor “solo IFR” describe la clase A.",
+    "deepExp": "La clase B admite vuelos IFR (reglas de vuelo por instrumentos) y VFR (reglas de vuelo visual) y ATC (control de tránsito aéreo) proporciona separación entre todas las aeronaves. Es precisamente lo que la distingue de la clase C: en C, un VFR (reglas de vuelo visual) se separa de IFR (reglas de vuelo por instrumentos) pero no de otros VFR (reglas de vuelo visual). El distractor “solo IFR (reglas de vuelo por instrumentos)” describe la clase A.",
     "extra": "Clase B: IFR y VFR, separación entre todas las aeronaves. Clase C: VFR separado de IFR, pero no de otros VFR. Esa diferencia suele ser el distractor principal."
   },
   {
@@ -1190,7 +1190,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
       "NO — No encaja con las condiciones del enunciado. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
     ],
-    "deepExp": "Entre los supuestos de presentación de plan de vuelo figuran los vuelos a través de fronteras internacionales, salvo disposición contraria. Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito.",
+    "deepExp": "Entre los supuestos de presentación de plan de vuelo figuran los vuelos a través de fronteras internacionales, salvo disposición contraria. Números que conviene separar: FPL (plan de vuelo) previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS (sistema integrado inicial de procesamiento de planes de vuelo) procesa principalmente IFR (reglas de vuelo por instrumentos)/GAT (tránsito aéreo general) en su ámbito.",
     "extra": "Números que conviene separar: FPL previo, regla general 60 min antes; si se presenta en vuelo, debe llegar con al menos 10 min antes del punto pertinente; la antelación máxima indicada en el temario es 120 h. IFPS procesa principalmente IFR/GAT en su ámbito."
   },
   {
@@ -1213,7 +1213,7 @@ window.LEG_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento.",
       "CORRECTA — FL110 está por debajo de FL140, por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 pasa a 1 minuto y 30 segundos. El límite de FL140 es el dato que decide entre los dos valores."
     ],
-    "deepExp": "FL110 está por debajo de FL140, por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 pasa a 1 minuto y 30 segundos. El límite de FL140 es el dato que decide entre los dos valores.",
+    "deepExp": "FL110 (nivel de vuelo 110) está por debajo de FL140 (nivel de vuelo 140), por lo que el tramo de alejamiento basado en tiempo dura 1 minuto. Por encima de FL140 (nivel de vuelo 140) pasa a 1 minuto y 30 segundos. El límite de FL140 (nivel de vuelo 140) es el dato que decide entre los dos valores.",
     "extra": "En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
   },
   {
@@ -1236,7 +1236,7 @@ window.LEG_QUESTIONS = [
       "NO — “Segregada” no es un procedimiento de entrada a una espera OACI.",
       "NO — “Independiente” no es una entrada de espera OACI; puede aparecer en otros contextos operacionales, pero no como entrada al patrón."
     ],
-    "deepExp": "La entrada paralela es una de las tres entradas OACI por sectores, junto con la desplazada/offset (gota) y la directa. “Segregada”, “indirecta” o “independiente” no son denominaciones de entrada del procedimiento de espera descrito en el manual.",
+    "deepExp": "La entrada paralela es una de las tres entradas OACI (Organización de Aviación Civil Internacional) por sectores, junto con la desplazada/offset (gota) y la directa. “Segregada”, “indirecta” o “independiente” no son denominaciones de entrada del procedimiento de espera descrito en el manual.",
     "extra": "En espera basada en tiempo: 1 min a o por debajo de FL140 y 1,5 min por encima. Entradas OACI: paralela, desplazada/offset (gota) y directa. El cronometraje del alejamiento empieza sobre/al través del fijo, lo que ocurra más tarde; si no puede determinarse el través, al completar el viraje de alejamiento."
   }
 ];

@@ -18,7 +18,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La mínima horizontal general basada en vigilancia ATS es 5 NM. Los 3 NM son una reducción que exige que la capacidad del sistema y los procedimientos del lugar lo permitan; 2,5 NM es una reducción todavía más específica para sucesivas en aproximación final, con condiciones adicionales. Por eso el enunciado “salvo que se prescriba otra” apunta a 5 NM.",
       "NO — No encaja con las condiciones del enunciado. Jerarquía que conviene memorizar: 5 NM es la mínima horizontal general de vigilancia; puede reducirse a 3 NM si el sistema/procedimiento lo permite; y en aproximación final puede existir 2,5 NM bajo condiciones adicionales muy concretas. No se elige el número “más seguro”, sino el que corresponde al supuesto."
     ],
-    "deepExp": "La mínima horizontal general basada en vigilancia ATS es 5 NM. Los 3 NM son una reducción que exige que la capacidad del sistema y los procedimientos del lugar lo permitan; 2,5 NM es una reducción todavía más específica para sucesivas en aproximación final, con condiciones adicionales. Por eso el enunciado “salvo que se prescriba otra” apunta a 5 NM.",
+    "deepExp": "La mínima horizontal general basada en vigilancia ATS (servicios de tránsito aéreo) es 5 NM (milla náutica). Los 3 NM (milla náutica) son una reducción que exige que la capacidad del sistema y los procedimientos del lugar lo permitan; 2,5 NM (milla náutica) es una reducción todavía más específica para sucesivas en aproximación final, con condiciones adicionales. Por eso el enunciado “salvo que se prescriba otra” apunta a 5 NM (milla náutica).",
     "extra": "Jerarquía que conviene memorizar: 5 NM es la mínima horizontal general de vigilancia; puede reducirse a 3 NM si el sistema/procedimiento lo permite; y en aproximación final puede existir 2,5 NM bajo condiciones adicionales muy concretas. No se elige el número “más seguro”, sino el que corresponde al supuesto."
   },
   {
@@ -40,7 +40,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La mínima general es 5 NM, pero el proveedor puede reducirla hasta 3 NM cuando la capacidad de radar/ADS-B/MLAT y el entorno operacional lo permiten. El límite “nunca inferior a 3 NM” es lo que descarta 2 y 2,5 NM para este supuesto general de reducción.",
       "NO — No encaja con las condiciones del enunciado. Jerarquía que conviene memorizar: 5 NM es la mínima horizontal general de vigilancia; puede reducirse a 3 NM si el sistema/procedimiento lo permite; y en aproximación final puede existir 2,5 NM bajo condiciones adicionales muy concretas. No se elige el número “más seguro”, sino el que corresponde al supuesto."
     ],
-    "deepExp": "La mínima general es 5 NM, pero el proveedor puede reducirla hasta 3 NM cuando la capacidad de radar/ADS-B/MLAT y el entorno operacional lo permiten. El límite “nunca inferior a 3 NM” es lo que descarta 2 y 2,5 NM para este supuesto general de reducción.",
+    "deepExp": "La mínima general es 5 NM (milla náutica), pero el proveedor puede reducirla hasta 3 NM (milla náutica) cuando la capacidad de radar/ADS-B (vigilancia dependiente automática por radiodifusión)/MLAT (multilateración) y el entorno operacional lo permiten. El límite “nunca inferior a 3 NM (milla náutica)” es lo que descarta 2 y 2,5 NM (milla náutica) para este supuesto general de reducción.",
     "extra": "Jerarquía que conviene memorizar: 5 NM es la mínima horizontal general de vigilancia; puede reducirse a 3 NM si el sistema/procedimiento lo permite; y en aproximación final puede existir 2,5 NM bajo condiciones adicionales muy concretas. No se elige el número “más seguro”, sino el que corresponde al supuesto."
   },
   {
@@ -62,7 +62,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Los 2,5 NM solo aparecen en un escenario de aproximación final sucesiva y con condiciones adicionales: entre ellas, distancia al extremo de pista, capacidad de vigilancia y criterios de ocupación de pista. No es la mínima general de vigilancia ni la reducción general a 3 NM.",
       "NO — 3 NM es la reducción general posible cuando la capacidad del sistema/procedimiento lo permite; no es la mínima general de 5 NM ni la reducción especial de 2,5 NM en final."
     ],
-    "deepExp": "Los 2,5 NM solo aparecen en un escenario de aproximación final sucesiva y con condiciones adicionales: entre ellas, distancia al extremo de pista, capacidad de vigilancia y criterios de ocupación de pista. No es la mínima general de vigilancia ni la reducción general a 3 NM.",
+    "deepExp": "Los 2,5 NM (milla náutica) solo aparecen en un escenario de aproximación final sucesiva y con condiciones adicionales: entre ellas, distancia al extremo de pista, capacidad de vigilancia y criterios de ocupación de pista. No es la mínima general de vigilancia ni la reducción general a 3 NM (milla náutica).",
     "extra": "Jerarquía que conviene memorizar: 5 NM es la mínima horizontal general de vigilancia; puede reducirse a 3 NM si el sistema/procedimiento lo permite; y en aproximación final puede existir 2,5 NM bajo condiciones adicionales muy concretas. No se elige el número “más seguro”, sino el que corresponde al supuesto."
   },
   {
@@ -84,7 +84,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado.",
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado."
     ],
-    "deepExp": "SÚPER seguida por PESADA: 5 NM. Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
+    "deepExp": "SÚPER seguida por PESADA: 5 NM (milla náutica). Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
     "extra": "Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor."
   },
   {
@@ -106,7 +106,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado.",
       "CORRECTA — SÚPER seguida por LIGERA: 8 NM. Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor."
     ],
-    "deepExp": "SÚPER seguida por LIGERA: 8 NM. Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
+    "deepExp": "SÚPER seguida por LIGERA: 8 NM (milla náutica). Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
     "extra": "Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor."
   },
   {
@@ -128,7 +128,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — PESADA seguida por LIGERA: 6 NM. Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado."
     ],
-    "deepExp": "PESADA seguida por LIGERA: 6 NM. Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
+    "deepExp": "PESADA seguida por LIGERA: 6 NM (milla náutica). Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor.",
     "extra": "Primero identifica la categoría de la precedente y de la sucesiva, después si la mínima es por distancia o por tiempo y, por último, el escenario (llegada, salida, intersección, pista paralela). Cambiar una sola de esas condiciones cambia el valor."
   },
   {
@@ -282,7 +282,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Puede aplicarse 150 km (80 NM) con técnica de Mach basada en distancia RNAV, cumpliendo las condiciones del procedimiento. En la técnica RNAV/Mach puede utilizarse 80 NM en lugar de 10 min cuando se cumplen las condiciones del procedimiento. Es una mínima basada en distancia, no una simple conversión de minutos a millas.",
       "NO — No encaja con las condiciones del enunciado. En la técnica RNAV/Mach puede utilizarse 80 NM en lugar de 10 min cuando se cumplen las condiciones del procedimiento. Es una mínima basada en distancia, no una simple conversión de minutos a millas."
     ],
-    "deepExp": "Puede aplicarse 150 km (80 NM) con técnica de Mach basada en distancia RNAV, cumpliendo las condiciones del procedimiento. En la técnica RNAV/Mach puede utilizarse 80 NM en lugar de 10 min cuando se cumplen las condiciones del procedimiento. Es una mínima basada en distancia, no una simple conversión de minutos a millas.",
+    "deepExp": "Puede aplicarse 150 km (80 NM (milla náutica)) con técnica de Mach basada en distancia RNAV (navegación de área), cumpliendo las condiciones del procedimiento. En la técnica RNAV (navegación de área)/Mach puede utilizarse 80 NM (milla náutica) en lugar de 10 min cuando se cumplen las condiciones del procedimiento. Es una mínima basada en distancia, no una simple conversión de minutos a millas.",
     "extra": "En la técnica RNAV/Mach puede utilizarse 80 NM en lugar de 10 min cuando se cumplen las condiciones del procedimiento. Es una mínima basada en distancia, no una simple conversión de minutos a millas."
   },
   {
@@ -304,7 +304,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
       "NO — No encaja con las condiciones del enunciado. En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria."
     ],
-    "deepExp": "Los niveles de vuelo se transmiten dígito a dígito, salvo los niveles en centenas redondas (por ejemplo FL100). En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
+    "deepExp": "Los niveles de vuelo se transmiten dígito a dígito, salvo los niveles en centenas redondas (por ejemplo FL100 (nivel de vuelo 100)). En RTF (radiotelefonía) la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
     "extra": "En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria."
   },
   {
@@ -326,7 +326,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
       "NO — No encaja con las condiciones del enunciado. En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria."
     ],
-    "deepExp": "El reglaje de altímetro se transmite dígito a dígito, salvo 1000 hPa, que se transmite como MIL / ONE THOUSAND. En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
+    "deepExp": "El reglaje de altímetro se transmite dígito a dígito, salvo 1000 hPa, que se transmite como MIL / ONE THOUSAND. En RTF (radiotelefonía) la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria.",
     "extra": "En RTF la regla general es dígito a dígito, con excepciones normalizadas. El examen suele mezclar una forma “matemáticamente natural” con la forma fraseológica reglamentaria."
   },
   {
@@ -392,7 +392,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Se colacionan elementos con impacto directo en la trayectoria/autorización: pista, QNH, SSR, canal asignado, nivel, rumbo, velocidad y autorizaciones. Datos informativos como temperatura o aves no sustituyen esa lista obligatoria.",
       "NO — No encaja con las condiciones del enunciado. Se colacionan elementos con impacto directo en la trayectoria/autorización: pista, QNH, SSR, canal asignado, nivel, rumbo, velocidad y autorizaciones. Datos informativos como temperatura o aves no sustituyen esa lista obligatoria."
     ],
-    "deepExp": "Entre los elementos que siempre se colacionan están pista en uso, QNH, códigos SSR, canales recién asignados, nivel, rumbo y velocidad, además de autorizaciones de ruta y de pista. Se colacionan elementos con impacto directo en la trayectoria/autorización: pista, QNH, SSR, canal asignado, nivel, rumbo, velocidad y autorizaciones. Datos informativos como temperatura o aves no sustituyen esa lista obligatoria.",
+    "deepExp": "Entre los elementos que siempre se colacionan están pista en uso, QNH (reglaje altimétrico referido al nivel medio del mar), códigos SSR (radar secundario de vigilancia), canales recién asignados, nivel, rumbo y velocidad, además de autorizaciones de ruta y de pista. Se colacionan elementos con impacto directo en la trayectoria/autorización: pista, QNH (reglaje altimétrico referido al nivel medio del mar), SSR (radar secundario de vigilancia), canal asignado, nivel, rumbo, velocidad y autorizaciones. Datos informativos como temperatura o aves no sustituyen esa lista obligatoria.",
     "extra": "Se colacionan elementos con impacto directo en la trayectoria/autorización: pista, QNH, SSR, canal asignado, nivel, rumbo, velocidad y autorizaciones. Datos informativos como temperatura o aves no sustituyen esa lista obligatoria."
   },
   {
@@ -480,7 +480,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Nivel 1, estratégico: política nacional/internacional y planificación a largo plazo mediante proceso civil-militar conjunto. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
       "NO — No encaja con las condiciones del enunciado. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
     ],
-    "deepExp": "Nivel 1, estratégico: política nacional/internacional y planificación a largo plazo mediante proceso civil-militar conjunto. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
+    "deepExp": "Nivel 1, estratégico: política nacional/internacional y planificación a largo plazo mediante proceso civil-militar conjunto. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC (célula de gestión del espacio aéreo); táctico = uso/activación/reasignación en tiempo real.",
     "extra": "Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
   },
   {
@@ -502,7 +502,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
       "NO — No encaja con las condiciones del enunciado. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
     ],
-    "deepExp": "Nivel 2, pre-táctico: gestión diaria y asignación temporal de espacio aéreo el día anterior a las operaciones por el AMC. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
+    "deepExp": "Nivel 2, pre-táctico: gestión diaria y asignación temporal de espacio aéreo el día anterior a las operaciones por el AMC (célula de gestión del espacio aéreo). Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC (célula de gestión del espacio aéreo); táctico = uso/activación/reasignación en tiempo real.",
     "extra": "Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
   },
   {
@@ -524,7 +524,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
       "NO — No encaja con las condiciones del enunciado. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
     ],
-    "deepExp": "Nivel 3, táctico: gestión en tiempo real del espacio aéreo, incluida activación, desactivación o reasignación. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real.",
+    "deepExp": "Nivel 3, táctico: gestión en tiempo real del espacio aéreo, incluida activación, desactivación o reasignación. Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC (célula de gestión del espacio aéreo); táctico = uso/activación/reasignación en tiempo real.",
     "extra": "Tres niveles: estratégico = política/planificación a largo plazo; pre-táctico = asignación diaria el día anterior por AMC; táctico = uso/activación/reasignación en tiempo real."
   },
   {
@@ -546,7 +546,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. El AMC civil-militar prepara el AUP para el día siguiente. El UUP actualiza ese plan cuando cambia la disponibilidad de estructuras flexibles.",
       "NO — No encaja con las condiciones del enunciado. El AMC civil-militar prepara el AUP para el día siguiente. El UUP actualiza ese plan cuando cambia la disponibilidad de estructuras flexibles."
     ],
-    "deepExp": "El Grupo de Gestión del Espacio Aéreo (AMC), conjunto civil/militar, prepara el Airspace Use Plan (AUP). El AMC civil-militar prepara el AUP para el día siguiente. El UUP actualiza ese plan cuando cambia la disponibilidad de estructuras flexibles.",
+    "deepExp": "El Grupo de Gestión del Espacio Aéreo (AMC (célula de gestión del espacio aéreo)), conjunto civil/militar, prepara el Airspace Use Plan (AUP (plan de utilización del espacio aéreo)). El AMC (célula de gestión del espacio aéreo) civil-militar prepara el AUP (plan de utilización del espacio aéreo) para el día siguiente. El UUP (plan actualizado de utilización del espacio aéreo) actualiza ese plan cuando cambia la disponibilidad de estructuras flexibles.",
     "extra": "El AMC civil-militar prepara el AUP para el día siguiente. El UUP actualiza ese plan cuando cambia la disponibilidad de estructuras flexibles."
   },
   {
@@ -568,7 +568,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La fase estratégica tiene lugar en un período no menor de siete días respecto del día de operación. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
       "NO — No encaja con las condiciones del enunciado. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas."
     ],
-    "deepExp": "La fase estratégica tiene lugar en un período no menor de siete días respecto del día de operación. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
+    "deepExp": "La fase estratégica tiene lugar en un período no menor de siete días respecto del día de operación. Fases ATFCM (gestión de afluencia y capacidad del tránsito aéreo): estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
     "extra": "Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas."
   },
   {
@@ -590,7 +590,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
       "NO — No encaja con las condiciones del enunciado. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas."
     ],
-    "deepExp": "La planificación pre-táctica se sitúa entre seis días antes y el día anterior a la operación y ajusta el plan estratégico con datos actualizados. Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
+    "deepExp": "La planificación pre-táctica se sitúa entre seis días antes y el día anterior a la operación y ajusta el plan estratégico con datos actualizados. Fases ATFCM (gestión de afluencia y capacidad del tránsito aéreo): estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas.",
     "extra": "Fases ATFCM: estratégica ≥7 días; pre-táctica de D−6 a D−1; táctica el día de operación. Las respuestas suelen ser las tres fases intercambiadas."
   },
   {
@@ -612,7 +612,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica.",
       "NO — No encaja con las condiciones del enunciado. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica."
     ],
-    "deepExp": "El SAM (Slot Allocation Message) notifica el slot ATFM y contiene el CTOT calculado. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica.",
+    "deepExp": "El SAM (Slot Allocation Message) notifica el slot ATFM (gestión de afluencia del tránsito aéreo) y contiene el CTOT (hora calculada de despegue) calculado. SAM (mensaje de asignación de slot) comunica el slot y CTOT (hora calculada de despegue). La ventana operativa del CTOT (hora calculada de despegue) del temario es −5/+10 min; no es una tolerancia simétrica.",
     "extra": "SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica."
   },
   {
@@ -634,7 +634,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica.",
       "NO — No encaja con las condiciones del enunciado. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica."
     ],
-    "deepExp": "La ventana de aplicación indicada es CTOT −5 minutos / +10 minutos. SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica.",
+    "deepExp": "La ventana de aplicación indicada es CTOT (hora calculada de despegue) −5 minutos / +10 minutos. SAM (mensaje de asignación de slot) comunica el slot y CTOT (hora calculada de despegue). La ventana operativa del CTOT (hora calculada de despegue) del temario es −5/+10 min; no es una tolerancia simétrica.",
     "extra": "SAM comunica el slot y CTOT. La ventana operativa del CTOT del temario es −5/+10 min; no es una tolerancia simétrica."
   },
   {
@@ -656,7 +656,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — INCERFA corresponde a la fase de incertidumbre, cuando existe duda sobre la seguridad de la aeronave y sus ocupantes. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
       "NO — No es la fase que corresponde al grado de incertidumbre/preocupación/peligro descrito en el enunciado."
     ],
-    "deepExp": "INCERFA corresponde a la fase de incertidumbre, cuando existe duda sobre la seguridad de la aeronave y sus ocupantes. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
+    "deepExp": "INCERFA (fase de incertidumbre) corresponde a la fase de incertidumbre, cuando existe duda sobre la seguridad de la aeronave y sus ocupantes. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
     "extra": "Secuencia conceptual: INCERFA = duda; ALERFA = preocupación; DETRESFA = peligro grave/inminente y necesidad de ayuda. El salto de fase depende de la evidencia, no solo del tiempo transcurrido."
   },
   {
@@ -678,7 +678,7 @@ window.ATM_QUESTIONS = [
       "NO — DETRESFA es la fase de peligro: hay motivos razonables para creer que la aeronave y sus ocupantes están amenazados por un peligro grave e inminente y necesitan ayuda inmediata.",
       "NO — No es la fase que corresponde al grado de incertidumbre/preocupación/peligro descrito en el enunciado."
     ],
-    "deepExp": "Ese supuesto figura expresamente entre los criterios para declarar ALERFA, fase de alerta. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
+    "deepExp": "Ese supuesto figura expresamente entre los criterios para declarar ALERFA (fase de alerta), fase de alerta. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
     "extra": "Secuencia conceptual: INCERFA = duda; ALERFA = preocupación; DETRESFA = peligro grave/inminente y necesidad de ayuda. El salto de fase depende de la evidencia, no solo del tiempo transcurrido."
   },
   {
@@ -700,7 +700,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — DETRESFA es la fase de peligro. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
       "NO — No es la fase que corresponde al grado de incertidumbre/preocupación/peligro descrito en el enunciado."
     ],
-    "deepExp": "DETRESFA es la fase de peligro. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
+    "deepExp": "DETRESFA (fase de peligro) es la fase de peligro. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
     "extra": "Secuencia conceptual: INCERFA = duda; ALERFA = preocupación; DETRESFA = peligro grave/inminente y necesidad de ayuda. El salto de fase depende de la evidencia, no solo del tiempo transcurrido."
   },
   {
@@ -722,7 +722,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — STCA (Short Term Conflict Alert) ayuda a prevenir colisiones alertando de una infracción potencial o real de las mínimas de separación. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
       "NO — APM (Approach Path Monitor) vigila específicamente la trayectoria de aproximación final y alerta de desviaciones/proximidad al terreno en esa fase."
     ],
-    "deepExp": "STCA (Short Term Conflict Alert) ayuda a prevenir colisiones alertando de una infracción potencial o real de las mínimas de separación. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "STCA (Short Term Conflict Alert) ayuda a prevenir colisiones alertando de una infracción potencial o real de las mínimas de separación. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -744,7 +744,7 @@ window.ATM_QUESTIONS = [
       "NO — MSAW (Minimum Safe Altitude Warning) avisa de proximidad peligrosa al terreno u obstáculos respecto a una altitud mínima segura.",
       "NO — ACAS es un sistema de a bordo. Puede generar TA/RA al piloto; no es una safety net terrestre presentada al controlador."
     ],
-    "deepExp": "APW (Area Proximity Warning) alerta de penetraciones no autorizadas en un volumen de espacio aéreo. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "APW (Area Proximity Warning) alerta de penetraciones no autorizadas en un volumen de espacio aéreo. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -766,7 +766,7 @@ window.ATM_QUESTIONS = [
       "NO — STCA (Short Term Conflict Alert) es una safety net terrestre de corto plazo para alertar de una infracción potencial o real de separación entre aeronaves.",
       "NO — APW (Area Proximity Warning) avisa de una penetración no autorizada, prevista o real, en un volumen de espacio aéreo."
     ],
-    "deepExp": "MSAW (Minimum Safe Altitude Warning) alerta de riesgo de vuelo controlado contra el terreno por proximidad al terreno/obstáculos o violación de altitud mínima segura. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "MSAW (Minimum Safe Altitude Warning) alerta de riesgo de vuelo controlado contra el terreno por proximidad al terreno/obstáculos o violación de altitud mínima segura. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -788,7 +788,7 @@ window.ATM_QUESTIONS = [
       "NO — MSAW (Minimum Safe Altitude Warning) avisa de proximidad peligrosa al terreno u obstáculos respecto a una altitud mínima segura.",
       "CORRECTA — APM (Approach Path Monitor) está destinada a advertir del riesgo de proximidad al terreno u obstáculos durante la aproximación final. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM."
     ],
-    "deepExp": "APM (Approach Path Monitor) está destinada a advertir del riesgo de proximidad al terreno u obstáculos durante la aproximación final. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "APM (Approach Path Monitor) está destinada a advertir del riesgo de proximidad al terreno u obstáculos durante la aproximación final. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -854,7 +854,7 @@ window.ATM_QUESTIONS = [
       "NO — No corresponde a la combinación correcta entre magnético/verdadero y hacia/desde la estación.",
       "NO — No corresponde a la combinación correcta entre magnético/verdadero y hacia/desde la estación."
     ],
-    "deepExp": "QDM: rumbo magnético, sin viento, que debe seguir una aeronave para aproximarse a la estación. Para no confundirlos: QDM y QUJ son “hacia la estación” (magnético/verdadero respectivamente); QDR y QTE son marcaciones “desde la estación” (magnética/verdadera).",
+    "deepExp": "QDM (marcación magnética hacia la estación): rumbo magnético, sin viento, que debe seguir una aeronave para aproximarse a la estación. Para no confundirlos: QDM (marcación magnética hacia la estación) y QUJ (marcación verdadera hacia la estación) son “hacia la estación” (magnético/verdadero respectivamente); QDR (marcación magnética desde la estación) y QTE (marcación verdadera desde la estación) son marcaciones “desde la estación” (magnética/verdadera).",
     "extra": "Mnemotecnia: QDM “to station” magnético; QDR “from station” magnético; QTE “from station” verdadero; QUJ “to station” verdadero."
   },
   {
@@ -876,7 +876,7 @@ window.ATM_QUESTIONS = [
       "NO — QDR es la marcación magnética de la aeronave desde la estación; conceptualmente es el “bearing from” magnético.",
       "NO — QDR es la marcación magnética de la aeronave desde la estación; conceptualmente es el “bearing from” magnético."
     ],
-    "deepExp": "QDR es la marcación magnética de una aeronave respecto de la estación; QTE es la marcación verdadera (geográfica). Para no confundirlos: QDM y QUJ son “hacia la estación” (magnético/verdadero respectivamente); QDR y QTE son marcaciones “desde la estación” (magnética/verdadera).",
+    "deepExp": "QDR (marcación magnética desde la estación) es la marcación magnética de una aeronave respecto de la estación; QTE (marcación verdadera desde la estación) es la marcación verdadera (geográfica). Para no confundirlos: QDM (marcación magnética hacia la estación) y QUJ (marcación verdadera hacia la estación) son “hacia la estación” (magnético/verdadero respectivamente); QDR (marcación magnética desde la estación) y QTE (marcación verdadera desde la estación) son marcaciones “desde la estación” (magnética/verdadera).",
     "extra": "Mnemotecnia: QDM “to station” magnético; QDR “from station” magnético; QTE “from station” verdadero; QUJ “to station” verdadero."
   },
   {
@@ -899,7 +899,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
       "NO — No encaja con las condiciones del enunciado. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «1000 ft». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «1000 ft». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM (separación vertical mínima reducida) entre FL290 (nivel de vuelo 290) y FL410 (nivel de vuelo 410) la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM (separación vertical mínima reducida) con cualquier vuelo por encima de FL290 (nivel de vuelo 290).",
     "extra": "En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
   },
   {
@@ -922,7 +922,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
       "NO — No encaja con las condiciones del enunciado. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Requiere que las aeronaves primero sobrevuelen el punto de recorrido antes de ejecutar el viraje». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Requiere que las aeronaves primero sobrevuelen el punto de recorrido antes de ejecutar el viraje». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM (separación vertical mínima reducida) entre FL290 (nivel de vuelo 290) y FL410 (nivel de vuelo 410) la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM (separación vertical mínima reducida) con cualquier vuelo por encima de FL290 (nivel de vuelo 290).",
     "extra": "En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
   },
   {
@@ -945,7 +945,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «2000 ft por encima y por debajo de la aeronave exenta». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
       "NO — No encaja con las condiciones del enunciado. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «2000 ft por encima y por debajo de la aeronave exenta». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «2000 ft por encima y por debajo de la aeronave exenta». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. En RVSM (separación vertical mínima reducida) entre FL290 (nivel de vuelo 290) y FL410 (nivel de vuelo 410) la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM (separación vertical mínima reducida) con cualquier vuelo por encima de FL290 (nivel de vuelo 290).",
     "extra": "En RVSM entre FL290 y FL410 la mínima normal entre aeronaves aprobadas es 1000 ft. Si interviene una aeronave no aprobada/exenta, el supuesto puede exigir 2000 ft. No confundas la banda RVSM con cualquier vuelo por encima de FL290."
   },
   {
@@ -968,7 +968,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse.",
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «23 NM con diferencia angular entre derrotas medidas en el punto común de 15 a 135º». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «23 NM con diferencia angular entre derrotas medidas en el punto común de 15 a 135º». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «23 NM (milla náutica) con diferencia angular entre derrotas medidas en el punto común de 15 a 135º». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) y NDB (radiofaro no direccional) tienen criterios angulares distintos; además existen mínimas RNAV (navegación de área)/RNP (navegación basada en prestaciones con monitorización y alerta a bordo) específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
     "extra": "VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
   },
   {
@@ -991,7 +991,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse.",
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cuando la distancia entre cualquier combinación de derrotas RNAV 1 con RNAV 1, o RNP 1, RNP APCH o RNP AR APCH no sea inferior a 13 km (7 NM)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cuando la distancia entre cualquier combinación de derrotas RNAV (navegación de área) 1 con RNAV (navegación de área) 1, o RNP (navegación basada en prestaciones con monitorización y alerta a bordo) 1, RNP (navegación basada en prestaciones con monitorización y alerta a bordo) APCH (aproximación) o RNP (navegación basada en prestaciones con monitorización y alerta a bordo) AR (autorización requerida) APCH (aproximación) no sea inferior a 13 km (7 NM (milla náutica))». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) y NDB (radiofaro no direccional) tienen criterios angulares distintos; además existen mínimas RNAV (navegación de área)/RNP (navegación basada en prestaciones con monitorización y alerta a bordo) específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
     "extra": "VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
   },
   {
@@ -1014,7 +1014,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «Se prescriba una performance de navegación RNAV 10, RNP4 o RNP 2». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Se prescriba una performance de navegación RNAV 10, RNP4 o RNP 2». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Se prescriba una performance de navegación RNAV (navegación de área) 10, RNP4 (especificación RNP (navegación basada en prestaciones con monitorización y alerta a bordo) con precisión de 4 NM (milla náutica)) o RNP (navegación basada en prestaciones con monitorización y alerta a bordo) 2». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) y NDB (radiofaro no direccional) tienen criterios angulares distintos; además existen mínimas RNAV (navegación de área)/RNP (navegación basada en prestaciones con monitorización y alerta a bordo) específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
     "extra": "VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
   },
   {
@@ -1037,7 +1037,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse.",
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «30º por lo menos». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «30º por lo menos». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «30º por lo menos». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) y NDB (radiofaro no direccional) tienen criterios angulares distintos; además existen mínimas RNAV (navegación de área)/RNP (navegación basada en prestaciones con monitorización y alerta a bordo) específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
     "extra": "VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
   },
   {
@@ -1198,7 +1198,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «10 NM». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
       "NO — Ese valor corresponde a otro supuesto de separación longitudinal. Aquí cambian los requisitos según misma derrota, derrotas que se cruzan/opuestas, diferencia de velocidad o método DME/GNSS/RNP; por eso los minutos o millas no son intercambiables."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «10 NM». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «10 NM (milla náutica)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
     "extra": "La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables."
   },
   {
@@ -1221,7 +1221,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese valor corresponde a otro supuesto de separación longitudinal. Aquí cambian los requisitos según misma derrota, derrotas que se cruzan/opuestas, diferencia de velocidad o método DME/GNSS/RNP; por eso los minutos o millas no son intercambiables.",
       "NO — Ese valor corresponde a otro supuesto de separación longitudinal. Aquí cambian los requisitos según misma derrota, derrotas que se cruzan/opuestas, diferencia de velocidad o método DME/GNSS/RNP; por eso los minutos o millas no son intercambiables."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cada aeronave utilice una estación DME «en la derrota» y un punto de recorrido en un emplazamiento común cuando una aeronave utilice DME y la otra, GNSS». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cada aeronave utilice una estación DME (equipo medidor de distancia) «en la derrota» y un punto de recorrido en un emplazamiento común cuando una aeronave utilice DME (equipo medidor de distancia) y la otra, GNSS (sistema mundial de navegación por satélite)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
     "extra": "La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables."
   },
   {
@@ -1290,7 +1290,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese valor corresponde a otro supuesto de separación longitudinal. Aquí cambian los requisitos según misma derrota, derrotas que se cruzan/opuestas, diferencia de velocidad o método DME/GNSS/RNP; por eso los minutos o millas no son intercambiables.",
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «50 NM». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «50 NM». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «50 NM (milla náutica)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables.",
     "extra": "La separación longitudinal puede estar basada en tiempo o distancia. Los valores dependen de misma derrota, derrotas que se cruzan/opuestas, diferencias de velocidad y medios de determinación de posición; no son intercambiables."
   },
   {
@@ -1520,7 +1520,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «Cuando así lo permita la capacidad del radar y/o de ADS-B y/o de los sistemas MLAT en determinado lugar». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
       "NO — No encaja con las condiciones del enunciado. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cuando así lo permita la capacidad del radar y/o de ADS-B y/o de los sistemas MLAT en determinado lugar». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Cuando así lo permita la capacidad del radar y/o de ADS-B (vigilancia dependiente automática por radiodifusión) y/o de los sistemas MLAT (multilateración) en determinado lugar». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
     "extra": "Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante."
   },
   {
@@ -1543,7 +1543,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
       "NO — No encaja con las condiciones del enunciado. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Aeronave PESADA detrás de PESADA: 4 NM». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Aeronave PESADA detrás de PESADA: 4 NM (milla náutica)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante.",
     "extra": "Las mínimas de estela basadas en vigilancia son específicas por pareja precedente/sucesiva. Deben aplicarse además de la mínima de vigilancia general cuando la estela sea el factor limitante."
   },
   {
@@ -1566,7 +1566,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La condición descrita en el enunciado encaja exactamente con «Si llega a ser necesaria una desviación de ±M 0,01 o más, debe notificarse al ATC antes de proceder al cambio de velocidad. Si no es posible la notificación previa (por ejemplo, debido a turbulencia), debe notificarse a la dependencia ATC apropiada lo antes posible)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Con radar y control Mach, ambas aeronaves deben observarse y la segunda no puede llevar un Mach superior al de la precedente. Una desviación de ±0,01 o más debe notificarse al ATC.",
       "NO — No encaja con las condiciones del enunciado. Con radar y control Mach, ambas aeronaves deben observarse y la segunda no puede llevar un Mach superior al de la precedente. Una desviación de ±0,01 o más debe notificarse al ATC."
     ],
-    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Si llega a ser necesaria una desviación de ±M 0,01 o más, debe notificarse al ATC antes de proceder al cambio de velocidad. Si no es posible la notificación previa (por ejemplo, debido a turbulencia), debe notificarse a la dependencia ATC apropiada lo antes posible)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Con radar y control Mach, ambas aeronaves deben observarse y la segunda no puede llevar un Mach superior al de la precedente. Una desviación de ±0,01 o más debe notificarse al ATC.",
+    "deepExp": "La condición descrita en el enunciado encaja exactamente con «Si llega a ser necesaria una desviación de ±M 0,01 o más, debe notificarse al ATC (control de tránsito aéreo) antes de proceder al cambio de velocidad. Si no es posible la notificación previa (por ejemplo, debido a turbulencia), debe notificarse a la dependencia ATC (control de tránsito aéreo) apropiada lo antes posible)». El valor o procedimiento no es intercambiable con los demás porque cambia cuando cambia la geometría, la ayuda de navegación, la categoría de aeronave o la fase de vuelo. Con radar y control Mach, ambas aeronaves deben observarse y la segunda no puede llevar un Mach superior al de la precedente. Una desviación de ±0,01 o más debe notificarse al ATC (control de tránsito aéreo).",
     "extra": "Con radar y control Mach, ambas aeronaves deben observarse y la segunda no puede llevar un Mach superior al de la precedente. Una desviación de ±0,01 o más debe notificarse al ATC."
   },
   {
@@ -1589,7 +1589,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica.",
       "CORRECTA — La fase pre-táctica tiene lugar entre los seis días anteriores y el día antes de la operación; ajusta el plan estratégico con datos de demanda actualizados. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica."
     ],
-    "deepExp": "La fase pre-táctica tiene lugar entre los seis días anteriores y el día antes de la operación; ajusta el plan estratégico con datos de demanda actualizados. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica.",
+    "deepExp": "La fase pre-táctica tiene lugar entre los seis días anteriores y el día antes de la operación; ajusta el plan estratégico con datos de demanda actualizados. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP (plan diario ATFCM (gestión de afluencia y capacidad del tránsito aéreo)) es producto de planificación, no el nombre de la fase táctica.",
     "extra": "Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica."
   },
   {
@@ -1635,7 +1635,7 @@ window.ATM_QUESTIONS = [
       "NO — No es la fase que corresponde al grado de incertidumbre/preocupación/peligro descrito en el enunciado.",
       "NO — No es la fase que corresponde al grado de incertidumbre/preocupación/peligro descrito en el enunciado."
     ],
-    "deepExp": "ALERFA incluye condiciones de funcionamiento no normales, pero todavía sin llegar a hacer probable un aterrizaje forzoso. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
+    "deepExp": "ALERFA (fase de alerta) incluye condiciones de funcionamiento no normales, pero todavía sin llegar a hacer probable un aterrizaje forzoso. La escala conceptual es INCERFA (duda) → ALERFA (preocupación) → DETRESFA (peligro grave/inminente y necesidad de ayuda).",
     "extra": "Secuencia conceptual: INCERFA = duda; ALERFA = preocupación; DETRESFA = peligro grave/inminente y necesidad de ayuda. El salto de fase depende de la evidencia, no solo del tiempo transcurrido."
   },
   {
@@ -1658,7 +1658,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Control de afluencia son medidas para regular el flujo en un espacio/ruta/aeródromo; ATFM es el servicio más amplio que busca compatibilizar demanda y capacidad y utilizar al máximo la capacidad ATC.",
       "NO — No encaja con las condiciones del enunciado. Control de afluencia son medidas para regular el flujo en un espacio/ruta/aeródromo; ATFM es el servicio más amplio que busca compatibilizar demanda y capacidad y utilizar al máximo la capacidad ATC."
     ],
-    "deepExp": "Control de afluencia son las medidas destinadas a regular el flujo de tráfico para aprovechar al máximo el espacio aéreo. Control de afluencia son medidas para regular el flujo en un espacio/ruta/aeródromo; ATFM es el servicio más amplio que busca compatibilizar demanda y capacidad y utilizar al máximo la capacidad ATC.",
+    "deepExp": "Control de afluencia son las medidas destinadas a regular el flujo de tráfico para aprovechar al máximo el espacio aéreo. Control de afluencia son medidas para regular el flujo en un espacio/ruta/aeródromo; ATFM (gestión de afluencia del tránsito aéreo) es el servicio más amplio que busca compatibilizar demanda y capacidad y utilizar al máximo la capacidad ATC (control de tránsito aéreo).",
     "extra": "Control de afluencia son medidas para regular el flujo en un espacio/ruta/aeródromo; ATFM es el servicio más amplio que busca compatibilizar demanda y capacidad y utilizar al máximo la capacidad ATC."
   },
   {
@@ -1681,7 +1681,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica.",
       "NO — No encaja con las condiciones del enunciado. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica."
     ],
-    "deepExp": "La fase táctica se aplica el día de la operación y actualiza el plan diario según el tráfico y la capacidad reales. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica.",
+    "deepExp": "La fase táctica se aplica el día de la operación y actualiza el plan diario según el tráfico y la capacidad reales. Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP (plan diario ATFCM (gestión de afluencia y capacidad del tránsito aéreo)) es producto de planificación, no el nombre de la fase táctica.",
     "extra": "Estratégica ≥7 días; pre-táctica D−6 a D−1; táctica durante el día de operación. El ADP es producto de planificación, no el nombre de la fase táctica."
   },
   {
@@ -1727,7 +1727,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. La referencia ISA al nivel medio del mar es 15 °C. Kelvin usa la misma magnitud térmica con otro origen, por lo que 15 K no equivale a 15 °C.",
       "NO — No encaja con las condiciones del enunciado. La referencia ISA al nivel medio del mar es 15 °C. Kelvin usa la misma magnitud térmica con otro origen, por lo que 15 K no equivale a 15 °C."
     ],
-    "deepExp": "La temperatura ISA de referencia al nivel medio del mar es 15 °C. La referencia ISA al nivel medio del mar es 15 °C. Kelvin usa la misma magnitud térmica con otro origen, por lo que 15 K no equivale a 15 °C.",
+    "deepExp": "La temperatura ISA (atmósfera tipo internacional) de referencia al nivel medio del mar es 15 °C. La referencia ISA (atmósfera tipo internacional) al nivel medio del mar es 15 °C. Kelvin usa la misma magnitud térmica con otro origen, por lo que 15 K no equivale a 15 °C.",
     "extra": "La referencia ISA al nivel medio del mar es 15 °C. Kelvin usa la misma magnitud térmica con otro origen, por lo que 15 K no equivale a 15 °C."
   },
   {
@@ -1750,7 +1750,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. Para la regla semicircular, una derrota de 290° pertenece al sector de niveles pares; al ser VFR se añade 500 ft. La clave es separar par/impar de la adición VFR de 500 ft.",
       "NO — No encaja con las condiciones del enunciado. Para la regla semicircular, una derrota de 290° pertenece al sector de niveles pares; al ser VFR se añade 500 ft. La clave es separar par/impar de la adición VFR de 500 ft."
     ],
-    "deepExp": "Para una derrota de 290° corresponde la serie par; al tratarse de VFR se añade 500 ft. Para la regla semicircular, una derrota de 290° pertenece al sector de niveles pares; al ser VFR se añade 500 ft. La clave es separar par/impar de la adición VFR de 500 ft.",
+    "deepExp": "Para una derrota de 290° corresponde la serie par; al tratarse de VFR (reglas de vuelo visual) se añade 500 ft. Para la regla semicircular, una derrota de 290° pertenece al sector de niveles pares; al ser VFR (reglas de vuelo visual) se añade 500 ft. La clave es separar par/impar de la adición VFR (reglas de vuelo visual) de 500 ft.",
     "extra": "Para la regla semicircular, una derrota de 290° pertenece al sector de niveles pares; al ser VFR se añade 500 ft. La clave es separar par/impar de la adición VFR de 500 ft."
   },
   {
@@ -1773,7 +1773,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. “Aeroterrestre” es bidireccional. “Aire-tierra” y “tierra-aire” son unidireccionales. En fraseología, “final” es ≤4 NM del punto de toma de contacto; “final larga” empieza más lejos.",
       "NO — No encaja con las condiciones del enunciado. “Aeroterrestre” es bidireccional. “Aire-tierra” y “tierra-aire” son unidireccionales. En fraseología, “final” es ≤4 NM del punto de toma de contacto; “final larga” empieza más lejos."
     ],
-    "deepExp": "Final es la posición de una aeronave en aproximación a 4 NM (7 km) o menos del punto de toma de contacto. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Final es la posición de una aeronave en aproximación a 4 NM (7 km) o menos del punto de toma de contacto. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "“Aeroterrestre” es bidireccional. “Aire-tierra” y “tierra-aire” son unidireccionales. En fraseología, “final” es ≤4 NM del punto de toma de contacto; “final larga” empieza más lejos."
   },
   {
@@ -1796,7 +1796,7 @@ window.ATM_QUESTIONS = [
       "NO — No es el límite del procedimiento. La prueba debe durar lo mínimo posible y no exceder de 10 segundos para reducir interferencias con el servicio operacional.",
       "CORRECTA — Las señales de prueba no excederán de 10 segundos. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad."
     ],
-    "deepExp": "Las señales de prueba no excederán de 10 segundos. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Las señales de prueba no excederán de 10 segundos. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "Las transmisiones de prueba que puedan interferir deben durar lo mínimo imprescindible y no superar 10 s. Se usan números hablados y el distintivo de la estación transmisora."
   },
   {
@@ -1819,7 +1819,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Las llegadas con radar de control de aproximación emplean el sufijo LLEGADAS (ARRIVAL). La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
       "NO — No sigue uno de los formatos completos/abreviados permitidos. La abreviación solo se usa tras comunicación satisfactoria, sin riesgo de confusión y cuando la estación aeronáutica ha usado primero esa forma."
     ],
-    "deepExp": "Las llegadas con radar de control de aproximación emplean el sufijo LLEGADAS (ARRIVAL). La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Las llegadas con radar de control de aproximación emplean el sufijo LLEGADAS (ARRIVAL). La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "Al establecer comunicaciones se usan distintivos completos. Solo se abrevian ciertos tipos después de comunicación satisfactoria y cuando la estación aeronáutica ha usado primero esa forma abreviada. El tipo operador+identificación de vuelo no se abrevia."
   },
   {
@@ -1842,7 +1842,7 @@ window.ATM_QUESTIONS = [
       "NO — No sigue uno de los formatos completos/abreviados permitidos. La abreviación solo se usa tras comunicación satisfactoria, sin riesgo de confusión y cuando la estación aeronáutica ha usado primero esa forma.",
       "NO — No sigue uno de los formatos completos/abreviados permitidos. La abreviación solo se usa tras comunicación satisfactoria, sin riesgo de confusión y cuando la estación aeronáutica ha usado primero esa forma."
     ],
-    "deepExp": "Las marcas de matrícula de la aeronave constituyen un distintivo radiotelefónico completo válido: EC-FVG. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Las marcas de matrícula de la aeronave constituyen un distintivo radiotelefónico completo válido: EC-FVG. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "Al establecer comunicaciones se usan distintivos completos. Solo se abrevian ciertos tipos después de comunicación satisfactoria y cuando la estación aeronáutica ha usado primero esa forma abreviada. El tipo operador+identificación de vuelo no se abrevia."
   },
   {
@@ -1865,7 +1865,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Un distintivo formado por el designador telefónico del explotador seguido de la identificación del vuelo no puede abreviarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
       "NO — En el tipo de distintivo “designador del explotador + identificación de vuelo” no se permite abreviación. Por eso recortar RYR41DM a una forma más corta sería incorrecto."
     ],
-    "deepExp": "Un distintivo formado por el designador telefónico del explotador seguido de la identificación del vuelo no puede abreviarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Un distintivo formado por el designador telefónico del explotador seguido de la identificación del vuelo no puede abreviarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "Al establecer comunicaciones se usan distintivos completos. Solo se abrevian ciertos tipos después de comunicación satisfactoria y cuando la estación aeronáutica ha usado primero esa forma abreviada. El tipo operador+identificación de vuelo no se abrevia."
   },
   {
@@ -1888,7 +1888,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La categoría PESADA se añade al distintivo en la primera llamada correspondiente; no se repite en todas las transmisiones. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
       "NO — No encaja con las condiciones del enunciado. PESADA/HEAVY y SUPER se añaden al identificativo en el contacto inicial que corresponda; no se convierten en un sufijo repetido en cada transmisión."
     ],
-    "deepExp": "La categoría PESADA se añade al distintivo en la primera llamada correspondiente; no se repite en todas las transmisiones. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "La categoría PESADA se añade al distintivo en la primera llamada correspondiente; no se repite en todas las transmisiones. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "PESADA/HEAVY y SUPER se añaden al identificativo en el contacto inicial que corresponda; no se convierten en un sufijo repetido en cada transmisión."
   },
   {
@@ -1911,7 +1911,7 @@ window.ATM_QUESTIONS = [
       "NO — No sigue uno de los formatos completos/abreviados permitidos. La abreviación solo se usa tras comunicación satisfactoria, sin riesgo de confusión y cuando la estación aeronáutica ha usado primero esa forma.",
       "CORRECTA — No se cambia el tipo de distintivo durante el vuelo salvo temporalmente por instrucción ATC en interés de la seguridad. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad."
     ],
-    "deepExp": "No se cambia el tipo de distintivo durante el vuelo salvo temporalmente por instrucción ATC en interés de la seguridad. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "No se cambia el tipo de distintivo durante el vuelo salvo temporalmente por instrucción ATC (control de tránsito aéreo) en interés de la seguridad. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "Al establecer comunicaciones se usan distintivos completos. Solo se abrevian ciertos tipos después de comunicación satisfactoria y cuando la estación aeronáutica ha usado primero esa forma abreviada. El tipo operador+identificación de vuelo no se abrevia."
   },
   {
@@ -1934,7 +1934,7 @@ window.ATM_QUESTIONS = [
       "NO — Es información operacional útil, pero no forma parte del conjunto de elementos que el procedimiento exige colacionar siempre en el supuesto preguntado. La colación se centra en autorizaciones y parámetros críticos como pista, QNH, nivel, rumbo, velocidad, SSR y canal asignado.",
       "NO — Anexo 10 — Telecomunicaciones aeronáuticas. Esa definición pertenece a otro concepto del mismo bloque de radiotelefonía y no responde a lo que se pide aquí."
     ],
-    "deepExp": "La comunicación aeroterrestre es bidireccional entre aeronaves y estaciones o puntos situados en la superficie terrestre. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "La comunicación aeroterrestre es bidireccional entre aeronaves y estaciones o puntos situados en la superficie terrestre. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "“Aeroterrestre” es bidireccional. “Aire-tierra” y “tierra-aire” son unidireccionales. En fraseología, “final” es ≤4 NM del punto de toma de contacto; “final larga” empieza más lejos."
   },
   {
@@ -1957,7 +1957,7 @@ window.ATM_QUESTIONS = [
       "NO — RECIBIDO/ROGER solo confirma recepción de la transmisión anterior; no equivale a una colación. Esa definición pertenece a otro concepto del mismo bloque de radiotelefonía y no responde a lo que se pide aquí.",
       "NO — RECIBIDO/ROGER solo confirma recepción de la transmisión anterior; no equivale a una colación. Esa definición pertenece a otro concepto del mismo bloque de radiotelefonía y no responde a lo que se pide aquí."
     ],
-    "deepExp": "ACKNOWLEDGE significa «Comunique si ha recibido y comprendido este mensaje». La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "ACKNOWLEDGE significa «Comunique si ha recibido y comprendido este mensaje». La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "ACKNOWLEDGE pide confirmar recepción y comprensión; ROGER solo declara recepción; WILCO implica comprensión y cumplimiento. Son distractores clásicos entre sí."
   },
   {
@@ -1980,7 +1980,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Los niveles de transición emitidos por el controlador o incluidos en ATIS deben colacionarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
       "NO — Es información operacional útil, pero no forma parte del conjunto de elementos que el procedimiento exige colacionar siempre en el supuesto preguntado. La colación se centra en autorizaciones y parámetros críticos como pista, QNH, nivel, rumbo, velocidad, SSR y canal asignado."
     ],
-    "deepExp": "Los niveles de transición emitidos por el controlador o incluidos en ATIS deben colacionarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Los niveles de transición emitidos por el controlador o incluidos en ATIS (servicio automático de información terminal) deben colacionarse. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "La colación es una barrera contra errores: repite elementos críticos para que el controlador compruebe que fueron recibidos correctamente. No todo dato informativo se colaciona."
   },
   {
@@ -2003,7 +2003,7 @@ window.ATM_QUESTIONS = [
       "NO — La forma no respeta la regla de transmisión del designador de canal para ese espaciamiento. El número debe pronunciarse con la cantidad de dígitos y la palabra COMA/DECIMAL previstas, no como una lectura libre.",
       "CORRECTA — En separación de 25 kHz pueden transmitirse los cinco primeros dígitos; en español se emplea COMA: «UNO UNO SIETE COMA CERO DOS». La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad."
     ],
-    "deepExp": "En separación de 25 kHz pueden transmitirse los cinco primeros dígitos; en español se emplea COMA: «UNO UNO SIETE COMA CERO DOS». La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "En separación de 25 kHz pueden transmitirse los cinco primeros dígitos; en español se emplea COMA: «UNO UNO SIETE COMA CERO DOS». La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "En 25 kHz puede omitirse el último dígito cero según el formato aplicable; en español se pronuncia COMA. El objetivo es transmitir el designador de canal sin ambigüedad."
   },
   {
@@ -2026,7 +2026,7 @@ window.ATM_QUESTIONS = [
       "NO — Es información operacional útil, pero no forma parte del conjunto de elementos que el procedimiento exige colacionar siempre en el supuesto preguntado. La colación se centra en autorizaciones y parámetros críticos como pista, QNH, nivel, rumbo, velocidad, SSR y canal asignado.",
       "CORRECTA — Los códigos SSR recién asignados están entre los elementos que deben colacionarse siempre. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad."
     ],
-    "deepExp": "Los códigos SSR recién asignados están entre los elementos que deben colacionarse siempre. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF prima el significado reglado y la ausencia de ambigüedad.",
+    "deepExp": "Los códigos SSR (radar secundario de vigilancia) recién asignados están entre los elementos que deben colacionarse siempre. La trampa habitual es elegir una forma coloquialmente comprensible pero no la forma normalizada: en RTF (radiotelefonía) prima el significado reglado y la ausencia de ambigüedad.",
     "extra": "La colación es una barrera contra errores: repite elementos críticos para que el controlador compruebe que fueron recibidos correctamente. No todo dato informativo se colaciona."
   },
   {
@@ -2049,7 +2049,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso.",
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
     ],
-    "deepExp": "En VMC, un vuelo con RCF prosigue en VMC, aterriza en el aeródromo adecuado más próximo y notifica su llegada. Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
+    "deepExp": "En VMC (condiciones meteorológicas visuales), un vuelo con RCF (fallo de comunicaciones radio) prosigue en VMC (condiciones meteorológicas visuales), aterriza en el aeródromo adecuado más próximo y notifica su llegada. Antes de elegir respuesta hay que separar VMC (condiciones meteorológicas visuales) de IMC (condiciones meteorológicas instrumentales) y, dentro de IMC (condiciones meteorológicas instrumentales), distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
     "extra": "RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
   },
   {
@@ -2072,7 +2072,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — El procedimiento RCF IFR culmina con el aterrizaje, si es posible, dentro de los 30 minutos siguientes a la EAT aplicable o a la ETA cuando corresponda. Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
     ],
-    "deepExp": "El procedimiento RCF IFR culmina con el aterrizaje, si es posible, dentro de los 30 minutos siguientes a la EAT aplicable o a la ETA cuando corresponda. Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
+    "deepExp": "El procedimiento RCF (fallo de comunicaciones radio) IFR (reglas de vuelo por instrumentos) culmina con el aterrizaje, si es posible, dentro de los 30 minutos siguientes a la EAT (hora prevista de aproximación) aplicable o a la ETA (hora prevista de llegada) cuando corresponda. Antes de elegir respuesta hay que separar VMC (condiciones meteorológicas visuales) de IMC (condiciones meteorológicas instrumentales) y, dentro de IMC (condiciones meteorológicas instrumentales), distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
     "extra": "RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
   },
   {
@@ -2095,7 +2095,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Sin límite RNAV especificado, debe volver a la última ruta recibida y colacionada a más tardar en el siguiente punto significativo. Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
     ],
-    "deepExp": "Sin límite RNAV especificado, debe volver a la última ruta recibida y colacionada a más tardar en el siguiente punto significativo. Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
+    "deepExp": "Sin límite RNAV (navegación de área) especificado, debe volver a la última ruta recibida y colacionada a más tardar en el siguiente punto significativo. Antes de elegir respuesta hay que separar VMC (condiciones meteorológicas visuales) de IMC (condiciones meteorológicas instrumentales) y, dentro de IMC (condiciones meteorológicas instrumentales), distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
     "extra": "RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
   },
   {
@@ -2118,7 +2118,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso.",
       "NO — No encaja con las condiciones del enunciado. RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
     ],
-    "deepExp": "Una serie de destellos rojos a una aeronave en vuelo significa «aeródromo peligroso, no aterrice». Antes de elegir respuesta hay que separar VMC de IMC y, dentro de IMC, distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
+    "deepExp": "Una serie de destellos rojos a una aeronave en vuelo significa «aeródromo peligroso, no aterrice». Antes de elegir respuesta hay que separar VMC (condiciones meteorológicas visuales) de IMC (condiciones meteorológicas instrumentales) y, dentro de IMC (condiciones meteorológicas instrumentales), distinguir ruta/nivel/descenso. El procedimiento no autoriza a improvisar una ruta directa al destino ni a mantener indefinidamente una instrucción de vector.",
     "extra": "RCF en VMC y RCF en IMC siguen lógicas distintas. En VMC se continúa en VMC, se aterriza en el aeródromo adecuado más próximo y se notifica la llegada. En IMC se sigue el procedimiento publicado/reglamentario, con 7600 y reglas de ruta/nivel/descenso."
   },
   {
@@ -2164,7 +2164,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Según la pregunta de examen aportada, para este supuesto la respuesta válida es 4000 ft. Fuera de RVSM o cuando el esquema semicircular produce niveles consecutivos en el mismo sentido, la separación aplicable puede ser 2000/4000 ft según el caso; hay que identificar primero regla de niveles y ámbito.",
       "NO — No encaja con las condiciones del enunciado. Fuera de RVSM o cuando el esquema semicircular produce niveles consecutivos en el mismo sentido, la separación aplicable puede ser 2000/4000 ft según el caso; hay que identificar primero regla de niveles y ámbito."
     ],
-    "deepExp": "Según la pregunta de examen aportada, para este supuesto la respuesta válida es 4000 ft. Fuera de RVSM o cuando el esquema semicircular produce niveles consecutivos en el mismo sentido, la separación aplicable puede ser 2000/4000 ft según el caso; hay que identificar primero regla de niveles y ámbito.",
+    "deepExp": "Según la pregunta de examen aportada, para este supuesto la respuesta válida es 4000 ft. Fuera de RVSM (separación vertical mínima reducida) o cuando el esquema semicircular produce niveles consecutivos en el mismo sentido, la separación aplicable puede ser 2000/4000 ft según el caso; hay que identificar primero regla de niveles y ámbito.",
     "extra": "Fuera de RVSM o cuando el esquema semicircular produce niveles consecutivos en el mismo sentido, la separación aplicable puede ser 2000/4000 ft según el caso; hay que identificar primero regla de niveles y ámbito."
   },
   {
@@ -2187,7 +2187,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — La separación VOR requiere divergencia suficiente de radiales y la distancia mínima asociada indicada en el procedimiento. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
       "NO — Ese ángulo/distancia pertenece a otro método de navegación o combinación de derrotas. En separación lateral, VOR, NDB y RNAV/RNP tienen criterios propios y no deben mezclarse."
     ],
-    "deepExp": "La separación VOR requiere divergencia suficiente de radiales y la distancia mínima asociada indicada en el procedimiento. VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
+    "deepExp": "La separación VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) requiere divergencia suficiente de radiales y la distancia mínima asociada indicada en el procedimiento. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) y NDB (radiofaro no direccional) tienen criterios angulares distintos; además existen mínimas RNAV (navegación de área)/RNP (navegación basada en prestaciones con monitorización y alerta a bordo) específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia.",
     "extra": "VOR y NDB tienen criterios angulares distintos; además existen mínimas RNAV/RNP específicas. En test, primero identifica la ayuda de navegación y después ángulo/distancia."
   },
   {
@@ -2302,7 +2302,7 @@ window.ATM_QUESTIONS = [
       "NO — No encaja con las condiciones del enunciado. La técnica Mach basada en distancia RNAV usa 80 NM en los supuestos previstos; no debe confundirse con las mínimas DME de 20 NM ni con RNP 10 de 50 NM.",
       "NO — No encaja con las condiciones del enunciado. La técnica Mach basada en distancia RNAV usa 80 NM en los supuestos previstos; no debe confundirse con las mínimas DME de 20 NM ni con RNP 10 de 50 NM."
     ],
-    "deepExp": "La técnica Mach basada en distancia RNAV permite una mínima de 80 NM en las condiciones establecidas. La técnica Mach basada en distancia RNAV usa 80 NM en los supuestos previstos; no debe confundirse con las mínimas DME de 20 NM ni con RNP 10 de 50 NM.",
+    "deepExp": "La técnica Mach basada en distancia RNAV (navegación de área) permite una mínima de 80 NM (milla náutica) en las condiciones establecidas. La técnica Mach basada en distancia RNAV (navegación de área) usa 80 NM (milla náutica) en los supuestos previstos; no debe confundirse con las mínimas DME (equipo medidor de distancia) de 20 NM (milla náutica) ni con RNP (navegación basada en prestaciones con monitorización y alerta a bordo) 10 de 50 NM (milla náutica).",
     "extra": "La técnica Mach basada en distancia RNAV usa 80 NM en los supuestos previstos; no debe confundirse con las mínimas DME de 20 NM ni con RNP 10 de 50 NM."
   },
   {
@@ -2417,7 +2417,7 @@ window.ATM_QUESTIONS = [
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado.",
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado."
     ],
-    "deepExp": "En vigilancia ATS, MEDIA detrás de SÚPER requiere 7 NM. Con vigilancia, la tabla por categorías OACI establece pares concretos; por ejemplo MEDIA detrás de SÚPER = 7 NM. No se deriva simplemente de la masa de la sucesiva.",
+    "deepExp": "En vigilancia ATS (servicios de tránsito aéreo), MEDIA detrás de SÚPER requiere 7 NM (milla náutica). Con vigilancia, la tabla por categorías OACI (Organización de Aviación Civil Internacional) establece pares concretos; por ejemplo MEDIA detrás de SÚPER = 7 NM (milla náutica). No se deriva simplemente de la masa de la sucesiva.",
     "extra": "Con vigilancia, la tabla por categorías OACI establece pares concretos; por ejemplo MEDIA detrás de SÚPER = 7 NM. No se deriva simplemente de la masa de la sucesiva."
   },
   {
@@ -2463,7 +2463,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — No se requiere que ATC aplique la separación por estela a VFR que aterriza en la misma pista tras SÚPER/PESADA/MEDIA ni a IFR en aproximación visual con la precedente a la vista y separación propia. En determinados VFR que aterrizan detrás en la misma pista y en aproximaciones visuales IFR con tráfico a la vista, ATC no está obligado a aplicar la mínima de estela; el piloto asume separación propia cuando se cumplen las condiciones y recibe precaución por estela.",
       "NO — Ese valor puede existir en otra combinación de categorías o en otra configuración de pista, pero la estela no se resuelve por “aproximación” numérica: hay que usar exactamente la fila/columna de precedente y sucesiva y el escenario indicado."
     ],
-    "deepExp": "No se requiere que ATC aplique la separación por estela a VFR que aterriza en la misma pista tras SÚPER/PESADA/MEDIA ni a IFR en aproximación visual con la precedente a la vista y separación propia. En determinados VFR que aterrizan detrás en la misma pista y en aproximaciones visuales IFR con tráfico a la vista, ATC no está obligado a aplicar la mínima de estela; el piloto asume separación propia cuando se cumplen las condiciones y recibe precaución por estela.",
+    "deepExp": "No se requiere que ATC (control de tránsito aéreo) aplique la separación por estela a VFR (reglas de vuelo visual) que aterriza en la misma pista tras SÚPER/PESADA/MEDIA ni a IFR (reglas de vuelo por instrumentos) en aproximación visual con la precedente a la vista y separación propia. En determinados VFR (reglas de vuelo visual) que aterrizan detrás en la misma pista y en aproximaciones visuales IFR (reglas de vuelo por instrumentos) con tráfico a la vista, ATC (control de tránsito aéreo) no está obligado a aplicar la mínima de estela; el piloto asume separación propia cuando se cumplen las condiciones y recibe precaución por estela.",
     "extra": "En determinados VFR que aterrizan detrás en la misma pista y en aproximaciones visuales IFR con tráfico a la vista, ATC no está obligado a aplicar la mínima de estela; el piloto asume separación propia cuando se cumplen las condiciones y recibe precaución por estela."
   },
   {
@@ -2509,7 +2509,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — Cuando el piloto comunica que está siguiendo un RA, la resolución ACAS tiene prioridad sobre la instrucción ATC incompatible. El controlador acusa recibo y evita intentar modificar la trayectoria generada por el RA hasta que el piloto notifique CLEAR OF CONFLICT. A partir de ahí vuelve a asumir la responsabilidad normal de separación y puede emitir nuevas autorizaciones.",
       "NO — ATC es servicio de control de tránsito aéreo. Es un concepto real, pero no satisface la condición exacta del enunciado; ese es el motivo por el que funciona como distractor."
     ],
-    "deepExp": "Cuando el piloto comunica que está siguiendo un RA, la resolución ACAS tiene prioridad sobre la instrucción ATC incompatible. El controlador acusa recibo y evita intentar modificar la trayectoria generada por el RA hasta que el piloto notifique CLEAR OF CONFLICT. A partir de ahí vuelve a asumir la responsabilidad normal de separación y puede emitir nuevas autorizaciones.",
+    "deepExp": "Cuando el piloto comunica que está siguiendo un RA (aviso de resolución), la resolución ACAS (sistema anticolisión de a bordo) tiene prioridad sobre la instrucción ATC (control de tránsito aéreo) incompatible. El controlador acusa recibo y evita intentar modificar la trayectoria generada por el RA (aviso de resolución) hasta que el piloto notifique CLEAR OF CONFLICT. A partir de ahí vuelve a asumir la responsabilidad normal de separación y puede emitir nuevas autorizaciones.",
     "extra": "Durante un RA, el piloto sigue el RA. Tras ser informado, ATC acusa recibo y no intenta modificar la trayectoria resultante hasta que el piloto notifique CLEAR OF CONFLICT; después se restablece la autorización/separación ATC."
   },
   {
@@ -2532,7 +2532,7 @@ window.ATM_QUESTIONS = [
       "CORRECTA — TAWS es una evolución/mejora del GPWS orientada a dar advertencia más anticipada de riesgo de impacto con terreno u obstáculos. No es un sistema anticolisión con otras aeronaves: esa función corresponde a ACAS/TCAS.",
       "NO — No encaja con las condiciones del enunciado. TAWS mejora GPWS aportando conciencia/alerta de terreno más anticipada. No debe confundirse con ACAS/TCAS, cuyo objetivo es el tráfico, ni con safety nets terrestres para el controlador."
     ],
-    "deepExp": "TAWS es una evolución/mejora del GPWS orientada a dar advertencia más anticipada de riesgo de impacto con terreno u obstáculos. No es un sistema anticolisión con otras aeronaves: esa función corresponde a ACAS/TCAS.",
+    "deepExp": "TAWS (sistema de alerta y conocimiento del terreno) es una evolución/mejora del GPWS (sistema de alerta de proximidad del terreno) orientada a dar advertencia más anticipada de riesgo de impacto con terreno u obstáculos. No es un sistema anticolisión con otras aeronaves: esa función corresponde a ACAS (sistema anticolisión de a bordo)/TCAS (sistema de alerta de tráfico y evitación de colisiones).",
     "extra": "TAWS mejora GPWS aportando conciencia/alerta de terreno más anticipada. No debe confundirse con ACAS/TCAS, cuyo objetivo es el tráfico, ni con safety nets terrestres para el controlador."
   },
   {
@@ -2555,7 +2555,7 @@ window.ATM_QUESTIONS = [
       "NO — No corresponde al peligro descrito. Para resolverlo, identifica primero si el riesgo es conflicto entre aeronaves, penetración de espacio aéreo o terreno/aproximación.",
       "NO — ACAS es un sistema de a bordo. Puede generar TA/RA al piloto; no es una safety net terrestre presentada al controlador."
     ],
-    "deepExp": "Las safety nets terrestres son funciones del sistema ATM que alertan al controlador de situaciones potencialmente peligrosas. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "Las safety nets terrestres son funciones del sistema ATM (gestión del tránsito aéreo) que alertan al controlador de situaciones potencialmente peligrosas. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -2578,7 +2578,7 @@ window.ATM_QUESTIONS = [
       "NO — TCAS es una implementación de ACAS a bordo; no es una alerta terrestre del sistema de vigilancia ATS.",
       "NO — APW (Area Proximity Warning) avisa de una penetración no autorizada, prevista o real, en un volumen de espacio aéreo."
     ],
-    "deepExp": "STCA (Short Term Conflict Alert) alerta de infracciones potenciales o reales de las mínimas de separación entre aeronaves. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "STCA (Short Term Conflict Alert) alerta de infracciones potenciales o reales de las mínimas de separación entre aeronaves. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "STCA = conflicto aeronave-aeronave; APW = penetración de espacio aéreo; MSAW = altitud mínima/terreno; APM = trayectoria de aproximación final. Son alertas terrestres para el controlador, no RA de ACAS."
   },
   {
@@ -2601,7 +2601,7 @@ window.ATM_QUESTIONS = [
       "NO — No corresponde al peligro descrito. Para resolverlo, identifica primero si el riesgo es conflicto entre aeronaves, penetración de espacio aéreo o terreno/aproximación.",
       "NO — No corresponde al peligro descrito. Para resolverlo, identifica primero si el riesgo es conflicto entre aeronaves, penetración de espacio aéreo o terreno/aproximación."
     ],
-    "deepExp": "APW advierte de penetración no autorizada, real o prevista, en un volumen de espacio aéreo. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "APW (alerta de proximidad de área) advierte de penetración no autorizada, real o prevista, en un volumen de espacio aéreo. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "APW = proximidad/penetración de un volumen de espacio aéreo. STCA trata separación entre aeronaves; MSAW terreno/altitud mínima; APM aproximación final."
   },
   {
@@ -2624,7 +2624,7 @@ window.ATM_QUESTIONS = [
       "NO — STCA (Short Term Conflict Alert) es una safety net terrestre de corto plazo para alertar de una infracción potencial o real de separación entre aeronaves.",
       "NO — GPWS/TAWS es un sistema de a bordo orientado al terreno; no es una safety net terrestre ATC."
     ],
-    "deepExp": "APM (Approach Path Monitor) alerta sobre riesgo de proximidad al terreno u obstáculos durante la aproximación final. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA; penetración de espacio aéreo → APW; terreno/altitud mínima → MSAW; trayectoria de aproximación final → APM.",
+    "deepExp": "APM (Approach Path Monitor) alerta sobre riesgo de proximidad al terreno u obstáculos durante la aproximación final. La forma más segura de resolver el test es identificar el peligro: aeronave-aeronave → STCA (alerta de conflicto a corto plazo); penetración de espacio aéreo → APW (alerta de proximidad de área); terreno/altitud mínima → MSAW (alerta de altitud mínima segura); trayectoria de aproximación final → APM (monitor de trayectoria de aproximación).",
     "extra": "APM monitoriza la trayectoria de aproximación final frente al terreno/obstáculos. MSAW es más general respecto a altitud mínima segura; STCA y APW protegen otros riesgos."
   },
   {

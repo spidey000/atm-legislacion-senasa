@@ -18,7 +18,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — CDR3 se gestiona en la fase táctica (Nivel 3) y no puede planificarse en el plan de vuelo.",
       "NO — CDR4 no es una categoría definida por el manual, que sólo distingue CDR1, CDR2 y CDR3."
     ],
-    "deepExp": "El manual clasifica la CDR1 como ruta establecida en la fase estratégica (Nivel 1), mientras que la CDR2 se gestiona en la fase pre-táctica y la CDR3 en la táctica. Por ello, la opción marcada es CDR-1; la referencia exacta es “CDR de Rutas Condicionales”, p. 62, junto con “Niveles ASM”, §1.8.3.1, p. 57.",
+    "deepExp": "El manual clasifica la CDR1 (ruta condicional de categoría 1) como ruta establecida en la fase estratégica (Nivel 1), mientras que la CDR2 (ruta condicional de categoría 2) se gestiona en la fase pre-táctica y la CDR3 (ruta condicional de categoría 3) en la táctica. Por ello, la opción marcada es CDR (ruta condicional)-1; la referencia exacta es “CDR (ruta condicional) de Rutas Condicionales”, p. 62, junto con “Niveles ASM (gestión del espacio aéreo)”, §1.8.3.1, p. 57.",
     "extra": "Banco Fernando Nº 1 · Nivel Alto · Justificación indicada en el documento: 1.7.3.2.",
     "sourceTag": "Fernando Nº 1",
     "preserveOptions": true,
@@ -43,7 +43,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El AUP sí incluye TSA y áreas D/R gestionables activas, pero la opción dice “D y P”; esa categoría no coincide con la lista del manual.",
       "NO — El AUP enumera TSA y D/R, no TRA activadas como elemento de su contenido."
     ],
-    "deepExp": "El §1.8.4 enumera expresamente los contenidos del AUP: CDR2 disponibles, rutas ATS permanentes y CDR1 cerradas temporalmente, y áreas TSA y D/R gestionables activas. La opción marcada reproduce el primer elemento; la referencia exacta es §1.8.4, p. 64. Las demás opciones son incompletas o cambian categorías y condiciones.",
+    "deepExp": "El §1.8.4 enumera expresamente los contenidos del AUP (plan de utilización del espacio aéreo): CDR2 (ruta condicional de categoría 2) disponibles, rutas ATS (servicios de tránsito aéreo) permanentes y CDR1 (ruta condicional de categoría 1) cerradas temporalmente, y áreas TSA (área temporalmente segregada) y D/R (área peligrosa o restringida) gestionables activas. La opción marcada reproduce el primer elemento; la referencia exacta es §1.8.4, p. 64. Las demás opciones son incompletas o cambian categorías y condiciones.",
     "extra": "Banco Fernando Nº 2 · Nivel Alto · Justificación indicada en el documento: 1.7.4.",
     "sourceTag": "Fernando Nº 2",
     "preserveOptions": true,
@@ -68,7 +68,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El servicio de asesoramiento formula sugerencias e información; no transmite autorizaciones e instrucciones vinculantes como ATC.",
       "NO — El manual define expresamente el servicio de asesoramiento y su aplicación, por lo que no es correcto decir que no existe."
     ],
-    "deepExp": "El servicio de asesoramiento no emite autorizaciones ATC: transmite información y sugerencias, usando fraseología uniforme precedida por “suggest” o “advise”. Así lo establece §1.5.3, p. 35; “cleared/authorized” y las instrucciones de control corresponden al servicio ATC, no al asesoramiento.",
+    "deepExp": "El servicio de asesoramiento no emite autorizaciones ATC (control de tránsito aéreo): transmite información y sugerencias, usando fraseología uniforme precedida por “suggest” o “advise”. Así lo establece §1.5.3, p. 35; “cleared/authorized” y las instrucciones de control corresponden al servicio ATC (control de tránsito aéreo), no al asesoramiento.",
     "extra": "Banco Fernando Nº 3 · Nivel Medio · Justificación indicada en el documento: 1.5.3.",
     "sourceTag": "Fernando Nº 3",
     "preserveOptions": true,
@@ -143,7 +143,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La CRCO sí factura y cobra los gastos de ruta en nombre de los Estados miembros.",
       "NO — La fórmula de CRCO tiene en cuenta, entre otros factores, el peso de la aeronave, por lo que el manual dice que los aviones pequeños pagan menos."
     ],
-    "deepExp": "La pregunta pide escoger la afirmación incorrecta, y la opción marcada atribuye erróneamente la facturación de rutas a la CFMU. El manual dice que la CRCO factura y cobra los gastos de ruta (§1.2.5, p. 19), y además identifica a la CFMU como unidad histórica sustituida por NMOC (p. 160); por tanto, la opción 0 es la incorrecta que debe seleccionarse.",
+    "deepExp": "La pregunta pide escoger la afirmación incorrecta, y la opción marcada atribuye erróneamente la facturación de rutas a la CFMU (Unidad Central de Gestión de Afluencia). El manual dice que la CRCO (Oficina Central de Tasas de Ruta) factura y cobra los gastos de ruta (§1.2.5, p. 19), y además identifica a la CFMU (Unidad Central de Gestión de Afluencia) como unidad histórica sustituida por NMOC (p. 160); por tanto, la opción 0 es la incorrecta que debe seleccionarse.",
     "extra": "Banco Fernando Nº 6 · Nivel Alto · Justificación indicada en el documento: 1.2.5",
     "sourceTag": "Fernando Nº 6",
     "preserveOptions": true,
@@ -168,7 +168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — AMC gestiona diariamente la asignación temporal del espacio aéreo y prepara el AUP, no todas las medidas ATFCM de EUR.",
       "NO — CRCO factura tasas de ruta; no planifica ni ejecuta las medidas ATFCM."
     ],
-    "deepExp": "El banco marca CFMU, denominación histórica de la unidad de gestión de afluencia, pero la versión del manual consultada advierte que actualmente la CFMU fue sustituida por NMOC (§7.1.3, p. 160). Para la responsabilidad vigente en la región EUR, el texto atribuye la planificación, promulgación y ejecución al NMOC (§1.7.5, p. 47). Se conserva la respuesta original, pero no puede presentarse CFMU como denominación actual sin esta salvedad.",
+    "deepExp": "El banco marca CFMU (Unidad Central de Gestión de Afluencia), denominación histórica de la unidad de gestión de afluencia, pero la versión del manual consultada advierte que actualmente la CFMU (Unidad Central de Gestión de Afluencia) fue sustituida por NMOC (§7.1.3, p. 160). Para la responsabilidad vigente en la región EUR (región europea de navegación aérea), el texto atribuye la planificación, promulgación y ejecución al NMOC (§1.7.5, p. 47). Se conserva la respuesta original, pero no puede presentarse CFMU (Unidad Central de Gestión de Afluencia) como denominación actual sin esta salvedad.",
     "extra": "Banco Fernando Nº 7 · Nivel Medio · Justificación indicada en el documento: 1.6.4",
     "sourceTag": "Fernando Nº 7",
     "preserveOptions": true,
@@ -193,7 +193,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La fase táctica se aplica el día de la operación y actualiza el plan según la situación real.",
       "NO — Una semana antes queda fuera del momento concreto que el manual asigna a la preparación del AUP."
     ],
-    "deepExp": "El manual sitúa la preparación del AUP el día anterior a las operaciones, dentro de la gestión pre-táctica del AMC (§1.7.5, p. 47; §1.8.2, p. 57). La opción marcada es, por tanto, la fecha correcta; la fase estratégica ocurre con antelación mayor y la táctica gestiona el uso en tiempo real.",
+    "deepExp": "El manual sitúa la preparación del AUP (plan de utilización del espacio aéreo) el día anterior a las operaciones, dentro de la gestión pre-táctica del AMC (§1.7.5, p. 47; §1.8.2, p. 57). La opción marcada es, por tanto, la fecha correcta; la fase estratégica ocurre con antelación mayor y la táctica gestiona el uso en tiempo real.",
     "extra": "Banco Fernando Nº 8 · Nivel Medio · Justificación indicada en el documento: 1.6.4",
     "sourceTag": "Fernando Nº 8",
     "preserveOptions": true,
@@ -218,7 +218,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — La opción invierte los extremos: +10 es el límite superior, no la tolerancia positiva de esta alternativa.",
       "NO — El manual no establece una tolerancia simétrica de ±10 minutos."
     ],
-    "deepExp": "El CTOT se calcula a partir del EOBT, el tiempo de rodaje y el retraso, y el manual permite una tolerancia de menos 5 a más 10 minutos. La referencia exacta es “Procedimiento de asignación de SLOT ATFM”, §1.7.6, p. 52; por eso la opción marcada es -5 min/+10 min.",
+    "deepExp": "El CTOT (hora calculada de despegue) se calcula a partir del EOBT (hora prevista de fuera calzos), el tiempo de rodaje y el retraso, y el manual permite una tolerancia de menos 5 a más 10 minutos. La referencia exacta es “Procedimiento de asignación de SLOT (franja horaria asignada) ATFM (gestión de afluencia del tránsito aéreo)”, §1.7.6, p. 52; por eso la opción marcada es -5 min/+10 min.",
     "extra": "Banco Fernando Nº 9 · Nivel Medio · Justificación indicada en el documento: 1.6.5",
     "sourceTag": "Fernando Nº 9",
     "preserveOptions": true,
@@ -243,7 +243,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Early CTOT no es la denominación del mensaje; CTOT es la hora calculada de despegue.",
       "NO — SAM es Slot Allocation Message, el mensaje de asignación del slot, no el de vuelo listo."
     ],
-    "deepExp": "SAM es el Slot Allocation Message que comunica el slot ATFM y contiene el CTOT. REA, en cambio, es el Ready message enviado cuando un vuelo ya está listo antes de su EOBT (§1.7.6, p. 54); por ello, la opción marcada REA es la que describe el mensaje de aeronave preparada.",
+    "deepExp": "SAM (mensaje de asignación de slot) es el Slot Allocation Message que comunica el slot ATFM (gestión de afluencia del tránsito aéreo) y contiene el CTOT (hora calculada de despegue). REA (mensaje de listo), en cambio, es el Ready message enviado cuando un vuelo ya está listo antes de su EOBT (§1.7.6, p. 54); por ello, la opción marcada REA (mensaje de listo) es la que describe el mensaje de aeronave preparada.",
     "extra": "Banco Fernando Nº 10 · Nivel Medio · Justificación indicada en el documento: 1.6.5",
     "sourceTag": "Fernando Nº 10",
     "preserveOptions": true,
@@ -293,7 +293,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El manual no fija un límite de treinta minutos antes de la CTOT.",
       "CORRECTA — El REA no se enviará más de 15 minutos antes de la EOBT; ésta es la restricción literal."
     ],
-    "deepExp": "El REA puede enviarse cuando el vuelo está listo antes de su EOBT, pero el manual establece que no se enviará más de 15 minutos antes de esa EOBT. La referencia exacta es “REA: Ready message”, §1.7.6, p. 54; por eso la opción marcada es la única que expresa el límite temporal prohibido.",
+    "deepExp": "El REA (mensaje de listo) puede enviarse cuando el vuelo está listo antes de su EOBT (hora prevista de fuera calzos), pero el manual establece que no se enviará más de 15 minutos antes de esa EOBT (hora prevista de fuera calzos). La referencia exacta es “REA (mensaje de listo): Ready message”, §1.7.6, p. 54; por eso la opción marcada es la única que expresa el límite temporal prohibido.",
     "extra": "Banco Fernando Nº 12 · Nivel Medio · Justificación indicada en el documento: 1.6.4",
     "sourceTag": "Fernando Nº 12",
     "preserveOptions": true,
@@ -318,7 +318,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La definición no dice oficina de notificación de aeródromo; “aeródromo” describe el lugar, no la expansión de ARO.",
       "NO — “Aeropuerto” tampoco es la denominación técnica que aparece en §1.2.3."
     ],
-    "deepExp": "En §1.2.3, p. 14, “dependencia de servicios de tránsito aéreo” se define como término genérico que incluye una oficina de notificación de servicios de tránsito aéreo. La opción marcada corresponde a esa definición; ATC, aeródromo y aeropuerto no son la expansión exacta solicitada para ARO.",
+    "deepExp": "En §1.2.3, p. 14, “dependencia de servicios de tránsito aéreo” se define como término genérico que incluye una oficina de notificación de servicios de tránsito aéreo. La opción marcada corresponde a esa definición; ATC (control de tránsito aéreo), aeródromo y aeropuerto no son la expansión exacta solicitada para ARO (oficina de notificación ATS (servicios de tránsito aéreo)).",
     "extra": "Banco Fernando Nº 13 · Nivel Bajo · Justificación indicada en el documento: Apéndice",
     "sourceTag": "Fernando Nº 13",
     "preserveOptions": true,
@@ -343,7 +343,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — AMC gestiona espacio aéreo temporal y prepara el AUP, no la facturación de tasas.",
       "CORRECTA — CRCO es la Oficina Central de Tasas de Ruta y realiza la facturación y el cobro descritos."
     ],
-    "deepExp": "La Oficina Central de Tasas de Ruta de EUROCONTROL, CRCO, factura y cobra los gastos de ruta en nombre de los Estados miembros. El dato aparece literalmente en §1.2.5, p. 19; CFMU/NMOC gestionan afluencia y AMC gestiona espacio aéreo, no la facturación de tasas de ruta.",
+    "deepExp": "La Oficina Central de Tasas de Ruta de EUROCONTROL (Organización Europea para la Seguridad de la Navegación Aérea), CRCO (Oficina Central de Tasas de Ruta), factura y cobra los gastos de ruta en nombre de los Estados miembros. El dato aparece literalmente en §1.2.5, p. 19; CFMU (Unidad Central de Gestión de Afluencia)/NMOC (Centro de Operaciones de Red y Gestor de Red) gestionan afluencia y AMC (célula de gestión del espacio aéreo) gestiona espacio aéreo, no la facturación de tasas de ruta.",
     "extra": "Banco Fernando Nº 14 · Nivel Medio · Justificación indicada en el documento: 1.2.5",
     "sourceTag": "Fernando Nº 14",
     "preserveOptions": true,
@@ -368,7 +368,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — La seguridad aparece expresamente como primer objetivo del ATC.",
       "NO — El orden del flujo es importante, pero el manual no lo coloca por delante de la seguridad."
     ],
-    "deepExp": "El manual identifica la seguridad como primer objetivo del ATC: el servicio debe ser ante todo seguro (§1.2.5, p. 18). Fluidez, rapidez y orden son objetivos relacionados —el texto habla de un flujo seguro y rápido—, pero no sustituyen la prioridad explícita de seguridad.",
+    "deepExp": "El manual identifica la seguridad como primer objetivo del ATC (control de tránsito aéreo): el servicio debe ser ante todo seguro (§1.2.5, p. 18). Fluidez, rapidez y orden son objetivos relacionados —el texto habla de un flujo seguro y rápido—, pero no sustituyen la prioridad explícita de seguridad.",
     "extra": "Banco Fernando Nº 15 · Nivel Bajo · Justificación indicada en el documento: 1.2.5.",
     "sourceTag": "Fernando Nº 15",
     "preserveOptions": true,
@@ -418,7 +418,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — La responsabilidad corresponde al piloto al mando aunque otra persona pueda estar operando físicamente los mandos.",
       "NO — Las autoridades del Estado ejercen competencias regulatorias, pero no son la última autoridad operacional de cada aeronave."
     ],
-    "deepExp": "La opción del banco identifica al PIC como última autoridad responsable. El manual establece que el servicio FIS no exime al piloto al mando y que este toma la decisión definitiva sobre las alteraciones sugeridas (§1.3.1, p. 20); esa regla sustenta la responsabilidad del PIC aunque no sea quien esté físicamente a los mandos.",
+    "deepExp": "La opción del banco identifica al PIC (piloto al mando) como última autoridad responsable. El manual establece que el servicio FIS no exime al piloto al mando y que este toma la decisión definitiva sobre las alteraciones sugeridas (§1.3.1, p. 20); esa regla sustenta la responsabilidad del PIC (piloto al mando) aunque no sea quien esté físicamente a los mandos.",
     "extra": "Banco Fernando Nº 17 · Nivel Bajo",
     "sourceTag": "Fernando Nº 17",
     "preserveOptions": true,
@@ -468,7 +468,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El ACC puede recibir mensajes ATFM, pero no es la dependencia indicada para aplicar el CTOT en el aeródromo de salida.",
       "CORRECTA — La torre de salida recibe automáticamente el slot y controla su aplicación."
     ],
-    "deepExp": "La torre de control del aeródromo de salida recibe automáticamente los slots ATFM y queda pendiente de su aplicación. El manual lo establece en el procedimiento de asignación de SLOT ATFM, §1.7.6, p. 52; el PIC y la torre de llegada no son quienes aplican localmente el CTOT.",
+    "deepExp": "La torre de control del aeródromo de salida recibe automáticamente los slots ATFM (gestión de afluencia del tránsito aéreo) y queda pendiente de su aplicación. El manual lo establece en el procedimiento de asignación de SLOT (franja horaria asignada) ATFM (gestión de afluencia del tránsito aéreo), §1.7.6, p. 52; el PIC (piloto al mando) y la torre de llegada no son quienes aplican localmente el CTOT (hora calculada de despegue).",
     "extra": "Banco Fernando Nº 19 · Nivel Bajo · Justificación indicada en el documento: 1.6.5.",
     "sourceTag": "Fernando Nº 19",
     "preserveOptions": true,
@@ -493,7 +493,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — El aterrizaje es una de las posibilidades expresas de transferencia, pero la opción marcada es la prevista por el banco.",
       "NO — La llegada a IMC no es una condición para transferir una llegada a TWR; el texto habla de referencia visual/VMC o punto convenido."
     ],
-    "deepExp": "Para aeronaves que llegan, la responsabilidad puede transferirse de APP a TWR cuando la aeronave está en las proximidades del aeródromo y puede realizar la aproximación por referencia visual, alcanza VMC ininterrumpidas, llega a un punto/nivel convenido o ya ha aterrizado. La opción marcada es una de las condiciones literales de §1.2.3, “Transferencia de la responsabilidad del control”, p. 16; una distancia fija, la discreción del comandante o IMC no constituyen la regla citada.",
+    "deepExp": "Para aeronaves que llegan, la responsabilidad puede transferirse de APP (control de aproximación) a TWR (torre de control) cuando la aeronave está en las proximidades del aeródromo y puede realizar la aproximación por referencia visual, alcanza VMC (condiciones meteorológicas visuales) ininterrumpidas, llega a un punto/nivel convenido o ya ha aterrizado. La opción marcada es una de las condiciones literales de §1.2.3, “Transferencia de la responsabilidad del control”, p. 16; una distancia fija, la discreción del comandante o IMC (condiciones meteorológicas instrumentales) no constituyen la regla citada.",
     "extra": "Banco Fernando Nº 20 · Nivel Medio · Justificación indicada en el documento: 5.3.",
     "sourceTag": "Fernando Nº 20",
     "preserveOptions": true,
@@ -518,7 +518,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 7600 indica fallo de comunicaciones radio.",
       "CORRECTA — 7700 es el código SSR de socorro/emergencia general."
     ],
-    "deepExp": "El código SSR 7700 es la señal de socorro y se asocia a un peligro grave e inminente que requiere ayuda inmediata. El manual lo incluye expresamente entre las señales de socorro en p. 33 (§1.4.4); 7500 corresponde a interferencia ilícita, 7600 a fallo de comunicaciones y 7000 es el código general VFR indicado en otros procedimientos.",
+    "deepExp": "El código SSR (radar secundario de vigilancia) 7700 es la señal de socorro y se asocia a un peligro grave e inminente que requiere ayuda inmediata. El manual lo incluye expresamente entre las señales de socorro en p. 33 (§1.4.4); 7500 corresponde a interferencia ilícita, 7600 a fallo de comunicaciones y 7000 es el código general VFR (reglas de vuelo visual) indicado en otros procedimientos.",
     "extra": "Banco Fernando Nº 21 · Nivel Bajo · Justificación indicada en el documento: 1.4.4.",
     "sourceTag": "Fernando Nº 21",
     "preserveOptions": true,
@@ -568,7 +568,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — UUP es el Plan Actualizado de Uso del Espacio Aéreo, una actualización táctica del AUP.",
       "NO — RPL es un plan de vuelo repetitivo, no el plan diario ATFCM."
     ],
-    "deepExp": "El resultado de la fase pre-táctica es el Plan Diario ATFCM, ADP, publicado mediante ANM y la red de notificaciones. Así se indica en “Planificación pretáctica”, p. 49; RAD se usa para disponibilidad de rutas, UUP actualiza el AUP y RPL es un plan de vuelo repetitivo. Véase el apartado «Planificación pretáctica/Plan Diario ATFCM (ADP)», p. 49 del manual.",
+    "deepExp": "El resultado de la fase pre-táctica es el Plan Diario ATFCM (gestión de afluencia y capacidad del tránsito aéreo), ADP (plan diario ATFCM (gestión de afluencia y capacidad del tránsito aéreo)), publicado mediante ANM (mensaje de notificación ATFCM (gestión de afluencia y capacidad del tránsito aéreo)) y la red de notificaciones. Así se indica en “Planificación pretáctica”, p. 49; RAD (documento de disponibilidad de rutas) se usa para disponibilidad de rutas, UUP (plan actualizado de utilización del espacio aéreo) actualiza el AUP (plan de utilización del espacio aéreo) y RPL (plan de vuelo repetitivo) es un plan de vuelo repetitivo. Véase el apartado «Planificación pretáctica/Plan Diario ATFCM (ADP (plan diario ATFCM (gestión de afluencia y capacidad del tránsito aéreo)))», p. 49 del manual.",
     "extra": "Banco Fernando Nº 23 · Nivel Alto · Justificación indicada en el documento: 1.6.5.",
     "sourceTag": "Fernando Nº 23",
     "preserveOptions": true,
@@ -593,7 +593,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — FMP participa en la coordinación ATFCM y recibe información, pero no prepara el AUP nacional.",
       "NO — ACC es destinatario/coordinador de la información, no el órgano que prepara y transmite el AUP."
     ],
-    "deepExp": "El AMC prepara y transmite el AUP a NMOC/CADF, ACC/FMP y otras agencias antes de las 14:00 UTC del día anterior, para cubrir el período indicado. La referencia exacta es §1.8.4, p. 64; CFMU, FMP y ACC reciben o coordinan información, pero no son el órgano que prepara y transmite el AUP.",
+    "deepExp": "El AMC (célula de gestión del espacio aéreo) prepara y transmite el AUP (plan de utilización del espacio aéreo) a NMOC (Centro de Operaciones de Red y Gestor de Red)/CADF (Central Airspace Data Function (función central de datos del espacio aéreo)), ACC (centro de control de área)/FMP (posición de gestión de afluencia) y otras agencias antes de las 14:00 UTC (tiempo universal coordinado) del día anterior, para cubrir el período indicado. La referencia exacta es §1.8.4, p. 64; CFMU (Unidad Central de Gestión de Afluencia), FMP (posición de gestión de afluencia) y ACC (centro de control de área) reciben o coordinan información, pero no son el órgano que prepara y transmite el AUP (plan de utilización del espacio aéreo).",
     "extra": "Banco Fernando Nº 24 · Nivel Medio · Justificación indicada en el documento: 1.7.4.",
     "sourceTag": "Fernando Nº 24",
     "preserveOptions": true,
@@ -718,7 +718,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La fuente consultada tampoco establece FL255 como separación FIR/UIR española.",
       "NO — La fuente consultada tampoco establece FL185 como separación FIR/UIR española."
     ],
-    "deepExp": "El banco marca FL 195, pero la extracción del manual consultado no contiene una disposición específica que establezca la separación vertical entre FIR y UIR en España ni confirma ese valor. El manual sí define FIR/UIR en §1.3.1, p. 20, pero no resuelve la cifra de esta pregunta; se conserva FL 195 sin presentarlo como verificado por esta fuente.",
+    "deepExp": "El banco marca FL (nivel de vuelo) 195 (nivel de vuelo 195), pero la extracción del manual consultado no contiene una disposición específica que establezca la separación vertical entre FIR (región de información de vuelo) y UIR (región superior de información de vuelo) en España ni confirma ese valor. El manual sí define FIR (región de información de vuelo)/UIR (región superior de información de vuelo) en §1.3.1, p. 20, pero no resuelve la cifra de esta pregunta; se conserva FL (nivel de vuelo) 195 (nivel de vuelo 195) sin presentarlo como verificado por esta fuente.",
     "extra": "Banco Fernando Nº 29 · Nivel Medio",
     "sourceTag": "Fernando Nº 29",
     "preserveOptions": true,
@@ -743,7 +743,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — No existe una prioridad automática general para aeronaves militares en esta regla.",
       "NO — El manual no establece una prioridad absoluta de IFR sobre VFR; la situación y las reglas aplicables determinan la prioridad."
     ],
-    "deepExp": "La regla de prioridad establece que una aeronave que aterriza o está en las últimas fases de aproximación final normalmente tiene prioridad sobre una que está a punto de salir de la misma pista o de una pista intersecante. Es literal en §8.4.2.4, p. 201; no dice “siempre” para salidas, ni concede prioridad automática a militares o IFR frente a VFR.",
+    "deepExp": "La regla de prioridad establece que una aeronave que aterriza o está en las últimas fases de aproximación final normalmente tiene prioridad sobre una que está a punto de salir de la misma pista o de una pista intersecante. Es literal en §8.4.2.4, p. 201; no dice “siempre” para salidas, ni concede prioridad automática a militares o IFR (reglas de vuelo por instrumentos) frente a VFR (reglas de vuelo visual).",
     "extra": "Banco Fernando Nº 30 · Nivel Medio · Justificación indicada en el documento: 7.4.2.",
     "sourceTag": "Fernando Nº 30",
     "preserveOptions": true,
@@ -768,7 +768,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — En IMC, la regla es transferir inmediatamente después de que la aeronave esté en vuelo.",
       "NO — Entrar en la pista es anterior al vuelo y no es el momento indicado en la regla IMC."
     ],
-    "deepExp": "En IMC del aeródromo, la responsabilidad del control de una aeronave que sale se transfiere de TWR a APP inmediatamente después de que la aeronave esté en vuelo, salvo un punto o nivel convenido. La regla aparece en §1.2.3, apartado “Aeronaves que salen”, p. 17; por eso la opción marcada es la válida.",
+    "deepExp": "En IMC (condiciones meteorológicas instrumentales) del aeródromo, la responsabilidad del control de una aeronave que sale se transfiere de TWR (torre de control) a APP (control de aproximación) inmediatamente después de que la aeronave esté en vuelo, salvo un punto o nivel convenido. La regla aparece en §1.2.3, apartado “Aeronaves que salen”, p. 17; por eso la opción marcada es la válida.",
     "extra": "Banco Fernando Nº 31 · Nivel Bajo · Justificación indicada en el documento: 5.3.",
     "sourceTag": "Fernando Nº 31",
     "preserveOptions": true,
@@ -793,7 +793,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — “Permiso” es demasiado genérico y no es la denominación técnica solicitada.",
       "NO — Delivery es una posición/función de entrega de autorizaciones, no la definición del concepto."
     ],
-    "deepExp": "La definición de autorización de control de tránsito aéreo es precisamente una autorización para que una aeronave proceda bajo condiciones especificadas por la unidad ATC. Se encuentra en §5.1.1, p. 145; una instrucción es distinta de una autorización, “permiso” no es la denominación técnica completa y delivery es una función, no la definición.",
+    "deepExp": "La definición de autorización de control de tránsito aéreo es precisamente una autorización para que una aeronave proceda bajo condiciones especificadas por la unidad ATC (control de tránsito aéreo). Se encuentra en §5.1.1, p. 145; una instrucción es distinta de una autorización, “permiso” no es la denominación técnica completa y delivery es una función, no la definición.",
     "extra": "Banco Fernando Nº 32 · Nivel Medio · Justificación indicada en el documento: 4.1.1.",
     "sourceTag": "Fernando Nº 32",
     "preserveOptions": true,
@@ -818,7 +818,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La autonomía no aparece en la lista de contenido de una autorización ATC.",
       "NO — El rumbo puede ser una instrucción necesaria, pero no es el elemento general señalado en la opción correcta."
     ],
-    "deepExp": "Entre los elementos obligatorios de una autorización ATC figura el límite de la autorización, junto con identificación, ruta, nivel e instrucciones necesarias. La referencia exacta es §5.1.2, p. 147; autonomía no figura en la lista y velocidad o rumbo pueden ser instrucciones cuando resulten necesarios, pero no son el elemento definitorio pedido.",
+    "deepExp": "Entre los elementos obligatorios de una autorización ATC (control de tránsito aéreo) figura el límite de la autorización, junto con identificación, ruta, nivel e instrucciones necesarias. La referencia exacta es §5.1.2, p. 147; autonomía no figura en la lista y velocidad o rumbo pueden ser instrucciones cuando resulten necesarios, pero no son el elemento definitorio pedido.",
     "extra": "Banco Fernando Nº 33 · Nivel Medio · Justificación indicada en el documento: 4.1.2.",
     "sourceTag": "Fernando Nº 33",
     "preserveOptions": true,
@@ -843,7 +843,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — “Autorizado a despegar” es una autorización de operación en pista, no una descripción de ruta.",
       "CORRECTA — La frase marcada se usa cuando la ruta coincide con la del plan de vuelo y hay detalles suficientes para identificarla."
     ],
-    "deepExp": "La frase “autorizado vía ruta planificada del vuelo” puede describir una ruta o parte de ella idéntica a la indicada en el plan de vuelo, siempre que haya suficientes detalles para identificarla. El manual lo establece en §5.1.2, p. 148; las frases vía SID/STAR son alternativas para salidas/llegadas publicadas y “autorizado a despegar” no describe una ruta.",
+    "deepExp": "La frase “autorizado vía ruta planificada del vuelo” puede describir una ruta o parte de ella idéntica a la indicada en el plan de vuelo, siempre que haya suficientes detalles para identificarla. El manual lo establece en §5.1.2, p. 148; las frases vía SID (salida normalizada por instrumentos)/STAR (llegada normalizada por instrumentos) son alternativas para salidas/llegadas publicadas y “autorizado a despegar” no describe una ruta.",
     "extra": "Banco Fernando Nº 34 · Nivel Alto · Justificación indicada en el documento: 4.1.2.",
     "sourceTag": "Fernando Nº 34",
     "preserveOptions": true,
@@ -868,7 +868,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — El manual establece que todo vuelo controlado está en todo momento bajo una sola dependencia ATC.",
       "NO — “Varias” contradice la regla de una sola dependencia responsable, sin perjuicio de delegación coordinada."
     ],
-    "deepExp": "Todo vuelo controlado está en todo momento bajo el control de una sola dependencia ATC. La regla figura en “Responsabilidad de control”, §1.2.3, p. 15; puede delegarse el control si existe coordinación, pero la responsabilidad no se mantiene simultáneamente en dos o varias dependencias.",
+    "deepExp": "Todo vuelo controlado está en todo momento bajo el control de una sola dependencia ATC (control de tránsito aéreo). La regla figura en “Responsabilidad de control”, §1.2.3, p. 15; puede delegarse el control si existe coordinación, pero la responsabilidad no se mantiene simultáneamente en dos o varias dependencias.",
     "extra": "Banco Fernando Nº 35 · Nivel Bajo · Justificación indicada en el documento: 1.2.3.",
     "sourceTag": "Fernando Nº 35",
     "preserveOptions": true,
@@ -893,7 +893,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — La aeronave en las cercanías del aeródromo y en VMC satisface la condición expresamente indicada.",
       "NO — Que TWR vea la aeronave no basta por sí solo; la regla exige las condiciones operacionales y meteorológicas descritas."
     ],
-    "deepExp": "Para llegadas, la transferencia APP-TWR puede hacerse cuando la aeronave está en las cercanías del aeródromo y ha alcanzado condiciones meteorológicas de vuelo visual. Es una condición expresa de §1.2.3, “Transferencia de la responsabilidad del control”, p. 16; el nivel FL100, el inicio del tramo inicial o que el controlador simplemente la vea no son la regla general que recoge el manual.",
+    "deepExp": "Para llegadas, la transferencia APP (control de aproximación)-TWR (torre de control) puede hacerse cuando la aeronave está en las cercanías del aeródromo y ha alcanzado condiciones meteorológicas de vuelo visual. Es una condición expresa de §1.2.3, “Transferencia de la responsabilidad del control”, p. 16; el nivel FL100 (nivel de vuelo 100), el inicio del tramo inicial o que el controlador simplemente la vea no son la regla general que recoge el manual.",
     "extra": "Banco Fernando Nº 36 · Nivel Alto · Justificación indicada en el documento: 5.3.",
     "sourceTag": "Fernando Nº 36",
     "preserveOptions": true,
@@ -918,7 +918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 4.000 ft no es el valor nominal establecido para este caso.",
       "CORRECTA — A FL410 o por encima, la mínima nominal indicada es 2.000 ft."
     ],
-    "deepExp": "La separación vertical mínima es nominalmente 600 m (2.000 ft) en FL 410 o por encima, dentro del espacio aéreo designado por los acuerdos regionales. La referencia exacta es §8.1.2, p. 165; 1.000 ft es la mínima nominal por debajo del nivel indicado y 500/4.000 ft no son los valores de esta regla.",
+    "deepExp": "La separación vertical mínima es nominalmente 600 m (2.000 ft) en FL (nivel de vuelo) 410 (nivel de vuelo 410) o por encima, dentro del espacio aéreo designado por los acuerdos regionales. La referencia exacta es §8.1.2, p. 165; 1.000 ft es la mínima nominal por debajo del nivel indicado y 500/4.000 ft no son los valores de esta regla.",
     "extra": "Banco Fernando Nº 37 · Nivel Bajo · Justificación indicada en el documento: 7.1.2.",
     "sourceTag": "Fernando Nº 37",
     "preserveOptions": true,
@@ -968,7 +968,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 5 NM corresponde a otras combinaciones, como media detrás de pesada o ligera detrás de media.",
       "NO — 6 NM corresponde a otra combinación de categorías y no a pesada detrás de pesada."
     ],
-    "deepExp": "En la tabla de separación por estela turbulenta basada en distancia, una aeronave pesada que sigue a otra pesada requiere 7,4 km (4 NM). La referencia exacta es §8.7.4, pp. 240–241; 3, 5 y 6 NM corresponden a otras combinaciones o no son el valor de pesada detrás de pesada.",
+    "deepExp": "En la tabla de separación por estela turbulenta basada en distancia, una aeronave pesada que sigue a otra pesada requiere 7,4 km (4 NM (milla náutica)). La referencia exacta es §8.7.4, pp. 240–241; 3, 5 y 6 NM (milla náutica) corresponden a otras combinaciones o no son el valor de pesada detrás de pesada.",
     "extra": "Banco Fernando Nº 39 · Nivel Alto · Justificación indicada en el documento: 7.5.2.",
     "sourceTag": "Fernando Nº 39",
     "preserveOptions": true,
@@ -993,7 +993,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — 5 NM es la mínima indicada para ligera que sigue a media.",
       "NO — 6 NM corresponde a otras combinaciones, no a ligera detrás de media."
     ],
-    "deepExp": "La misma tabla establece 9,3 km (5 NM) para una aeronave ligera que sigue a una aeronave media. La referencia es §8.7.4, p. 240; no debe confundirse con pesada detrás de pesada (4 NM) ni con combinaciones distintas de categorías.",
+    "deepExp": "La misma tabla establece 9,3 km (5 NM (milla náutica)) para una aeronave ligera que sigue a una aeronave media. La referencia es §8.7.4, p. 240; no debe confundirse con pesada detrás de pesada (4 NM (milla náutica)) ni con combinaciones distintas de categorías.",
     "extra": "Banco Fernando Nº 40 · Nivel Alto · Justificación indicada en el documento: 7.5.2.",
     "sourceTag": "Fernando Nº 40",
     "preserveOptions": true,
@@ -1068,7 +1068,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Dos minutos sí aparecen para una aeronave LIGERA o MEDIA detrás de una PESADA, pero el precedente del enunciado es MEDIA, no PESADA.",
       "NO — Tres minutos se reserva para combinaciones más restrictivas, como LIGERA o MEDIA detrás de SÚPER desde una posición normal, o casos especiales; no es la respuesta para MEDIA detrás de MEDIA."
     ],
-    "deepExp": "La opción correcta es «No aplica separación en este caso». En 8.6.3, la tabla de salidas enumera las combinaciones que requieren tiempo por estela y no incluye una aeronave MEDIA que despegue detrás de otra MEDIA; no debe confundirse con MEDIA detrás de PESADA, que sí exige dos minutos. Referencia: TBATC_3, sección 8.6.3, pp. 216–217.",
+    "deepExp": "La opción correcta es «No aplica separación en este caso». En 8.6.3, la tabla de salidas enumera las combinaciones que requieren tiempo por estela y no incluye una aeronave MEDIA que despegue detrás de otra MEDIA; no debe confundirse con MEDIA detrás de PESADA, que sí exige dos minutos. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.6.3, pp. 216–217.",
     "extra": "Banco Fernando Nº 43 · Nivel Alto · Justificación indicada en el documento: 7.5.3.",
     "sourceTag": "Fernando Nº 43",
     "preserveOptions": true,
@@ -1093,7 +1093,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 10 NM no es la mínima horizontal general de vigilancia ATS; excede el valor prescrito para el supuesto ordinario.",
       "CORRECTA — 5 NM (9,3 km) es la mínima horizontal general basada en radar, ADS-B o MLAT, a menos que se haya prescrito otra separación."
     ],
-    "deepExp": "La mínima horizontal general basada en radar, ADS-B o MLAT es 5 NM, salvo que se prescriba otra separación. La posibilidad de reducirla a 3 NM o, bajo condiciones muy específicas, a 2,5 NM no altera la respuesta general del enunciado. Referencia: TBATC_3, sección 8.7.4, p. 239.",
+    "deepExp": "La mínima horizontal general basada en radar, ADS-B (vigilancia dependiente automática por radiodifusión) o MLAT (multilateración) es 5 NM (milla náutica), salvo que se prescriba otra separación. La posibilidad de reducirla a 3 NM (milla náutica) o, bajo condiciones muy específicas, a 2,5 NM (milla náutica) no altera la respuesta general del enunciado. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.7.4, p. 239.",
     "extra": "Banco Fernando Nº 44 · Nivel Bajo · Justificación indicada en el documento: 7.6.4.",
     "sourceTag": "Fernando Nº 44",
     "preserveOptions": true,
@@ -1118,7 +1118,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — VMC y de ocaso a orto no son los requisitos formulados por el manual; la condición es necesidad o conveniencia operacional, con exclusión de PESADA y SUPER.",
       "CORRECTA — Resume la regla completa: la maniobra puede solicitarse para acelerar el tránsito, pero no a aeronaves PESADA o SUPER."
     ],
-    "deepExp": "El aterrizaje más allá de la zona de toma de contacto puede solicitarse cuando sea operacionalmente necesario o conveniente para acelerar el tránsito. La limitación decisiva es que nunca se pedirá esa maniobra a una aeronave PESADA o SUPER, por razones de seguridad y performance. Referencia: TBATC_3, sección 8.4, apartado «Maniobras de aterrizaje y recorrido en tierra», pp. 205–206.",
+    "deepExp": "El aterrizaje más allá de la zona de toma de contacto puede solicitarse cuando sea operacionalmente necesario o conveniente para acelerar el tránsito. La limitación decisiva es que nunca se pedirá esa maniobra a una aeronave PESADA o SUPER, por razones de seguridad y performance. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.4, apartado «Maniobras de aterrizaje y recorrido en tierra», pp. 205–206.",
     "extra": "Banco Fernando Nº 45 · Nivel Alto · Justificación indicada en el documento: 7.4.2.",
     "sourceTag": "Fernando Nº 45",
     "preserveOptions": true,
@@ -1143,7 +1143,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — El controlador no intentará modificar la trayectoria hasta que el piloto reporte que está libre de conflicto y haya vuelto a los términos de la autorización o instrucción ATC.",
       "NO — Un RA no exige transferir automáticamente a 121,5 MHz; la responsabilidad y las comunicaciones se gestionan conforme a los procedimientos ATS normales."
     ],
-    "deepExp": "Ante un RA del ACAS, el controlador no debe intentar modificar la trayectoria de la aeronave mientras la tripulación resuelve el conflicto. Debe esperar el informe «Conflicto terminado» y el regreso a la autorización o instrucción ATC vigente; el controlador no sustituye la maniobra vertical indicada por el ACAS. Referencia: TBATC_3, sección 9.1.4, p. 249.",
+    "deepExp": "Ante un RA (aviso de resolución) del ACAS (sistema anticolisión de a bordo), el controlador no debe intentar modificar la trayectoria de la aeronave mientras la tripulación resuelve el conflicto. Debe esperar el informe «Conflicto terminado» y el regreso a la autorización o instrucción ATC (control de tránsito aéreo) vigente; el controlador no sustituye la maniobra vertical indicada por el ACAS (sistema anticolisión de a bordo). Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 9.1.4, p. 249.",
     "extra": "Banco Fernando Nº 46 · Nivel Bajo · Justificación indicada en el documento: 8.1.4.",
     "sourceTag": "Fernando Nº 46",
     "preserveOptions": true,
@@ -1168,7 +1168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Imposible, TCAS RA» comunica que no puede cumplirse una instrucción o autorización ATC por ser contradictoria con el RA; no es la comunicación inicial genérica pedida.",
       "NO — PAN PAN señala urgencia sin necesidad de ayuda inmediata y pertenece a otra categoría de mensajes; no designa un RA ACAS."
     ],
-    "deepExp": "El reporte inicial de una desviación para cumplir un RA se transmite como «RA TCAS» o «TCAS RA». No debe confundirse con MAYDAY o PAN PAN, que son señales de socorro y urgencia, ni con «Imposible, TCAS RA», que se usa cuando una autorización ATC contradice el RA. Referencia: TBATC_3, sección 9.1.4, p. 250; fraseología de reportes de RA, pp. 250–251.",
+    "deepExp": "El reporte inicial de una desviación para cumplir un RA (aviso de resolución) se transmite como «RA (aviso de resolución) TCAS (sistema de alerta de tráfico y evitación de colisiones)» o «TCAS (sistema de alerta de tráfico y evitación de colisiones) RA (aviso de resolución)». No debe confundirse con MAYDAY o PAN PAN, que son señales de socorro y urgencia, ni con «Imposible, TCAS (sistema de alerta de tráfico y evitación de colisiones) RA (aviso de resolución)», que se usa cuando una autorización ATC (control de tránsito aéreo) contradice el RA (aviso de resolución). Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 9.1.4, p. 250; fraseología de reportes de RA (aviso de resolución), pp. 250–251.",
     "extra": "Banco Fernando Nº 47 · Nivel Medio · Justificación indicada en el documento: 8.1.4.",
     "sourceTag": "Fernando Nº 47",
     "preserveOptions": true,
@@ -1193,7 +1193,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — APM es una función del sistema ATM en tierra que alerta al controlador sobre el riesgo de accidente contra terreno u obstáculos durante la aproximación final.",
       "NO — ACARS es un sistema de intercambio de mensajes aeronáuticos; no genera la alerta terrestre de seguridad descrita en la pregunta."
     ],
-    "deepExp": "APM es una safety net terrestre: Approach Path Monitor controla el riesgo de proximidad al terreno u obstáculos durante la aproximación final. ACAS y TAWS son sistemas de a bordo, MTCD no es la safety net terrestre definida en esta lista y ACARS es un sistema de comunicaciones. Referencia: TBATC_3, sección 9.2.1, pp. 258–259.",
+    "deepExp": "APM (monitor de trayectoria de aproximación) es una safety net terrestre: Approach Path Monitor controla el riesgo de proximidad al terreno u obstáculos durante la aproximación final. ACAS (sistema anticolisión de a bordo) y TAWS (sistema de alerta y conocimiento del terreno) son sistemas de a bordo, MTCD (detección de conflictos a medio plazo) no es la safety net terrestre definida en esta lista y ACARS (sistema de direccionamiento y notificación de comunicaciones de aeronaves) es un sistema de comunicaciones. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 9.2.1, pp. 258–259.",
     "extra": "Banco Fernando Nº 48 · Nivel Bajo · Justificación indicada en el documento: 8.2.1.",
     "sourceTag": "Fernando Nº 48",
     "preserveOptions": true,
@@ -1218,7 +1218,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — MSAW alerta sobre una posible violación de la altitud mínima segura de la zona; es próximo conceptualmente, pero menos específico que APM para la aproximación final.",
       "CORRECTA — APM alerta al controlador de la proximidad peligrosa a terreno u obstáculos durante la aproximación final, exactamente la función descrita."
     ],
-    "deepExp": "La descripción corresponde al Approach Path Monitor (APM), cuya finalidad específica es alertar durante la aproximación final sobre el riesgo de colisión de un vuelo controlado con terreno u obstáculos. MSAW también advierte de terreno, pero se refiere a la vulneración de altitudes mínimas de seguridad, no específicamente a la trayectoria de aproximación final. Referencia: TBATC_3, sección 9.2.1, p. 259 y apartado E, p. 263.",
+    "deepExp": "La descripción corresponde al Approach Path Monitor (APM (monitor de trayectoria de aproximación)), cuya finalidad específica es alertar durante la aproximación final sobre el riesgo de colisión de un vuelo controlado con terreno u obstáculos. MSAW (alerta de altitud mínima segura) también advierte de terreno, pero se refiere a la vulneración de altitudes mínimas de seguridad, no específicamente a la trayectoria de aproximación final. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 9.2.1, p. 259 y apartado E, p. 263.",
     "extra": "Banco Fernando Nº 49 · Nivel Alto · Justificación indicada en el documento: 8.2.1.",
     "sourceTag": "Fernando Nº 49",
     "preserveOptions": true,
@@ -1243,7 +1243,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El aeródromo alternativo es un dato del plan de vuelo y puede ser relevante operacionalmente, pero no forma parte de los elementos mínimos enumerados para esta coordinación.",
       "NO — La velocidad de crucero puede influir en los cálculos, pero la coordinación se expresa directamente mediante la hora estimada sobre el límite."
     ],
-    "deepExp": "La hora estimada de paso sobre el límite es un elemento básico de la coordinación entre dependencias ATS. Permite a la dependencia aceptante conocer cuándo se prevé la transferencia y preparar las condiciones de control; los demás datos pueden pertenecer al plan de vuelo, pero no sustituyen ese dato mínimo de coordinación. Referencia: TBATC_3, sección 6.1, p. 152.",
+    "deepExp": "La hora estimada de paso sobre el límite es un elemento básico de la coordinación entre dependencias ATS (servicios de tránsito aéreo). Permite a la dependencia aceptante conocer cuándo se prevé la transferencia y preparar las condiciones de control; los demás datos pueden pertenecer al plan de vuelo, pero no sustituyen ese dato mínimo de coordinación. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 6.1, p. 152.",
     "extra": "Banco Fernando Nº 50 · Nivel Bajo · Justificación indicada en el documento: 5.1.",
     "sourceTag": "Fernando Nº 50",
     "preserveOptions": true,
@@ -1268,7 +1268,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La notificación del piloto es necesaria, pero el manual exige además que el controlador acuse recibo; la responsabilidad no se recupera automáticamente con el aviso.",
       "NO — Que la aeronave reanude la autorización sin acuse del controlador no satisface el procedimiento de transferencia de responsabilidad establecido."
     ],
-    "deepExp": "Después de una desviación inducida por un RA, el controlador reanuda la responsabilidad cuando acusa recibo del informe de la tripulación de que la aeronave ha reanudado la autorización vigente. También puede hacerlo si acusa recibo de que la está reanudando y emite una autorización alternativa que la tripulación colaciona; por eso no basta la mera notificación del RA. Referencia: TBATC_3, sección 9.1.4, p. 250.",
+    "deepExp": "Después de una desviación inducida por un RA (aviso de resolución), el controlador reanuda la responsabilidad cuando acusa recibo del informe de la tripulación de que la aeronave ha reanudado la autorización vigente. También puede hacerlo si acusa recibo de que la está reanudando y emite una autorización alternativa que la tripulación colaciona; por eso no basta la mera notificación del RA (aviso de resolución). Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 9.1.4, p. 250.",
     "extra": "Banco Fernando Nº 51 · Nivel Alto · Justificación indicada en el documento: 8.1.4.",
     "sourceTag": "Fernando Nº 51",
     "preserveOptions": true,
@@ -1293,7 +1293,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El controlador utiliza y procesa el plan para el servicio ATS, pero no es quien responde por la inserción y entrega inicial de sus elementos.",
       "CORRECTA — El manual atribuye la responsabilidad al piloto o al representante del operador de la aeronave, cubriendo ambas vías de presentación."
     ],
-    "deepExp": "La responsabilidad de introducir correctamente todos los elementos y entregar el plan de vuelo corresponde al piloto o al representante de su operador. El controlador recibe y procesa la información para prestar ATS, pero no asume la responsabilidad del contenido presentado por el explotador. Referencia: TBATC_3, sección 7.1.2, p. 159.",
+    "deepExp": "La responsabilidad de introducir correctamente todos los elementos y entregar el plan de vuelo corresponde al piloto o al representante de su operador. El controlador recibe y procesa la información para prestar ATS (servicios de tránsito aéreo), pero no asume la responsabilidad del contenido presentado por el explotador. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 7.1.2, p. 159.",
     "extra": "Banco Fernando Nº 52 · Nivel Medio · Justificación indicada en el documento: 6.1.2.",
     "sourceTag": "Fernando Nº 52",
     "preserveOptions": true,
@@ -1318,7 +1318,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El helicóptero sigue sujeto a separación y a las instrucciones ATS aplicables; la regla especial afecta al cambio de frecuencia, no elimina la separación.",
       "NO — La aeronave debe acusar recibo cuando corresponda; la excepción del manual no elimina la obligación de comunicación, sino que evita el cambio de frecuencia en esa fase crítica."
     ],
-    "deepExp": "Un helicóptero tripulado por un solo piloto en vuelo estacionario o rodaje aéreo requiere que el piloto conserve capacidad de atención y control. Por eso no se le deben expedir cambios de frecuencia; cuando sea posible, la dependencia siguiente retransmitirá las instrucciones hasta que el piloto pueda cambiar. Referencia: TBATC_3, sección 8.4.1.4, p. 196.",
+    "deepExp": "Un helicóptero tripulado por un solo piloto en vuelo estacionario o rodaje aéreo requiere que el piloto conserve capacidad de atención y control. Por eso no se le deben expedir cambios de frecuencia; cuando sea posible, la dependencia siguiente retransmitirá las instrucciones hasta que el piloto pueda cambiar. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.4.1.4, p. 196.",
     "extra": "Banco Fernando Nº 53 · Nivel Medio · Justificación indicada en el documento: 7.4.1.",
     "sourceTag": "Fernando Nº 53",
     "preserveOptions": true,
@@ -1343,7 +1343,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Tres minutos es la mínima para LIGERA detrás de PESADA o MEDIA; el seguimiento MEDIA detrás de PESADA exige dos minutos.",
       "NO — Cuatro minutos se aplica a LIGERA detrás de SÚPER, que es una combinación más restrictiva y distinta de la indicada."
     ],
-    "deepExp": "Para una aeronave MEDIA que aterriza detrás de una PESADA en la misma pista, la mínima longitudinal por estela turbulenta es de dos minutos. La trampa es invertir las categorías o aplicar tres minutos, que corresponde a una aeronave LIGERA detrás de PESADA o MEDIA. Referencia: TBATC_3, sección 8.6.3, p. 217.",
+    "deepExp": "Para una aeronave MEDIA que aterriza detrás de una PESADA en la misma pista, la mínima longitudinal por estela turbulenta es de dos minutos. La trampa es invertir las categorías o aplicar tres minutos, que corresponde a una aeronave LIGERA detrás de PESADA o MEDIA. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.6.3, p. 217.",
     "extra": "Banco Fernando Nº 54 · Nivel Bajo · Justificación indicada en el documento: 7.5.3.",
     "sourceTag": "Fernando Nº 54",
     "preserveOptions": true,
@@ -1368,7 +1368,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 7 NM corresponde a MEDIA detrás de una aeronave SUPER en la tabla de categorías; no al precedente PESADA.",
       "NO — 6 NM corresponde a LIGERA detrás de PESADA; la aeronave que sigue en el enunciado es MEDIA."
     ],
-    "deepExp": "Cuando se aplica separación por estela con vigilancia ATS en aproximación o salida, una aeronave MEDIA que sigue a una PESADA debe mantenerse a 5 NM. El valor de 7 NM corresponde a MEDIA detrás de SÚPER, mientras que 4 NM corresponde a PESADA detrás de PESADA. Referencia: TBATC_3, sección 8.7.4, p. 240.",
+    "deepExp": "Cuando se aplica separación por estela con vigilancia ATS (servicios de tránsito aéreo) en aproximación o salida, una aeronave MEDIA que sigue a una PESADA debe mantenerse a 5 NM (milla náutica). El valor de 7 NM (milla náutica) corresponde a MEDIA detrás de SÚPER, mientras que 4 NM (milla náutica) corresponde a PESADA detrás de PESADA. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.7.4, p. 240.",
     "extra": "Banco Fernando Nº 55 · Nivel Alto · Justificación indicada en el documento: 7.5.2.",
     "sourceTag": "Fernando Nº 55",
     "preserveOptions": true,
@@ -1393,7 +1393,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El proveedor contempla asistencia vectorial a VFR, pero «vectores radar» no es la formulación de la función que el banco pregunta en esta lista.",
       "CORRECTA — La lista de funciones del sistema de vigilancia ATS en TWR incluye proporcionar asistencia para la navegación a vuelos VFR, con las precauciones correspondientes."
     ],
-    "deepExp": "El uso de vigilancia ATS en el servicio de control de aeródromo puede incluir el suministro de asistencia para la navegación a vuelos VFR. La autorización depende del proveedor ATS y debe preservar la observación visual, pero la función está expresamente enumerada. Referencia: TBATC_3, sección 8.7.2, p. 237.",
+    "deepExp": "El uso de vigilancia ATS (servicios de tránsito aéreo) en el servicio de control de aeródromo puede incluir el suministro de asistencia para la navegación a vuelos VFR (reglas de vuelo visual). La autorización depende del proveedor ATS (servicios de tránsito aéreo) y debe preservar la observación visual, pero la función está expresamente enumerada. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.7.2, p. 237.",
     "extra": "Banco Fernando Nº 56 · Nivel Medio · Justificación indicada en el documento: 7.6.2.",
     "sourceTag": "Fernando Nº 56",
     "preserveOptions": true,
@@ -1418,7 +1418,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Incluye ayudas y procedimientos anti-ruido, pero omite el factor meteorológico fundamental de la dirección del viento.",
       "CORRECTA — Reúne la dirección del viento, los procedimientos anti-ruido y las ayudas de aproximación y aterrizaje, que son los factores operacionales relevantes."
     ],
-    "deepExp": "La elección de la pista en uso combina factores operacionales y ambientales: dirección del viento, procedimientos de atenuación del ruido y ayudas disponibles para aproximación y aterrizaje. Las alternativas parciales omiten al menos uno de esos factores o sustituyen el viento por sistemas de aumentación. Referencia: TBATC_3, sección 8.4, especialmente 8.4.2.2, p. 200, y procedimientos de aeródromo, pp. 195–206.",
+    "deepExp": "La elección de la pista en uso combina factores operacionales y ambientales: dirección del viento, procedimientos de atenuación del ruido y ayudas disponibles para aproximación y aterrizaje. Las alternativas parciales omiten al menos uno de esos factores o sustituyen el viento por sistemas de aumentación. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 8.4, especialmente 8.4.2.2, p. 200, y procedimientos de aeródromo, pp. 195–206.",
     "extra": "Banco Fernando Nº 57 · Nivel Bajo",
     "sourceTag": "Fernando Nº 57",
     "preserveOptions": true,
@@ -1443,7 +1443,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Hora Estimada de Llegada» corresponde a ETA, no a EAT; la diferencia entre llegada y aproximación es la trampa terminológica.",
       "NO — «Hora Estimada de Aproximación» es una traducción imprecisa para la definición del banco: EAT se desarrolla como hora prevista de aproximación."
     ],
-    "deepExp": "EAT significa «Hora Prevista de Aproximación» (Expected Approach Time), es decir, la hora a la que se prevé que una aeronave pueda iniciar su aproximación. No debe confundirse con ETA, la hora prevista de llegada; el manual usa ambas expresiones como referencias distintas en los procedimientos de fallo de comunicaciones. Referencia: TBATC_3, sección 4.16.1, p. 140, y sección 4.6, p. 113.",
+    "deepExp": "EAT (hora prevista de aproximación) significa «Hora Prevista de Aproximación» (Expected Approach Time), es decir, la hora a la que se prevé que una aeronave pueda iniciar su aproximación. No debe confundirse con ETA (hora prevista de llegada), la hora prevista de llegada; el manual usa ambas expresiones como referencias distintas en los procedimientos de fallo de comunicaciones. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.16.1, p. 140, y sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 58 · Nivel Bajo · Justificación indicada en el documento: Apéndice",
     "sourceTag": "Fernando Nº 58",
     "preserveOptions": true,
@@ -1468,7 +1468,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — E, C, X, J y T se transmiten como Echo, Charlie, X-ray, Juliet y Tango, respectivamente.",
       "NO — «East» no es la palabra normalizada para E; además, X-ray, Juliet y Tango sí deben conservarse como términos del alfabeto OACI."
     ],
-    "deepExp": "La matrícula EC-XJT se deletrea carácter por carácter con el alfabeto aeronáutico: Echo Charlie X-ray Juliet Tango. La fraseología no permite sustituir las palabras normalizadas por nombres parecidos como «Tower» o «Telephone». Referencia: TBATC_3, sección 4.4, p. 108, y sección 4.14.1, p. 124.",
+    "deepExp": "La matrícula EC-XJT se deletrea carácter por carácter con el alfabeto aeronáutico: Echo Charlie X-ray Juliet Tango. La fraseología no permite sustituir las palabras normalizadas por nombres parecidos como «Tower» o «Telephone». Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.4, p. 108, y sección 4.14.1, p. 124.",
     "extra": "Banco Fernando Nº 59 · Nivel Bajo · Justificación indicada en el documento: 3.4.",
     "sourceTag": "Fernando Nº 59",
     "preserveOptions": true,
@@ -1493,7 +1493,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Al quedar activado el transmisor, la frecuencia no puede ser usada eficazmente por otras estaciones hasta liberar el interruptor.",
       "NO — Un micrófono trabado no conmuta automáticamente a otra frecuencia; mantiene ocupada la frecuencia seleccionada."
     ],
-    "deepExp": "Un interruptor de micrófono trabado mantiene una transmisión involuntaria y ocupa la frecuencia, impidiendo que otras estaciones la utilicen con normalidad. Es un riesgo operacional porque bloquea comunicaciones y puede impedir que se reciban instrucciones o avisos urgentes. Referencia: TBATC_3, sección 4.3, p. 107.",
+    "deepExp": "Un interruptor de micrófono trabado mantiene una transmisión involuntaria y ocupa la frecuencia, impidiendo que otras estaciones la utilicen con normalidad. Es un riesgo operacional porque bloquea comunicaciones y puede impedir que se reciban instrucciones o avisos urgentes. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.3, p. 107.",
     "extra": "Banco Fernando Nº 60 · Nivel Bajo · Justificación indicada en el documento: 3.3.",
     "sourceTag": "Fernando Nº 60",
     "preserveOptions": true,
@@ -1518,7 +1518,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Quince segundos sería una espera mayor, pero no es la mínima normalizada que pide la pregunta.",
       "CORRECTA — Deben transcurrir por lo menos 10 segundos antes de hacer una segunda llamada."
     ],
-    "deepExp": "Después de una llamada a una estación aeronáutica deben esperarse al menos 10 segundos antes de repetirla. La espera evita transmisiones innecesarias y permite que la estación llamada se prepare para responder; no se trata de un intervalo de 5, 15 o 20 segundos. Referencia: TBATC_3, sección 4.3, p. 107.",
+    "deepExp": "Después de una llamada a una estación aeronáutica deben esperarse al menos 10 segundos antes de repetirla. La espera evita transmisiones innecesarias y permite que la estación llamada se prepare para responder; no se trata de un intervalo de 5, 15 o 20 segundos. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.3, p. 107.",
     "extra": "Banco Fernando Nº 61 · Nivel Alto · Justificación indicada en el documento: 3.3.",
     "sourceTag": "Fernando Nº 61",
     "preserveOptions": true,
@@ -1543,7 +1543,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La estabilidad de la aeronave no es la comprobación radio exigida al personal antes de transmitir un mensaje.",
       "CORRECTA — Escuchar primero la frecuencia permite verificar que está libre y evitar interferir la transmisión de otra estación."
     ],
-    "deepExp": "Antes de transmitir, el personal debe escuchar la frecuencia en uso para comprobar que no interferirá con otra estación. Es una comprobación de disciplina radio y de seguridad, distinta de escribir siempre el mensaje, sintonizar la frecuencia de emergencia o esperar a que la aeronave esté estabilizada. Referencia: TBATC_3, sección 4.3, p. 107.",
+    "deepExp": "Antes de transmitir, el personal debe escuchar la frecuencia en uso para comprobar que no interferirá con otra estación. Es una comprobación de disciplina radio y de seguridad, distinta de escribir siempre el mensaje, sintonizar la frecuencia de emergencia o esperar a que la aeronave esté estabilizada. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.3, p. 107.",
     "extra": "Banco Fernando Nº 62 · Nivel Bajo · Justificación indicada en el documento: 3.3.",
     "sourceTag": "Fernando Nº 62",
     "preserveOptions": true,
@@ -1568,7 +1568,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Pista diez» no es la forma normalizada para el número de pista 10; debe decirse «pista uno cero».",
       "NO — Invierte las reglas: el número de pista no se dice «diez» y el rumbo no se dice «uno cien»."
     ],
-    "deepExp": "Los números de pista y los rumbos se pronuncian normalmente dígito a dígito. Así, 10 es «uno cero» y 100° es «uno cero cero grados»; «diez» y «uno cien» no siguen la regla de transmisión de esos datos. Referencia: TBATC_3, sección 4.5, p. 110.",
+    "deepExp": "Los números de pista y los rumbos se pronuncian normalmente dígito a dígito. Así, 10 es «uno cero» y 100° es «uno cero cero grados»; «diez» y «uno cien» no siguen la regla de transmisión de esos datos. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.5, p. 110.",
     "extra": "Banco Fernando Nº 63 · Nivel Medio · Justificación indicada en el documento: 3.5.",
     "sourceTag": "Fernando Nº 63",
     "preserveOptions": true,
@@ -1593,7 +1593,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Aunque 7000 sí se transmite como «siete mil», el rumbo está mal agrupado como «tres cientos»; debe decirse «tres cero cero grados».",
       "NO — El rumbo está correctamente separado, pero 7000 no se transmite «siete cero cero cero» cuando es un millar redondo; se dice «siete mil»."
     ],
-    "deepExp": "El rumbo 300° se transmite dígito a dígito como «tres cero cero grados», mientras que el código SSR 7000, al ser un millar redondo, se transmite como «siete mil». La trampa es usar «tres cientos» o leer el código dígito a dígito, contra la excepción específica de millares redondos. Referencia: TBATC_3, sección 4.5, p. 110.",
+    "deepExp": "El rumbo 300° se transmite dígito a dígito como «tres cero cero grados», mientras que el código SSR (radar secundario de vigilancia) 7000, al ser un millar redondo, se transmite como «siete mil». La trampa es usar «tres cientos» o leer el código dígito a dígito, contra la excepción específica de millares redondos. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.5, p. 110.",
     "extra": "Banco Fernando Nº 64 · Nivel Medio · Justificación indicada en el documento: 3.5.",
     "sourceTag": "Fernando Nº 64",
     "preserveOptions": true,
@@ -1618,7 +1618,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — HMG no es la referencia horaria normalizada para las comunicaciones ATS.",
       "NO — CET es una hora local o zonal y no garantiza la referencia universal común requerida para la coordinación aeronáutica."
     ],
-    "deepExp": "Las horas aeronáuticas se expresan usando UTC, el Tiempo Universal Coordinado. GMT puede aparecer como referencia histórica, pero no es la designación normalizada exigida por el procedimiento, y CET o HMG no sustituyen UTC. Referencia: TBATC_3, sección 4.6, p. 113.",
+    "deepExp": "Las horas aeronáuticas se expresan usando UTC (tiempo universal coordinado), el Tiempo Universal Coordinado. GMT (hora media de Greenwich) puede aparecer como referencia histórica, pero no es la designación normalizada exigida por el procedimiento, y CET (hora central europea) o HMG (hora media de Greenwich) no sustituyen UTC (tiempo universal coordinado). Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 65 · Nivel Bajo · Justificación indicada en el documento: 3.6.",
     "sourceTag": "Fernando Nº 65",
     "preserveOptions": true,
@@ -1643,7 +1643,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — 7600 es el código modo A que indica pérdida o fallo de las comunicaciones aeroterrestres.",
       "NO — 7700 es el código de emergencia general o socorro, no el indicador específico de fallo radio."
     ],
-    "deepExp": "El código SSR 7600 indica fallo de comunicaciones radio. No debe confundirse con 7500, interferencia ilícita, ni con 7700, emergencia general; 7000 es el código de conspicuidad usado normalmente para VFR cuando procede. Referencia: TBATC_3, sección 4.16.1, p. 139, y transmisión de códigos SSR, sección 4.5, p. 110.",
+    "deepExp": "El código SSR (radar secundario de vigilancia) 7600 indica fallo de comunicaciones radio. No debe confundirse con 7500, interferencia ilícita, ni con 7700, emergencia general; 7000 es el código de conspicuidad usado normalmente para VFR (reglas de vuelo visual) cuando procede. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.16.1, p. 139, y transmisión de códigos SSR (radar secundario de vigilancia), sección 4.5, p. 110.",
     "extra": "Banco Fernando Nº 66 · Nivel Medio · Justificación indicada en el documento: 3.16.",
     "sourceTag": "Fernando Nº 66",
     "preserveOptions": true,
@@ -1668,7 +1668,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 00:01 es un minuto después de la medianoche y no puede designar el principio exacto del día.",
       "NO — 00:00:30 es treinta segundos después del inicio; además, la forma normalizada indicada en el manual es 0000."
     ],
-    "deepExp": "La medianoche que marca el principio del día se designa como 0000. El manual distingue este uso de 2400, reservado para indicar la medianoche como fin del día anterior. Referencia: TBATC_3, sección 4.6, p. 113.",
+    "deepExp": "La medianoche que marca el principio del día se designa como 0000. El manual distingue este uso de 2400, reservado para indicar la medianoche como fin del día anterior. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 67 · Nivel Medio · Justificación indicada en el documento: 3.6.",
     "sourceTag": "Fernando Nº 67",
     "preserveOptions": true,
@@ -1693,7 +1693,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — 2400, expresado en la opción como 24:00, designa la medianoche para indicar el fin del día.",
       "NO — 23:59 es el minuto anterior a la medianoche; no identifica la frontera de fin del día como lo hace 2400."
     ],
-    "deepExp": "La medianoche que indica el fin del día se designa como 2400. La misma frontera temporal puede expresarse como 0000 cuando se considera el principio del día siguiente, pero el enunciado pide expresamente el fin del día. Referencia: TBATC_3, sección 4.6, p. 113.",
+    "deepExp": "La medianoche que indica el fin del día se designa como 2400. La misma frontera temporal puede expresarse como 0000 cuando se considera el principio del día siguiente, pero el enunciado pide expresamente el fin del día. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 68 · Nivel Medio · Justificación indicada en el documento: 3.6.",
     "sourceTag": "Fernando Nº 68",
     "preserveOptions": true,
@@ -1718,7 +1718,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Es falsa porque el manual exige UTC, no la hora local, para las horas de los servicios de tránsito aéreo.",
       "NO — Es verdadera: si hay riesgo de confusión se transmite la hora seguida de los minutos, además de indicarlos dígito a dígito."
     ],
-    "deepExp": "La afirmación falsa es «Se debe emplear la hora local». Las dependencias ATS deben usar UTC; además, las señales horarias se refieren al medio minuto más próximo y, normalmente, basta transmitir los minutos salvo riesgo de confusión. Referencia: TBATC_3, sección 4.6, p. 113.",
+    "deepExp": "La afirmación falsa es «Se debe emplear la hora local». Las dependencias ATS (servicios de tránsito aéreo) deben usar UTC (tiempo universal coordinado); además, las señales horarias se refieren al medio minuto más próximo y, normalmente, basta transmitir los minutos salvo riesgo de confusión. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 69 · Nivel Bajo · Justificación indicada en el documento: 3.6.",
     "sourceTag": "Fernando Nº 69",
     "preserveOptions": true,
@@ -1743,7 +1743,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 05:56:30 está exactamente en el medio minuto y se expresaría como 05:57 al aplicar el redondeo al medio minuto próximo según el criterio del ejercicio.",
       "CORRECTA — 10:23:35 se aproxima a 10:24 porque 35 segundos está más cerca del minuto siguiente que del minuto 23."
     ],
-    "deepExp": "Las señales horarias se redondean al medio minuto más próximo. 23:35 está 5 segundos después de 23:30 y 25 segundos antes de 24:00, por lo que se transmite como 10:24 en el ejemplo de la pregunta; las otras opciones no aplican correctamente el redondeo. Referencia: TBATC_3, sección 4.6, p. 113.",
+    "deepExp": "Las señales horarias se redondean al medio minuto más próximo. 23:35 está 5 segundos después de 23:30 y 25 segundos antes de 24:00, por lo que se transmite como 10:24 en el ejemplo de la pregunta; las otras opciones no aplican correctamente el redondeo. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.6, p. 113.",
     "extra": "Banco Fernando Nº 70 · Nivel Medio · Justificación indicada en el documento: 3.6.",
     "sourceTag": "Fernando Nº 70",
     "preserveOptions": true,
@@ -1768,7 +1768,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Omite el último dígito 5; con separación de 8,33 kHz no basta la forma abreviada de cinco dígitos.",
       "NO — Utiliza «decimal» y además omite el último dígito; ambas cosas se apartan de la forma española normalizada del supuesto."
     ],
-    "deepExp": "Con separación de canales de 8,33 kHz, la frecuencia 134,375 MHz se transmite con los seis dígitos significativos: «uno tres cuatro coma tres siete cinco». La palabra COMA marca explícitamente el decimal y se pronuncian todos los dígitos exigidos por el canal de 8,33 kHz. Referencia: TBATC_3, sección 4.7, p. 114, y sección 4.5, p. 111.",
+    "deepExp": "Con separación de canales de 8,33 kHz, la frecuencia 134,375 MHz (megahercios) se transmite con los seis dígitos significativos: «uno tres cuatro coma tres siete cinco». La palabra COMA marca explícitamente el decimal y se pronuncian todos los dígitos exigidos por el canal de 8,33 kHz. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.7, p. 114, y sección 4.5, p. 111.",
     "extra": "Banco Fernando Nº 71 · Nivel Medio · Justificación indicada en el documento: 3.7.",
     "sourceTag": "Fernando Nº 71",
     "preserveOptions": true,
@@ -1793,7 +1793,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 8,33 kHz a 25 kHz sería un aumento del espaciamiento, contrario al objetivo de aumentar la capacidad.",
       "CORRECTA — La canalización estrecha reduce el espaciamiento de 25 kHz a 8,33 kHz y permite disponer de más canales."
     ],
-    "deepExp": "La reducción de separación entre canales VHF que aumenta la capacidad consiste en pasar de 25 kHz a 8,33 kHz. No se trata de MHz y tampoco se invierte el sentido: 8,33 kHz es el espaciamiento reducido. Referencia: TBATC_3, sección 4.7, p. 114.",
+    "deepExp": "La reducción de separación entre canales VHF (frecuencia muy alta) que aumenta la capacidad consiste en pasar de 25 kHz a 8,33 kHz. No se trata de MHz (megahercios) y tampoco se invierte el sentido: 8,33 kHz es el espaciamiento reducido. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.7, p. 114.",
     "extra": "Banco Fernando Nº 72 · Nivel Alto · Justificación indicada en el documento: 3.7.",
     "sourceTag": "Fernando Nº 72",
     "preserveOptions": true,
@@ -1818,7 +1818,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — «Coma» se pronuncia siempre al transmitir un número decimal, separando verbalmente la parte entera y la decimal.",
       "NO — La autoridad ATS no puede convertir en opcional una palabra exigida por la técnica normalizada de transmisión."
     ],
-    "deepExp": "Los números con decimales se transmiten dígito a dígito y siempre se pronuncia la palabra COMA (DECIMAL en inglés) en la posición correspondiente. La regla no depende de que haya tres dígitos ni de una autorización particular para omitirla. Referencia: TBATC_3, sección 4.5, p. 111.",
+    "deepExp": "Los números con decimales se transmiten dígito a dígito y siempre se pronuncia la palabra COMA (DECIMAL en inglés) en la posición correspondiente. La regla no depende de que haya tres dígitos ni de una autorización particular para omitirla. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.5, p. 111.",
     "extra": "Banco Fernando Nº 73 · Nivel Bajo · Justificación indicada en el documento: 3.5.",
     "sourceTag": "Fernando Nº 73",
     "preserveOptions": true,
@@ -1843,7 +1843,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Corrijo, repito» cambia la palabra normalizada CORRECCIÓN por una forma no prescrita.",
       "CORRECTA — «Corrección, repito» precede a la transmisión completa del mensaje por segunda vez cuando esa es la mejor forma de corregirlo."
     ],
-    "deepExp": "Si la mejor corrección consiste en repetir el mensaje completo, antes de retransmitirlo se dice «Corrección, repito». Esa expresión anuncia que se va a volver a transmitir todo el mensaje; «Corrijo» o «lo repito» no es la fórmula establecida para este caso. Referencia: TBATC_3, sección 4.11, p. 119.",
+    "deepExp": "Si la mejor corrección consiste en repetir el mensaje completo, antes de retransmitirlo se dice «Corrección, repito». Esa expresión anuncia que se va a volver a transmitir todo el mensaje; «Corrijo» o «lo repito» no es la fórmula establecida para este caso. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.11, p. 119.",
     "extra": "Banco Fernando Nº 74 · Nivel Alto · Justificación indicada en el documento: 3.11.",
     "sourceTag": "Fernando Nº 74",
     "preserveOptions": true,
@@ -1868,7 +1868,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Negativo, notifique listo copiar nueva autorización» no es la fórmula definida y mezcla una respuesta negativa con una instrucción ajena al supuesto.",
       "NO — «Anule» significa hacer caso omiso o cancelar una autorización anterior; no identifica por sí sola la emisión de la autorización sustitutiva."
     ],
-    "deepExp": "Cuando una autorización modifica la anterior y la invalida total o parcialmente, la frase normalizada es «Nueva autorización». «Reautorizado» no es la expresión definida en la tabla y «Cancele» solo anula una autorización, sin comunicar por sí misma la nueva. Referencia: TBATC_3, sección 4.8, pp. 115–116.",
+    "deepExp": "Cuando una autorización modifica la anterior y la invalida total o parcialmente, la frase normalizada es «Nueva autorización». «Reautorizado» no es la expresión definida en la tabla y «Cancele» solo anula una autorización, sin comunicar por sí misma la nueva. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, pp. 115–116.",
     "extra": "Banco Fernando Nº 75 · Nivel Medio · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 75",
     "preserveOptions": true,
@@ -1893,7 +1893,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Reautorizado» no es la palabra definida para este significado; la tabla usa «Nueva autorización» para una modificación de la autorización anterior.",
       "NO — «Correcto» significa «está bien» y no concede por sí mismo permiso para proceder."
     ],
-    "deepExp": "«Autorizado» significa permiso para seguir en las condiciones determinadas. «Aprobado» concede una medida propuesta, mientras que «reautorizado» y «correcto» tienen otros usos y no son equivalentes a la autorización ATC. Referencia: TBATC_3, sección 4.8, p. 115.",
+    "deepExp": "«Autorizado» significa permiso para seguir en las condiciones determinadas. «Aprobado» concede una medida propuesta, mientras que «reautorizado» y «correcto» tienen otros usos y no son equivalentes a la autorización ATC (control de tránsito aéreo). Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 115.",
     "extra": "Banco Fernando Nº 76 · Nivel Medio · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 76",
     "preserveOptions": true,
@@ -1918,7 +1918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Monitorice» indica escucha o vigilancia de una frecuencia, no la acción de establecer el contacto radio solicitado.",
       "CORRECTA — «Llame a» es la fraseología normalizada cuyo significado es establecer contacto radio con la estación indicada."
     ],
-    "deepExp": "La frase «Llame a» significa «Establezca contacto radio con…». «Comunique» y «monitorice» no tienen ese significado normalizado, mientras que «Escucha en» se refiere a escuchar una frecuencia, no a iniciar contacto con una estación. Referencia: TBATC_3, sección 4.8, p. 116.",
+    "deepExp": "La frase «Llame a» significa «Establezca contacto radio con…». «Comunique» y «monitorice» no tienen ese significado normalizado, mientras que «Escucha en» se refiere a escuchar una frecuencia, no a iniciar contacto con una estación. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 116.",
     "extra": "Banco Fernando Nº 77 · Nivel Alto · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 77",
     "preserveOptions": true,
@@ -1943,7 +1943,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Cambio y corto» no es la frase definida en la tabla del manual para este significado de cierre.",
       "NO — «Separación» se usa para separar partes de un mensaje o mensajes dirigidos a distintas aeronaves, no para terminar el intercambio."
     ],
-    "deepExp": "«Terminado» significa que el intercambio de transmisiones ha concluido y no se espera respuesta. «Cambio» indica que se espera una respuesta, mientras que «Cambio y corto» y «Separación» no son la expresión definida para cerrar el intercambio. Referencia: TBATC_3, sección 4.8, pp. 116–117.",
+    "deepExp": "«Terminado» significa que el intercambio de transmisiones ha concluido y no se espera respuesta. «Cambio» indica que se espera una respuesta, mientras que «Cambio y corto» y «Separación» no son la expresión definida para cerrar el intercambio. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, pp. 116–117.",
     "extra": "Banco Fernando Nº 78 · Nivel Bajo · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 78",
     "preserveOptions": true,
@@ -1968,7 +1968,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Compruebe» significa examinar un sistema o procedimiento y normalmente no espera respuesta, por lo que tiene otro uso.",
       "NO — «Repito» anuncia que el emisor repite algo para aclarar o subrayar; no es una solicitud al receptor de confirmar la recepción."
     ],
-    "deepExp": "«Confirme» pregunta si el mensaje se recibió correctamente, o si el receptor recibió correctamente el mensaje indicado. No debe confundirse con «Repita», que solicita retransmisión, ni con «Compruebe», que pide examinar un sistema o procedimiento. Referencia: TBATC_3, sección 4.8, p. 115.",
+    "deepExp": "«Confirme» pregunta si el mensaje se recibió correctamente, o si el receptor recibió correctamente el mensaje indicado. No debe confundirse con «Repita», que solicita retransmisión, ni con «Compruebe», que pide examinar un sistema o procedimiento. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 115.",
     "extra": "Banco Fernando Nº 79 · Nivel Medio · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 79",
     "preserveOptions": true,
@@ -1993,7 +1993,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Imposible» significa que no se puede cumplir una solicitud, instrucción o autorización, un matiz distinto de negar el permiso.",
       "NO — «Cancele» ordena anular una autorización transmitida anteriormente; no significa simplemente permiso no concedido."
     ],
-    "deepExp": "La palabra «Negativo» significa «No», «Permiso no concedido» o «Es incorrecto». La diferencia con «Imposible» es importante: esta última comunica que no se puede cumplir una solicitud, instrucción o autorización, normalmente seguida del motivo. Referencia: TBATC_3, sección 4.8, p. 116.",
+    "deepExp": "La palabra «Negativo» significa «No», «Permiso no concedido» o «Es incorrecto». La diferencia con «Imposible» es importante: esta última comunica que no se puede cumplir una solicitud, instrucción o autorización, normalmente seguida del motivo. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 116.",
     "extra": "Banco Fernando Nº 80 · Nivel Medio · Justificación indicada en el documento: 3.9.",
     "sourceTag": "Fernando Nº 80",
     "preserveOptions": true,
@@ -2018,7 +2018,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — «Comprendido» significa que se ha entendido el mensaje y se procederá conforme a él.",
       "NO — «He recibido toda su transmisión anterior» corresponde a «Recibido»/ROGER; confirma recepción, pero no incluye el compromiso de proceder."
     ],
-    "deepExp": "«Comprendido» es la traducción operacional de WILCO: la persona ha comprendido el mensaje y procederá de acuerdo. «Recibido» solo confirma que se recibió la transmisión y «Así lo haré» no es la frase normalizada definida para este significado. Referencia: TBATC_3, sección 4.8, p. 115.",
+    "deepExp": "«Comprendido» es la traducción operacional de WILCO: la persona ha comprendido el mensaje y procederá de acuerdo. «Recibido» solo confirma que se recibió la transmisión y «Así lo haré» no es la frase normalizada definida para este significado. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 115.",
     "extra": "Banco Fernando Nº 81 · Nivel Medio · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 81",
     "preserveOptions": true,
@@ -2043,7 +2043,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Este intercambio ha terminado y no se espera respuesta» es «Terminado», que cierra la comunicación en lugar de separar mensajes.",
       "CORRECTA — La expresión repetida marca la separación entre mensajes transmitidos a distintas aeronaves cuando el ambiente radio está muy atareado."
     ],
-    "deepExp": "«Separación–Separación» (BREAK BREAK) se utiliza para separar mensajes dirigidos a distintas aeronaves en un ambiente muy atareado. Una sola «Separación» divide partes del mismo mensaje, mientras que «Cambio» espera respuesta y «Terminado» cierra la comunicación. Referencia: TBATC_3, sección 4.8, p. 116.",
+    "deepExp": "«Separación–Separación» (BREAK BREAK) se utiliza para separar mensajes dirigidos a distintas aeronaves en un ambiente muy atareado. Una sola «Separación» divide partes del mismo mensaje, mientras que «Cambio» espera respuesta y «Terminado» cierra la comunicación. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 116.",
     "extra": "Banco Fernando Nº 82 · Nivel Medio · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 82",
     "preserveOptions": true,
@@ -2068,7 +2068,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — «Repito» indica que el emisor vuelve a transmitir para aclarar o subrayar, no que sea incapaz de cumplir.",
       "NO — «Imposible cumplir» es comprensible, pero la palabra normalizada definida por el manual es «Imposible», normalmente seguida del motivo."
     ],
-    "deepExp": "«Imposible» significa que no se puede cumplir una solicitud, instrucción o autorización y normalmente debe ir seguida del motivo. No es lo mismo que «Negativo», que expresa una respuesta negativa o permiso no concedido, ni que «Repito», que anuncia una retransmisión. Referencia: TBATC_3, sección 4.8, p. 116.",
+    "deepExp": "«Imposible» significa que no se puede cumplir una solicitud, instrucción o autorización y normalmente debe ir seguida del motivo. No es lo mismo que «Negativo», que expresa una respuesta negativa o permiso no concedido, ni que «Repito», que anuncia una retransmisión. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 4.8, p. 116.",
     "extra": "Banco Fernando Nº 83 · Nivel Alto · Justificación indicada en el documento: 3.8.",
     "sourceTag": "Fernando Nº 83",
     "preserveOptions": true,
@@ -2093,7 +2093,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Empieza por la condición y deja el indicativo para el final; el indicativo debe preceder a la condición y repetirse esta al cierre.",
       "CORRECTA — La secuencia completa es indicativo, condición, autorización y breve repetición de la condición, exactamente como exige el manual."
     ],
-    "deepExp": "Una autorización condicional debe estructurarse con cuatro elementos, en este orden: indicativo, condición, autorización y breve repetición de la condición. El orden evita que el piloto aplique una autorización a la aeronave o situación equivocada y hace explícita la condición que sigue vigente. Referencia: TBATC_3, sección 5.1.1, p. 146.",
+    "deepExp": "Una autorización condicional debe estructurarse con cuatro elementos, en este orden: indicativo, condición, autorización y breve repetición de la condición. El orden evita que el piloto aplique una autorización a la aeronave o situación equivocada y hace explícita la condición que sigue vigente. Referencia: TBATC (manual de formación inicial de controladores de tránsito aéreo)_3, sección 5.1.1, p. 146.",
     "extra": "Banco Fernando Nº 84 · Nivel Medio · Justificación indicada en el documento: 4.1.1.",
     "sourceTag": "Fernando Nº 84",
     "preserveOptions": true,
@@ -2168,7 +2168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 7600.: 7600 identifica fallo de comunicaciones.",
       "CORRECTA — 7700.: 7700 es el código SSR de emergencia/socorro general."
     ],
-    "deepExp": "El modo A 7700 es una de las señales de socorro previstas por el manual. Los códigos próximos son distractores con significado propio: 7500 indica interferencia ilícita, 7600 fallo de comunicaciones y 7000 es el código general VFR; ninguno equivale a socorro. Véase §1.4.4, p. 33.",
+    "deepExp": "El modo A 7700 es una de las señales de socorro previstas por el manual. Los códigos próximos son distractores con significado propio: 7500 indica interferencia ilícita, 7600 fallo de comunicaciones y 7000 es el código general VFR (reglas de vuelo visual); ninguno equivale a socorro. Véase §1.4.4, p. 33.",
     "extra": "Banco Fernando Nº 87 · Nivel Medio · Justificación indicada en el documento: 1.4.4.",
     "sourceTag": "Fernando Nº 87",
     "preserveOptions": true,
@@ -2193,7 +2193,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — PAN PAN, (preferiblemente repetida 3 veces) / en la frecuencia en uso en ese momento.: PAN PAN es la señal de urgencia y la comunicación se mantiene inicialmente en la frecuencia en uso.",
       "NO — PAN PAN, (preferiblemente repetida 3 veces) / 121,5 MHz.: La señal PAN PAN es adecuada, pero 121,5 no es la frecuencia inicial obligatoria: el enunciado exige la frecuencia en uso."
     ],
-    "deepExp": "Una comunicación de urgencia se inicia con «PAN PAN», preferiblemente tres veces, y se mantiene por lo general en la frecuencia en que se inició; 121,5 MHz solo es una posible transferencia posterior, no la frecuencia obligatoria inicial. «MAYDAY» corresponde a socorro y «PAN PAN MEDICAL» identifica transporte sanitario. Véase §4.16.B, pp. 130–132.",
+    "deepExp": "Una comunicación de urgencia se inicia con «PAN PAN», preferiblemente tres veces, y se mantiene por lo general en la frecuencia en que se inició; 121,5 MHz (megahercios) solo es una posible transferencia posterior, no la frecuencia obligatoria inicial. «MAYDAY» corresponde a socorro y «PAN PAN MEDICAL» identifica transporte sanitario. Véase §4.16.B, pp. 130–132.",
     "extra": "Banco Fernando Nº 88 · Nivel Medio · Justificación indicada en el documento: 3.15.",
     "sourceTag": "Fernando Nº 88",
     "preserveOptions": true,
@@ -2293,7 +2293,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Por lo general, debe usar otra frecuencia del AFS disponible.: Otra frecuencia solo se emplea si se considera que permite prestar mejor ayuda.",
       "NO — Por lo general, debe usar la frecuencia del sector correspondiente.: La frecuencia del sector no sustituye por sí sola la regla de mantener la frecuencia inicial."
     ],
-    "deepExp": "Las comunicaciones de socorro se mantienen normalmente en la frecuencia en que se iniciaron hasta que una transferencia permita prestar mejor ayuda. El manual menciona 121,5 MHz o cualquier frecuencia disponible como alternativas posibles, no como regla inicial obligatoria. Véase §4.16.A.3, p. 128.",
+    "deepExp": "Las comunicaciones de socorro se mantienen normalmente en la frecuencia en que se iniciaron hasta que una transferencia permita prestar mejor ayuda. El manual menciona 121,5 MHz (megahercios) o cualquier frecuencia disponible como alternativas posibles, no como regla inicial obligatoria. Véase §4.16.A.3, p. 128.",
     "extra": "Banco Fernando Nº 92 · Nivel Medio · Justificación indicada en el documento: 3.15.",
     "sourceTag": "Fernando Nº 92",
     "preserveOptions": true,
@@ -2343,7 +2343,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — AMS: AMS no es la atribución indicada en §1.3.5 para preparar y difundir ATIS.",
       "CORRECTA — ATS: ATS es quien prepara y difunde el mensaje ATIS."
     ],
-    "deepExp": "El manual atribuye expresamente a los servicios ATS la preparación y difusión del mensaje ATIS. AIS, CNS y AMS pueden relacionarse con otras funciones aeronáuticas, pero no son la respuesta indicada para esta responsabilidad concreta. Véase §1.3.5, p. 25.",
+    "deepExp": "El manual atribuye expresamente a los servicios ATS (servicios de tránsito aéreo) la preparación y difusión del mensaje ATIS (servicio automático de información terminal). AIS (servicio de información aeronáutica), CNS (comunicaciones, navegación y vigilancia) y AMS (servicios meteorológicos aeronáuticos) pueden relacionarse con otras funciones aeronáuticas, pero no son la respuesta indicada para esta responsabilidad concreta. Véase §1.3.5, p. 25.",
     "extra": "Banco Fernando Nº 94 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.5.d",
     "sourceTag": "Fernando Nº 94",
     "preserveOptions": true,
@@ -2368,7 +2368,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El servicio FIS incluye, únicamente para todo tipo de vuelos IFR, el suministro de: Información sobre los cambios en las condiciones de servicio de las ayudas para la navegación y cualquier otra información que pueda afectar la seguridad, como el tráfico esencial y el tráfico local esencial.: El FIS no se limita a IFR; además la opción mezcla dos elementos sin la regla correcta de alcance.",
       "NO — A y B son correctas.: No pueden ser correctas A y B porque A contiene la restricción indebida «sólo para VFR»."
     ],
-    "deepExp": "El FIS se presta para todo tipo de vuelos e incluye, entre otros elementos, cualquier otra información que pueda afectar a la seguridad, como tráfico esencial y tráfico local esencial. La opción A restringe indebidamente a VFR, la C restringe a IFR y además mezcla elementos, y «A y B» falla porque A no es correcta. Véase §1.3.2, pp. 20–21.",
+    "deepExp": "El FIS se presta para todo tipo de vuelos e incluye, entre otros elementos, cualquier otra información que pueda afectar a la seguridad, como tráfico esencial y tráfico local esencial. La opción A restringe indebidamente a VFR (reglas de vuelo visual), la C restringe a IFR (reglas de vuelo por instrumentos) y además mezcla elementos, y «A y B» falla porque A no es correcta. Véase §1.3.2, pp. 20–21.",
     "extra": "Banco Fernando Nº 95 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.2",
     "sourceTag": "Fernando Nº 95",
     "preserveOptions": true,
@@ -2393,7 +2393,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — la información meteorológica se extraerá del informe meteorológico local o especial.: El informe meteorológico local o especial es la fuente meteorológica expresamente indicada.",
       "NO — cada mensaje ATIS se identificará por medio de un designador numérico, asignándose el mismo de manera consecutiva: El designador ATIS es una letra del alfabeto de deletreo OACI, no un número."
     ],
-    "deepExp": "En ATIS, la información meteorológica se extrae del informe meteorológico local o especial. El mensaje se actualiza inmediatamente tras cambios importantes y se identifica con una letra consecutiva, no con un designador numérico ni con una actualización horaria fija. Véase §1.3.5, pp. 24–25.",
+    "deepExp": "En ATIS (servicio automático de información terminal), la información meteorológica se extrae del informe meteorológico local o especial. El mensaje se actualiza inmediatamente tras cambios importantes y se identifica con una letra consecutiva, no con un designador numérico ni con una actualización horaria fija. Véase §1.3.5, pp. 24–25.",
     "extra": "Banco Fernando Nº 96 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.5",
     "sourceTag": "Fernando Nº 96",
     "preserveOptions": true,
@@ -2418,7 +2418,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Aeródromo: Aeródromo controla el tráfico de aeródromo, no un vuelo en ruta.",
       "NO — Información: FIS informa; no es el servicio ATC que recibe un vuelo controlado en un área de control."
     ],
-    "deepExp": "Aunque la responsabilidad del TMA haya sido delegada a aproximación, el supuesto dice que el vuelo está en ruta y es un vuelo controlado en un área de control. Esa fase corresponde al servicio de control de área; aproximación atiende vuelos controlados de llegada o salida. Véase §1.2.2, pp. 12–13.",
+    "deepExp": "Aunque la responsabilidad del TMA (área terminal de maniobras) haya sido delegada a aproximación, el supuesto dice que el vuelo está en ruta y es un vuelo controlado en un área de control. Esa fase corresponde al servicio de control de área; aproximación atiende vuelos controlados de llegada o salida. Véase §1.2.2, pp. 12–13.",
     "extra": "Banco Fernando Nº 97 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.2.2",
     "sourceTag": "Fernando Nº 97",
     "preserveOptions": true,
@@ -2443,7 +2443,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Por un Centro de Control de Área (ACC) o por la unidad que suministre el Servicio de Control de Aproximación en una zona de control o en un área de control de extensión limitada que se designa principalmente para la prestación del Servicio de Control de Aproximación, cuando no se establece un ACC.: Incluye exactamente ACC y la unidad de aproximación cuando no se establece ACC.",
       "NO — Por un Centro de Control de Área (ACC), por una Unidad de Control de Aproximación, cuando sea necesario o deseable establecer una unidad separada únicamenteo por una torre de Control de Aeródromo: Añade TWR, que el manual no incluye en esta regla de provisión del control de área."
     ],
-    "deepExp": "La regla admite un ACC o, si no se establece ACC, la unidad que presta aproximación en una zona de control o área de extensión limitada destinada principalmente a aproximación. La respuesta marcada reproduce las dos posibilidades; la alternativa D añade indebidamente una torre de aeródromo. Véase §1.2.3, p. 15.",
+    "deepExp": "La regla admite un ACC (centro de control de área) o, si no se establece ACC (centro de control de área), la unidad que presta aproximación en una zona de control o área de extensión limitada destinada principalmente a aproximación. La respuesta marcada reproduce las dos posibilidades; la alternativa D añade indebidamente una torre de aeródromo. Véase §1.2.3, p. 15.",
     "extra": "Banco Fernando Nº 98 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.2.3",
     "sourceTag": "Fernando Nº 98",
     "preserveOptions": true,
@@ -2468,7 +2468,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — dentro del espacio aéreo designado por el Estado como región de información de vuelo (FIR), excluyendo los aeródromos AFIS.: AFIS no es una exclusión general del ámbito FIR/UIR; en AFIS se presta además FIS en la FIZ asociada.",
       "CORRECTA — dentro del espacio aéreo designado por el Estado como región de información de vuelo (FIR) y / o región superior de información (UIR).: FIR y/o UIR son precisamente los espacios donde se suministra FIS."
     ],
-    "deepExp": "El FIS se suministra dentro del espacio aéreo que el Estado designa como FIR y/o UIR. No se limita al espacio no controlado, no se restringe al espacio controlado y no excluye por sistema los aeródromos AFIS. Véase §1.3.1, p. 20.",
+    "deepExp": "El FIS se suministra dentro del espacio aéreo que el Estado designa como FIR (región de información de vuelo) y/o UIR (región superior de información de vuelo). No se limita al espacio no controlado, no se restringe al espacio controlado y no excluye por sistema los aeródromos AFIS (servicio de información de vuelo de aeródromo). Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 99 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.2.1",
     "sourceTag": "Fernando Nº 99",
     "preserveOptions": true,
@@ -2493,7 +2493,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — De otro modo tienen conocimiento las dependencias ATS: También quedan incluidas las aeronaves conocidas por las dependencias ATS por otro medio.",
       "NO — Todas son correctas: No: las opciones A y B no son todas correctas y la regla incluye más de dos vías de conocimiento."
     ],
-    "deepExp": "El alcance subjetivo del FIS incluye a las aeronaves a las que puede afectar la información y que reciben ATC o de las que, por otro medio, tienen conocimiento las dependencias ATS. La opción «de otro modo...» es la segunda categoría de la regla; «todas» no puede ser correcta porque las dos opciones parciales no expresan el criterio completo. Véase §1.3.1, p. 20.",
+    "deepExp": "El alcance subjetivo del FIS incluye a las aeronaves a las que puede afectar la información y que reciben ATC (control de tránsito aéreo) o de las que, por otro medio, tienen conocimiento las dependencias ATS (servicios de tránsito aéreo). La opción «de otro modo...» es la segunda categoría de la regla; «todas» no puede ser correcta porque las dos opciones parciales no expresan el criterio completo. Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 100 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.1",
     "sourceTag": "Fernando Nº 100",
     "preserveOptions": true,
@@ -2543,7 +2543,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — el momento en que la aeronave deje de notificar su posición al pasar por un punto de notificación obligatoria; lo que ocurra más tarde, y, a partir de ese momento, ajustarán el nivel y la velocidad conforme al plan de vuelo presentado: La regla toma el paso por punto de notificación obligatoria y «lo que ocurra más tarde», y luego remite al plan de vuelo.",
       "NO — el momento en que la aeronave deje de notificar su posición al pasar por un punto de notificación no obligatoria; lo que ocurra antes, y, a partir de ese momento, ajustarán el nivel y la velocidad conforme al plan de vuelo presentado: Un punto no obligatorio y «lo que ocurra antes» contradicen la condición marcada en el procedimiento."
     ],
-    "deepExp": "En fallo de comunicaciones IMC con vigilancia ATS, el período de siete minutos se cuenta desde el momento en que la aeronave deja de notificar su posición al pasar por un punto de notificación obligatoria o desde el momento pertinente indicado por la norma, lo que ocurra más tarde; después ajusta nivel y velocidad al plan de vuelo presentado. «No obligatoria» y «lo que ocurra antes» cambian precisamente la condición normativa. Véase §3.16 (RCA 2.3.6.5.2.2), p. 48 del material del banco; regla reproducida en el manual.",
+    "deepExp": "En fallo de comunicaciones IMC (condiciones meteorológicas instrumentales) con vigilancia ATS (servicios de tránsito aéreo), el período de siete minutos se cuenta desde el momento en que la aeronave deja de notificar su posición al pasar por un punto de notificación obligatoria o desde el momento pertinente indicado por la norma, lo que ocurra más tarde; después ajusta nivel y velocidad al plan de vuelo presentado. «No obligatoria» y «lo que ocurra antes» cambian precisamente la condición normativa. Véase §3.16 (RCA (Reglamento de Circulación Aérea) 2.3.6.5.2.2), p. 48 del material del banco; regla reproducida en el manual.",
     "extra": "Banco Fernando Nº 102 · Nivel Bajo · Justificación indicada en el documento: Capítulo 3.16 FALLO DE COMUNICACIONES EN CONDICIONES IMC (RCA 2.3.6.5.2.2)",
     "sourceTag": "Fernando Nº 102",
     "preserveOptions": true,
@@ -2568,7 +2568,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Universal Time Coordinated: Es la expansión inglesa usada por el banco para Tiempo Universal Coordinado.",
       "NO — Upper Traffic Controller: No es el nombre de una función de controlador."
     ],
-    "deepExp": "UTC significa «Universal Time Coordinated», la referencia temporal que el manual denomina Tiempo Universal Coordinado y que las dependencias ATS expresan en horas, minutos y, cuando se requiere, segundos del día de 24 horas. Las otras expansiones no son términos ATS. Véase §4.6, p. 113.",
+    "deepExp": "UTC (tiempo universal coordinado) significa «Universal Time Coordinated», la referencia temporal que el manual denomina Tiempo Universal Coordinado y que las dependencias ATS (servicios de tránsito aéreo) expresan en horas, minutos y, cuando se requiere, segundos del día de 24 horas. Las otras expansiones no son términos ATS (servicios de tránsito aéreo). Véase §4.6, p. 113.",
     "extra": "Banco Fernando Nº 103 · Nivel Bajo · Justificación indicada en el documento: Apéndice 1",
     "sourceTag": "Fernando Nº 103",
     "preserveOptions": true,
@@ -2593,7 +2593,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Al menos 1000 ft por encima del obstáculo más alto situado dentro de un radio de 8 km de la posición estimada de la aeronave.: 1000 ft y 8 km es el margen de otros lugares, no de terrenos altos/áreas montañosas.",
       "NO — Al menos 300 m por encima del obstáculo más alto situado dentro de un radio de 5 km de la posición estimada de la aeronave.: Cambia simultáneamente el margen y el radio: 300 m/5 km no es la regla citada."
     ],
-    "deepExp": "Para un vuelo IFR sobre terrenos altos o áreas montañosas, cuando no exista una altitud mínima estatal aplicable, el nivel debe quedar al menos 600 m (2.000 ft) sobre el obstáculo más alto dentro de 8 km de la posición estimada. La trampa es confundir pies con metros, usar el margen de 1.000 ft de otros lugares o cambiar el radio. Véase §3.8.1, p. 92.",
+    "deepExp": "Para un vuelo IFR (reglas de vuelo por instrumentos) sobre terrenos altos o áreas montañosas, cuando no exista una altitud mínima estatal aplicable, el nivel debe quedar al menos 600 m (2.000 ft) sobre el obstáculo más alto dentro de 8 km de la posición estimada. La trampa es confundir pies con metros, usar el margen de 1.000 ft de otros lugares o cambiar el radio. Véase §3.8.1, p. 92.",
     "extra": "Banco Fernando Nº 104 · Nivel Medio · Justificación indicada en el documento: Capítulo 2.8.1",
     "sourceTag": "Fernando Nº 104",
     "preserveOptions": true,
@@ -2618,7 +2618,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Por una Unidad de Control de Aproximación, únicamente.: APP es válida cuando se establece una unidad separada, pero «únicamente» contradice la regla alternativa.",
       "CORRECTA — Por una torre de Control de Aeródromo o un ACC, cuando sea necesario o deseable combinar bajo la responsabilidad de una unidad las funciones del servicio de control de aproximación y las del servicio de control de aeródromo o del servicio de control de área.: Es la posibilidad expresamente prevista cuando se combinan funciones de aproximación y aeródromo/área."
     ],
-    "deepExp": "La aproximación puede ser suministrada por una unidad APP cuando se establece una unidad separada, o por una TWR o un ACC cuando se combinan bajo una sola responsabilidad las funciones pertinentes. La opción marcada recoge esa segunda posibilidad; no es cierto que siempre deba existir APP ni que ACC sea la única alternativa. Véase §1.2.3, p. 15.",
+    "deepExp": "La aproximación puede ser suministrada por una unidad APP (control de aproximación) cuando se establece una unidad separada, o por una TWR (torre de control) o un ACC (centro de control de área) cuando se combinan bajo una sola responsabilidad las funciones pertinentes. La opción marcada recoge esa segunda posibilidad; no es cierto que siempre deba existir APP (control de aproximación) ni que ACC (centro de control de área) sea la única alternativa. Véase §1.2.3, p. 15.",
     "extra": "Banco Fernando Nº 105 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.2.3",
     "sourceTag": "Fernando Nº 105",
     "preserveOptions": true,
@@ -2643,7 +2643,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Prevenir colisiones entre aeronaves VFR en espacio aéreo A.: El manual no restringe ese objetivo a aeronaves VFR en clase A.",
       "NO — Prevenir colisiones entre aeronaves y obstáculos en el área de movimientos.: «Área de movimientos» no es la expresión del objetivo; el manual dice área de maniobras."
     ],
-    "deepExp": "Los objetivos ATC incluyen prevenir colisiones entre aeronaves, prevenir colisiones entre aeronaves y obstáculos en el área de maniobras y acelerar/mantener un flujo ordenado. La respuesta marcada es literalmente el segundo objetivo; «área de movimientos» no es la expresión del manual y las clases A/F o solo VFR alteran el supuesto. Véase §1.2.1, p. 11.",
+    "deepExp": "Los objetivos ATC (control de tránsito aéreo) incluyen prevenir colisiones entre aeronaves, prevenir colisiones entre aeronaves y obstáculos en el área de maniobras y acelerar/mantener un flujo ordenado. La respuesta marcada es literalmente el segundo objetivo; «área de movimientos» no es la expresión del manual y las clases A/F (aeródromo o instalación) o solo VFR (reglas de vuelo visual) alteran el supuesto. Véase §1.2.1, p. 11.",
     "extra": "Banco Fernando Nº 106 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2.1",
     "sourceTag": "Fernando Nº 106",
     "preserveOptions": true,
@@ -2668,7 +2668,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Servicio de control de aeródromo.: Aeródromo se limita al tráfico de aeródromo.",
       "NO — Advisory Service.: Advisory no es un servicio ATC con la responsabilidad de control descrita."
     ],
-    "deepExp": "El servicio ATC para vuelos controlados en un área de control es el servicio de control de área. El manual lo distingue del de aproximación (llegadas/salidas), del de aeródromo (tráfico de aeródromo) y del asesoramiento, que no tiene la responsabilidad completa del ATC. Véase §1.2.2, p. 12.",
+    "deepExp": "El servicio ATC (control de tránsito aéreo) para vuelos controlados en un área de control es el servicio de control de área. El manual lo distingue del de aproximación (llegadas/salidas), del de aeródromo (tráfico de aeródromo) y del asesoramiento, que no tiene la responsabilidad completa del ATC (control de tránsito aéreo). Véase §1.2.2, p. 12.",
     "extra": "Banco Fernando Nº 107 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 107",
     "preserveOptions": true,
@@ -2693,7 +2693,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — TWR.: TWR es la dependencia de control de aeródromo.",
       "NO — APP.: APP controla vuelos controlados que llegan o salen."
     ],
-    "deepExp": "La TWR es la dependencia que se establece para facilitar el control del tránsito de aeródromo y, por tanto, suministra el servicio de control de aeródromo. FIC presta FIS, ACC controla áreas de control y APP controla vuelos controlados de llegada o salida. Véase §1.2.3, p. 14.",
+    "deepExp": "La TWR (torre de control) es la dependencia que se establece para facilitar el control del tránsito de aeródromo y, por tanto, suministra el servicio de control de aeródromo. FIC (centro de información de vuelo) presta FIS, ACC (centro de control de área) controla áreas de control y APP (control de aproximación) controla vuelos controlados de llegada o salida. Véase §1.2.3, p. 14.",
     "extra": "Banco Fernando Nº 108 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 108",
     "preserveOptions": true,
@@ -2718,7 +2718,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Servicio de control de aeródromo.: El control de aeródromo atiende al tráfico de aeródromo, no la función completa de llegada/salida.",
       "NO — Servicio de control de área.: Área atiende la fase de ruta en áreas de control."
     ],
-    "deepExp": "El servicio proporcionado a vuelos IFR controlados de llegada o salida es el control de aproximación. «Aeródromo» queda reservado al tráfico de aeródromo y «área» a los vuelos controlados en ruta dentro de áreas de control; «Advisory» no es ATC. Véase §1.2.2, p. 13.",
+    "deepExp": "El servicio proporcionado a vuelos IFR (reglas de vuelo por instrumentos) controlados de llegada o salida es el control de aproximación. «Aeródromo» queda reservado al tráfico de aeródromo y «área» a los vuelos controlados en ruta dentro de áreas de control; «Advisory» no es ATC (control de tránsito aéreo). Véase §1.2.2, p. 13.",
     "extra": "Banco Fernando Nº 109 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 109",
     "preserveOptions": true,
@@ -2743,7 +2743,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Servicio de control de aeródromo.: Es el servicio ATC para el tráfico de aeródromo.",
       "NO — Servicio de control de área.: Área atiende vuelos controlados en ruta dentro de áreas de control."
     ],
-    "deepExp": "En un aeródromo, el servicio de control suministrado al tráfico de aeródromo es el servicio de control de aeródromo. La TWR es la dependencia que normalmente lo presta; aproximación y área cubren otras fases/volúmenes, y Advisory no equivale a control. Véase §1.2.2–1.2.3, pp. 13–15.",
+    "deepExp": "En un aeródromo, el servicio de control suministrado al tráfico de aeródromo es el servicio de control de aeródromo. La TWR (torre de control) es la dependencia que normalmente lo presta; aproximación y área cubren otras fases/volúmenes, y Advisory no equivale a control. Véase §1.2.2–1.2.3, pp. 13–15.",
     "extra": "Banco Fernando Nº 110 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 110",
     "preserveOptions": true,
@@ -2768,7 +2768,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — SAR.: SAR es búsqueda y salvamento, no una dependencia ATC.",
       "NO — UIR.: UIR es una región de espacio aéreo, no una dependencia."
     ],
-    "deepExp": "TWR es una dependencia ATC: la torre facilita el servicio de control al tránsito de aeródromo. FIC es información de vuelo, SAR es búsqueda y salvamento y UIR es una región de información superior, es decir, espacio aéreo, no una dependencia ATC. Véase §1.2.3, p. 14.",
+    "deepExp": "TWR (torre de control) es una dependencia ATC (control de tránsito aéreo): la torre facilita el servicio de control al tránsito de aeródromo. FIC (centro de información de vuelo) es información de vuelo, SAR (búsqueda y salvamento) es búsqueda y salvamento y UIR (región superior de información de vuelo) es una región de información superior, es decir, espacio aéreo, no una dependencia ATC (control de tránsito aéreo). Véase §1.2.3, p. 14.",
     "extra": "Banco Fernando Nº 111 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 111",
     "preserveOptions": true,
@@ -2793,7 +2793,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — TWR y AFIS.: AFIS no proporciona ATC: solo información de vuelo y alerta en su ámbito.",
       "NO — TWR Y RCC.: RCC coordina SAR; no es una dependencia ATC."
     ],
-    "deepExp": "La única opción compuesta íntegramente por una dependencia ATC es TWR. ARO es oficina de notificación ATS, AFIS suministra información de vuelo de aeródromo y RCC coordina salvamento; por eso no pueden sumarse a TWR como «dependencias ATC». Véase §1.2.3 y §1.3.6, pp. 14 y 26.",
+    "deepExp": "La única opción compuesta íntegramente por una dependencia ATC (control de tránsito aéreo) es TWR (torre de control). ARO (oficina de notificación ATS (servicios de tránsito aéreo)) es oficina de notificación ATS (servicios de tránsito aéreo), AFIS (servicio de información de vuelo de aeródromo) suministra información de vuelo de aeródromo y RCC (centro coordinador de salvamento) coordina salvamento; por eso no pueden sumarse a TWR (torre de control) como «dependencias ATC (control de tránsito aéreo)». Véase §1.2.3 y §1.3.6, pp. 14 y 26.",
     "extra": "Banco Fernando Nº 112 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 112",
     "preserveOptions": true,
@@ -2818,7 +2818,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — FIC es centro de información de vuelo: suministra FIS, asesoramiento e información útil, pero no el servicio ATC de control de área que pide el enunciado.",
       "NO — RCC es centro coordinador de salvamento y actúa en la organización del servicio de alerta/SAR; no es una dependencia que proporcione control ATC en áreas de control."
     ],
-    "deepExp": "El ACC se establece para prestar control a los vuelos controlados en las áreas de control bajo su jurisdicción. TWR se centra en tráfico de aeródromo, FIC en información de vuelo y RCC en SAR, de modo que no sustituyen al ACC en esta definición. Véase §1.2.3, p. 14.",
+    "deepExp": "El ACC (centro de control de área) se establece para prestar control a los vuelos controlados en las áreas de control bajo su jurisdicción. TWR (torre de control) se centra en tráfico de aeródromo, FIC (centro de información de vuelo) en información de vuelo y RCC (centro coordinador de salvamento) en SAR (búsqueda y salvamento), de modo que no sustituyen al ACC (centro de control de área) en esta definición. Véase §1.2.3, p. 14.",
     "extra": "Banco Fernando Nº 113 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.2",
     "sourceTag": "Fernando Nº 113",
     "preserveOptions": true,
@@ -2843,7 +2843,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Alerta.: Alerta comunica necesidades SAR, no productos meteorológicos SIGMET.",
       "NO — Advisory.: Advisory no es la categoría donde el manual incluye SIGMET."
     ],
-    "deepExp": "SIGMET es información meteorológica sobre fenómenos en ruta reales o previstos que pueden afectar a la seguridad de las operaciones; el manual la incluye expresamente dentro del alcance del FIS para todo tipo de vuelos. ATC, alerta y Advisory son servicios distintos. Véase §1.3.2, pp. 20–21.",
+    "deepExp": "SIGMET (información meteorológica significativa) es información meteorológica sobre fenómenos en ruta reales o previstos que pueden afectar a la seguridad de las operaciones; el manual la incluye expresamente dentro del alcance del FIS para todo tipo de vuelos. ATC (control de tránsito aéreo), alerta y Advisory son servicios distintos. Véase §1.3.2, pp. 20–21.",
     "extra": "Banco Fernando Nº 114 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.2",
     "sourceTag": "Fernando Nº 114",
     "preserveOptions": true,
@@ -2868,7 +2868,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — De otro modo tienen conocimiento las dependencias ATS: La aeronave conocida por otro medio por ATS queda incluida.",
       "NO — Se les suministre servicio SDP.: SDP no es una categoría de servicio mencionada en el alcance del FIS."
     ],
-    "deepExp": "El FIS se suministra a las aeronaves que puedan verse afectadas por la información y que reciben ATC o son conocidas de otro modo por las dependencias ATS. La opción marcada conserva literalmente ese segundo criterio; RCC y las denominaciones no definidas «SDP» no son categorías alternativas del alcance del FIS. Véase §1.3.1, p. 20.",
+    "deepExp": "El FIS se suministra a las aeronaves que puedan verse afectadas por la información y que reciben ATC (control de tránsito aéreo) o son conocidas de otro modo por las dependencias ATS (servicios de tránsito aéreo). La opción marcada conserva literalmente ese segundo criterio; RCC (centro coordinador de salvamento) y las denominaciones no definidas «SDP (denominación no definida en el temario)» no son categorías alternativas del alcance del FIS. Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 115 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.3.1",
     "sourceTag": "Fernando Nº 115",
     "preserveOptions": true,
@@ -2893,7 +2893,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — AFTN: AFTN aparece para otros intercambios, como CRAM, pero no es la opción de difusión aire-tierra solicitada.",
       "NO — Código Morse.: Código Morse es una forma de señalización en otros contextos, no el medio listado aquí para difundir FIS."
     ],
-    "deepExp": "La transmisión directa es uno de los medios expresamente enumerados para difundir información a las aeronaves, normalmente iniciada por la dependencia ATS y con acuse de recibo cuando corresponda. E-mail, AFTN y código Morse no aparecen como la respuesta de este listado de difusión aire-tierra del §1.3.4. Véase §1.3.4, pp. 22–23.",
+    "deepExp": "La transmisión directa es uno de los medios expresamente enumerados para difundir información a las aeronaves, normalmente iniciada por la dependencia ATS (servicios de tránsito aéreo) y con acuse de recibo cuando corresponda. E-mail, AFTN (red fija de telecomunicaciones aeronáuticas) y código Morse no aparecen como la respuesta de este listado de difusión aire-tierra del §1.3.4. Véase §1.3.4, pp. 22–23.",
     "extra": "Banco Fernando Nº 116 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.3.4",
     "sourceTag": "Fernando Nº 116",
     "preserveOptions": true,
@@ -2918,7 +2918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — ACARS, CPDLC y Radiodifusión.: ACARS tampoco aparece en el listado normativo de esta pregunta.",
       "NO — AFTN, Llamada general, Radiodifusión y Data link.: Añade AFTN, que el manual no incluye en esa lista, por lo que no es correcta."
     ],
-    "deepExp": "La lista normativa es: transmisión directa, llamada general sin acuse, radiodifusión y enlace de datos. La opción marcada contiene los tres medios que sí pertenecen a esa lista; AFTN se usa en el manual, por ejemplo, para distribuir CRAM, pero no sustituye esos métodos del servicio móvil aeronáutico. Véase §1.3.4, pp. 22–23, y §1.8.4, p. 64.",
+    "deepExp": "La lista normativa es: transmisión directa, llamada general sin acuse, radiodifusión y enlace de datos. La opción marcada contiene los tres medios que sí pertenecen a esa lista; AFTN (red fija de telecomunicaciones aeronáuticas) se usa en el manual, por ejemplo, para distribuir CRAM (Conditional Route Availability Message (mensaje de disponibilidad de ruta condicional)), pero no sustituye esos métodos del servicio móvil aeronáutico. Véase §1.3.4, pp. 22–23, y §1.8.4, p. 64.",
     "extra": "Banco Fernando Nº 117 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.3.4",
     "sourceTag": "Fernando Nº 117",
     "preserveOptions": true,
@@ -2943,7 +2943,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Únicamente información operacional relacionada con un grupo de aeródromos.: No es únicamente operacional ni se refiere a un grupo de aeródromos.",
       "NO — Únicamente información meteorológica relacionada con un solo aeródromo.: No es únicamente meteorológico: también incluye información operacional."
     ],
-    "deepExp": "ATIS es el suministro automático de información rutinaria y actual, meteorológica y operacional, referida a un solo aeródromo. Las opciones 1 y 2 cambian el alcance a varios aeródromos o eliminan la parte meteorológica; la 3 conserva solo una parte del contenido. Véase §1.3.5, p. 23–24.",
+    "deepExp": "ATIS (servicio automático de información terminal) es el suministro automático de información rutinaria y actual, meteorológica y operacional, referida a un solo aeródromo. Las opciones 1 y 2 cambian el alcance a varios aeródromos o eliminan la parte meteorológica; la 3 conserva solo una parte del contenido. Véase §1.3.5, p. 23–24.",
     "extra": "Banco Fernando Nº 118 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.5",
     "sourceTag": "Fernando Nº 118",
     "preserveOptions": true,
@@ -2968,7 +2968,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — las dependencias FIC.: FIC es la dependencia ordinaria en FIR cuando no se confía la función a una ATC ya existente.",
       "NO — La autoridad ATS.: La autoridad ATS puede determinar la organización, pero no es la dependencia concreta descrita."
     ],
-    "deepExp": "En espacios aéreos controlados y aeródromos controlados, el FIS y el servicio de alerta los suministran las dependencias ATC ya establecidas para prestar ATC. FIC es la solución ordinaria en FIR cuando no se confía la función a una dependencia ATC; RCC no suministra FIS. Véase §1.3.3, p. 22.",
+    "deepExp": "En espacios aéreos controlados y aeródromos controlados, el FIS y el servicio de alerta los suministran las dependencias ATC (control de tránsito aéreo) ya establecidas para prestar ATC (control de tránsito aéreo). FIC (centro de información de vuelo) es la solución ordinaria en FIR (región de información de vuelo) cuando no se confía la función a una dependencia ATC (control de tránsito aéreo); RCC (centro coordinador de salvamento) no suministra FIS. Véase §1.3.3, p. 22.",
     "extra": "Banco Fernando Nº 119 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.3.3",
     "sourceTag": "Fernando Nº 119",
     "preserveOptions": true,
@@ -2993,7 +2993,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Advisory.: Advisory hace más eficaz la información de peligros de colisión que el FIS simple.",
       "CORRECTA — FIS.: FIS es exactamente asesoramiento e información útil para la marcha segura y eficiente."
     ],
-    "deepExp": "La definición de FIS es el servicio prestado para suministrar asesoramiento e información útil para la marcha segura y eficiente de los vuelos. ATC controla, alerta notifica necesidades SAR y Advisory mejora la información de peligros de colisión sin asumir la responsabilidad del ATC. Véase §1.3.1, p. 20.",
+    "deepExp": "La definición de FIS es el servicio prestado para suministrar asesoramiento e información útil para la marcha segura y eficiente de los vuelos. ATC (control de tránsito aéreo) controla, alerta notifica necesidades SAR (búsqueda y salvamento) y Advisory mejora la información de peligros de colisión sin asumir la responsabilidad del ATC (control de tránsito aéreo). Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 120 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.3.1",
     "sourceTag": "Fernando Nº 120",
     "preserveOptions": true,
@@ -3018,7 +3018,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Se difundirá a través de transmisión directa iniciada por TWR.: La transmisión directa de TWR no es la regla que define todo ATIS.",
       "NO — se referirá al menos a tres aeródromos: No se refiere a tres o más aeródromos."
     ],
-    "deepExp": "Todo mensaje ATIS, sea ATIS-voz o ATIS-D, se refiere a un solo aeródromo. Se actualiza inmediatamente después de un cambio importante; no cada 24 horas, no necesariamente por transmisión directa de TWR y nunca por una regla de tres aeródromos. Véase §1.3.5, pp. 24–25.",
+    "deepExp": "Todo mensaje ATIS (servicio automático de información terminal), sea ATIS (servicio automático de información terminal)-voz o ATIS (servicio automático de información terminal)-D, se refiere a un solo aeródromo. Se actualiza inmediatamente después de un cambio importante; no cada 24 horas, no necesariamente por transmisión directa de TWR (torre de control) y nunca por una regla de tres aeródromos. Véase §1.3.5, pp. 24–25.",
     "extra": "Banco Fernando Nº 121 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3.5",
     "sourceTag": "Fernando Nº 121",
     "preserveOptions": true,
@@ -3043,7 +3043,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Será actualizada cada hora.: La actualización no está fijada cada hora.",
       "NO — La información contenida en la radiodifusión en vigor se pondrá cada hora en conocimiento de la dependencia o dependencias ATS encargadas de suministrar a las aeronaves la información sobre la aproximación, aterrizaje y despegue, siempre que el mensaje no haya sido preparado por esas dependencias.: «Cada hora» contradice la obligación de comunicación inmediata."
     ],
-    "deepExp": "La información de la radiodifusión ATIS vigente debe ponerse inmediatamente en conocimiento de las dependencias ATS que proporcionan información de aproximación, aterrizaje y despegue cuando ellas no prepararon el mensaje. «Cada hora» sustituye indebidamente una obligación inmediata y «varios aeródromos» contradice el alcance del ATIS. Véase §1.3.5, p. 24.",
+    "deepExp": "La información de la radiodifusión ATIS (servicio automático de información terminal) vigente debe ponerse inmediatamente en conocimiento de las dependencias ATS (servicios de tránsito aéreo) que proporcionan información de aproximación, aterrizaje y despegue cuando ellas no prepararon el mensaje. «Cada hora» sustituye indebidamente una obligación inmediata y «varios aeródromos» contradice el alcance del ATIS (servicio automático de información terminal). Véase §1.3.5, p. 24.",
     "extra": "Banco Fernando Nº 122 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.3",
     "sourceTag": "Fernando Nº 122",
     "preserveOptions": true,
@@ -3068,7 +3068,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — ATIS.: ATIS es información rutinaria de un aeródromo, no el aviso de fenómenos en ruta descrito.",
       "NO — DISTRESS INFO.: No es una categoría definida por el manual para esa información."
     ],
-    "deepExp": "SIGMET es la información expedida por una oficina de vigilancia meteorológica sobre fenómenos en ruta reales o previstos que pueden afectar a la seguridad. OFIS y ATIS son medios/radiodifusiones de información, no ese producto meteorológico específico; «DISTRESS INFO» no es la categoría definida. Véase §1.3.2, p. 20.",
+    "deepExp": "SIGMET (información meteorológica significativa) es la información expedida por una oficina de vigilancia meteorológica sobre fenómenos en ruta reales o previstos que pueden afectar a la seguridad. OFIS (servicio automático de información operacional de vuelo) y ATIS (servicio automático de información terminal) son medios/radiodifusiones de información, no ese producto meteorológico específico; «DISTRESS INFO» no es la categoría definida. Véase §1.3.2, p. 20.",
     "extra": "Banco Fernando Nº 123 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.3.2",
     "sourceTag": "Fernando Nº 123",
     "preserveOptions": true,
@@ -3093,7 +3093,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — AIRMET (por encima de FL150), Globos libres no tripulados, Actividad volcánica.: AIRMET se refiere a vuelos a baja altura, por debajo de FL150, no por encima.",
       "NO — AIRMET (por encima de FL150), AIRMET (por encima de FL150), Globos libres no tripulados, Actividad volcánica.: Duplica y coloca incorrectamente AIRMET; no reproduce el listado del manual."
     ],
-    "deepExp": "El FIS incluye AIRMET para fenómenos en ruta que puedan afectar a vuelos a baja altura, definidos en el manual como por debajo de FL150, además de información sobre globos libres no tripulados y actividad volcánica. La opción B añade erróneamente SIGMET bajo FL150; C invierte el límite y D duplica/eleva indebidamente AIRMET. Véase §1.3.2, pp. 20–21.",
+    "deepExp": "El FIS incluye AIRMET (información meteorológica de ruta) para fenómenos en ruta que puedan afectar a vuelos a baja altura, definidos en el manual como por debajo de FL150 (nivel de vuelo 150), además de información sobre globos libres no tripulados y actividad volcánica. La opción B añade erróneamente SIGMET (información meteorológica significativa) bajo FL150 (nivel de vuelo 150); C invierte el límite y D duplica/eleva indebidamente AIRMET (información meteorológica de ruta). Véase §1.3.2, pp. 20–21.",
     "extra": "Banco Fernando Nº 124 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.3.2",
     "sourceTag": "Fernando Nº 124",
     "preserveOptions": true,
@@ -3118,7 +3118,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — DETRESFA.: DETRESFA corresponde a peligro/socorro.",
       "NO — EMERGENCY.: «Emergency» no es la palabra clave OACI indicada para esta fase."
     ],
-    "deepExp": "La fase de incertidumbre se designa con la palabra clave INCERFA. Es la duda acerca de la seguridad de la aeronave y sus ocupantes; ALERFA corresponde a alerta, DETRESFA a peligro y «EMERGENCY» no es la palabra clave OACI de estas fases. Véase §1.4.3, pp. 27–28.",
+    "deepExp": "La fase de incertidumbre se designa con la palabra clave INCERFA (fase de incertidumbre). Es la duda acerca de la seguridad de la aeronave y sus ocupantes; ALERFA (fase de alerta) corresponde a alerta, DETRESFA (fase de peligro) a peligro y «EMERGENCY» no es la palabra clave OACI (Organización de Aviación Civil Internacional) de estas fases. Véase §1.4.3, pp. 27–28.",
     "extra": "Banco Fernando Nº 125 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 125",
     "preserveOptions": true,
@@ -3143,7 +3143,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — DETRESFA.: DETRESFA designa peligro/socorro.",
       "NO — EMERGENCY.: «Emergency» no es el designador reglado del manual."
     ],
-    "deepExp": "La fase de alerta se designa ALERFA y describe una situación en la que se abriga temor por la seguridad de la aeronave y sus ocupantes. INCERFA expresa duda y DETRESFA peligro con necesidad de auxilio inmediato; «EMERGENCY» no es el designador reglado. Véase §1.4.3, p. 28.",
+    "deepExp": "La fase de alerta se designa ALERFA (fase de alerta) y describe una situación en la que se abriga temor por la seguridad de la aeronave y sus ocupantes. INCERFA (fase de incertidumbre) expresa duda y DETRESFA (fase de peligro) peligro con necesidad de auxilio inmediato; «EMERGENCY» no es el designador reglado. Véase §1.4.3, p. 28.",
     "extra": "Banco Fernando Nº 126 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 126",
     "preserveOptions": true,
@@ -3168,7 +3168,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — DETRESFA es la palabra clave de la fase de peligro: existen motivos justificados para creer que la aeronave está amenazada por un peligro grave e inminente y necesita auxilio inmediato (§1.4.3, pp. 28–29).",
       "NO — EMERGENCY puede ser una descripción general de una emergencia, pero no es la palabra clave normalizada que el manual asigna a la fase de peligro; esa palabra es DETRESFA."
     ],
-    "deepExp": "La fase de socorro —denominada fase de peligro en el texto del manual— se designa DETRESFA. Se reserva para motivos justificados de peligro grave e inminente y necesidad de auxilio inmediato; INCERFA y ALERFA son fases previas. Véase §1.4.3, p. 29.",
+    "deepExp": "La fase de socorro —denominada fase de peligro en el texto del manual— se designa DETRESFA (fase de peligro). Se reserva para motivos justificados de peligro grave e inminente y necesidad de auxilio inmediato; INCERFA (fase de incertidumbre) y ALERFA (fase de alerta) son fases previas. Véase §1.4.3, p. 29.",
     "extra": "Banco Fernando Nº 127 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 127",
     "preserveOptions": true,
@@ -3318,7 +3318,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Fase de socorro.: Socorro requiere amenaza grave e inminente y auxilio inmediato.",
       "NO — Las tres fases simultáneamente.: No se declaran simultáneamente las tres fases."
     ],
-    "deepExp": "Si no se llega 30 minutos después de la ETA anunciada o calculada, se toma la más tardía, salvo que no haya dudas sobre la seguridad; el supuesto es fase de incertidumbre. La fase de alerta exige temor y la de peligro exige amenaza grave e inminente y auxilio inmediato. Véase §1.4.3, p. 28.",
+    "deepExp": "Si no se llega 30 minutos después de la ETA (hora prevista de llegada) anunciada o calculada, se toma la más tardía, salvo que no haya dudas sobre la seguridad; el supuesto es fase de incertidumbre. La fase de alerta exige temor y la de peligro exige amenaza grave e inminente y auxilio inmediato. Véase §1.4.3, p. 28.",
     "extra": "Banco Fernando Nº 133 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 133",
     "preserveOptions": true,
@@ -3443,7 +3443,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Fase de socorro.: Es exactamente la definición de peligro/socorro.",
       "NO — Las tres fases simultáneamente.: No se declaran simultáneamente todas las fases."
     ],
-    "deepExp": "La existencia de motivos justificados para creer en un peligro grave e inminente y la necesidad de auxilio inmediato define la fase de peligro, equivalente aquí a la opción «fase de socorro». Es la fase más grave, designada DETRESFA, no INCERFA ni ALERFA. Véase §1.4.3, pp. 28–29.",
+    "deepExp": "La existencia de motivos justificados para creer en un peligro grave e inminente y la necesidad de auxilio inmediato define la fase de peligro, equivalente aquí a la opción «fase de socorro». Es la fase más grave, designada DETRESFA (fase de peligro), no INCERFA (fase de incertidumbre) ni ALERFA (fase de alerta). Véase §1.4.3, pp. 28–29.",
     "extra": "Banco Fernando Nº 138 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 138",
     "preserveOptions": true,
@@ -3468,7 +3468,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Fase de alerta y Fase de socorro: La combinación incluye alerta y socorro, pero socorro no requiere el aviso previo indicado.",
       "CORRECTA — Fase de alerta y Fase de incertidumbre.: Incertidumbre y alerta son las dos fases que requieren aviso previo al explotador."
     ],
-    "deepExp": "Cuando FIC o ACC declara incertidumbre o alerta, debe notificar primero al explotador antes de comunicarlo al RCC; en fase de peligro la comunicación al RCC es inmediata. Por eso la combinación correcta es alerta e incertidumbre, no socorro. Véase §1.4.3, pp. 28–29.",
+    "deepExp": "Cuando FIC (centro de información de vuelo) o ACC (centro de control de área) declara incertidumbre o alerta, debe notificar primero al explotador antes de comunicarlo al RCC (centro coordinador de salvamento); en fase de peligro la comunicación al RCC (centro coordinador de salvamento) es inmediata. Por eso la combinación correcta es alerta e incertidumbre, no socorro. Véase §1.4.3, pp. 28–29.",
     "extra": "Banco Fernando Nº 139 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.4.3",
     "sourceTag": "Fernando Nº 139",
     "preserveOptions": true,
@@ -3593,7 +3593,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Servicio AFTN, Gestión del espacio aéreo y Gestión del flujo del tránsito aéreo.: AFTN vuelve a sustituir un componente ATM; sí aparece gestión del espacio/flujo, pero falta ATS.",
       "CORRECTA — Servicios de tránsito aéreo, Gestión del espacio aéreo y Gestión del flujo del tránsito aéreo: Es la tríada exacta: ATS, gestión del espacio aéreo y gestión de la afluencia."
     ],
-    "deepExp": "ATM se define como gestión dinámica e integrada del tráfico aéreo y del espacio aéreo, e incluye servicios de tránsito aéreo, gestión del espacio aéreo y gestión de la afluencia del tránsito aéreo. AFTN es una red/método de comunicaciones y no uno de esos tres componentes. Véase §1.7.1, p. 43.",
+    "deepExp": "ATM (gestión del tránsito aéreo) se define como gestión dinámica e integrada del tráfico aéreo y del espacio aéreo, e incluye servicios de tránsito aéreo, gestión del espacio aéreo y gestión de la afluencia del tránsito aéreo. AFTN (red fija de telecomunicaciones aeronáuticas) es una red/método de comunicaciones y no uno de esos tres componentes. Véase §1.7.1, p. 43.",
     "extra": "Banco Fernando Nº 144 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.6.1",
     "sourceTag": "Fernando Nº 144",
     "preserveOptions": true,
@@ -3618,7 +3618,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Estratégica.: Estratégica corresponde a planificación más anticipada.",
       "NO — Pre-estratégica.: «Pre-estratégica» no es una fase ATFCM definida en el texto."
     ],
-    "deepExp": "La acción realizada el día anterior a las operaciones pertenece a la fase pre-táctica; el manual indica que el AMC prepara entonces el AUP. La planificación estratégica es anterior y la fase táctica gestiona la operación en tiempo real, por lo que «pre-estratégica» no es la categoría aplicable. Véase §1.7.4–1.7.5, pp. 46–47, y §1.8.4, p. 64.",
+    "deepExp": "La acción realizada el día anterior a las operaciones pertenece a la fase pre-táctica; el manual indica que el AMC (célula de gestión del espacio aéreo) prepara entonces el AUP (plan de utilización del espacio aéreo). La planificación estratégica es anterior y la fase táctica gestiona la operación en tiempo real, por lo que «pre-estratégica» no es la categoría aplicable. Véase §1.7.4–1.7.5, pp. 46–47, y §1.8.4, p. 64.",
     "extra": "Banco Fernando Nº 145 · Nivel Medio · Justificación indicada en el documento: Capítulo 1.6.5",
     "sourceTag": "Fernando Nº 145",
     "preserveOptions": true,
@@ -3643,7 +3643,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Todos los vuelos militares.: El manual no establece una exclusión general de todos los vuelos militares.",
       "NO — Vuelos de aviación general.: La aviación general no queda excluida de forma general por ese solo tipo de operación."
     ],
-    "deepExp": "La AIP excluye de las medidas ATFM los vuelos en situación de emergencia, incluidos los secuestrados. No existe una exclusión general de todos los vuelos no comerciales, militares o de aviación general: la razón de la excepción es la emergencia y la prioridad de seguridad. Véase §1.7.5, p. 47, y la referencia AIP-España indicada en el banco.",
+    "deepExp": "La AIP (Publicación de Información Aeronáutica) excluye de las medidas ATFM (gestión de afluencia del tránsito aéreo) los vuelos en situación de emergencia, incluidos los secuestrados. No existe una exclusión general de todos los vuelos no comerciales, militares o de aviación general: la razón de la excepción es la emergencia y la prioridad de seguridad. Véase §1.7.5, p. 47, y la referencia AIP (Publicación de Información Aeronáutica)-España indicada en el banco.",
     "extra": "Banco Fernando Nº 146 · Nivel Bajo · Justificación indicada en el documento: Capítulo 1.6.5",
     "sourceTag": "Fernando Nº 146",
     "preserveOptions": true,
@@ -3668,7 +3668,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — CDR-3.: CDR-3 no puede planificarse ni incluirse en el plan de vuelo.",
       "NO — CDR-2 y CDR-3.: CDR-2 no está prohibida de forma absoluta; CDR-3 sí, por lo que la combinación es falsa."
     ],
-    "deepExp": "Los CDR-3 se gestionan en fase táctica, no se pueden planificar ni incluir en el plan de vuelo y solo pueden utilizarse mediante autorización ATC y coordinación civil-militar. CDR-1 y CDR-2 sí tienen, bajo sus condiciones, disponibilidad para planificación. Véase §1.7.3.2, pp. 62–63.",
+    "deepExp": "Los CDR (ruta condicional)-3 se gestionan en fase táctica, no se pueden planificar ni incluir en el plan de vuelo y solo pueden utilizarse mediante autorización ATC (control de tránsito aéreo) y coordinación civil-militar. CDR (ruta condicional)-1 y CDR (ruta condicional)-2 sí tienen, bajo sus condiciones, disponibilidad para planificación. Véase §1.7.3.2, pp. 62–63.",
     "extra": "Banco Fernando Nº 147 · Nivel Alto · Justificación indicada en el documento: Capítulo 1.7.3.2",
     "sourceTag": "Fernando Nº 147",
     "preserveOptions": true,
@@ -3693,7 +3693,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — STCA para avisar al controlador de la introducción no autorizada en un volumen de espacio aéreo generando, de manera oportuna, una alerta de una infracción potencial o real de la separación requerida para ese volumen de espacio aéreo: STCA alerta de conflictos entre aeronaves; la descripción dada corresponde a APW, que vigila penetraciones no autorizadas de volúmenes.",
       "NO — no ofrecerán la posibilidad de inhibir alertas: El manual dice que STCA, APW y MSAW ofrecen posibilidad de inhibir alertas, así que «no ofrecerán» es falso."
     ],
-    "deepExp": "Las safety nets terrestres son funciones basadas principalmente en datos de vigilancia que alertan a los controladores con predicción y aviso de hasta dos minutos: funcionan a corto plazo. STCA, APW, MSAW y APM tienen funciones distintas, y el manual prevé inhibición para STCA, APW y MSAW; por eso las otras afirmaciones intercambian funciones o niegan una capacidad existente. Véase §9, pp. 258–261.",
+    "deepExp": "Las safety nets terrestres son funciones basadas principalmente en datos de vigilancia que alertan a los controladores con predicción y aviso de hasta dos minutos: funcionan a corto plazo. STCA (alerta de conflicto a corto plazo), APW (alerta de proximidad de área), MSAW (alerta de altitud mínima segura) y APM (monitor de trayectoria de aproximación) tienen funciones distintas, y el manual prevé inhibición para STCA (alerta de conflicto a corto plazo), APW (alerta de proximidad de área) y MSAW (alerta de altitud mínima segura); por eso las otras afirmaciones intercambian funciones o niegan una capacidad existente. Véase §9, pp. 258–261.",
     "extra": "Banco Fernando Nº 148 · Nivel Medio · Justificación indicada en el documento: Capítulo 8.2.1",
     "sourceTag": "Fernando Nº 148",
     "preserveOptions": true,
@@ -3743,7 +3743,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — 30: 30 minutos es el plazo contado desde la hora prevista de llegada o aproximación que resulte más tarde.",
       "NO — 5: 5 minutos se usa en otros supuestos de alerta de aterrizaje, no en este procedimiento IMC."
     ],
-    "deepExp": "En fallo de comunicaciones radio en IMC, la aeronave debe aterrizar, si es posible, dentro de los 30 minutos siguientes a la hora prevista de llegada o a la hora prevista de aproximación acusada, tomando la que resulte más tarde. 15, 10 y 5 minutos no son el plazo de este punto del procedimiento. Véase §3.16/RCA 2.3.6.5.2.2, punto 7, p. 67 del material del banco.",
+    "deepExp": "En fallo de comunicaciones radio en IMC (condiciones meteorológicas instrumentales), la aeronave debe aterrizar, si es posible, dentro de los 30 minutos siguientes a la hora prevista de llegada o a la hora prevista de aproximación acusada, tomando la que resulte más tarde. 15, 10 y 5 minutos no son el plazo de este punto del procedimiento. Véase §3.16/RCA (Reglamento de Circulación Aérea) 2.3.6.5.2.2, punto 7, p. 67 del material del banco.",
     "extra": "Banco Fernando Nº 150 · Nivel Medio · Justificación indicada en el documento: MANUAL DE TEORÍA ATM: FALLO DE COMUNICACIONES EN CONDICIONES IMC (RCA 2.3.6.5.2.2) PUNTO 7",
     "sourceTag": "Fernando Nº 150",
     "preserveOptions": true,
@@ -3793,7 +3793,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — +/- 60 segundos: ±60 segundos excede la tolerancia exigida.",
       "CORRECTA — +/- 30 segundos: ±30 segundos es la tolerancia general; solo el uso de enlace de datos lleva a un segundo."
     ],
-    "deepExp": "Los relojes y dispositivos de registro de las dependencias ATS deben verificarse para mantener una tolerancia de más o menos 30 segundos respecto a UTC. Cuando se usan comunicaciones por enlace de datos, el manual establece una tolerancia más estricta de un segundo; la pregunta general pide 30 segundos. Véase §4.6, p. 113.",
+    "deepExp": "Los relojes y dispositivos de registro de las dependencias ATS (servicios de tránsito aéreo) deben verificarse para mantener una tolerancia de más o menos 30 segundos respecto a UTC (tiempo universal coordinado). Cuando se usan comunicaciones por enlace de datos, el manual establece una tolerancia más estricta de un segundo; la pregunta general pide 30 segundos. Véase §4.6, p. 113.",
     "extra": "Banco Fernando Nº 152 · Nivel Medio · Justificación indicada en el documento: Capítulo 3.6",
     "sourceTag": "Fernando Nº 152",
     "preserveOptions": true,
@@ -3818,7 +3818,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Colaborar con los organismos pertinentes en cuanto a una aeronave que necesite de los servicios de búsqueda y salvamento.: Colaborar con SAR pertenece al servicio de alerta, no a ese objetivo ATC.",
       "NO — Prevenir colisiones entre vehículos en el área de movimiento del aeropuerto.: El manual habla de aeronaves y obstáculos en el área de maniobras, no de prevenir colisiones entre vehículos como formulación general."
     ],
-    "deepExp": "Entre los objetivos ATC figura acelerar y mantener un flujo ordenado del tráfico aéreo. Asesorar/proporcionar información es la finalidad del FIS, la coordinación SAR pertenece al servicio de alerta y la prevención mencionada debe referirse a aeronaves y obstáculos en el área de maniobras, no a vehículos en general. Véase §1.2.1, p. 11, y §1.3.1, p. 20.",
+    "deepExp": "Entre los objetivos ATC (control de tránsito aéreo) figura acelerar y mantener un flujo ordenado del tráfico aéreo. Asesorar/proporcionar información es la finalidad del FIS, la coordinación SAR (búsqueda y salvamento) pertenece al servicio de alerta y la prevención mencionada debe referirse a aeronaves y obstáculos en el área de maniobras, no a vehículos en general. Véase §1.2.1, p. 11, y §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 153 · Nivel Medio",
     "sourceTag": "Fernando Nº 153",
     "preserveOptions": true,
@@ -3843,7 +3843,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Solamente un centro de control de área.: ACC solo no es la única forma de prestar aproximación.",
       "NO — Una torre de control exclusivamente.: TWR solo tampoco es la única forma admitida."
     ],
-    "deepExp": "Si no es necesario establecer una dependencia APP separada, una torre de control o un ACC puede asumir combinadamente las funciones de aproximación. «Exclusivamente APP», «solo ACC» o «solo TWR» eliminan la alternativa que la norma admite. Véase §1.2.3, p. 15.",
+    "deepExp": "Si no es necesario establecer una dependencia APP (control de aproximación) separada, una torre de control o un ACC (centro de control de área) puede asumir combinadamente las funciones de aproximación. «Exclusivamente APP (control de aproximación)», «solo ACC (centro de control de área)» o «solo TWR (torre de control)» eliminan la alternativa que la norma admite. Véase §1.2.3, p. 15.",
     "extra": "Banco Fernando Nº 154 · Nivel Medio",
     "sourceTag": "Fernando Nº 154",
     "preserveOptions": true,
@@ -3868,7 +3868,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Después de que la aeronave entre en condiciones meteorológicas de vuelo por instrumentos (IMC).: Esperar a que entre en IMC invierte el límite de seguridad indicado.",
       "NO — Sólo a requerimiento de la dependencia del control de aproximación.: No depende solo de una solicitud de APP: se realiza según condiciones y acuerdos ATS."
     ],
-    "deepExp": "Cuando en las proximidades del aeródromo prevalecen condiciones VMC, la transferencia de control de una aeronave que sale desde TWR a aproximación puede hacerse antes de que abandone las proximidades, antes de que pase a IMC o en un punto/nivel prescrito. La opción marcada es una de las condiciones expresas; «después de IMC» invierte el límite. Véase §1.2.3, pp. 16–17.",
+    "deepExp": "Cuando en las proximidades del aeródromo prevalecen condiciones VMC (condiciones meteorológicas visuales), la transferencia de control de una aeronave que sale desde TWR (torre de control) a aproximación puede hacerse antes de que abandone las proximidades, antes de que pase a IMC (condiciones meteorológicas instrumentales) o en un punto/nivel prescrito. La opción marcada es una de las condiciones expresas; «después de IMC (condiciones meteorológicas instrumentales)» invierte el límite. Véase §1.2.3, pp. 16–17.",
     "extra": "Banco Fernando Nº 155 · Nivel Medio",
     "sourceTag": "Fernando Nº 155",
     "preserveOptions": true,
@@ -3893,7 +3893,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Únicamente a las aeronaves a las que no se les suministre servicio de control de tránsito aéreo.: También se presta a aeronaves bajo ATC, por lo que «únicamente no ATC» es falso.",
       "NO — Únicamente a aquellas que tienen conocimiento las dependencias ATS fuera de espacio aéreo controlado.: No se restringe a fuera de espacio controlado."
     ],
-    "deepExp": "El FIS se presta a las aeronaves que reciben ATC y, además, a aquellas de las que las dependencias ATS tienen conocimiento por otro medio. No se limita a aeronaves bajo ATC ni solo a las que están fuera del espacio controlado. Véase §1.3.1, p. 20.",
+    "deepExp": "El FIS se presta a las aeronaves que reciben ATC (control de tránsito aéreo) y, además, a aquellas de las que las dependencias ATS (servicios de tránsito aéreo) tienen conocimiento por otro medio. No se limita a aeronaves bajo ATC (control de tránsito aéreo) ni solo a las que están fuera del espacio controlado. Véase §1.3.1, p. 20.",
     "extra": "Banco Fernando Nº 156 · Nivel Medio",
     "sourceTag": "Fernando Nº 156",
     "preserveOptions": true,
@@ -3918,7 +3918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Exclusivamente las torres de control de aeródromo (TWR).: TWR puede suministrar FIS cuando ya presta ATC en espacio controlado.",
       "CORRECTA — Los centros de información de vuelo (FIC), centros de control de área (ACC), las torres de control de aeródromo (TWR) y la dependencia del servicio de información de aeródromo (AFIS).: La respuesta completa incluye FIC, ACC, TWR y AFIS según el ámbito de suministro."
     ],
-    "deepExp": "El suministro del FIS no está reservado a una sola clase de dependencia: puede corresponder al FIC y, según el espacio y la organización, a ACC, TWR o AFIS. El manual asigna FIS a dependencias ATC en espacios controlados y a AFIS en el aeródromo AFIS y su FIZ. Véase §1.3.3 y §1.3.6, pp. 22 y 26.",
+    "deepExp": "El suministro del FIS no está reservado a una sola clase de dependencia: puede corresponder al FIC (centro de información de vuelo) y, según el espacio y la organización, a ACC (centro de control de área), TWR (torre de control) o AFIS (servicio de información de vuelo de aeródromo). El manual asigna FIS a dependencias ATC (control de tránsito aéreo) en espacios controlados y a AFIS (servicio de información de vuelo de aeródromo) en el aeródromo AFIS (servicio de información de vuelo de aeródromo) y su FIZ (zona de información de vuelo). Véase §1.3.3 y §1.3.6, pp. 22 y 26.",
     "extra": "Banco Fernando Nº 157 · Nivel Medio",
     "sourceTag": "Fernando Nº 157",
     "preserveOptions": true,
@@ -3943,7 +3943,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La responsabilidad será del controlador cuando se suministre servicio de asesoramiento de tránsito aéreo.: El controlador no decide por el piloto al prestar asesoramiento.",
       "NO — La responsabilidad recaerá siempre en el controlador ya que es el encargado de la separación de aeronaves en espacio aéreo no controlado de clases F y G.: En clases F/G el controlador no es responsable de separación ATC; la afirmación invierte la naturaleza del servicio."
     ],
-    "deepExp": "FIS y ADV no eximen al piloto al mando de responsabilidad: ante la información o sugerencia recibida, él toma la decisión definitiva sobre cualquier alteración del plan de vuelo. El controlador no asume separación ATC en el servicio de asesoramiento ni decide por el comandante. Véase §1.3.1, p. 20, y §1.5.3, p. 35.",
+    "deepExp": "FIS y ADV (asesoramiento) no eximen al piloto al mando de responsabilidad: ante la información o sugerencia recibida, él toma la decisión definitiva sobre cualquier alteración del plan de vuelo. El controlador no asume separación ATC (control de tránsito aéreo) en el servicio de asesoramiento ni decide por el comandante. Véase §1.3.1, p. 20, y §1.5.3, p. 35.",
     "extra": "Banco Fernando Nº 158 · Nivel Medio",
     "sourceTag": "Fernando Nº 158",
     "preserveOptions": true,
@@ -3968,7 +3968,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — AIRMET.: AIRMET cubre fenómenos en ruta que pueden afectar a vuelos a baja altura.",
       "NO — TAFOR.: TAFOR/TAF es pronóstico de aeródromo, no el aviso en ruta de baja altura descrito."
     ],
-    "deepExp": "AIRMET es la información sobre fenómenos meteorológicos en ruta que pueden afectar a la seguridad de vuelos a baja altura, definidos en el manual como por debajo de FL150. SIGMET trata fenómenos significativos en ruta en general; METAR es observación local y TAFOR es pronóstico de aeródromo. Véase §1.3.2, pp. 20–21.",
+    "deepExp": "AIRMET (información meteorológica de ruta) es la información sobre fenómenos meteorológicos en ruta que pueden afectar a la seguridad de vuelos a baja altura, definidos en el manual como por debajo de FL150 (nivel de vuelo 150). SIGMET (información meteorológica significativa) trata fenómenos significativos en ruta en general; METAR (informe meteorológico de aeródromo) es observación local y TAFOR (pronóstico rutinario de aeródromo) es pronóstico de aeródromo. Véase §1.3.2, pp. 20–21.",
     "extra": "Banco Fernando Nº 159 · Nivel Medio",
     "sourceTag": "Fernando Nº 159",
     "preserveOptions": true,
@@ -3993,7 +3993,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — SIGMET.: SIGMET es un aviso de fenómenos meteorológicos en ruta.",
       "CORRECTA — ATIS.: ATIS suministra información rutinaria meteorológica y operacional del aeródromo concreto."
     ],
-    "deepExp": "Para información meteorológica y operacional de un aeródromo concreto mediante radiodifusión OFIS, la emisión específica es ATIS. VOLMET es un ejemplo de OFIS HF/VHF en ruta, mientras METAR y SIGMET son productos meteorológicos, no la radiodifusión integrada del aeródromo. Véase §1.3.5, pp. 23–24.",
+    "deepExp": "Para información meteorológica y operacional de un aeródromo concreto mediante radiodifusión OFIS (servicio automático de información operacional de vuelo), la emisión específica es ATIS (servicio automático de información terminal). VOLMET (información meteorológica para aeronaves en vuelo) es un ejemplo de OFIS (servicio automático de información operacional de vuelo) HF (alta frecuencia)/VHF (frecuencia muy alta) en ruta, mientras METAR (informe meteorológico de aeródromo) y SIGMET (información meteorológica significativa) son productos meteorológicos, no la radiodifusión integrada del aeródromo. Véase §1.3.5, pp. 23–24.",
     "extra": "Banco Fernando Nº 160 · Nivel Medio",
     "sourceTag": "Fernando Nº 160",
     "preserveOptions": true,
@@ -4018,7 +4018,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Servicio aeronáutico de información de aeródromo.: «Aeronáutico» no es la palabra de la expansión inglesa.",
       "NO — Servicio automático de información terminal.: «Terminal» pertenece a ATIS, no a AFIS."
     ],
-    "deepExp": "AFIS significa Aerodrome Flight Information Service, en español Servicio de información de vuelo de aeródromo. Es información para el tránsito del aeródromo AFIS y su FIZ; no es un servicio automático de información terminal ni una expansión basada en «aeronáutico». Véase §1.3.6, p. 26.",
+    "deepExp": "AFIS (servicio de información de vuelo de aeródromo) significa Aerodrome Flight Information Service, en español Servicio de información de vuelo de aeródromo. Es información para el tránsito del aeródromo AFIS (servicio de información de vuelo de aeródromo) y su FIZ (zona de información de vuelo); no es un servicio automático de información terminal ni una expansión basada en «aeronáutico». Véase §1.3.6, p. 26.",
     "extra": "Banco Fernando Nº 161 · Nivel Medio",
     "sourceTag": "Fernando Nº 161",
     "preserveOptions": true,
@@ -4043,7 +4043,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — A todas las aeronaves a las que se les proporcione servicio de control de tránsito aéreo, a las que hayan presentado un plan de vuelo de las que, por otros medios, tengan conocimiento las dependencias ATS.: Es la enumeración completa: aeronaves bajo ATC, con plan de vuelo o conocidas por otros medios, y las sometidas a interferencia ilícita.",
       "NO — Solamente a las aeronaves que operen en una zona de información de vuelo (FIZ) y en aeródromos AFIS.: FIZ/AFIS es un ámbito de suministro, no el único grupo de aeronaves con derecho al servicio de alerta."
     ],
-    "deepExp": "El servicio de alerta se proporciona a todas las aeronaves que reciben ATC; en la medida de lo posible, a las que han presentado plan de vuelo o son conocidas por otros medios; y a las que se sabe o sospecha que sufren interferencia ilícita. La opción marcada reúne esos tres grupos; las demás restringen indebidamente el alcance. Véase §1.4.1, p. 27.",
+    "deepExp": "El servicio de alerta se proporciona a todas las aeronaves que reciben ATC (control de tránsito aéreo); en la medida de lo posible, a las que han presentado plan de vuelo o son conocidas por otros medios; y a las que se sabe o sospecha que sufren interferencia ilícita. La opción marcada reúne esos tres grupos; las demás restringen indebidamente el alcance. Véase §1.4.1, p. 27.",
     "extra": "Banco Fernando Nº 162 · Nivel Medio",
     "sourceTag": "Fernando Nº 162",
     "preserveOptions": true,
@@ -4068,7 +4068,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — INCERTIDUMBRE.: INCERTIDUMBRE se asocia a los supuestos de duda, incluidos los 30 minutos indicados en el manual.",
       "NO — EMERGENCIA.: «Emergencia» es una expresión genérica, no el nombre de la fase concreta."
     ],
-    "deepExp": "No realizar un aterrizaje dentro de los cinco minutos siguientes a la hora prevista, unido a la imposibilidad de restablecer la comunicación en el supuesto reglado, activa la fase de alerta. «Incertidumbre» corresponde a la falta de comunicación/ETA en los supuestos de 30 minutos; peligro o emergencia no es el nombre de esta fase. Véase §1.4.3, p. 28.",
+    "deepExp": "No realizar un aterrizaje dentro de los cinco minutos siguientes a la hora prevista, unido a la imposibilidad de restablecer la comunicación en el supuesto reglado, activa la fase de alerta. «Incertidumbre» corresponde a la falta de comunicación/ETA (hora prevista de llegada) en los supuestos de 30 minutos; peligro o emergencia no es el nombre de esta fase. Véase §1.4.3, p. 28.",
     "extra": "Banco Fernando Nº 163 · Nivel Medio",
     "sourceTag": "Fernando Nº 163",
     "preserveOptions": true,
@@ -4093,7 +4093,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — INCERTIDUMBRE.: INCERTIDUMBRE es la duda inicial, anterior a la alerta; no corresponde al supuesto posterior.",
       "CORRECTA — Si se tiene la certidumbre de que la aeronave y sus ocupantes no se ven amenazados por ningún peligro grave ni inminente y no necesitan ayuda inmediata no se activaría ninguna fase.: Es la opción marcada por el banco y por eso lleva el prefijo exigido, pero describe la excepción contraria (certeza de ausencia de peligro); el manual exige fase de peligro/socorro y no respalda esta respuesta."
     ],
-    "deepExp": "REVISAR RESPUESTA MARCADA: el enunciado describe precisamente el supuesto de fase de peligro/socorro: una vez transcurrida la alerta, nuevas tentativas y averiguaciones infructuosas hacen suponer que la aeronave está en peligro. El manual indica notificación inmediata al RCC y palabra DETRESFA (§1.4.3, p. 29). La opción marcada por el banco afirma el caso contrario —certeza de que no hay peligro y no hace falta ayuda— y además no ofrece «peligro» entre las respuestas, por lo que no queda respaldada.",
+    "deepExp": "REVISAR RESPUESTA MARCADA: el enunciado describe precisamente el supuesto de fase de peligro/socorro: una vez transcurrida la alerta, nuevas tentativas y averiguaciones infructuosas hacen suponer que la aeronave está en peligro. El manual indica notificación inmediata al RCC (centro coordinador de salvamento) y palabra DETRESFA (§1.4.3, p. 29). La opción marcada por el banco afirma el caso contrario —certeza de que no hay peligro y no hace falta ayuda— y además no ofrece «peligro» entre las respuestas, por lo que no queda respaldada.",
     "extra": "Banco Fernando Nº 164 · Nivel Medio",
     "sourceTag": "Fernando Nº 164",
     "preserveOptions": true,
@@ -4118,7 +4118,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Centro de control de área (ACC).: ACC presta control de área.",
       "NO — Puesto de mando avanzado (PMA).: PMA es un puesto de mando local/móvil, no el centro coordinador regional definido."
     ],
-    "deepExp": "El RCC (Rescue Coordination Centre, centro coordinador de salvamento) es la unidad encargada de promover la organización eficiente del SAR y coordinar las operaciones en una región de búsqueda y salvamento. FIC y ACC son dependencias de información/control; PMA es un puesto operativo local, no el centro coordinador regional. Véase §1.4.3.1, p. 30.",
+    "deepExp": "El RCC (Rescue Coordination Centre, centro coordinador de salvamento) es la unidad encargada de promover la organización eficiente del SAR (búsqueda y salvamento) y coordinar las operaciones en una región de búsqueda y salvamento. FIC (centro de información de vuelo) y ACC (centro de control de área) son dependencias de información/control; PMA (puesto de mando avanzado) es un puesto operativo local, no el centro coordinador regional. Véase §1.4.3.1, p. 30.",
     "extra": "Banco Fernando Nº 165 · Nivel Medio",
     "sourceTag": "Fernando Nº 165",
     "preserveOptions": true,
@@ -4143,7 +4143,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Aquél que tiene por objeto que la información sobre peligros de colisión sea más eficaz que mediante el simple suministro del servicio de información de vuelo.: Es la definición literal: hacer más eficaz la información sobre peligros de colisión que el simple FIS.",
       "NO — Aquél que tiene por objeto dar información de tránsito para que los pilotos sepan la posición estimada de las aeronaves en espacio aéreo controlado de clase B.: Clase B es espacio controlado; la opción describe además un objetivo ajeno al servicio de asesoramiento."
     ],
-    "deepExp": "El servicio de asesoramiento busca que la información sobre peligros de colisión sea más eficaz que mediante el simple FIS. Se presta a vuelos IFR en espacio aéreo o rutas de asesoramiento, clase F; no expide instrucciones obligatorias ni describe una separación ATC en clase B. Véase §1.5.1, pp. 34–35.",
+    "deepExp": "El servicio de asesoramiento busca que la información sobre peligros de colisión sea más eficaz que mediante el simple FIS. Se presta a vuelos IFR (reglas de vuelo por instrumentos) en espacio aéreo o rutas de asesoramiento, clase F; no expide instrucciones obligatorias ni describe una separación ATC (control de tránsito aéreo) en clase B. Véase §1.5.1, pp. 34–35.",
     "extra": "Banco Fernando Nº 166 · Nivel Medio",
     "sourceTag": "Fernando Nº 166",
     "preserveOptions": true,
@@ -4168,7 +4168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — No hará caso a las sugerencias que se le digan al volar en un espacio aéreo no controlado y ser el responsable de mantener separación con otros vuelos alrededor.: No debe ignorar automáticamente el asesoramiento: debe decidir y comunicarlo.",
       "NO — Es un espacio aéreo no controlado y, como no es requisito mantener comunicación en ambos sentidos, no se suministra servicio de asesoramiento de tránsito aéreo a los vuelos IFR.: En clase F sí puede prestarse ADV a vuelos IFR; que no sea controlado no elimina la comunicación bidireccional."
     ],
-    "deepExp": "En el servicio de asesoramiento, «advise» o «suggest» no equivale a una autorización ATC: el piloto decide si sigue la sugerencia y comunica sin demora su decisión a la dependencia de asesoramiento. La clase F no elimina la comunicación bidireccional ni convierte el consejo en obligatorio. Véase §1.5.3–1.5.4, pp. 35–36.",
+    "deepExp": "En el servicio de asesoramiento, «advise» o «suggest» no equivale a una autorización ATC (control de tránsito aéreo): el piloto decide si sigue la sugerencia y comunica sin demora su decisión a la dependencia de asesoramiento. La clase F no elimina la comunicación bidireccional ni convierte el consejo en obligatorio. Véase §1.5.3–1.5.4, pp. 35–36.",
     "extra": "Banco Fernando Nº 167 · Nivel Medio",
     "sourceTag": "Fernando Nº 167",
     "preserveOptions": true,
@@ -4193,7 +4193,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Zona de control (CTR).: CTR es zona de control y presupone el concepto de espacio controlado, que AFIS no proporciona.",
       "CORRECTA — Zona de información de vuelo (FIZ).: FIZ es la zona de información de vuelo asociada al aeródromo AFIS."
     ],
-    "deepExp": "AFIS se presta en el aeródromo y en la zona de información de vuelo asociada, FIZ (Flight Information Zone). No es una CTR —donde se presta control—, ni una FIR/UIR regional o superior; ATZ es otra designación de zona de tránsito de aeródromo. Véase §1.3.6, p. 26, y la descripción de límites FIZ en §1.6.3, p. 39.",
+    "deepExp": "AFIS (servicio de información de vuelo de aeródromo) se presta en el aeródromo y en la zona de información de vuelo asociada, FIZ (Flight Information Zone). No es una CTR (zona de control) —donde se presta control—, ni una FIR (región de información de vuelo)/UIR (región superior de información de vuelo) regional o superior; ATZ (zona de tránsito de aeródromo) es otra designación de zona de tránsito de aeródromo. Véase §1.3.6, p. 26, y la descripción de límites FIZ (zona de información de vuelo) en §1.6.3, p. 39.",
     "extra": "Banco Fernando Nº 168 · Nivel Medio",
     "sourceTag": "Fernando Nº 168",
     "preserveOptions": true,
@@ -4218,7 +4218,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El día de la operación de la aeronave. Describe la fase táctica, que se aplica durante el día de la operación.",
       "NO — Solamente el día previo a la fecha de operación de la aeronave. Es demasiado restrictiva: la planificación estratégica no se limita únicamente al día previo."
     ],
-    "deepExp": "La planificación estratégica de la gestión de la afluencia se realiza en un período no menor de siete días antes del día de operación. La trampa es confundirla con la planificación pre-táctica, que se desarrolla entre seis días y el día anterior, o con la fase táctica del propio día de operación. Referencia: §1.7.6, «Métodos de suministro del ATFCM», p. 48 del manual.",
+    "deepExp": "La planificación estratégica de la gestión de la afluencia se realiza en un período no menor de siete días antes del día de operación. La trampa es confundirla con la planificación pre-táctica, que se desarrolla entre seis días y el día anterior, o con la fase táctica del propio día de operación. Referencia: §1.7.6, «Métodos de suministro del ATFCM (gestión de afluencia y capacidad del tránsito aéreo)», p. 48 del manual.",
     "extra": "Banco Fernando Nº 169 · Nivel Medio",
     "sourceTag": "Fernando Nº 169",
     "preserveOptions": true,
@@ -4268,7 +4268,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Mensaje de revisión de slot (SRM). Es el SRM («Slot Revision Message»), usado para comunicar una revisión del slot, no la situación de listo solicitada por la tripulación.",
       "NO — Mensaje de suspensión de vuelo (FLS). Es el FLS («Flight Suspension Message»), que comunica la suspensión del vuelo, no que esté preparado para salir."
     ],
-    "deepExp": "El mensaje REA («Ready message») lo envía ATC al NMOC cuando un vuelo que ya tiene slot está listo antes de su EOBT; el vuelo puede pasar a estado RFI y optar a una mejora del CTOT. No debe confundirse con los mensajes de slot emitidos por TACT/CASA ni con una suspensión. Referencia: §1.7.6, «Procedimiento de asignación de SLOT ATFM / REA», p. 54.",
+    "deepExp": "El mensaje REA («Ready message») lo envía ATC (control de tránsito aéreo) al NMOC (Centro de Operaciones de Red y Gestor de Red) cuando un vuelo que ya tiene slot está listo antes de su EOBT (hora prevista de fuera calzos); el vuelo puede pasar a estado RFI (listo para mejora) y optar a una mejora del CTOT (hora calculada de despegue). No debe confundirse con los mensajes de slot emitidos por TACT/CASA (TACT (sistema táctico de gestión de afluencia) y CASA (asignación de slots asistida por ordenador)) ni con una suspensión. Referencia: §1.7.6, «Procedimiento de asignación de SLOT (franja horaria asignada) ATFM (gestión de afluencia del tránsito aéreo) / REA (mensaje de listo)», p. 54.",
     "extra": "Banco Fernando Nº 171 · Nivel Medio",
     "sourceTag": "Fernando Nº 171",
     "preserveOptions": true,
@@ -4293,7 +4293,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Hora real de despegue, tiempo de rodaje y el retraso, si lo hubiera. Usa la hora real de despegue, que es posterior al cálculo y no puede ser su base.",
       "NO — Hora de solicitud de puesta en marcha, tiempo de rodaje y el retraso, si lo hubiera. Confunde la solicitud de puesta en marcha con el EOBT; la primera no es el dato de partida del CTOT."
     ],
-    "deepExp": "El CTOT se obtiene sumando al EOBT la duración prevista del rodaje y el retraso, si existe. La clave es que la base es la hora estimada fuera de calzos, no la hora prevista o real de despegue ni la hora de solicitud de puesta en marcha. Referencia: §1.7.6, «Procedimiento de asignación de SLOT ATFM», p. 52.",
+    "deepExp": "El CTOT (hora calculada de despegue) se obtiene sumando al EOBT (hora prevista de fuera calzos) la duración prevista del rodaje y el retraso, si existe. La clave es que la base es la hora estimada fuera de calzos, no la hora prevista o real de despegue ni la hora de solicitud de puesta en marcha. Referencia: §1.7.6, «Procedimiento de asignación de SLOT (franja horaria asignada) ATFM (gestión de afluencia del tránsito aéreo)», p. 52.",
     "extra": "Banco Fernando Nº 172 · Nivel Medio",
     "sourceTag": "Fernando Nº 172",
     "preserveOptions": true,
@@ -4318,7 +4318,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Planificación, basándose en las necesidades a medio plazo para la utilización de ciertas partes de espacio aéreo de forma dinámica con el objeto de dinamizar y maximizar el uso compartido del mismo. Introduce un horizonte a medio plazo que no es el que establece la definición del ASM en el manual.",
       "NO — Establecer de una manera dinámica del uso permanente de ciertas porciones de espacio aéreo en coordinación conjunta civil/militar y maximizar las operaciones de aeronaves militares. Reduce erróneamente la ASM al uso permanente y a maximizar operaciones militares, contrario al uso flexible civil/militar."
     ],
-    "deepExp": "La gestión del espacio aéreo (ASM) planifica el uso compartido dinámico —y, a veces, la segregación— basándose en necesidades a corto plazo. La trampa consiste en elegir los horizontes estratégico o medio/largo plazo, que pertenecen a otros niveles o no describen la definición de ASM. Referencia: §1.8.1, «Definición y alcance de la gestión del espacio aéreo», p. 56.",
+    "deepExp": "La gestión del espacio aéreo (ASM (gestión del espacio aéreo)) planifica el uso compartido dinámico —y, a veces, la segregación— basándose en necesidades a corto plazo. La trampa consiste en elegir los horizontes estratégico o medio/largo plazo, que pertenecen a otros niveles o no describen la definición de ASM (gestión del espacio aéreo). Referencia: §1.8.1, «Definición y alcance de la gestión del espacio aéreo», p. 56.",
     "extra": "Banco Fernando Nº 173 · Nivel Medio",
     "sourceTag": "Fernando Nº 173",
     "preserveOptions": true,
@@ -4343,7 +4343,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Volumen de espacio aéreo publicado en la Publicación de Información Aeronáutica (AIP) en el que frecuentemente se realizan actividades de deporte aéreo, que no implica la restricción de uso para otros tráficos y que informa a otros usuarios del espacio aéreo de la actividad aeronáutica que se realiza en dicho volumen. Describe una zona promulgada: informa de actividades y no implica restricción de uso para otros tráficos.",
       "NO — Volumen de espacio aéreo de dimensiones definidas en el que se realizan actividades militares conforme a las reglas de tránsito aéreo operativo, dentro del cual se puede permitir a un tráfico de la CAG volar fuera de las rutas ATS sin que sea necesario que los controladores de los vuelos CAG inicien una coordinación con los controladores de los vuelos de la CAO. Describe el espacio de coordinación reducida (RCA), no una TSA; se refiere a actividades militares y a coordinación CAG/CAO."
     ],
-    "deepExp": "Una TSA es un volumen definido de espacio aéreo reservado temporalmente para una actividad específica y en el que no se permite el tránsito de otro tráfico, ni siquiera con autorización ATC. La alternativa que permite tránsito autorizado describe una TRA, mientras que las zonas promulgadas no restringen el uso. Referencia: §1.8.3.2, «Estructuras y procedimientos flexibles del espacio aéreo», pp. 58–60.",
+    "deepExp": "Una TSA (área temporalmente segregada) es un volumen definido de espacio aéreo reservado temporalmente para una actividad específica y en el que no se permite el tránsito de otro tráfico, ni siquiera con autorización ATC (control de tránsito aéreo). La alternativa que permite tránsito autorizado describe una TRA (área temporalmente reservada), mientras que las zonas promulgadas no restringen el uso. Referencia: §1.8.3.2, «Estructuras y procedimientos flexibles del espacio aéreo», pp. 58–60.",
     "extra": "Banco Fernando Nº 174 · Nivel Medio",
     "sourceTag": "Fernando Nº 174",
     "preserveOptions": true,
@@ -4368,7 +4368,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Siempre que mantengan una altura máxima de 120 metros sobre el terreno no se aplica distancia horizontal. La condición de no superar 120 m regula la altura de operación, pero no suprime la distancia horizontal al aeródromo.",
       "NO — 6 km si se disponen de medios visuales por los que el piloto de aeronaves remotas pueda mantener separación con el resto de las aeronaves. La visibilidad o la vigilancia por medios visuales no convierte el límite aplicable en 6 km."
     ],
-    "deepExp": "Para la operación de RPA en las proximidades de un aeródromo, la respuesta del banco fija una distancia mínima de 8 km (4 NM) respecto al punto de referencia del aeródromo. La altura máxima de 120 m y la existencia de medios visuales no eliminan por sí solas la separación horizontal exigida. Referencia: §2.1.1, «Condiciones de uso del espacio aéreo», p. 68 (el criterio de la pregunta se aplica junto con las condiciones del capítulo UAS).",
+    "deepExp": "Para la operación de RPA (aeronave pilotada remotamente) en las proximidades de un aeródromo, la respuesta del banco fija una distancia mínima de 8 km (4 NM (milla náutica)) respecto al punto de referencia del aeródromo. La altura máxima de 120 m y la existencia de medios visuales no eliminan por sí solas la separación horizontal exigida. Referencia: §2.1.1, «Condiciones de uso del espacio aéreo», p. 68 (el criterio de la pregunta se aplica junto con las condiciones del capítulo UAS (sistema de aeronave no tripulada)).",
     "extra": "Banco Fernando Nº 175 · Nivel Medio",
     "sourceTag": "Fernando Nº 175",
     "preserveOptions": true,
@@ -4468,7 +4468,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — QFE. Es QFE: al calarlo en tierra el altímetro queda referido a la elevación del aeródromo y marca 0 ft.",
       "NO — QFF. QFF no es el reglaje operacional descrito para obtener cero en el aeródromo."
     ],
-    "deepExp": "QFE es el reglaje correspondiente a la presión en la elevación del aeródromo o en el umbral, de modo que una aeronave en tierra indica altura cero. QNH referencia el nivel medio del mar y QNE/1013,2 hPa produce niveles de vuelo; QFF no es la respuesta de este procedimiento. Referencia: §3.3.3, «Altura», p. 78, y explicación de QFE en p. 79.",
+    "deepExp": "QFE (reglaje altimétrico referido a la elevación del aeródromo) es el reglaje correspondiente a la presión en la elevación del aeródromo o en el umbral, de modo que una aeronave en tierra indica altura cero. QNH (reglaje altimétrico referido al nivel medio del mar) referencia el nivel medio del mar y QNE (reglaje estándar de 1013,25 hPa)/1013,2 hPa produce niveles de vuelo; QFF (reglaje de presión atmosférica reducido al nivel medio del mar) no es la respuesta de este procedimiento. Referencia: §3.3.3, «Altura», p. 78, y explicación de QFE (reglaje altimétrico referido a la elevación del aeródromo) en p. 79.",
     "extra": "Banco Fernando Nº 179 · Nivel Medio",
     "sourceTag": "Fernando Nº 179",
     "preserveOptions": true,
@@ -4493,7 +4493,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Par volando en IFR. Omite la paridad requerida por la tabla IFR y por eso no es la formulación correcta.",
       "CORRECTA — Impar volando en IFR. Es la opción correcta: en IFR y con 145° corresponde un nivel impar."
     ],
-    "deepExp": "Con una derrota de 145° se aplica la tabla semicircular de niveles IFR y corresponde un nivel impar. La trampa es añadir 500 ft, que caracteriza la correlación del nivel mínimo utilizable respecto al nivel VFR en ciertos cálculos, no la selección ordinaria del nivel IFR de crucero. Referencia: §3.8.1.3, «Vuelos IFR no controlados», p. 93, junto con la tabla de niveles del Anexo 1 del RD 1180/2018.",
+    "deepExp": "Con una derrota de 145° se aplica la tabla semicircular de niveles IFR (reglas de vuelo por instrumentos) y corresponde un nivel impar. La trampa es añadir 500 ft, que caracteriza la correlación del nivel mínimo utilizable respecto al nivel VFR (reglas de vuelo visual) en ciertos cálculos, no la selección ordinaria del nivel IFR (reglas de vuelo por instrumentos) de crucero. Referencia: §3.8.1.3, «Vuelos IFR (reglas de vuelo por instrumentos) no controlados», p. 93, junto con la tabla de niveles del Anexo 1 del RD (Real Decreto) 1180/2018.",
     "extra": "Banco Fernando Nº 180 · Nivel Medio",
     "sourceTag": "Fernando Nº 180",
     "preserveOptions": true,
@@ -4518,7 +4518,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Cuando, en aproximación directa, se encuentra a una distancia se halla a 8 NM (15 km) o más del punto de toma de contacto. La distancia de 8 NM o más en aproximación directa también define final larga, no final.",
       "NO — Posición de una aeronave que se encuentra a una distancia de 8 NM o más del punto de toma de contacto. Vuelve a situar la aeronave a 8 NM o más, fuera del límite de final."
     ],
-    "deepExp": "«Final» es la posición de una aeronave en aproximación situada a 4 NM (7 km) o menos del punto de toma de contacto. Más allá de 4 NM, o a 8 NM o más en aproximación directa, el manual emplea «final larga». Referencia: §4.2.1, «Definiciones», p. 103.",
+    "deepExp": "«Final» es la posición de una aeronave en aproximación situada a 4 NM (7 km) o menos del punto de toma de contacto. Más allá de 4 NM (milla náutica), o a 8 NM (milla náutica) o más en aproximación directa, el manual emplea «final larga». Referencia: §4.2.1, «Definiciones», p. 103.",
     "extra": "Banco Fernando Nº 181 · Nivel Medio",
     "sourceTag": "Fernando Nº 181",
     "preserveOptions": true,
@@ -4543,7 +4543,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Cuando sean unidades o decenas de millar, centenas o combinación de ambas, referidas a altura de las nubes, se podrá transmitir tal cual, no de uno en uno. Es correcta: para alturas de nubes formadas por centenas/millares redondos o combinaciones se puede usar «cientos»/«mil».",
       "NO — Solamente en unidades de millar referidas a códigos del transpondedor se podrá transmitir como suena, el resto de uno en uno. La regla de millares redondos del código SSR es específica de esos códigos y no la única excepción ni la de altura de nubes."
     ],
-    "deepExp": "En la transmisión de números, los dígitos se pronuncian normalmente por separado, pero las centenas redondas, millares redondos y combinaciones de millares y centenas se transmiten con «CIENTOS» o «MIL» cuando se refieren a altitud, altura de nubes, visibilidad o RVR. La opción correcta recoge precisamente esa excepción para la altura de las nubes. Referencia: §4.5, «Transmisión de números», pp. 109 y 111.",
+    "deepExp": "En la transmisión de números, los dígitos se pronuncian normalmente por separado, pero las centenas redondas, millares redondos y combinaciones de millares y centenas se transmiten con «CIENTOS» o «MIL» cuando se refieren a altitud, altura de nubes, visibilidad o RVR (alcance visual en pista). La opción correcta recoge precisamente esa excepción para la altura de las nubes. Referencia: §4.5, «Transmisión de números», pp. 109 y 111.",
     "extra": "Banco Fernando Nº 182 · Nivel Medio",
     "sourceTag": "Fernando Nº 182",
     "preserveOptions": true,
@@ -4743,7 +4743,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Solamente en el primer contacto con la dependencia de control de aeródromo para que éste acepte el cambio en el plan de vuelo. El primer contacto o la aceptación del cambio en el plan de vuelo no constituye la excepción reglada.",
       "CORRECTA — Temporalmente, por instrucción de la dependencia ATC en interés de la seguridad. Es correcta: ATC puede instruir un cambio temporal del distintivo cuando lo exige la seguridad."
     ],
-    "deepExp": "Durante el vuelo no se cambia el tipo de distintivo radiotelefónico, salvo temporalmente por instrucción ATC en interés de la seguridad. La mera posibilidad de confusión no autoriza al comandante a modificarlo unilateralmente. Referencia: §4.14, «Procedimientos radiotelefónicos», p. 124.",
+    "deepExp": "Durante el vuelo no se cambia el tipo de distintivo radiotelefónico, salvo temporalmente por instrucción ATC (control de tránsito aéreo) en interés de la seguridad. La mera posibilidad de confusión no autoriza al comandante a modificarlo unilateralmente. Referencia: §4.14, «Procedimientos radiotelefónicos», p. 124.",
     "extra": "Banco Fernando Nº 190 · Nivel Medio",
     "sourceTag": "Fernando Nº 190",
     "preserveOptions": true,
@@ -4893,7 +4893,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — QDM. Es QDM: rumbo magnético sin viento para dirigirse a la estación.",
       "NO — QUJ. QUJ es el rumbo verdadero sin viento para acercarse a la estación, no el magnético solicitado."
     ],
-    "deepExp": "QDM significa rumbo magnético, sin viento, que debe seguirse para aproximarse a la estación radiogoniométrica. QDR es la marcación magnética respecto de la estación y QUJ el rumbo verdadero; QFE pertenece a altimetría. Referencia: §4.15.C.1, «Comunicaciones relativas a la radiogoniometría», p. 133.",
+    "deepExp": "QDM (marcación magnética hacia la estación) significa rumbo magnético, sin viento, que debe seguirse para aproximarse a la estación radiogoniométrica. QDR (marcación magnética desde la estación) es la marcación magnética respecto de la estación y QUJ (marcación verdadera hacia la estación) el rumbo verdadero; QFE (reglaje altimétrico referido a la elevación del aeródromo) pertenece a altimetría. Referencia: §4.15.C.1, «Comunicaciones relativas a la radiogoniometría», p. 133.",
     "extra": "Banco Fernando Nº 196 · Nivel Medio",
     "sourceTag": "Fernando Nº 196",
     "preserveOptions": true,
@@ -4918,7 +4918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Rumbo verdadero (geográfico), sin viento, que debe seguir una aeronave para acercarse a la estación. Describe QUJ, rumbo verdadero sin viento hacia la estación.",
       "NO — Marcación verdadera (geográfica) de una aeronave con respecto de la estación. Describe QTE, la marcación verdadera/geográfica, no la magnética."
     ],
-    "deepExp": "QDR es la marcación magnética de una aeronave con respecto a una estación. La diferencia esencial es que QDM expresa el rumbo magnético que se debe seguir hacia la estación y QTE la marcación verdadera. Referencia: §4.15.C.1, p. 133.",
+    "deepExp": "QDR (marcación magnética desde la estación) es la marcación magnética de una aeronave con respecto a una estación. La diferencia esencial es que QDM (marcación magnética hacia la estación) expresa el rumbo magnético que se debe seguir hacia la estación y QTE (marcación verdadera desde la estación) la marcación verdadera. Referencia: §4.15.C.1, p. 133.",
     "extra": "Banco Fernando Nº 197 · Nivel Medio",
     "sourceTag": "Fernando Nº 197",
     "preserveOptions": true,
@@ -5018,7 +5018,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Mantener último nivel autorizado durante un período de 20 minutos y, posterior, subir al nivel de crucero del plan de vuelo presentado o el aprobado por la dependencia ATS. Mantener nivel y aplicar tiempos corresponde al procedimiento IFR en IMC, no al vuelo VMC planteado.",
       "NO — Cambiar de reglas de vuelo VFR a IFR y aterrizar lo antes posible. No se cambia de VFR a IFR por el mero fallo de comunicaciones en VMC."
     ],
-    "deepExp": "En VMC, un vuelo con fallo de comunicaciones debe continuar en condiciones visuales, aterrizar en el aeródromo adecuado más próximo y notificar la llegada por el medio más rápido. No debe aplicar el procedimiento de IMC ni cambiar por iniciativa propia a IFR. Referencia: §4.16.1, «Fallo de comunicaciones en condiciones VMC», p. 138.",
+    "deepExp": "En VMC (condiciones meteorológicas visuales), un vuelo con fallo de comunicaciones debe continuar en condiciones visuales, aterrizar en el aeródromo adecuado más próximo y notificar la llegada por el medio más rápido. No debe aplicar el procedimiento de IMC (condiciones meteorológicas instrumentales) ni cambiar por iniciativa propia a IFR (reglas de vuelo por instrumentos). Referencia: §4.16.1, «Fallo de comunicaciones en condiciones VMC (condiciones meteorológicas visuales)», p. 138.",
     "extra": "Banco Fernando Nº 201 · Nivel Medio",
     "sourceTag": "Fernando Nº 201",
     "preserveOptions": true,
@@ -5043,7 +5043,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Aterrizará, de ser posible, dentro de los treinta minutos después de la hora prevista de llegada (ETA) o la hora prevista de aproximación (EAT) notificada por la dependencia ATS y colacionada por el piloto. Es correcta: debe aterrizar, si es posible, dentro de los 30 minutos posteriores a la ETA o última EAT de la que acusó recibo, si esta es posterior.",
       "NO — Aterrizará, de ser posible, dentro de los veinte minutos después de la hora prevista de llegada (ETA) o la hora prevista de aproximación (EAT) notificada por la dependencia ATS y colacionada por el piloto 20 minutos es el período inicial de mantenimiento de nivel/velocidad, no el plazo final de aterrizaje."
     ],
-    "deepExp": "En IMC, el vuelo IFR mantiene el último nivel y velocidad asignados —o la altitud mínima si es superior— durante 20 minutos y después ajusta nivel y velocidad al plan presentado modificado. Además, debe seguir las reglas de ruta, aproximación y aterrizaje del procedimiento, incluido el plazo de 30 minutos. Referencia: §4.16.1, «Fallo de comunicaciones en condiciones IMC», pp. 139–140.",
+    "deepExp": "En IMC (condiciones meteorológicas instrumentales), el vuelo IFR (reglas de vuelo por instrumentos) mantiene el último nivel y velocidad asignados —o la altitud mínima si es superior— durante 20 minutos y después ajusta nivel y velocidad al plan presentado modificado. Además, debe seguir las reglas de ruta, aproximación y aterrizaje del procedimiento, incluido el plazo de 30 minutos. Referencia: §4.16.1, «Fallo de comunicaciones en condiciones IMC (condiciones meteorológicas instrumentales)», pp. 139–140.",
     "extra": "Banco Fernando Nº 202 · Nivel Medio",
     "sourceTag": "Fernando Nº 202",
     "preserveOptions": true,
@@ -5068,7 +5068,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Procederá en la forma más directa posible para retomar la ruta del plan de vuelo actualizado en el próximo punto significativo, como máximo, teniendo en cuenta la altitud mínima de vuelo aplicable. Es correcta: la aeronave vuelve directamente a la última ruta acusada, a más tardar en el siguiente punto significativo y respetando mínimos.",
       "NO — Abandonará el espacio aéreo controlado y aterrizará en el aeródromo apropiado más cercano notificando la llegada a la dependencia de los servicios de tránsito aéreo apropiada. Abandonar el espacio aéreo controlado y aterrizar cerca no es lo exigido para este caso IFR con guía RNAV sin límite."
     ],
-    "deepExp": "Si la aeronave recibió guía vectorial o una ruta RNAV desplazada sin límite especificado, debe volver a la última ruta recibida y acusada como máximo en el siguiente punto significativo, respetando la altitud mínima aplicable. No continúa indefinidamente por el vector ni abandona necesariamente el espacio controlado. Referencia: §4.16.1, apartado 4.ii.b, p. 139.",
+    "deepExp": "Si la aeronave recibió guía vectorial o una ruta RNAV (navegación de área) desplazada sin límite especificado, debe volver a la última ruta recibida y acusada como máximo en el siguiente punto significativo, respetando la altitud mínima aplicable. No continúa indefinidamente por el vector ni abandona necesariamente el espacio controlado. Referencia: §4.16.1, apartado 4.ii.b, p. 139.",
     "extra": "Banco Fernando Nº 203 · Nivel Medio",
     "sourceTag": "Fernando Nº 203",
     "preserveOptions": true,
@@ -5118,7 +5118,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Instruyendo a la aeronave que aterrice lo antes posible con transmisiones a ciegas. ATC no debe transmitir permisos o instrucciones a ciegas salvo requerimiento específico del remitente; no se ordena así aterrizar lo antes posible.",
       "CORRECTA — Instruyendo a ejecutar cierto tipo de maniobras como, por ejemplo, virajes derecha o izquierda, cambio de código SSR o pulsar identificación. Es correcta: virajes observables, cambio de código SSR y pulsar IDENT permiten comprobar si la aeronave recibe."
     ],
-    "deepExp": "Cuando ATC no logra comunicación, puede comprobar si la aeronave recibe mediante maniobras observables en vigilancia, como virajes, cambio de código SSR o pulsar IDENT. Es una herramienta ATS; no se basa en contactar al móvil del comandante ni en ordenar una maniobra de aterrizaje a ciegas. Referencia: §4.16.2, «Tierra–aire», p. 141.",
+    "deepExp": "Cuando ATC (control de tránsito aéreo) no logra comunicación, puede comprobar si la aeronave recibe mediante maniobras observables en vigilancia, como virajes, cambio de código SSR (radar secundario de vigilancia) o pulsar IDENT. Es una herramienta ATS (servicios de tránsito aéreo); no se basa en contactar al móvil del comandante ni en ordenar una maniobra de aterrizaje a ciegas. Referencia: §4.16.2, «Tierra–aire», p. 141.",
     "extra": "Banco Fernando Nº 205 · Nivel Medio",
     "sourceTag": "Fernando Nº 205",
     "preserveOptions": true,
@@ -5168,7 +5168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Presencia de aves en las inmediaciones del aeródromo. La presencia de aves es información de seguridad, pero no uno de los elementos enumerados para colación siempre.",
       "CORRECTA — Nivel de transición. Es correcto: los niveles de transición deben colacionarse, incluso cuando se transmiten por ATIS."
     ],
-    "deepExp": "El nivel de transición debe colacionarse siempre, tanto si lo emite el controlador como si aparece en una transmisión ATIS. Forma parte de los elementos de seguridad junto con pista, reglaje de altímetro, SSR, rumbo y velocidad. Referencia: §5.1.1, «Colación de autorizaciones e instrucciones», p. 147.",
+    "deepExp": "El nivel de transición debe colacionarse siempre, tanto si lo emite el controlador como si aparece en una transmisión ATIS (servicio automático de información terminal). Forma parte de los elementos de seguridad junto con pista, reglaje de altímetro, SSR (radar secundario de vigilancia), rumbo y velocidad. Referencia: §5.1.1, «Colación de autorizaciones e instrucciones», p. 147.",
     "extra": "Banco Fernando Nº 207 · Nivel Medio",
     "sourceTag": "Fernando Nº 207",
     "preserveOptions": true,
@@ -5193,7 +5193,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La hora en la que expira la autorización (VIFNO). La hora de expiración es la finalización temporal de la autorización, no su límite geográfico/operacional.",
       "NO — La hora en la que expirará el plan de vuelo presentado (FP). La expiración del plan de vuelo no define el límite de una autorización ATC."
     ],
-    "deepExp": "El límite de autorización es el punto hasta el cual se concede la autorización ATC; puede ser un punto significativo, un aeródromo o un límite del espacio aéreo. No es un plazo temporal ni la hora de caducidad de la autorización o del plan de vuelo. Referencia: §5.1.2, «Contenido de una autorización», p. 148.",
+    "deepExp": "El límite de autorización es el punto hasta el cual se concede la autorización ATC (control de tránsito aéreo); puede ser un punto significativo, un aeródromo o un límite del espacio aéreo. No es un plazo temporal ni la hora de caducidad de la autorización o del plan de vuelo. Referencia: §5.1.2, «Contenido de una autorización», p. 148.",
     "extra": "Banco Fernando Nº 208 · Nivel Medio",
     "sourceTag": "Fernando Nº 208",
     "preserveOptions": true,
@@ -5218,7 +5218,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Deberá ser colacionada por el piloto y, si no lo hiciera, se le instará a hacerlo para indicar que la misma se ha comprendido y se actuará acorde a la misma. Es correcta: el piloto debe colacionar la instrucción y ATC debe pedirlo si no lo hace.",
       "NO — Sólo se colacionarán a petición de la dependencia de los servicios de tránsito aéreo. La colación no se limita a los casos en que la dependencia la pida; es parte del procedimiento normal."
     ],
-    "deepExp": "Las instrucciones ATC deben colacionarse y recibirse de modo que quede claro que han sido comprendidas y serán obedecidas; si no se colacionan, el controlador debe instar a hacerlo. La obligación no depende de que la dependencia lo solicite expresamente. Referencia: §5.2.2, «Contenido y emisión de una instrucción ATC», p. 150.",
+    "deepExp": "Las instrucciones ATC (control de tránsito aéreo) deben colacionarse y recibirse de modo que quede claro que han sido comprendidas y serán obedecidas; si no se colacionan, el controlador debe instar a hacerlo. La obligación no depende de que la dependencia lo solicite expresamente. Referencia: §5.2.2, «Contenido y emisión de una instrucción ATC (control de tránsito aéreo)», p. 150.",
     "extra": "Banco Fernando Nº 209 · Nivel Medio",
     "sourceTag": "Fernando Nº 209",
     "preserveOptions": true,
@@ -5243,7 +5243,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Es el objetivo ATS que exige evitar colisiones entre aeronaves sobre el área de maniobras y evitar obstáculos en ella, exactamente como plantea el enunciado.",
       "NO — Esta opción recoge el objetivo de notificar y asistir a organizaciones de búsqueda y salvamento cuando un tráfico necesita ayuda; no define la prevención de colisiones en superficie."
     ],
-    "deepExp": "La opción correcta es «Evitar colisiones entre aeronaves sobre el área de maniobras y evitar obstáculos en dicha área», que reproduce el objetivo ATS relativo a la seguridad en superficie. La trampa es confundirlo con el objetivo de agilizar el flujo, proporcionar información o prestar alerta y búsqueda y salvamento, que son objetivos distintos. Referencia: §6.1, p. 151.",
+    "deepExp": "La opción correcta es «Evitar colisiones entre aeronaves sobre el área de maniobras y evitar obstáculos en dicha área», que reproduce el objetivo ATS (servicios de tránsito aéreo) relativo a la seguridad en superficie. La trampa es confundirlo con el objetivo de agilizar el flujo, proporcionar información o prestar alerta y búsqueda y salvamento, que son objetivos distintos. Referencia: §6.1, p. 151.",
     "extra": "Banco Fernando Nº 210 · Nivel Medio",
     "sourceTag": "Fernando Nº 210",
     "preserveOptions": true,
@@ -5268,7 +5268,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La oficina de notificación de los servicios de tránsito aéreo puede recibir planes de vuelo, pero no es por esa razón la unidad que transfiere la responsabilidad ATC.",
       "NO — Los centros de coordinación aeroportuaria no son la definición operacional de dependencia transferidora en una coordinación ATC entre unidades sucesivas."
     ],
-    "deepExp": "La dependencia transferidora es la unidad o controlador ATC que está transfiriendo la responsabilidad del servicio de control a la siguiente unidad en la ruta. La trampa consiste en invertirla con la dependencia aceptante, que es la que asumirá el control, o confundirla con una oficina o centro aeroportuario. Referencia: §6.1, p. 151.",
+    "deepExp": "La dependencia transferidora es la unidad o controlador ATC (control de tránsito aéreo) que está transfiriendo la responsabilidad del servicio de control a la siguiente unidad en la ruta. La trampa consiste en invertirla con la dependencia aceptante, que es la que asumirá el control, o confundirla con una oficina o centro aeroportuario. Referencia: §6.1, p. 151.",
     "extra": "Banco Fernando Nº 211 · Nivel Medio",
     "sourceTag": "Fernando Nº 211",
     "preserveOptions": true,
@@ -5318,7 +5318,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — Con IMC en el aeródromo, la transferencia TWR-APP se realiza inmediatamente después de que la aeronave esté en el aire, o en el punto/nivel acordado.",
       "NO — «Antes de abandonar las inmediaciones» es una alternativa prevista para VMC; no responde al supuesto de IMC planteado."
     ],
-    "deepExp": "Cuando prevalece IMC en el aeródromo, la responsabilidad de una salida pasa de TWR a APP inmediatamente después de que la aeronave esté en el aire, salvo que se haya acordado otro punto o nivel. La trampa es usar los momentos previstos para VMC —antes de entrar en IMC o antes de abandonar las inmediaciones— en un supuesto que dice IMC en el aeródromo. Referencia: §6.3, p. 154.",
+    "deepExp": "Cuando prevalece IMC (condiciones meteorológicas instrumentales) en el aeródromo, la responsabilidad de una salida pasa de TWR (torre de control) a APP (control de aproximación) inmediatamente después de que la aeronave esté en el aire, salvo que se haya acordado otro punto o nivel. La trampa es usar los momentos previstos para VMC (condiciones meteorológicas visuales) —antes de entrar en IMC (condiciones meteorológicas instrumentales) o antes de abandonar las inmediaciones— en un supuesto que dice IMC (condiciones meteorológicas instrumentales) en el aeródromo. Referencia: §6.3, p. 154.",
     "extra": "Banco Fernando Nº 213 · Nivel Medio",
     "sourceTag": "Fernando Nº 213",
     "preserveOptions": true,
@@ -5368,7 +5368,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Esa lista describe datos que pueden aparecer en sistemas de vigilancia o presentación de situación, no la definición de la ficha basada en el plan de vuelo.",
       "NO — El formulario de plan de vuelo presentado es el PLN/FPL; la FPS es la ficha que contiene la información del plan y los datos impresos para el seguimiento ATC."
     ],
-    "deepExp": "Una ficha de progresión de vuelo (FPS) contiene información sobre el plan de vuelo de una aeronave y datos impresos del plan. No debe confundirse con la manipulación de fichas, el formulario presentado por la tripulación ni con todos los datos de vigilancia mostrados en pantalla. Referencia: §7.2, p. 162.",
+    "deepExp": "Una ficha de progresión de vuelo (FPS (ficha de progresión de vuelo)) contiene información sobre el plan de vuelo de una aeronave y datos impresos del plan. No debe confundirse con la manipulación de fichas, el formulario presentado por la tripulación ni con todos los datos de vigilancia mostrados en pantalla. Referencia: §7.2, p. 162.",
     "extra": "Banco Fernando Nº 215 · Nivel Medio",
     "sourceTag": "Fernando Nº 215",
     "preserveOptions": true,
@@ -5393,7 +5393,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — FL 460 está por encima del umbral y ya pertenece al régimen de 2.000 ft, no al tramo de 1.000 ft preguntado.",
       "NO — FL 600 también está muy por encima del umbral; no es el nivel que delimita el cambio de mínima vertical RVSM."
     ],
-    "deepExp": "En el espacio aéreo RVSM, la separación vertical nominal es de 300 m (1.000 ft) por debajo de FL 410 y de 600 m (2.000 ft) en FL 410 o por encima. Por tanto, el límite que completa el enunciado es el nivel de vuelo 410; la trampa es confundir el umbral RVSM con FL 290, que corresponde a otro espacio aéreo. Referencia: §8.1.2, p. 165.",
+    "deepExp": "En el espacio aéreo RVSM (separación vertical mínima reducida), la separación vertical nominal es de 300 m (1.000 ft) por debajo de FL (nivel de vuelo) 410 (nivel de vuelo 410) y de 600 m (2.000 ft) en FL (nivel de vuelo) 410 (nivel de vuelo 410) o por encima. Por tanto, el límite que completa el enunciado es el nivel de vuelo 410; la trampa es confundir el umbral RVSM (separación vertical mínima reducida) con FL (nivel de vuelo) 290 (nivel de vuelo 290), que corresponde a otro espacio aéreo. Referencia: §8.1.2, p. 165.",
     "extra": "Banco Fernando Nº 216 · Nivel Medio",
     "sourceTag": "Fernando Nº 216",
     "preserveOptions": true,
@@ -5418,7 +5418,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El ángulo de 30° no corresponde al VOR del enunciado, aunque 15 NM sí sea la distancia de referencia.",
       "NO — Esta combinación duplica tanto el ángulo como la distancia; no es la mínima VOR establecida por el manual."
     ],
-    "deepExp": "Con referencia a una misma ayuda VOR, existe separación lateral cuando las aeronaves están establecidas en radiales que divergen al menos 15° y una de ellas está a 15 NM o más de la instalación. La trampa es intercambiar el criterio VOR con el NDB, que exige 30° pero mantiene 15 NM, o duplicar indebidamente la distancia. Referencia: §8.2.1, p. 169.",
+    "deepExp": "Con referencia a una misma ayuda VOR (radiofaro omnidireccional VHF (frecuencia muy alta)), existe separación lateral cuando las aeronaves están establecidas en radiales que divergen al menos 15° y una de ellas está a 15 NM (milla náutica) o más de la instalación. La trampa es intercambiar el criterio VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) con el NDB (radiofaro no direccional), que exige 30° pero mantiene 15 NM (milla náutica), o duplicar indebidamente la distancia. Referencia: §8.2.1, p. 169.",
     "extra": "Banco Fernando Nº 217 · Nivel Medio",
     "sourceTag": "Fernando Nº 217",
     "preserveOptions": true,
@@ -5468,7 +5468,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 3 minutos no figura como la mínima para este caso y omite las condiciones temporales y de navegación exigidas por el procedimiento.",
       "NO — 15 NM es una distancia y además no responde a la separación por tiempo solicitada."
     ],
-    "deepExp": "Para aeronaves en ascenso o descenso que siguen la misma derrota y no tienen separación vertical, se permiten 10 minutos cuando las ayudas terrestres o GNSS permiten determinar frecuentemente posición y velocidad. La trampa es usar la alternativa de 5 minutos, que exige además iniciar el cambio de nivel dentro de los diez minutos desde el informe sobre el punto común y otras condiciones. Referencia: §8.2.2, p. 176.",
+    "deepExp": "Para aeronaves en ascenso o descenso que siguen la misma derrota y no tienen separación vertical, se permiten 10 minutos cuando las ayudas terrestres o GNSS (sistema mundial de navegación por satélite) permiten determinar frecuentemente posición y velocidad. La trampa es usar la alternativa de 5 minutos, que exige además iniciar el cambio de nivel dentro de los diez minutos desde el informe sobre el punto común y otras condiciones. Referencia: §8.2.2, p. 176.",
     "extra": "Banco Fernando Nº 219 · Nivel Medio",
     "sourceTag": "Fernando Nº 219",
     "preserveOptions": true,
@@ -5493,7 +5493,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — El punto de cruce no es una base para exigir 20 NM en este supuesto; el valor prescrito es menor y se vincula a la comprobación posterior al cruce.",
       "CORRECTA — El manual exige como mínimo 10 NM tomando como referencia la situación posterior a que se haya determinado con certeza que ambas aeronaves se han cruzado."
     ],
-    "deepExp": "Cuando aeronaves en ascenso o descenso siguen derrotas opuestas y se usa separación DME/GNSS, pueden atravesar niveles ocupados solo después de determinar que se han cruzado y que están separadas al menos 10 NM. La trampa es escoger 20 NM o 10 NM antes del cruce, o confundir la regla con la reducción por velocidad. Referencia: §8.2.3, p. 179.",
+    "deepExp": "Cuando aeronaves en ascenso o descenso siguen derrotas opuestas y se usa separación DME (equipo medidor de distancia)/GNSS (sistema mundial de navegación por satélite), pueden atravesar niveles ocupados solo después de determinar que se han cruzado y que están separadas al menos 10 NM (milla náutica). La trampa es escoger 20 NM (milla náutica) o 10 NM (milla náutica) antes del cruce, o confundir la regla con la reducción por velocidad. Referencia: §8.2.3, p. 179.",
     "extra": "Banco Fernando Nº 220 · Nivel Medio",
     "sourceTag": "Fernando Nº 220",
     "preserveOptions": true,
@@ -5543,7 +5543,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 25 NM pertenece a procedimientos de separación basados en otras condiciones de distancia/ascenso-descenso, no a esta técnica Mach RNAV.",
       "NO — 75 NM no es el valor publicado para la técnica Mach basada en distancia RNAV; el valor prescrito es 80 NM."
     ],
-    "deepExp": "La técnica Mach basada en distancia RNAV permite 150 km (80 NM) entre aeronaves en el mismo sentido, si ambas notifican distancia al mismo punto común y la separación se verifica con lecturas RNAV simultáneas frecuentes. La trampa es confundirla con la mínima de 50 NM de RNP 10 u otras mínimas DME/GNSS. Referencia: §8.2.5, p. 181, y continuación p. 182.",
+    "deepExp": "La técnica Mach basada en distancia RNAV (navegación de área) permite 150 km (80 NM (milla náutica)) entre aeronaves en el mismo sentido, si ambas notifican distancia al mismo punto común y la separación se verifica con lecturas RNAV (navegación de área) simultáneas frecuentes. La trampa es confundirla con la mínima de 50 NM (milla náutica) de RNP (navegación basada en prestaciones con monitorización y alerta a bordo) 10 u otras mínimas DME (equipo medidor de distancia)/GNSS (sistema mundial de navegación por satélite). Referencia: §8.2.5, p. 181, y continuación p. 182.",
     "extra": "Banco Fernando Nº 222 · Nivel Medio",
     "sourceTag": "Fernando Nº 222",
     "preserveOptions": true,
@@ -5668,7 +5668,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — ASDA es la distancia disponible de aceleración-parada; no corresponde a la distancia de despegue solicitada.",
       "CORRECTA — El procedimiento establece que, a petición del piloto, se informe del recorrido/distancia de despegue disponible reducida: TODA reducida."
     ],
-    "deepExp": "En un despegue desde intersección, la distancia declarada que debe comunicarse cuando el piloto lo solicita es la TODA reducida, una de las tres distancias publicadas para esa posición. La trampa es confundirla con TORA, ASDA o LDA, que son conceptos distintos de distancia declarada. Referencia: §8.4.2, p. 203.",
+    "deepExp": "En un despegue desde intersección, la distancia declarada que debe comunicarse cuando el piloto lo solicita es la TODA (distancia de despegue disponible) reducida, una de las tres distancias publicadas para esa posición. La trampa es confundirla con TORA (distancia de recorrido de despegue disponible), ASDA (distancia aceleración-parada disponible) o LDA (distancia de aterrizaje disponible), que son conceptos distintos de distancia declarada. Referencia: §8.4.2, p. 203.",
     "extra": "Banco Fernando Nº 227 · Nivel Medio",
     "sourceTag": "Fernando Nº 227",
     "preserveOptions": true,
@@ -5768,7 +5768,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — SUPER identifica tipos específicos de aeronave designados como tales, no cualquier aeronave que supere un umbral de masa inferior.",
       "NO — LIGERA comprende aeronaves de 7.000 kg o menos; 110.000 kg está muy por encima de ese límite."
     ],
-    "deepExp": "Una aeronave de 110.000 kg es MEDIA porque esta categoría comprende masas máximas certificadas al despegue inferiores a 136.000 kg y superiores a 7.000 kg. La trampa es usar solo el umbral de PESADA o confundir la categoría WTC con la clasificación RECAT-EU. Referencia: §8.6.2, p. 213.",
+    "deepExp": "Una aeronave de 110.000 kg es MEDIA porque esta categoría comprende masas máximas certificadas al despegue inferiores a 136.000 kg y superiores a 7.000 kg. La trampa es usar solo el umbral de PESADA o confundir la categoría WTC (categoría de estela turbulenta) con la clasificación RECAT-EU (recategorización europea de estela turbulenta). Referencia: §8.6.2, p. 213.",
     "extra": "Banco Fernando Nº 231 · Nivel Medio",
     "sourceTag": "Fernando Nº 231",
     "preserveOptions": true,
@@ -5793,7 +5793,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 6 NM corresponde a otra combinación de categorías y no a MEDIA siguiendo a SUPER.",
       "NO — 5 NM aparece para PESADA detrás de SUPER y para MEDIA detrás de PESADA, pero no para MEDIA detrás de SUPER."
     ],
-    "deepExp": "En la tabla de mínimas de separación por estela turbulenta radar basada en distancia, una aeronave MEDIA detrás de una SUPER requiere 7 NM. La trampa es escoger valores de otras combinaciones, como 5 NM para PESADA detrás de SUPER o 8 NM para LIGERA detrás de SUPER. Referencia: §8.7.4, p. 240.",
+    "deepExp": "En la tabla de mínimas de separación por estela turbulenta radar basada en distancia, una aeronave MEDIA detrás de una SUPER requiere 7 NM (milla náutica). La trampa es escoger valores de otras combinaciones, como 5 NM (milla náutica) para PESADA detrás de SUPER o 8 NM (milla náutica) para LIGERA detrás de SUPER. Referencia: §8.7.4, p. 240.",
     "extra": "Banco Fernando Nº 232 · Nivel Medio",
     "sourceTag": "Fernando Nº 232",
     "preserveOptions": true,
@@ -5843,7 +5843,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — En las condiciones del enunciado no se aplica la separación por estela; se informa de la posibilidad de estela y, cuando corresponde, el piloto mantiene su propia separación.",
       "NO — 4 minutos corresponde a supuestos más restrictivos de categorías y configuración de salida, no a esta excepción de aplicación."
     ],
-    "deepExp": "ATC no está obligado a aplicar la mínima de estela a un VFR que aterriza detrás de una aeronave SÚPER, PESADA o MEDIA, ni a un IFR en aproximación visual que tiene a la precedente a la vista y recibe instrucciones para seguir y mantener su propia separación. Por eso la respuesta es informar sobre la estela y no imponer 2, 3 o 4 minutos. Referencia: §8.6.3, p. 216.",
+    "deepExp": "ATC (control de tránsito aéreo) no está obligado a aplicar la mínima de estela a un VFR (reglas de vuelo visual) que aterriza detrás de una aeronave SÚPER, PESADA o MEDIA, ni a un IFR (reglas de vuelo por instrumentos) en aproximación visual que tiene a la precedente a la vista y recibe instrucciones para seguir y mantener su propia separación. Por eso la respuesta es informar sobre la estela y no imponer 2, 3 o 4 minutos. Referencia: §8.6.3, p. 216.",
     "extra": "Banco Fernando Nº 234 · Nivel Medio",
     "sourceTag": "Fernando Nº 234",
     "preserveOptions": true,
@@ -5918,7 +5918,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Esa redacción describe una excepción al deber de informar en el momento de identificación, no la circunstancia positiva «cuando el piloto lo solicite».",
       "NO — Antes de cesar el servicio, la información puede darse si la aeronave se desvió, pero no es la condición general marcada en el enunciado."
     ],
-    "deepExp": "La información de posición se transmite a una aeronave bajo vigilancia ATS cuando el piloto la solicita, además de otros supuestos reglamentarios. La trampa es confundir esa solicitud con la transferencia de identificación o con las excepciones en las que la posición ya se estableció por informe del piloto, ADS-B/SSR o transferencia. Referencia: §8.7.1, p. 229.",
+    "deepExp": "La información de posición se transmite a una aeronave bajo vigilancia ATS (servicios de tránsito aéreo) cuando el piloto la solicita, además de otros supuestos reglamentarios. La trampa es confundir esa solicitud con la transferencia de identificación o con las excepciones en las que la posición ya se estableció por informe del piloto, ADS-B (vigilancia dependiente automática por radiodifusión)/SSR (radar secundario de vigilancia) o transferencia. Referencia: §8.7.1, p. 229.",
     "extra": "Banco Fernando Nº 237 · Nivel Medio",
     "sourceTag": "Fernando Nº 237",
     "preserveOptions": true,
@@ -5943,7 +5943,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — En espacio aéreo RVSM la tolerancia es ±200 ft; el manual reserva normalmente ±300 ft para otro espacio aéreo.",
       "NO — No se aplica un único valor de ±300 ft a todo espacio aéreo; la tolerancia depende de si es RVSM."
     ],
-    "deepExp": "La tolerancia para considerar exacta la información de nivel derivada de altitud de presión es ±200 ft en espacio aéreo RVSM; fuera de RVSM es normalmente ±300 ft. La trampa es intercambiar ambos valores o aplicar ±300 ft indiscriminadamente a cualquier espacio aéreo. Referencia: §8.7.1, p. 230.",
+    "deepExp": "La tolerancia para considerar exacta la información de nivel derivada de altitud de presión es ±200 ft en espacio aéreo RVSM (separación vertical mínima reducida); fuera de RVSM (separación vertical mínima reducida) es normalmente ±300 ft. La trampa es intercambiar ambos valores o aplicar ±300 ft indiscriminadamente a cualquier espacio aéreo. Referencia: §8.7.1, p. 230.",
     "extra": "Banco Fernando Nº 238 · Nivel Medio",
     "sourceTag": "Fernando Nº 238",
     "preserveOptions": true,
@@ -5968,7 +5968,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 3 NM no es el valor base establecido para mantener la aeronave alejada del límite del espacio aéreo responsable.",
       "NO — 6 NM tampoco es la distancia reglamentaria indicada para la guía vectorial en este supuesto."
     ],
-    "deepExp": "Salvo que vaya a transferirse el control o existan arreglos locales, la guía vectorial no debe acercar la aeronave a menos de 2,5 NM del límite del espacio aéreo del controlador. La trampa es confundir esta distancia base con la mitad de una separación prescrita superior a 5 NM. Referencia: §8.7.1, p. 231.",
+    "deepExp": "Salvo que vaya a transferirse el control o existan arreglos locales, la guía vectorial no debe acercar la aeronave a menos de 2,5 NM (milla náutica) del límite del espacio aéreo del controlador. La trampa es confundir esta distancia base con la mitad de una separación prescrita superior a 5 NM (milla náutica). Referencia: §8.7.1, p. 231.",
     "extra": "Banco Fernando Nº 239 · Nivel Medio",
     "sourceTag": "Fernando Nº 239",
     "preserveOptions": true,
@@ -5993,7 +5993,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La separación entre aeronaves sucesivas en llegada figura entre funciones del control de aproximación, no como la respuesta específica del servicio de aeródromo.",
       "CORRECTA — El manual enumera el establecimiento de separación entre aeronaves sucesivas a la salida como función posible del sistema de vigilancia ATS en control de aeródromo."
     ],
-    "deepExp": "En el servicio de control de aeródromo, el sistema de vigilancia ATS puede utilizarse, entre otras funciones, para establecer separación entre aeronaves sucesivas a la salida. La trampa es escoger funciones propias del control de aproximación, como vectorar llegadas, o invertir salida y llegada. Referencia: §8.7.2–§8.7.3, p. 237.",
+    "deepExp": "En el servicio de control de aeródromo, el sistema de vigilancia ATS (servicios de tránsito aéreo) puede utilizarse, entre otras funciones, para establecer separación entre aeronaves sucesivas a la salida. La trampa es escoger funciones propias del control de aproximación, como vectorar llegadas, o invertir salida y llegada. Referencia: §8.7.2–§8.7.3, p. 237.",
     "extra": "Banco Fernando Nº 240 · Nivel Medio",
     "sourceTag": "Fernando Nº 240",
     "preserveOptions": true,
@@ -6018,7 +6018,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — Es la definición de un RA preventivo de ACAS, que aconseja al piloto sobre una desviación; no de una safety net terrestre.",
       "NO — Es una indicación dirigida a la tripulación sobre un intruso, es decir, un TA de ACAS; no una alerta terrestre al controlador."
     ],
-    "deepExp": "Las safety nets terrestres son funciones del sistema ATM que alertan a los controladores de situaciones potencialmente peligrosas con tiempo suficiente para resolverlas. La trampa es atribuirlas a avisos directos a pilotos o confundirlas con avisos de resolución de sistemas de a bordo. Referencia: §9.2.1, p. 258.",
+    "deepExp": "Las safety nets terrestres son funciones del sistema ATM (gestión del tránsito aéreo) que alertan a los controladores de situaciones potencialmente peligrosas con tiempo suficiente para resolverlas. La trampa es atribuirlas a avisos directos a pilotos o confundirlas con avisos de resolución de sistemas de a bordo. Referencia: §9.2.1, p. 258.",
     "extra": "Banco Fernando Nº 241 · Nivel Medio",
     "sourceTag": "Fernando Nº 241",
     "preserveOptions": true,
@@ -6043,7 +6043,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — TCAS/ACAS es un sistema anticolisión instalado a bordo que proporciona TA/RA al piloto, no la safety net terrestre preguntada.",
       "NO — APW (Area Proximity Warning) alerta sobre penetración no autorizada en un volumen de espacio aéreo, no sobre colisión entre aeronaves."
     ],
-    "deepExp": "STCA significa Short Term Conflict Alert y está destinado a ayudar al controlador a prevenir colisiones entre aeronaves mediante una alerta de infracción potencial o real de mínimos de separación. La trampa es confundirlo con APM/APW o con TCAS, que es un sistema anticolisión de a bordo. Referencia: §9.2.1 y §9.2.B, pp. 258 y 262.",
+    "deepExp": "STCA (alerta de conflicto a corto plazo) significa Short Term Conflict Alert y está destinado a ayudar al controlador a prevenir colisiones entre aeronaves mediante una alerta de infracción potencial o real de mínimos de separación. La trampa es confundirlo con APM (monitor de trayectoria de aproximación)/APW (alerta de proximidad de área) o con TCAS (sistema de alerta de tráfico y evitación de colisiones), que es un sistema anticolisión de a bordo. Referencia: §9.2.1 y §9.2.B, pp. 258 y 262.",
     "extra": "Banco Fernando Nº 242 · Nivel Medio",
     "sourceTag": "Fernando Nº 242",
     "preserveOptions": true,
@@ -6068,7 +6068,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La alerta de proximidad al terreno u obstáculos para prevenir accidentes de vuelos controlados corresponde a MSAW, no a APW.",
       "NO — La alerta específica de riesgo contra terreno durante la aproximación final corresponde a APM; APW trata de volúmenes de espacio aéreo."
     ],
-    "deepExp": "APW añade una lógica de alerta para advertir al controlador de una penetración no autorizada, real o prevista, en un volumen de espacio aéreo. La trampa es intercambiarlo con STCA (conflicto entre aeronaves), MSAW (proximidad general al terreno) o APM (terreno durante aproximación final). Referencia: §9.2.C, p. 262.",
+    "deepExp": "APW (alerta de proximidad de área) añade una lógica de alerta para advertir al controlador de una penetración no autorizada, real o prevista, en un volumen de espacio aéreo. La trampa es intercambiarlo con STCA (conflicto entre aeronaves), MSAW (proximidad general al terreno) o APM (terreno durante aproximación final). Referencia: §9.2.C, p. 262.",
     "extra": "Banco Fernando Nº 243 · Nivel Medio",
     "sourceTag": "Fernando Nº 243",
     "preserveOptions": true,
@@ -6093,7 +6093,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — STCA alerta de conflictos entre aeronaves y de infracciones de mínimos de separación, no de trayectoria de aproximación contra terreno.",
       "NO — GPWS es un sistema de aviso de proximidad al suelo de a bordo; la pregunta pide la safety net terrestre APM."
     ],
-    "deepExp": "APM, Approach Path Monitor, advierte durante la aproximación final del aumento del riesgo de que un vuelo controlado sufra un accidente contra el terreno, generando una alerta de proximidad a terreno u obstáculos. La trampa es confundir la fase de aproximación final de APM con MSAW, que vigila la altitud mínima/terreno de la zona, o con STCA/APW. Referencia: §9.2.E, p. 263.",
+    "deepExp": "APM (monitor de trayectoria de aproximación), Approach Path Monitor, advierte durante la aproximación final del aumento del riesgo de que un vuelo controlado sufra un accidente contra el terreno, generando una alerta de proximidad a terreno u obstáculos. La trampa es confundir la fase de aproximación final de APM (monitor de trayectoria de aproximación) con MSAW (alerta de altitud mínima segura), que vigila la altitud mínima/terreno de la zona, o con STCA (alerta de conflicto a corto plazo)/APW (alerta de proximidad de área). Referencia: §9.2.E, p. 263.",
     "extra": "Banco Fernando Nº 244 · Nivel Medio",
     "sourceTag": "Fernando Nº 244",
     "preserveOptions": true,
@@ -6118,7 +6118,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — MSAW previene accidentes contra el terreno y alerta de la proximidad de la aeronave al terreno u obstáculos.",
       "NO — El énfasis exclusivo en la aproximación final identifica APM; MSAW también advierte de violaciones de altitud mínima de la zona o ruta."
     ],
-    "deepExp": "MSAW es la safety net terrestre que advierte sobre el riesgo de accidentes de vuelos controlados contra el terreno, mediante una alerta oportuna de proximidad al terreno u obstáculos. La trampa es confundir la función general de MSAW con APW o con APM, que se limita a la aproximación final. Referencia: §9.2.1 y §9.2.D, pp. 258–259 y 263.",
+    "deepExp": "MSAW (alerta de altitud mínima segura) es la safety net terrestre que advierte sobre el riesgo de accidentes de vuelos controlados contra el terreno, mediante una alerta oportuna de proximidad al terreno u obstáculos. La trampa es confundir la función general de MSAW (alerta de altitud mínima segura) con APW (alerta de proximidad de área) o con APM (monitor de trayectoria de aproximación), que se limita a la aproximación final. Referencia: §9.2.1 y §9.2.D, pp. 258–259 y 263.",
     "extra": "Banco Fernando Nº 245 · Nivel Medio",
     "sourceTag": "Fernando Nº 245",
     "preserveOptions": true,
@@ -6143,7 +6143,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 3 NM es una reducción posible cuando la capacidad del sistema lo permite y el proveedor ATS la establece; no es la mínima general.",
       "NO — 2,5 NM solo puede aplicarse entre sucesivas en aproximación final y bajo condiciones adicionales; no es la regla general."
     ],
-    "deepExp": "La separación horizontal mínima general basada en radar, ADS-B o MLAT es de 5 NM, salvo que se prescriba otra para aproximaciones paralelas. La trampa es confundir la mínima general con las reducciones autorizadas de 3 NM o 2,5 NM bajo condiciones específicas. Referencia: §8.7.4, p. 239.",
+    "deepExp": "La separación horizontal mínima general basada en radar, ADS-B (vigilancia dependiente automática por radiodifusión) o MLAT (multilateración) es de 5 NM (milla náutica), salvo que se prescriba otra para aproximaciones paralelas. La trampa es confundir la mínima general con las reducciones autorizadas de 3 NM (milla náutica) o 2,5 NM (milla náutica) bajo condiciones específicas. Referencia: §8.7.4, p. 239.",
     "extra": "Banco Fernando Nº 246 · Nivel Medio",
     "sourceTag": "Fernando Nº 246",
     "preserveOptions": true,
@@ -6168,7 +6168,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — La vigilancia estrecha de velocidades es otra condición de la reducción de 2,5 NM; no define por sí sola el mínimo general de 3 NM.",
       "NO — La observación de pista y calles de rodaje también es una condición de 2,5 NM en aproximación final, no la respuesta general del enunciado."
     ],
-    "deepExp": "La separación radar puede reducirse, pero nunca por debajo de 3 NM cuando así lo permita la capacidad local del radar, ADS-B o MLAT; 2,5 NM es otra reducción restringida a aeronaves sucesivas en aproximación final y con requisitos adicionales. La trampa es elegir una de esas condiciones de 2,5 NM o la regla de eficacia de pista como si fueran el límite general. Referencia: §8.7.4, p. 239.",
+    "deepExp": "La separación radar puede reducirse, pero nunca por debajo de 3 NM (milla náutica) cuando así lo permita la capacidad local del radar, ADS-B (vigilancia dependiente automática por radiodifusión) o MLAT (multilateración); 2,5 NM (milla náutica) es otra reducción restringida a aeronaves sucesivas en aproximación final y con requisitos adicionales. La trampa es elegir una de esas condiciones de 2,5 NM (milla náutica) o la regla de eficacia de pista como si fueran el límite general. Referencia: §8.7.4, p. 239.",
     "extra": "Banco Fernando Nº 247 · Nivel Medio",
     "sourceTag": "Fernando Nº 247",
     "preserveOptions": true,
@@ -6193,7 +6193,7 @@ window.FERNANDO_QUESTIONS = [
       "NO — 4 NM corresponde a otra combinación de categorías de estela; no es la mínima para dos aeronaves MEDIA.",
       "CORRECTA — Al no figurar una mínima de distancia para MEDIA detrás de MEDIA en la tabla de categorías establecidas, no se aplica separación específica por estela en este caso."
     ],
-    "deepExp": "La tabla radar de separación por estela turbulenta basada en distancia no incluye una mínima para MEDIA detrás de MEDIA; en esa combinación no se aplica separación específica por estela turbulenta. La trampa es imponer 3, 4 o 5 NM de combinaciones que sí aparecen en la tabla para categorías diferentes. Referencia: §8.7.4, p. 240.",
+    "deepExp": "La tabla radar de separación por estela turbulenta basada en distancia no incluye una mínima para MEDIA detrás de MEDIA; en esa combinación no se aplica separación específica por estela turbulenta. La trampa es imponer 3, 4 o 5 NM (milla náutica) de combinaciones que sí aparecen en la tabla para categorías diferentes. Referencia: §8.7.4, p. 240.",
     "extra": "Banco Fernando Nº 248 · Nivel Medio",
     "sourceTag": "Fernando Nº 248",
     "preserveOptions": true,
@@ -6218,7 +6218,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — ATC acusa recibo y deja de ser responsable de la separación entre la aeronave que sigue el RA y otras afectadas directamente por esa maniobra, hasta la reanudación de la autorización.",
       "NO — Instrucciones contradictorias aumentarían el riesgo y contradicen el procedimiento, que exige no modificar la trayectoria mientras se ejecuta el RA."
     ],
-    "deepExp": "Cuando el piloto comunica un RA, el controlador acusa recibo y deja de ser responsable de separar a esa aeronave de otras afectadas directamente por la maniobra inducida por el RA; no debe intentar modificar su trayectoria hasta que se notifique CLEAR OF CONFLICT y el regreso a la autorización. La trampa es ordenar una maniobra propia o emitir instrucciones contradictorias durante el RA. Referencia: §9.1.4, pp. 249–250.",
+    "deepExp": "Cuando el piloto comunica un RA (aviso de resolución), el controlador acusa recibo y deja de ser responsable de separar a esa aeronave de otras afectadas directamente por la maniobra inducida por el RA (aviso de resolución); no debe intentar modificar su trayectoria hasta que se notifique CLEAR OF CONFLICT y el regreso a la autorización. La trampa es ordenar una maniobra propia o emitir instrucciones contradictorias durante el RA (aviso de resolución). Referencia: §9.1.4, pp. 249–250.",
     "extra": "Banco Fernando Nº 249 · Nivel Medio",
     "sourceTag": "Fernando Nº 249",
     "preserveOptions": true,
@@ -6243,7 +6243,7 @@ window.FERNANDO_QUESTIONS = [
       "CORRECTA — TAWS es el GPWS mejorado que alerta visual y auditivamente y muestra el terreno para prevenir el impacto de un vuelo controlado contra el terreno.",
       "NO — Un sistema basado en transpondedor SSR para asesorar sobre aeronaves en conflicto es ACAS/TCAS, no TAWS."
     ],
-    "deepExp": "TAWS es un sistema GPWS mejorado que proporciona automáticamente a la tripulación señales visuales y auditivas y una visualización del terreno, con tiempo suficiente para prevenir un impacto de un vuelo controlado contra el terreno. La trampa es confundirlo con cizalladura, entrada en pérdida o ACAS, que tienen funciones distintas. Referencia: §9.1.1, p. 244.",
+    "deepExp": "TAWS (sistema de alerta y conocimiento del terreno) es un sistema GPWS (sistema de alerta de proximidad del terreno) mejorado que proporciona automáticamente a la tripulación señales visuales y auditivas y una visualización del terreno, con tiempo suficiente para prevenir un impacto de un vuelo controlado contra el terreno. La trampa es confundirlo con cizalladura, entrada en pérdida o ACAS (sistema anticolisión de a bordo), que tienen funciones distintas. Referencia: §9.1.1, p. 244.",
     "extra": "Banco Fernando Nº 250 · Nivel Medio",
     "sourceTag": "Fernando Nº 250",
     "preserveOptions": true,

@@ -33,7 +33,7 @@ window.NAVIGATION_QUESTIONS = [
       "The length of any minor circle, which is identical to the Earth’s perimeter, is 40,000km approximately, (considering the Earth as a perfect sphere)."
     ],
     "a": 2,
-    "deepExp": "Los círculos máximos son los que resultan de un plano que pasa por el centro y dividen la esfera en dos hemisferios; por eso, la afirmación verdadera es la de la opción 3. Los círculos menores no pasan por el centro y su longitud es variable (2.1.1, pp. 11–12). Fuente: TBATC_5 Navigation 4.1, p. 11.",
+    "deepExp": "Los círculos máximos son los que resultan de un plano que pasa por el centro y dividen la esfera en dos hemisferios; por eso, la afirmación verdadera es la de la opción 3. Los círculos menores no pasan por el centro y su longitud es variable (2.1.1, pp. 11–12). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 11.",
     "optionExp": [
       "NO — Esa es la definición de círculo máximo, no de círculo menor: el plano sí pasa por el centro.",
       "NO — El arco más corto entre dos puntos de la esfera es el arco menor del círculo máximo que los une, no un círculo menor en general.",
@@ -56,7 +56,7 @@ window.NAVIGATION_QUESTIONS = [
       "a circle on the surface of the sphere, with its plane running perpendicular to the axis of rotation."
     ],
     "a": 1,
-    "deepExp": "Un círculo máximo es el círculo de la superficie esférica cuyo plano pasa por el centro de la esfera. Esa condición le da el radio máximo y, en navegación, permite obtener la ruta ortodrómica más corta (2.1.1, p. 11). Fuente: TBATC_5 Navigation 4.1, p. 11.",
+    "deepExp": "Un círculo máximo es el círculo de la superficie esférica cuyo plano pasa por el centro de la esfera. Esa condición le da el radio máximo y, en navegación, permite obtener la ruta ortodrómica más corta (2.1.1, p. 11). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 11.",
     "optionExp": [
       "NO — Un círculo situado en cualquier plano puede ser menor si el plano no pasa por el centro.",
       "CORRECTA — El plano secante que atraviesa el centro es precisamente el criterio definitorio de un círculo máximo.",
@@ -194,7 +194,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above statements is correct."
     ],
     "a": 1,
-    "deepExp": "Se aplica ‘variación Este, magnético menor’: M = T − VAR. Por tanto, 165° − 3° = 162°, conforme a la relación de 2.3.1, p. 20. Fuente: TBATC_5 Navigation 4.1, p. 20.",
+    "deepExp": "Se aplica ‘variación Este, magnético menor’: M = T − VAR (variación magnética). Por tanto, 165° − 3° = 162°, conforme a la relación de 2.3.1, p. 20. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — 168° resultaría de sumar una variación Este, justamente el signo contrario al procedimiento indicado.",
       "CORRECTA — Con variación 3°E se resta: 165° − 3° = 162° magnéticos.",
@@ -217,7 +217,7 @@ window.NAVIGATION_QUESTIONS = [
       "353º."
     ],
     "a": 1,
-    "deepExp": "Para variación Oeste se suma: 359° + 6° = 365°. Al expresar una dirección aeronáutica en el intervalo 000–359°, 365° se normaliza a 005°, por lo que la opción correcta es 005° (2.3.1, p. 20). Fuente: TBATC_5 Navigation 4.1, p. 20.",
+    "deepExp": "Para variación Oeste se suma: 359° + 6° = 365°. Al expresar una dirección aeronáutica en el intervalo 000–359°, 365° se normaliza a 005°, por lo que la opción correcta es 005° (2.3.1, p. 20). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — 359° es el rumbo verdadero sin aplicar la variación Oeste.",
       "CORRECTA — Variación Oeste, magnético mejor: 359° + 6° = 365° = 005° al completar la vuelta.",
@@ -240,7 +240,7 @@ window.NAVIGATION_QUESTIONS = [
       "Magnetic heading."
     ],
     "a": 2,
-    "deepExp": "La variación convierte una dirección verdadera en una dirección magnética. Si la dirección de partida es el curso verdadero, el resultado es el curso magnético, mediante M = T ± VAR (2.3.1, p. 20). Fuente: TBATC_5 Navigation 4.1, p. 20.",
+    "deepExp": "La variación convierte una dirección verdadera en una dirección magnética. Si la dirección de partida es el curso verdadero, el resultado es el curso magnético, mediante M = T ± VAR (2.3.1, p. 20). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 20.",
     "optionExp": [
       "NO — El rumbo verdadero describe la orientación longitudinal del avión respecto del Norte geográfico; no es el resultado de aplicar variación al curso.",
       "NO — El track verdadero es la trayectoria sobre el suelo respecto del Norte verdadero y no se obtiene únicamente aplicando variación al curso.",
@@ -263,7 +263,7 @@ window.NAVIGATION_QUESTIONS = [
       "the dip angle is maximum at the magnetic poles."
     ],
     "a": 3,
-    "deepExp": "El dip o inclinación magnética es el ángulo vertical de las líneas del campo terrestre respecto de la horizontal. Es mínimo cerca del Ecuador magnético y máximo en los polos magnéticos (2.3.3, pp. 24–25). Fuente: TBATC_5 Navigation 4.1, p. 24.",
+    "deepExp": "El dip o inclinación magnética es el ángulo vertical de las líneas del campo terrestre respecto de la horizontal. Es mínimo cerca del Ecuador magnético y máximo en los polos magnéticos (2.3.3, pp. 24–25). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 24.",
     "optionExp": [
       "NO — La variación no tiene por definición 90° en los polos geográficos; además, la pregunta trata del campo y del dip.",
       "NO — El dip aumenta, no disminuye, hacia las altas latitudes y alcanza su máximo cerca de los polos magnéticos.",
@@ -286,7 +286,7 @@ window.NAVIGATION_QUESTIONS = [
       "of equal variation."
     ],
     "a": 3,
-    "deepExp": "Las isógonas son líneas que unen lugares de igual variación magnética. No deben confundirse con las líneas agónicas, que unen puntos donde la variación es 0° (2.3.1, p. 22). Fuente: TBATC_5 Navigation 4.1, p. 22.",
+    "deepExp": "Las isógonas son líneas que unen lugares de igual variación magnética. No deben confundirse con las líneas agónicas, que unen puntos donde la variación es 0° (2.3.1, p. 22). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 22.",
     "optionExp": [
       "NO — La desviación es un error local de la brújula producido por el avión; no es la magnitud que define una isógona.",
       "NO — Los lugares de dip 0° corresponden aproximadamente al Ecuador magnético, no a las isógonas.",
@@ -309,7 +309,7 @@ window.NAVIGATION_QUESTIONS = [
       "dip."
     ],
     "a": 1,
-    "deepExp": "La separación angular entre Norte verdadero y Norte magnético recibe el nombre de variación. La desviación, en cambio, es la diferencia entre Norte magnético y Norte de brújula (2.3.1–2.3.2, pp. 19 y 22–23). Fuente: TBATC_5 Navigation 4.1, p. 19.",
+    "deepExp": "La separación angular entre Norte verdadero y Norte magnético recibe el nombre de variación. La desviación, en cambio, es la diferencia entre Norte magnético y Norte de brújula (2.3.1–2.3.2, pp. 19 y 22–23). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 19.",
     "optionExp": [
       "NO — La desviación se refiere al efecto de los campos del avión sobre la brújula, no a la diferencia entre los dos Nortes terrestres.",
       "CORRECTA — La diferencia angular entre Norte verdadero y Norte magnético es la variación.",
@@ -332,7 +332,7 @@ window.NAVIGATION_QUESTIONS = [
       "180ºN/S."
     ],
     "a": 0,
-    "deepExp": "La latitud se mide angularmente desde el Ecuador, que es el paralelo 0°. Por ello, un aeródromo situado en el Ecuador tiene latitud 0° (2.4.1, p. 28). Fuente: TBATC_5 Navigation 4.1, p. 28.",
+    "deepExp": "La latitud se mide angularmente desde el Ecuador, que es el paralelo 0°. Por ello, un aeródromo situado en el Ecuador tiene latitud 0° (2.4.1, p. 28). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 28.",
     "optionExp": [
       "CORRECTA — El Ecuador es el datum de latitud y se expresa como 0° N/S.",
       "NO — 90°N identifica el Polo Norte, no el Ecuador.",
@@ -355,7 +355,7 @@ window.NAVIGATION_QUESTIONS = [
       "West."
     ],
     "a": 0,
-    "deepExp": "Ambos aeropuertos tienen la misma longitud 005°W, pero el segundo está en 40°N frente a 40°S. El desplazamiento desde A hacia una latitud mayor y norte es aproximadamente hacia el Norte (2.4.1, pp. 28–30). Fuente: TBATC_5 Navigation 4.1, p. 30.",
+    "deepExp": "Ambos aeropuertos tienen la misma longitud 005°W, pero el segundo está en 40°N frente a 40°S. El desplazamiento desde A hacia una latitud mayor y norte es aproximadamente hacia el Norte (2.4.1, pp. 28–30). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 30.",
     "optionExp": [
       "CORRECTA — Manteniendo la misma longitud y pasando de 40°S a 40°N, la ruta se dirige hacia el Norte.",
       "NO — No cambia la longitud: ambos puntos están en 005°W, así que no hay componente cardinal Este dominante.",
@@ -378,7 +378,7 @@ window.NAVIGATION_QUESTIONS = [
       "West."
     ],
     "a": 3,
-    "deepExp": "Los dos puntos están a 40°N, por lo que comparten latitud; el segundo pasa de 005°E a 005°W, hacia el oeste. La dirección cardinal aproximada de la unión es Oeste (2.4.1, pp. 28–30). Fuente: TBATC_5 Navigation 4.1, p. 30.",
+    "deepExp": "Los dos puntos están a 40°N, por lo que comparten latitud; el segundo pasa de 005°E a 005°W, hacia el oeste. La dirección cardinal aproximada de la unión es Oeste (2.4.1, pp. 28–30). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 30.",
     "optionExp": [
       "NO — La latitud no aumenta: ambos puntos están en 40°N.",
       "NO — El destino está al oeste del punto situado en 005°E, no al este.",
@@ -401,7 +401,7 @@ window.NAVIGATION_QUESTIONS = [
       "23º27’."
     ],
     "a": 0,
-    "deepExp": "Los trópicos están en 23°27′N y 23°27′S. La diferencia de latitud es 23°27′ + 23°27′ = 46°54′, como se desprende de los paralelos descritos en 2.4.1, p. 28. Fuente: TBATC_5 Navigation 4.1, p. 28.",
+    "deepExp": "Los trópicos están en 23°27′N y 23°27′S. La diferencia de latitud es 23°27′ + 23°27′ = 46°54′, como se desprende de los paralelos descritos en 2.4.1, p. 28. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 28.",
     "optionExp": [
       "CORRECTA — La separación entre ambos trópicos es 46°54′.",
       "NO — 66°33′ es la latitud de los círculos polares, no la diferencia entre los trópicos.",
@@ -424,7 +424,7 @@ window.NAVIGATION_QUESTIONS = [
       "680ft."
     ],
     "a": 0,
-    "deepExp": "La milla náutica tiene exactamente 1.852 metros. Es la unidad de distancia de navegación vinculada al arco de un minuto de círculo máximo (2.5.1, p. 33). Fuente: TBATC_5 Navigation 4.1, p. 33.",
+    "deepExp": "La milla náutica tiene exactamente 1.852 metros. Es la unidad de distancia de navegación vinculada al arco de un minuto de círculo máximo (2.5.1, p. 33). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 33.",
     "optionExp": [
       "CORRECTA — 1 NM = 1.852 m exactamente.",
       "NO — 1.852 km equivaldrían a 1.852.000 m, mil veces la milla náutica indicada.",
@@ -447,7 +447,7 @@ window.NAVIGATION_QUESTIONS = [
       "60Km."
     ],
     "a": 1,
-    "deepExp": "Por definición aeronáutica, un minuto de arco de un círculo máximo equivale a una milla náutica. Así, 1′ de latitud equivale aproximadamente a 1 NM (2.5.1, p. 33). Fuente: TBATC_5 Navigation 4.1, p. 33.",
+    "deepExp": "Por definición aeronáutica, un minuto de arco de un círculo máximo equivale a una milla náutica. Así, 1′ de latitud equivale aproximadamente a 1 NM (2.5.1, p. 33). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 33.",
     "optionExp": [
       "NO — 60 NM corresponden aproximadamente a un grado de arco (60 minutos), no a un minuto.",
       "CORRECTA — Un minuto de arco de latitud equivale aproximadamente a una milla náutica.",
@@ -493,7 +493,7 @@ window.NAVIGATION_QUESTIONS = [
       "66º33’."
     ],
     "a": 3,
-    "deepExp": "El eje de rotación forma aproximadamente 66°33′ con el plano de la Eclíptica; el ángulo complementario asociado al plano ecuatorial es 23°27′. La relación se explica en 2.6.3, p. 38. Fuente: TBATC_5 Navigation 4.1, p. 38.",
+    "deepExp": "El eje de rotación forma aproximadamente 66°33′ con el plano de la Eclíptica; el ángulo complementario asociado al plano ecuatorial es 23°27′. La relación se explica en 2.6.3, p. 38. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 38.",
     "optionExp": [
       "NO — 23°27′ es el complemento y la inclinación del Ecuador respecto de la Eclíptica, no el ángulo entre el eje y la Eclíptica.",
       "NO — 27°23′ no es el valor de la oblicuidad indicado por el manual.",
@@ -516,7 +516,7 @@ window.NAVIGATION_QUESTIONS = [
       "gravitational effect of the Sun and Moon on the speed of rotation of the Earth."
     ],
     "a": 0,
-    "deepExp": "La inclinación del eje hace que el plano ecuatorial esté inclinado respecto del plano de la Eclíptica, variando durante el año la declinación solar y la insolación de cada hemisferio. Esa geometría altera la duración de la luz diurna y de la noche (2.6.3, pp. 38–42). Fuente: TBATC_5 Navigation 4.1, p. 38.",
+    "deepExp": "La inclinación del eje hace que el plano ecuatorial esté inclinado respecto del plano de la Eclíptica, variando durante el año la declinación solar y la insolación de cada hemisferio. Esa geometría altera la duración de la luz diurna y de la noche (2.6.3, pp. 38–42). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 38.",
     "optionExp": [
       "CORRECTA — La inclinación de la Eclíptica respecto del plano del Ecuador produce la variación estacional de declinación y duración del día y la noche.",
       "NO — La rotación explica la alternancia diaria entre día y noche, pero no su distinta duración a lo largo del año.",
@@ -562,7 +562,7 @@ window.NAVIGATION_QUESTIONS = [
       "Bounding."
     ],
     "a": 1,
-    "deepExp": "La escala es la relación constante entre la distancia lineal real entre dos puntos y la distancia lineal que representa el mapa. Esa definición aparece en 3.3, p. 54. Fuente: TBATC_5 Navigation 4.1, p. 54.",
+    "deepExp": "La escala es la relación constante entre la distancia lineal real entre dos puntos y la distancia lineal que representa el mapa. Esa definición aparece en 3.3, p. 54. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 54.",
     "optionExp": [
       "NO — La proyección es el método para representar una superficie tridimensional en un plano; no es la relación de reducción.",
       "CORRECTA — La escala expresa la proporción entre el tamaño real y su representación cartográfica.",
@@ -585,7 +585,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above."
     ],
     "a": 0,
-    "deepExp": "Una proyección conforme conserva los ángulos locales y mantiene la misma escala en todas las direcciones en un punto, aunque la escala pueda variar de un punto a otro. La definición de 3.4, p. 55, no exige escala idéntica en todo el chart ni que todas las loxodrómicas sean rectas. Fuente: TBATC_5 Navigation 4.1, p. 55.",
+    "deepExp": "Una proyección conforme conserva los ángulos locales y mantiene la misma escala en todas las direcciones en un punto, aunque la escala pueda variar de un punto a otro. La definición de 3.4, p. 55, no exige escala idéntica en todo el chart ni que todas las loxodrómicas sean rectas. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 55.",
     "optionExp": [
       "CORRECTA — La conformidad preserva los ángulos entre líneas sin grandes deformaciones locales.",
       "NO — Escala exactamente igual en todos los puntos es una propiedad ideal incompatible en general con la proyección de una esfera, no la definición de conformidad.",
@@ -654,7 +654,7 @@ window.NAVIGATION_QUESTIONS = [
       "Stereographic or azimuthal projection."
     ],
     "a": 0,
-    "deepExp": "La proyección Mercator se obtiene proyectando la retícula terrestre sobre un cilindro tangente al Ecuador y desarrollándolo en un plano. Por eso es una proyección cilíndrica (3.4.1, p. 56). Fuente: TBATC_5 Navigation 4.1, p. 56.",
+    "deepExp": "La proyección Mercator se obtiene proyectando la retícula terrestre sobre un cilindro tangente al Ecuador y desarrollándolo en un plano. Por eso es una proyección cilíndrica (3.4.1, p. 56). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 56.",
     "optionExp": [
       "CORRECTA — Mercator es la proyección cilíndrica descrita por el manual.",
       "NO — ‘Graticule matemáticamente construido’ es otra categoría de proyección, no la clasificación geométrica de Mercator.",
@@ -677,7 +677,7 @@ window.NAVIGATION_QUESTIONS = [
       "The parallels of latitude cross the meridians at right angles."
     ],
     "a": 2,
-    "deepExp": "Mercator no puede proyectar los polos: la escala crece indefinidamente al aproximarse a ellos. Las otras opciones sí son características de la retícula Mercator (3.4.1, pp. 56–57). Fuente: TBATC_5 Navigation 4.1, p. 56.",
+    "deepExp": "Mercator no puede proyectar los polos: la escala crece indefinidamente al aproximarse a ellos. Las otras opciones sí son características de la retícula Mercator (3.4.1, pp. 56–57). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 56.",
     "optionExp": [
       "NO — En Mercator los meridianos son líneas rectas verticales, paralelas y equidistantes.",
       "NO — Los paralelos aparecen como líneas rectas paralelas, aunque su separación aumenta con la latitud.",
@@ -700,7 +700,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above."
     ],
     "a": 1,
-    "deepExp": "La loxodrómica mantiene un ángulo constante con los meridianos. En la carta Mercator esa propiedad se representa como una línea recta, según 3.4.1, p. 57. Fuente: TBATC_5 Navigation 4.1, p. 57.",
+    "deepExp": "La loxodrómica mantiene un ángulo constante con los meridianos. En la carta Mercator esa propiedad se representa como una línea recta, según 3.4.1, p. 57. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 57.",
     "optionExp": [
       "NO — La curva cóncava hacia el polo es una característica de otras representaciones, como Lambert para rhumb lines.",
       "CORRECTA — En Mercator, una ruta loxodrómica o rhumb line aparece recta.",
@@ -723,7 +723,7 @@ window.NAVIGATION_QUESTIONS = [
       "Chart scale is correct at the Pole and increases the same in all directions."
     ],
     "a": 0,
-    "deepExp": "En la Polar Stereographic los meridianos parten del polo y divergen como líneas rectas; no son paralelos. Las demás características —paralelos concéntricos, ortogonalidad y escala correcta en el polo— sí figuran en 3.4.3, p. 59. Fuente: TBATC_5 Navigation 4.1, p. 59.",
+    "deepExp": "En la Polar Stereographic los meridianos parten del polo y divergen como líneas rectas; no son paralelos. Las demás características —paralelos concéntricos, ortogonalidad y escala correcta en el polo— sí figuran en 3.4.3, p. 59. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 59.",
     "optionExp": [
       "CORRECTA — Es la afirmación que no corresponde: los meridianos divergen desde el polo, en lugar de ser paralelos.",
       "NO — Los paralelos de latitud se representan como círculos concéntricos.",
@@ -746,7 +746,7 @@ window.NAVIGATION_QUESTIONS = [
       "A conical projection."
     ],
     "a": 3,
-    "deepExp": "Lambert es una proyección cónica: la retícula se proyecta sobre un cono cuyo eje coincide con la prolongación del eje terrestre. Su clasificación aparece en 3.4.4, p. 60. Fuente: TBATC_5 Navigation 4.1, p. 60.",
+    "deepExp": "Lambert es una proyección cónica: la retícula se proyecta sobre un cono cuyo eje coincide con la prolongación del eje terrestre. Su clasificación aparece en 3.4.4, p. 60. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 60.",
     "optionExp": [
       "NO — Una proyección cilíndrica emplea un cilindro, como Mercator.",
       "NO — Una azimutal o estereográfica emplea un plano tangente, como la polar estereográfica.",
@@ -769,7 +769,7 @@ window.NAVIGATION_QUESTIONS = [
       "Is based on a simple conical projection but it is modified mathematically so that the projection cone is tangent to the reduced Earth instead of secant."
     ],
     "a": 0,
-    "deepExp": "La Lambert cónica conforme modificada parte de una proyección cónica simple y modifica matemáticamente el cono para hacerlo secante a la Tierra reducida. Esto reduce las zonas de distorsión y mantiene una escala casi constante (3.4.4, p. 60). Fuente: TBATC_5 Navigation 4.1, p. 60.",
+    "deepExp": "La Lambert cónica conforme modificada parte de una proyección cónica simple y modifica matemáticamente el cono para hacerlo secante a la Tierra reducida. Esto reduce las zonas de distorsión y mantiene una escala casi constante (3.4.4, p. 60). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 60.",
     "optionExp": [
       "CORRECTA — Es la descripción exacta: base cónica simple, modificación matemática y cono secante.",
       "NO — Lambert no parte de Mercator, que es cilíndrica.",
@@ -815,7 +815,7 @@ window.NAVIGATION_QUESTIONS = [
       "An NDB station."
     ],
     "a": 3,
-    "deepExp": "El banco conserva como respuesta la opción ‘An NDB station’, pero el símbolo gráfico referido por la pregunta no se extrajo en el texto disponible del manual. Por tanto, no es posible comprobar visualmente la correspondencia con Annex 4 sin inventar la forma del signo; la clave se documenta como procedente del banco (Attachment 1, p. 215).",
+    "deepExp": "El banco conserva como respuesta la opción ‘An NDB (radiofaro no direccional) station’, pero el símbolo gráfico referido por la pregunta no se extrajo en el texto disponible del manual. Por tanto, no es posible comprobar visualmente la correspondencia con Annex 4 sin inventar la forma del signo; la clave se documenta como procedente del banco (Attachment 1, p. 215).",
     "optionExp": [
       "NO — Sin el símbolo gráfico no puede identificarse esta alternativa por inspección; además, no es la clave registrada en el banco.",
       "NO — La alternativa describe una estación combinada, pero el elemento visual necesario para confirmarla no está disponible en la extracción.",
@@ -839,7 +839,7 @@ window.NAVIGATION_QUESTIONS = [
       "An NDB station."
     ],
     "a": 1,
-    "deepExp": "El banco conserva como respuesta la opción ‘A VOR/DME station’, pero el símbolo gráfico de Annex 4 está ausente de la extracción textual. Se mantiene literalmente la clave del banco y se deja constancia de que la identificación visual no puede verificarse con la fuente textual disponible (Attachment 1, p. 215). Fuente: TBATC_5 Navigation 4.1, p. 215.",
+    "deepExp": "El banco conserva como respuesta la opción ‘A VOR (radiofaro omnidireccional VHF (frecuencia muy alta))/DME (equipo medidor de distancia) station’, pero el símbolo gráfico de Annex 4 está ausente de la extracción textual. Se mantiene literalmente la clave del banco y se deja constancia de que la identificación visual no puede verificarse con la fuente textual disponible (Attachment 1, p. 215). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 215.",
     "optionExp": [
       "NO — La alternativa corresponde a DME solamente, pero la figura necesaria para excluirla no aparece en la extracción.",
       "CORRECTA — El banco marca ‘A VOR/DME station’. Al no haberse extraído el símbolo de p. 215, no se describe ni se inventa su geometría.",
@@ -863,7 +863,7 @@ window.NAVIGATION_QUESTIONS = [
       "Independent cartography providers."
     ],
     "a": 1,
-    "deepExp": "Cada Estado miembro de ICAO publica los procedimientos de navegación y la información aeronáutica de sus aeródromos y espacio aéreo a través del Aeronautical Information Service (AIS). El manual lo establece en 3.6.1, p. 62, indicando que la información se proporciona en forma gráfica y textual.",
+    "deepExp": "Cada Estado miembro de ICAO (International Civil Aviation Organization (Organización de Aviación Civil Internacional)) publica los procedimientos de navegación y la información aeronáutica de sus aeródromos y espacio aéreo a través del Aeronautical Information Service (AIS (servicio de información aeronáutica)). El manual lo establece en 3.6.1, p. 62, indicando que la información se proporciona en forma gráfica y textual.",
     "optionExp": [
       "NO — ATS utiliza la información para prestar servicios, pero no es el servicio designado para publicar el conjunto de información aeronáutica estatal.",
       "CORRECTA — AIS es el servicio responsable de publicar procedimientos y datos aeronáuticos dentro del FIR delegado.",
@@ -909,7 +909,7 @@ window.NAVIGATION_QUESTIONS = [
       "Track"
     ],
     "a": 3,
-    "deepExp": "El track es la dirección del movimiento del avión sobre la Tierra, es decir, la proyección en el suelo de su trayectoria al intentar volar una ruta. La definición y su relación con el viento aparecen en 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "El track es la dirección del movimiento del avión sobre la Tierra, es decir, la proyección en el suelo de su trayectoria al intentar volar una ruta. La definición y su relación con el viento aparecen en 4.1, p. 70. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Route es el trayecto previsto entre origen y destino, no necesariamente la trayectoria efectiva sobre el suelo.",
       "NO — Drift es el ángulo entre heading y track producido por el viento.",
@@ -932,7 +932,7 @@ window.NAVIGATION_QUESTIONS = [
       "Wind vector"
     ],
     "a": 1,
-    "deepExp": "El drift es la diferencia angular entre el heading y el track causada por el viento. El drift correction o wind correction angle es la corrección que se aplica al rumbo para hacer coincidir el track con el curso deseado (4.1, p. 70). Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "El drift es la diferencia angular entre el heading y el track causada por el viento. El drift correction o wind correction angle es la corrección que se aplica al rumbo para hacer coincidir el track con el curso deseado (4.1, p. 70). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Track es la dirección efectiva sobre el suelo, no el ángulo que lo separa del heading.",
       "CORRECTA — Drift es el ángulo entre heading y track debido al viento.",
@@ -955,7 +955,7 @@ window.NAVIGATION_QUESTIONS = [
       "Heading 070º / Track 050º / Drift 20º"
     ],
     "a": 1,
-    "deepExp": "El avión mantiene heading 070° y el viento hace que el track quede 20° a la derecha: 070° + 20° = 090°. Por tanto, la combinación correcta es heading 070°, track 090° y drift 20° a la derecha, conforme a 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "El avión mantiene heading 070° y el viento hace que el track quede 20° a la derecha: 070° + 20° = 090°. Por tanto, la combinación correcta es heading 070°, track 090° y drift 20° a la derecha, conforme a 4.1, p. 70. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Cambia indebidamente el heading a 090° y contiene un drift 200° sin sentido para el desplazamiento descrito.",
       "CORRECTA — Conserva el heading 070°, suma 20° hacia la derecha para obtener track 090° y expresa el drift como 20°.",
@@ -978,7 +978,7 @@ window.NAVIGATION_QUESTIONS = [
       "10º"
     ],
     "a": 2,
-    "deepExp": "El drift es la diferencia angular entre heading y track. Entre 010° y 355° hay una diferencia mínima de 15° hacia la izquierda (010° − 15° = 355°), por lo que su magnitud es 15° (4.1, p. 70). Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "El drift es la diferencia angular entre heading y track. Entre 010° y 355° hay una diferencia mínima de 15° hacia la izquierda (010° − 15° = 355°), por lo que su magnitud es 15° (4.1, p. 70). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — 90° sería una componente transversal completa, no la diferencia entre 010° y 355°.",
       "NO — 05° no coincide con la separación angular mínima entre ambos valores.",
@@ -1001,7 +1001,7 @@ window.NAVIGATION_QUESTIONS = [
       "Drift correction will depend on the wind’s intensity"
     ],
     "a": 2,
-    "deepExp": "Un viento desde 270° sopla hacia 090°, exactamente en la dirección del heading 090°; es viento de cola y no tiene componente transversal. Sin componente transversal no hay drift y heading y track coinciden (4.1, pp. 70 y 74–75). Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "Un viento desde 270° sopla hacia 090°, exactamente en la dirección del heading 090°; es viento de cola y no tiene componente transversal. Sin componente transversal no hay drift y heading y track coinciden (4.1, pp. 70 y 74–75). Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — El viento no empuja lateralmente: está alineado con el eje de vuelo, así que no produce deriva a la derecha.",
       "NO — Tampoco produce deriva a la izquierda; la componente transversal es cero.",
@@ -1024,7 +1024,7 @@ window.NAVIGATION_QUESTIONS = [
       "True course."
     ],
     "a": 1,
-    "deepExp": "El heading es la dirección hacia la que apunta el eje longitudinal del avión. Cuando se mide en grados en sentido horario desde el Norte geográfico, se denomina true heading, según las definiciones de 4.1, pp. 69–70. Fuente: TBATC_5 Navigation 4.1, p. 69.",
+    "deepExp": "El heading es la dirección hacia la que apunta el eje longitudinal del avión. Cuando se mide en grados en sentido horario desde el Norte geográfico, se denomina true heading, según las definiciones de 4.1, pp. 69–70. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 69.",
     "optionExp": [
       "NO — Magnetic heading se mide desde el Norte magnético, no desde el geográfico.",
       "CORRECTA — True heading es la orientación del eje longitudinal medida desde el Norte verdadero/geográfico.",
@@ -1070,7 +1070,7 @@ window.NAVIGATION_QUESTIONS = [
       "True course."
     ],
     "a": 2,
-    "deepExp": "Aquí se describe la proyección sobre el suelo de la trayectoria de la aeronave al intentar seguir una ruta. Esa dirección es el track; al estar referida al norte magnético, se llama magnetic track. El viento puede hacer que track y heading sean distintos. Sección 4.1, p. 70. Fuente: TBATC_5 Navigation 4.1, p. 70.",
+    "deepExp": "Aquí se describe la proyección sobre el suelo de la trayectoria de la aeronave al intentar seguir una ruta. Esa dirección es el track; al estar referida al norte magnético, se llama magnetic track. El viento puede hacer que track y heading sean distintos. Sección 4.1, p. 70. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 70.",
     "optionExp": [
       "NO — Magnetic heading es la orientación del eje longitudinal respecto al norte magnético; no la trayectoria efectiva sobre el suelo.",
       "NO — Compass heading es el rumbo indicado por la brújula, con referencia de compás, no la proyección de la trayectoria.",
@@ -1093,7 +1093,7 @@ window.NAVIGATION_QUESTIONS = [
       "Height."
     ],
     "a": 2,
-    "deepExp": "El datum de presión específico de 1.013,25 hPa define el flight level y, en la terminología utilizada por el manual, el FL es igual a pressure altitude. No es una distancia geométrica desde MSL, sino una cifra altimétrica no dimensional basada en presión estándar. Sección 4.1, pp. 71–72.",
+    "deepExp": "El datum de presión específico de 1.013,25 hPa define el flight level y, en la terminología utilizada por el manual, el FL (nivel de vuelo) es igual a pressure altitude. No es una distancia geométrica desde MSL (nivel medio del mar), sino una cifra altimétrica no dimensional basada en presión estándar. Sección 4.1, pp. 71–72.",
     "optionExp": [
       "NO — Elevation es la distancia vertical de un punto fijo sobre la superficie terrestre respecto a MSL, obtenida por medios geodésicos.",
       "NO — Altitude es la distancia vertical respecto a MSL; no expresa el datum de presión estándar del enunciado.",
@@ -1116,7 +1116,7 @@ window.NAVIGATION_QUESTIONS = [
       "Answers b and c are both correct"
     ],
     "a": 0,
-    "deepExp": "Aunque los informes y pronósticos meteorológicos expresan normalmente el viento desde dirección verdadera, el viento comunicado verbalmente por TWR o en la radiodifusión del aeródromo se da en grados magnéticos. Así se relaciona directamente con la designación magnética de la pista y se pueden obtener los componentes de viento. Sección 4.2, p. 73. Fuente: TBATC_5 Navigation 4.1, p. 73.",
+    "deepExp": "Aunque los informes y pronósticos meteorológicos expresan normalmente el viento desde dirección verdadera, el viento comunicado verbalmente por TWR (torre de control) o en la radiodifusión del aeródromo se da en grados magnéticos. Así se relaciona directamente con la designación magnética de la pista y se pueden obtener los componentes de viento. Sección 4.2, p. 73. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 73.",
     "optionExp": [
       "CORRECTA — La torre comunica la dirección del viento en referencia magnética para que sea compatible con la dirección magnética de la pista.",
       "NO — La dirección verdadera es la convención de cartas, METAR y pronósticos, no la referencia verbal de TWR justo antes de despegar o aterrizar.",
@@ -1139,7 +1139,7 @@ window.NAVIGATION_QUESTIONS = [
       "120 kt"
     ],
     "a": 0,
-    "deepExp": "La velocidad sobre el suelo se obtiene sumando algebraicamente a la TAS el componente de viento en la dirección de vuelo: GS = TAS ± Wc. Un headwind de 20 kt se resta de 145 kt, por lo que GS = 125 kt. Sección 4.3.1, p. 79. Fuente: TBATC_5 Navigation 4.1, p. 79.",
+    "deepExp": "La velocidad sobre el suelo se obtiene sumando algebraicamente a la TAS (velocidad verdadera) el componente de viento en la dirección de vuelo: GS (velocidad respecto al suelo) = TAS (velocidad verdadera) ± Wc. Un headwind de 20 kt se resta de 145 kt, por lo que GS (velocidad respecto al suelo) = 125 kt. Sección 4.3.1, p. 79. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 79.",
     "optionExp": [
       "CORRECTA — Con GS = TAS − HWc, 145 − 20 = 125 kt.",
       "NO — 145 kt es la TAS a través de la masa de aire; ignora la reducción producida por el viento de frente.",
@@ -1162,7 +1162,7 @@ window.NAVIGATION_QUESTIONS = [
       "Calibrated Airspeed."
     ],
     "a": 2,
-    "deepExp": "El ASI/anemómetro está conectado al sistema pitot-estático y muestra directamente la velocidad indicada. Esa lectura se denomina IAS; después puede corregirse por errores de instrumento, posición, compresibilidad y densidad para obtener otras velocidades. Sección 4.3.1, p. 78. Fuente: TBATC_5 Navigation 4.1, p. 78.",
+    "deepExp": "El ASI (indicador de velocidad indicada)/anemómetro está conectado al sistema pitot-estático y muestra directamente la velocidad indicada. Esa lectura se denomina IAS (velocidad indicada); después puede corregirse por errores de instrumento, posición, compresibilidad y densidad para obtener otras velocidades. Sección 4.3.1, p. 78. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 78.",
     "optionExp": [
       "NO — Groundspeed es la velocidad respecto al suelo y se obtiene considerando la TAS y el componente de viento; el ASI no la muestra directamente.",
       "NO — True Airspeed es la velocidad real a través de la masa de aire, corregida respecto a la lectura indicada.",
@@ -1185,7 +1185,7 @@ window.NAVIGATION_QUESTIONS = [
       "Equivalent Airspeed."
     ],
     "a": 0,
-    "deepExp": "La TAS representa la velocidad real de la aeronave a través del flujo de aire no perturbado por la propia aeronave. Se obtiene corrigiendo la EAS por el error de densidad atmosférica. Sección 4.3.1, p. 79. Fuente: TBATC_5 Navigation 4.1, p. 79.",
+    "deepExp": "La TAS (velocidad verdadera) representa la velocidad real de la aeronave a través del flujo de aire no perturbado por la propia aeronave. Se obtiene corrigiendo la EAS (velocidad equivalente) por el error de densidad atmosférica. Sección 4.3.1, p. 79. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 79.",
     "optionExp": [
       "CORRECTA — True Airspeed es la velocidad efectiva de la aeronave a través de la corriente de aire no perturbada.",
       "NO — Groundspeed es la velocidad respecto a la superficie terrestre e incluye el efecto del movimiento de la masa de aire.",
@@ -1208,7 +1208,7 @@ window.NAVIGATION_QUESTIONS = [
       "Indicated Airspeed."
     ],
     "a": 2,
-    "deepExp": "El número Mach compara la TAS con la velocidad local del sonido en la misma zona de la atmósfera: M = TAS/LSS. Por eso la magnitud que completa la frase es True Airspeed. Sección 4.3.1, p. 80. Fuente: TBATC_5 Navigation 4.1, p. 80.",
+    "deepExp": "El número Mach compara la TAS (velocidad verdadera) con la velocidad local del sonido en la misma zona de la atmósfera: M = TAS (velocidad verdadera)/LSS (velocidad local del sonido). Por eso la magnitud que completa la frase es True Airspeed. Sección 4.3.1, p. 80. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 80.",
     "optionExp": [
       "NO — Calibrated Airspeed es IAS corregida por errores de posición, presión e instrumento; no es la variable de la definición de Mach.",
       "NO — Equivalent Airspeed es CAS corregida por compresibilidad, pero Mach se define con TAS.",
@@ -1231,7 +1231,7 @@ window.NAVIGATION_QUESTIONS = [
       "Local Speed of Sound is 85% of TAS."
     ],
     "a": 2,
-    "deepExp": "Por definición M = TAS/LSS. Un valor de 0,85 significa que la TAS es 0,85 veces la velocidad local del sonido, es decir, el 85 % de ella; no significa que el sonido viaje a 850 kt. Sección 4.3.1, p. 80. Fuente: TBATC_5 Navigation 4.1, p. 80.",
+    "deepExp": "Por definición M = TAS (velocidad verdadera)/LSS (velocidad local del sonido). Un valor de 0,85 significa que la TAS (velocidad verdadera) es 0,85 veces la velocidad local del sonido, es decir, el 85 % de ella; no significa que el sonido viaje a 850 kt. Sección 4.3.1, p. 80. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 80.",
     "optionExp": [
       "NO — 0,85 no convierte la velocidad local del sonido en 850 kt; Mach es una razón adimensional.",
       "NO — La TAS no es automáticamente 850 kt; depende de la velocidad local del sonido y equivale al 85 % de ella.",
@@ -1254,7 +1254,7 @@ window.NAVIGATION_QUESTIONS = [
       "TAS"
     ],
     "a": 3,
-    "deepExp": "El manual distingue la velocidad leída por el piloto de la que se presenta en el plan de vuelo. En el plan de vuelo, durante crucero, se indica normalmente TAS, aunque también se admite Mach. Por tanto, 275 kt en el plan representa TAS. Sección 4.3.3, p. 82.",
+    "deepExp": "El manual distingue la velocidad leída por el piloto de la que se presenta en el plan de vuelo. En el plan de vuelo, durante crucero, se indica normalmente TAS (velocidad verdadera), aunque también se admite Mach. Por tanto, 275 kt en el plan representa TAS (velocidad verdadera). Sección 4.3.3, p. 82.",
     "optionExp": [
       "NO — IAS es la lectura del ASI, utilizada especialmente en fases críticas; no es la velocidad que normalmente se inserta en el plan.",
       "NO — CAS es IAS corregida por errores de posición, presión e instrumento; el plan no pide esa magnitud como referencia normal.",
@@ -1300,7 +1300,7 @@ window.NAVIGATION_QUESTIONS = [
       "Surface waves."
     ],
     "a": 1,
-    "deepExp": "Las transmisiones VHF solo disponen, esencialmente, del camino de línea de vista; por ello predominan las ondas espaciales o directas. La curvatura terrestre y los obstáculos limitan su alcance. Sección 5.1.1, pp. 95–96. Fuente: TBATC_5 Navigation 4.1, p. 96.",
+    "deepExp": "Las transmisiones VHF (frecuencia muy alta) solo disponen, esencialmente, del camino de línea de vista; por ello predominan las ondas espaciales o directas. La curvatura terrestre y los obstáculos limitan su alcance. Sección 5.1.1, pp. 95–96. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 96.",
     "optionExp": [
       "NO — Sky waves dependen de refracción/reflexión ionosférica y predominan en frecuencias medias, no en VHF.",
       "CORRECTA — Space or direct waves son de línea de vista y son el camino disponible para VHF.",
@@ -1323,7 +1323,7 @@ window.NAVIGATION_QUESTIONS = [
       "Sky waves."
     ],
     "a": 0,
-    "deepExp": "Las ondas de superficie se desplazan siguiendo los contornos de la Tierra gracias a la difracción. La difracción es más pronunciada cuanto mayor es la longitud de onda, es decir, cuanto menor es la frecuencia. Sección 5.1.1, p. 97. Fuente: TBATC_5 Navigation 4.1, p. 97.",
+    "deepExp": "Las ondas de superficie se desplazan siguiendo los contornos de la Tierra gracias a la difracción. La difracción es más pronunciada cuanto mayor es la longitud de onda, es decir, cuanto menor es la frecuencia. Sección 5.1.1, p. 97. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 97.",
     "optionExp": [
       "CORRECTA — Surface waves siguen la curvatura terrestre debido a la difracción.",
       "NO — Direct waves viajan directamente del transmisor al receptor en línea de vista.",
@@ -1346,7 +1346,7 @@ window.NAVIGATION_QUESTIONS = [
       "Sky waves."
     ],
     "a": 3,
-    "deepExp": "Las ondas de cielo son las que la ionosfera refracta y devuelve hacia la Tierra desde capas ionizadas. Este mecanismo puede causar alcance y errores de propagación, especialmente en bandas bajas. Sección 5.1.1, p. 97. Fuente: TBATC_5 Navigation 4.1, p. 97.",
+    "deepExp": "Las ondas de cielo son las que la ionosfera refracta y devuelve hacia la Tierra desde capas ionizadas. Este mecanismo puede causar alcance y errores de propagación, especialmente en bandas bajas. Sección 5.1.1, p. 97. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 97.",
     "optionExp": [
       "NO — Surface waves siguen el contorno terrestre por difracción y no son las ondas devueltas desde la ionosfera.",
       "NO — Direct waves son ondas espaciales de línea de vista entre transmisor y receptor.",
@@ -1369,7 +1369,7 @@ window.NAVIGATION_QUESTIONS = [
       "The NDBis the airborne system which comprises a radio receiver, a set of two antennas and an indicator that shows the great circle bearing of the transmitting station from the aircraft."
     ],
     "a": 0,
-    "deepExp": "El NDB es el transmisor radioeléctrico situado en tierra y emite energía en todas las direcciones. El ADF es el equipo instalado a bordo que determina desde qué dirección llegan las señales del NDB y muestra la marcación relativa. Sección 5.1.2, p. 102. Fuente: TBATC_5 Navigation 4.1, p. 102.",
+    "deepExp": "El NDB (radiofaro no direccional) es el transmisor radioeléctrico situado en tierra y emite energía en todas las direcciones. El ADF (radiogoniómetro automático) es el equipo instalado a bordo que determina desde qué dirección llegan las señales del NDB (radiofaro no direccional) y muestra la marcación relativa. Sección 5.1.2, p. 102. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 102.",
     "optionExp": [
       "CORRECTA — NDB significa Non-Directional Beacon: una estación terrestre que transmite energía en todas las direcciones.",
       "NO — ADF no es una estación terrestre; es el equipo receptor/direccionador instalado en la aeronave.",
@@ -1392,7 +1392,7 @@ window.NAVIGATION_QUESTIONS = [
       "At dawn and dusk."
     ],
     "a": 3,
-    "deepExp": "Durante la noche desaparece la absorción diurna de la región D y pueden llegar ondas de cielo de NDB lejanas, mezclándose con la onda de superficie. El efecto es máximo en la transición ionosférica de amanecer y anochecer. Sección 5.1.2, pp. 108–109. Fuente: TBATC_5 Navigation 4.1, p. 109.",
+    "deepExp": "Durante la noche desaparece la absorción diurna de la región D y pueden llegar ondas de cielo de NDB (radiofaro no direccional) lejanas, mezclándose con la onda de superficie. El efecto es máximo en la transición ionosférica de amanecer y anochecer. Sección 5.1.2, pp. 108–109. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 109.",
     "optionExp": [
       "NO — Autumn and winter no es el criterio descrito; el fenómeno depende principalmente del ciclo día/noche y de la transición de la ionosfera.",
       "NO — Los inland beacons no son por sí mismos la condición determinante del night effect.",
@@ -1415,7 +1415,7 @@ window.NAVIGATION_QUESTIONS = [
       "DME."
     ],
     "a": 0,
-    "deepExp": "Las descargas de un cumulonimbo producen potentes perturbaciones de estática que pueden causar errores de marcación en el ADF e incluso enmascarar la señal. Por eso el sistema especialmente susceptible en este supuesto es el ADF. Sección 5.1.2, p. 107. Fuente: TBATC_5 Navigation 4.1, p. 107.",
+    "deepExp": "Las descargas de un cumulonimbo producen potentes perturbaciones de estática que pueden causar errores de marcación en el ADF (radiogoniómetro automático) e incluso enmascarar la señal. Por eso el sistema especialmente susceptible en este supuesto es el ADF (radiogoniómetro automático). Sección 5.1.2, p. 107. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 107.",
     "optionExp": [
       "CORRECTA — El ADF puede recibir bearing falsos por estática de tormentas; el manual recomienda cautela ante actividad tormentosa.",
       "NO — VOR opera en VHF y es prácticamente inmune a la interferencia estática atmosférica descrita.",
@@ -1438,7 +1438,7 @@ window.NAVIGATION_QUESTIONS = [
       "LF and MF band."
     ],
     "a": 3,
-    "deepExp": "El NDB transmite en las bandas LF/MF; el manual sitúa la navegación aérea aproximadamente en 200–400 kHz y exige que el ADF pueda recibir 190–1.750 kHz. Por ello la respuesta conjunta es LF y MF. Sección 5.1.2, pp. 102–103.",
+    "deepExp": "El NDB (radiofaro no direccional) transmite en las bandas LF (baja frecuencia)/MF (frecuencia media); el manual sitúa la navegación aérea aproximadamente en 200–400 kHz y exige que el ADF (radiogoniómetro automático) pueda recibir 190–1.750 kHz. Por ello la respuesta conjunta es LF (baja frecuencia) y MF (frecuencia media). Sección 5.1.2, pp. 102–103.",
     "optionExp": [
       "NO — VHF es la banda característica del VOR, VDF y localizador ILS, no del sistema NDB–ADF.",
       "NO — UHF se emplea, por ejemplo, en DME, TACAN y la senda de planeo del ILS.",
@@ -1461,7 +1461,7 @@ window.NAVIGATION_QUESTIONS = [
       "The magnetic direction of the loop aerial with reference to the sense aerial."
     ],
     "a": 0,
-    "deepExp": "La información básica del ADF es una marcación relativa: el ángulo entre la dirección de vuelo y la dirección desde la que llega la onda del NDB. En un RBI la aguja muestra directamente RB; otros indicadores pueden convertirla en bearing magnético, pero esa es información derivada. Sección 5.1.2, pp. 99 y 103–105. Fuente: TBATC_5 Navigation 4.1, p. 103.",
+    "deepExp": "La información básica del ADF (radiogoniómetro automático) es una marcación relativa: el ángulo entre la dirección de vuelo y la dirección desde la que llega la onda del NDB (radiofaro no direccional). En un RBI (indicador de marcación relativa) la aguja muestra directamente RB (marcación relativa); otros indicadores pueden convertirla en bearing magnético, pero esa es información derivada. Sección 5.1.2, pp. 99 y 103–105. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 103.",
     "optionExp": [
       "CORRECTA — El ADF proporciona la relative bearing desde la aeronave hacia el NDB, es decir, dónde está la estación respecto al eje de vuelo.",
       "NO — La magnetic bearing requiere combinar la marcación relativa con el rumbo magnético mediante una tarjeta/indicador apropiado; no es la información básica universal.",
@@ -1484,7 +1484,7 @@ window.NAVIGATION_QUESTIONS = [
       "ATC must always warn pilots immediately about any NDB non-published failure or errors detected by other aircraft."
     ],
     "a": 3,
-    "deepExp": "El NDB carece normalmente de bandera de fallo u otra indicación de alarma en cabina, por lo que el fallo puede producir una indicación falsa no detectable. El manual establece expresamente que ATC debe advertir inmediatamente de fallos no publicados o errores comunicados por otras aeronaves. Sección 5.1.2, p. 111.",
+    "deepExp": "El NDB (radiofaro no direccional) carece normalmente de bandera de fallo u otra indicación de alarma en cabina, por lo que el fallo puede producir una indicación falsa no detectable. El manual establece expresamente que ATC (control de tránsito aéreo) debe advertir inmediatamente de fallos no publicados o errores comunicados por otras aeronaves. Sección 5.1.2, p. 111.",
     "optionExp": [
       "NO — Ese comportamiento de desconexión automática es propio del monitor del VOR, no la fiabilidad del NDB descrita.",
       "NO — El NDB no dispone de un sistema que alerte automáticamente a los pilotos de esa manera; esa es precisamente una de sus desventajas.",
@@ -1507,7 +1507,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 2,
-    "deepExp": "VOR significa VHF Omni-directional Range. El manual fija su operación entre 108,00 y 117,95 MHz, banda VHF, aunque el segmento 108–112 MHz se comparte con frecuencias ILS. Sección 5.1.2, p. 112.",
+    "deepExp": "VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) significa VHF (frecuencia muy alta) Omni-directional Range. El manual fija su operación entre 108,00 y 117,95 MHz (megahercios), banda VHF (frecuencia muy alta), aunque el segmento 108–112 MHz (megahercios) se comparte con frecuencias ILS (sistema de aterrizaje instrumental). Sección 5.1.2, p. 112.",
     "optionExp": [
       "NO — SHF corresponde a frecuencias mucho más altas que las utilizadas por VOR.",
       "NO — UHF es la banda del DME, TACAN y glide slope del ILS, no del VOR.",
@@ -1530,7 +1530,7 @@ window.NAVIGATION_QUESTIONS = [
       "The true bearing from the VOR station."
     ],
     "a": 1,
-    "deepExp": "Un radial VOR es una línea de posición definida por la marcación magnética outbound desde la estación. Así, el radial 090 es la línea que parte de la estación hacia el este magnético, aunque una aeronave situada allí pueda volar inbound con rumbo aproximado 270. Sección 5.1.2, p. 116. Fuente: TBATC_5 Navigation 4.1, p. 116.",
+    "deepExp": "Un radial VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) es una línea de posición definida por la marcación magnética outbound desde la estación. Así, el radial 090 es la línea que parte de la estación hacia el este magnético, aunque una aeronave situada allí pueda volar inbound con rumbo aproximado 270. Sección 5.1.2, p. 116. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 116.",
     "optionExp": [
       "NO — La expresión confunde la estación con su bearing; un radial no es el bearing de la estación, sino una línea que sale de ella.",
       "CORRECTA — Radial es el magnetic bearing FROM el VOR, o sea, la dirección magnética desde la estación hacia la aeronave.",
@@ -1553,7 +1553,7 @@ window.NAVIGATION_QUESTIONS = [
       "Pulse technique."
     ],
     "a": 0,
-    "deepExp": "El VOR transmite dos modulaciones: una referencia y otra variable. El receptor compara la fase de ambas; la diferencia de fase equivale al bearing magnético desde la estación. Por tanto, el principio de medida es la comparación de fase. Sección 5.1.2, p. 115. Fuente: TBATC_5 Navigation 4.1, p. 115.",
+    "deepExp": "El VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) transmite dos modulaciones: una referencia y otra variable. El receptor compara la fase de ambas; la diferencia de fase equivale al bearing magnético desde la estación. Por tanto, el principio de medida es la comparación de fase. Sección 5.1.2, p. 115. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 115.",
     "optionExp": [
       "CORRECTA — La bearing VOR se determina mediante phase comparison entre las dos modulaciones de 30 Hz.",
       "NO — Frequency comparison no es el principio de medida: la frecuencia de las señales no es la variable que codifica el radial.",
@@ -1576,7 +1576,7 @@ window.NAVIGATION_QUESTIONS = [
       "Night effect."
     ],
     "a": 0,
-    "deepExp": "El manual enumera para VOR el error de emplazamiento y propagación causado por terreno u obstáculos, además del error del equipo de a bordo. Coastal refraction, quadrantal error y night effect son limitaciones asociadas principalmente a NDB/ADF, no al VOR VHF. Sección 5.1.2, pp. 119–121.",
+    "deepExp": "El manual enumera para VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) el error de emplazamiento y propagación causado por terreno u obstáculos, además del error del equipo de a bordo. Coastal refraction, quadrantal error y night effect son limitaciones asociadas principalmente a NDB (radiofaro no direccional)/ADF (radiogoniómetro automático), no al VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) VHF (frecuencia muy alta). Sección 5.1.2, pp. 119–121.",
     "optionExp": [
       "CORRECTA — Terrain u obstructions pueden producir site/propagation errors en la señal VOR y desplazar el curso indicado.",
       "NO — Coastal refraction es un error típico de ondas NDB que viajan a velocidades distintas sobre tierra y mar.",
@@ -1599,7 +1599,7 @@ window.NAVIGATION_QUESTIONS = [
       "It always transmits bearing and distance information."
     ],
     "a": 0,
-    "deepExp": "El monitor automático del VOR desconecta el equipo defectuoso y conecta un transmisor de reserva si está disponible cuando detecta desviación de bearing, pérdida de potencia de modulación o fallo del propio monitor. La frecuencia 118,15 MHz no es VOR porque queda fuera del límite superior 117,95 MHz; los radiales son magnéticos y VOR no proporciona distancia por sí solo. Sección 5.1.2, pp. 112–114. Fuente: TBATC_5 Navigation 4.1, p. 113.",
+    "deepExp": "El monitor automático del VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) desconecta el equipo defectuoso y conecta un transmisor de reserva si está disponible cuando detecta desviación de bearing, pérdida de potencia de modulación o fallo del propio monitor. La frecuencia 118,15 MHz (megahercios) no es VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) porque queda fuera del límite superior 117,95 MHz (megahercios); los radiales son magnéticos y VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) no proporciona distancia por sí solo. Sección 5.1.2, pp. 112–114. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 113.",
     "optionExp": [
       "CORRECTA — El monitor VOR provoca el cese de la transmisión defectuosa y, si existe, activa un transmisor standby.",
       "NO — 118,15 MHz está por encima de 117,95 MHz, límite superior indicado para VOR.",
@@ -1622,7 +1622,7 @@ window.NAVIGATION_QUESTIONS = [
       "A tracking VOR."
     ],
     "a": 1,
-    "deepExp": "Entre los tipos de VOR, TVOR significa Terminal VOR. Es una estación de alcance más corto utilizada dentro de la estructura terminal de aproximación y salida de aeropuertos principales. Sección 5.1.2, p. 114. Fuente: TBATC_5 Navigation 4.1, p. 114.",
+    "deepExp": "Entre los tipos de VOR (radiofaro omnidireccional VHF (frecuencia muy alta)), TVOR (radiofaro omnidireccional terminal) significa Terminal VOR (radiofaro omnidireccional VHF (frecuencia muy alta)). Es una estación de alcance más corto utilizada dentro de la estructura terminal de aproximación y salida de aeropuertos principales. Sección 5.1.2, p. 114. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 114.",
     "optionExp": [
       "NO — Test VOR sería VOT en la nomenclatura del manual; VOT sirve para comprobar el equipo y no para navegación normal.",
       "CORRECTA — Terminal VOR es la expansión de TVOR y designa el VOR de menor alcance para el área terminal.",
@@ -1645,7 +1645,7 @@ window.NAVIGATION_QUESTIONS = [
       "Ionospheric activity."
     ],
     "a": 3,
-    "deepExp": "El alcance VOR depende de la altitud de la aeronave, los obstáculos y la potencia de transmisión, porque la señal VHF es una onda directa de línea de vista. La actividad ionosférica no es un factor determinante: VHF no usa propagación por sky waves y la DOC VOR vale de día y de noche. Sección 5.1.2, pp. 119–120. Fuente: TBATC_5 Navigation 4.1, p. 119.",
+    "deepExp": "El alcance VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) depende de la altitud de la aeronave, los obstáculos y la potencia de transmisión, porque la señal VHF (frecuencia muy alta) es una onda directa de línea de vista. La actividad ionosférica no es un factor determinante: VHF (frecuencia muy alta) no usa propagación por sky waves y la DOC (cobertura operacional designada) VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) vale de día y de noche. Sección 5.1.2, pp. 119–120. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 119.",
     "optionExp": [
       "NO — La altitud eleva la línea de vista y es uno de los factores explícitos.",
       "NO — Obstáculos y terreno pueden bloquear o limitar una transmisión VHF directa.",
@@ -1668,7 +1668,7 @@ window.NAVIGATION_QUESTIONS = [
       "The principle of wavelength difference."
     ],
     "a": 1,
-    "deepExp": "El DME funciona como radar secundario: la aeronave interroga con pares de pulsos y el transpondedor terrestre responde. El equipo mide el tiempo transcurrido entre interrogación y respuesta para calcular la distancia oblicua. Sección 5.1.2, pp. 121 y 123. Fuente: TBATC_5 Navigation 4.1, p. 123.",
+    "deepExp": "El DME (equipo medidor de distancia) funciona como radar secundario: la aeronave interroga con pares de pulsos y el transpondedor terrestre responde. El equipo mide el tiempo transcurrido entre interrogación y respuesta para calcular la distancia oblicua. Sección 5.1.2, pp. 121 y 123. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 123.",
     "optionExp": [
       "NO — Phase difference es el principio del VOR, no el del DME.",
       "CORRECTA — DME se basa en el principio de secondary radar, con interrogador aéreo y transpondedor terrestre.",
@@ -1691,7 +1691,7 @@ window.NAVIGATION_QUESTIONS = [
       "DME."
     ],
     "a": 3,
-    "deepExp": "El transpondedor DME puede transmitir unos 2.700 pares de pulsos por segundo y la respuesta media por aeronave es de unos 27 pares por segundo; por ello su capacidad aproximada es 2.700/27 = 100 aeronaves simultáneas. Sección 5.1.2, p. 128. Fuente: TBATC_5 Navigation 4.1, p. 128.",
+    "deepExp": "El transpondedor DME (equipo medidor de distancia) puede transmitir unos 2.700 pares de pulsos por segundo y la respuesta media por aeronave es de unos 27 pares por segundo; por ello su capacidad aproximada es 2.700/27 = 100 aeronaves simultáneas. Sección 5.1.2, p. 128. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 128.",
     "optionExp": [
       "NO — VOR no tiene una capacidad de respuestas interrogativas limitada a unos 100 usuarios simultáneos.",
       "NO — NDB transmite de forma continua y no gestiona interrogaciones individuales de aeronaves.",
@@ -1714,7 +1714,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 1,
-    "deepExp": "DME opera en UHF, en el intervalo indicado por el manual de aproximadamente 962–1.213 MHz. Su funcionamiento pulsado y su alcance de línea de vista son coherentes con esa banda. Sección 5.1.2, p. 123.",
+    "deepExp": "DME (equipo medidor de distancia) opera en UHF (frecuencia ultra alta), en el intervalo indicado por el manual de aproximadamente 962–1.213 MHz (megahercios). Su funcionamiento pulsado y su alcance de línea de vista son coherentes con esa banda. Sección 5.1.2, p. 123.",
     "optionExp": [
       "NO — SHF está por encima del intervalo de frecuencias DME.",
       "CORRECTA — DME utiliza la banda UHF.",
@@ -1737,7 +1737,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above."
     ],
     "a": 1,
-    "deepExp": "DME es el sistema de esta lista cuya función propia es medir distancia a una estación terrestre. VOR entrega bearing y el ILS guía lateral/vertical; aunque un ILS pueda incorporar DME asociado, el ILS por sí mismo no es la respuesta a distance information en esta pregunta. Sección 5.1.2, pp. 121–124 y 131–132. Fuente: TBATC_5 Navigation 4.1, p. 121.",
+    "deepExp": "DME (equipo medidor de distancia) es el sistema de esta lista cuya función propia es medir distancia a una estación terrestre. VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) entrega bearing y el ILS (sistema de aterrizaje instrumental) guía lateral/vertical; aunque un ILS (sistema de aterrizaje instrumental) pueda incorporar DME (equipo medidor de distancia) asociado, el ILS (sistema de aterrizaje instrumental) por sí mismo no es la respuesta a distance information en esta pregunta. Sección 5.1.2, pp. 121–124 y 131–132. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 121.",
     "optionExp": [
       "NO — VOR proporciona bearing/radiales; necesita DME para añadir distancia.",
       "CORRECTA — DME significa Distance Measuring Equipment y proporciona la distancia a la estación.",
@@ -1760,7 +1760,7 @@ window.NAVIGATION_QUESTIONS = [
       "The DME operating frequencies are in the UHF frequency band."
     ],
     "a": 3,
-    "deepExp": "DME mide distancia oblicua y opera en UHF. No siempre está coemplazado con ILS o VOR; puede ser independiente o asociado. Además, dos círculos DME pueden cortarse en dos posiciones, por lo que dos líneas no garantizan un fix inequívoco. Sección 5.1.2, pp. 123–127. Fuente: TBATC_5 Navigation 4.1, p. 123.",
+    "deepExp": "DME (equipo medidor de distancia) mide distancia oblicua y opera en UHF (frecuencia ultra alta). No siempre está coemplazado con ILS (sistema de aterrizaje instrumental) o VOR (radiofaro omnidireccional VHF (frecuencia muy alta)); puede ser independiente o asociado. Además, dos círculos DME (equipo medidor de distancia) pueden cortarse en dos posiciones, por lo que dos líneas no garantizan un fix inequívoco. Sección 5.1.2, pp. 123–127. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 123.",
     "optionExp": [
       "NO — Dos líneas de posición circulares de dos DME pueden producir dos intersecciones; no siempre dan un fix inequívoco sin información adicional.",
       "NO — El DME puede ser stand-alone o asociado a una ayuda, así que no siempre está coemplazado con ILS/VOR.",
@@ -1783,7 +1783,7 @@ window.NAVIGATION_QUESTIONS = [
       "Ground range only if the beacon is co-located with a VOR ."
     ],
     "a": 0,
-    "deepExp": "La distancia que presenta el DME es la línea recta entre la antena de la aeronave y la estación terrestre: slant range. No es ground range. Sobre la vertical de la estación la indicación no es cero, sino aproximadamente la altura en millas náuticas. Sección 5.1.2, p. 127. Fuente: TBATC_5 Navigation 4.1, p. 127.",
+    "deepExp": "La distancia que presenta el DME (equipo medidor de distancia) es la línea recta entre la antena de la aeronave y la estación terrestre: slant range. No es ground range. Sobre la vertical de la estación la indicación no es cero, sino aproximadamente la altura en millas náuticas. Sección 5.1.2, p. 127. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 127.",
     "optionExp": [
       "CORRECTA — DME indica slant range, distancia oblicua entre aeronave y estación.",
       "NO — Ground range es la distancia horizontal sobre la superficie y no coincide con la medición DME.",
@@ -1806,7 +1806,7 @@ window.NAVIGATION_QUESTIONS = [
       "Phase difference between emitted wave and reflected wave."
     ],
     "a": 0,
-    "deepExp": "El interrogador transmite un par de pulsos y el transpondedor responde. El equipo aéreo mide el tiempo transcurrido entre la emisión de la interrogación y la recepción de la respuesta; con la velocidad conocida de la señal obtiene el slant range. Sección 5.1.2, p. 123. Fuente: TBATC_5 Navigation 4.1, p. 123.",
+    "deepExp": "El interrogador transmite un par de pulsos y el transpondedor responde. El equipo aéreo mide el tiempo transcurrido entre la emisión de la interrogación y la recepción de la respuesta; con la velocidad conocida de la señal obtiene el slant range. Sección 5.1.2, p. 123. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 123.",
     "optionExp": [
       "CORRECTA — El parámetro medido es el tiempo entre transmitir la interrogación y recibir los pulsos de respuesta.",
       "NO — Un cambio de frecuencia entre ondas emitida y reflejada no es la técnica DME; además, la respuesta procede de un transpondedor.",
@@ -1829,7 +1829,7 @@ window.NAVIGATION_QUESTIONS = [
       "8NM."
     ],
     "a": 2,
-    "deepExp": "Sobre la estación, la distancia oblicua DME equivale aproximadamente a la altura expresada en millas náuticas. El manual da la regla de 1 NM por cada 6.000 ft; FL360 corresponde a 36.000 ft y, por tanto, 36.000/6.000 = 6 NM. Sección 5.1.2, p. 127.",
+    "deepExp": "Sobre la estación, la distancia oblicua DME (equipo medidor de distancia) equivale aproximadamente a la altura expresada en millas náuticas. El manual da la regla de 1 NM (milla náutica) por cada 6.000 ft; FL360 (nivel de vuelo 360) corresponde a 36.000 ft y, por tanto, 36.000/6.000 = 6 NM (milla náutica). Sección 5.1.2, p. 127.",
     "optionExp": [
       "NO — 11 NM excede la conversión aproximada de 36.000 ft a millas náuticas sobre la vertical.",
       "NO — 7 NM tampoco corresponde a la regla del manual de 1 NM por 6.000 ft.",
@@ -1852,7 +1852,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above."
     ],
     "a": 1,
-    "deepExp": "TACAN proporciona a los usuarios civiles el componente de distancia porque su unidad DME tiene las mismas especificaciones que un DME civil. El equipo TACAN aéreo de bearing no es interoperable con el VOR civil para suministrar marcación. Sección 5.1.2, pp. 129–131. Fuente: TBATC_5 Navigation 4.1, p. 131.",
+    "deepExp": "TACAN (navegación aérea táctica) proporciona a los usuarios civiles el componente de distancia porque su unidad DME (equipo medidor de distancia) tiene las mismas especificaciones que un DME (equipo medidor de distancia) civil. El equipo TACAN (navegación aérea táctica) aéreo de bearing no es interoperable con el VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) civil para suministrar marcación. Sección 5.1.2, pp. 129–131. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 131.",
     "optionExp": [
       "NO — La marcación magnética TACAN requiere el equipo TACAN de a bordo, que no es el equipo civil VOR convencional.",
       "CORRECTA — Un usuario civil puede recibir del TACAN la información DME mediante un equipo DME compatible.",
@@ -1875,7 +1875,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 1,
-    "deepExp": "TACAN es un sistema pulsado que opera en UHF, aproximadamente entre 960 y 1.215 MHz. La misma banda explica la analogía de su componente de distancia con el DME civil. Sección 5.1.2, p. 129. Fuente: TBATC_5 Navigation 4.1, p. 129.",
+    "deepExp": "TACAN (navegación aérea táctica) es un sistema pulsado que opera en UHF (frecuencia ultra alta), aproximadamente entre 960 y 1.215 MHz (megahercios). La misma banda explica la analogía de su componente de distancia con el DME (equipo medidor de distancia) civil. Sección 5.1.2, p. 129. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 129.",
     "optionExp": [
       "NO — SHF no es la banda del sistema TACAN descrita.",
       "CORRECTA — TACAN (Tactical Air Navigation) transmite en la banda UHF.",
@@ -1921,7 +1921,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 1,
-    "deepExp": "La senda de planeo del ILS transmite en UHF, aproximadamente 329,15–335 MHz, y se selecciona automáticamente al sintonizar la frecuencia VHF del localizador porque ambas están emparejadas. Sección 5.1.2, p. 137. Fuente: TBATC_5 Navigation 4.1, p. 137.",
+    "deepExp": "La senda de planeo del ILS (sistema de aterrizaje instrumental) transmite en UHF (frecuencia ultra alta), aproximadamente 329,15–335 MHz (megahercios), y se selecciona automáticamente al sintonizar la frecuencia VHF (frecuencia muy alta) del localizador porque ambas están emparejadas. Sección 5.1.2, p. 137. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 137.",
     "optionExp": [
       "NO — SHF es una banda superior a las frecuencias de la senda de planeo.",
       "CORRECTA — El glide-slope/GP transmite en UHF.",
@@ -1944,7 +1944,7 @@ window.NAVIGATION_QUESTIONS = [
       "HF."
     ],
     "a": 2,
-    "deepExp": "El localizador ILS transmite en VHF, en 108–112 MHz, usando las frecuencias con primera cifra decimal impar. Su antena está alineada con la prolongación del eje de pista y proporciona guía lateral. Sección 5.1.2, p. 135. Fuente: TBATC_5 Navigation 4.1, p. 135.",
+    "deepExp": "El localizador ILS (sistema de aterrizaje instrumental) transmite en VHF (frecuencia muy alta), en 108–112 MHz (megahercios), usando las frecuencias con primera cifra decimal impar. Su antena está alineada con la prolongación del eje de pista y proporciona guía lateral. Sección 5.1.2, p. 135. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 135.",
     "optionExp": [
       "NO — SHF está muy por encima de la banda 108–112 MHz.",
       "NO — UHF es la banda del glide slope, no la del localizador.",
@@ -1967,7 +1967,7 @@ window.NAVIGATION_QUESTIONS = [
       "On the same frequency and have different modulations."
     ],
     "a": 3,
-    "deepExp": "La senda de planeo genera dos lóbulos verticales en una sola frecuencia ILS, pero con modulaciones diferentes: el lóbulo superior lleva 90 Hz y el inferior 150 Hz. La comparación de la profundidad de modulación permite determinar la posición respecto a la senda. Sección 5.1.2, pp. 137–138. Fuente: TBATC_5 Navigation 4.1, p. 138.",
+    "deepExp": "La senda de planeo genera dos lóbulos verticales en una sola frecuencia ILS (sistema de aterrizaje instrumental), pero con modulaciones diferentes: el lóbulo superior lleva 90 Hz y el inferior 150 Hz. La comparación de la profundidad de modulación permite determinar la posición respecto a la senda. Sección 5.1.2, pp. 137–138. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 138.",
     "optionExp": [
       "NO — No se separan por phase comparison: el criterio de guía es la diferencia de modulación de 90/150 Hz.",
       "NO — Los lóbulos no usan frecuencias distintas; se transmiten en la misma frecuencia del GP.",
@@ -1990,7 +1990,7 @@ window.NAVIGATION_QUESTIONS = [
       "Localiser and marker beacons."
     ],
     "a": 3,
-    "deepExp": "El localizador ILS está en VHF y los marcadores también son VHF; la senda de planeo está en UHF. Por ello, entre las opciones, los elementos que transmiten en VHF son localiser y marker beacons. Sección 5.1.2, pp. 135, 137 y 139. Fuente: TBATC_5 Navigation 4.1, p. 139.",
+    "deepExp": "El localizador ILS (sistema de aterrizaje instrumental) está en VHF (frecuencia muy alta) y los marcadores también son VHF (frecuencia muy alta); la senda de planeo está en UHF (frecuencia ultra alta). Por ello, entre las opciones, los elementos que transmiten en VHF (frecuencia muy alta) son localiser y marker beacons. Sección 5.1.2, pp. 135, 137 y 139. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 139.",
     "optionExp": [
       "NO — Localiser sí es VHF, pero la palabra “only” excluye a los marker beacons, que también son VHF.",
       "NO — Marker beacons son VHF, pero no son los únicos; el localizador también transmite en VHF.",
@@ -2013,7 +2013,7 @@ window.NAVIGATION_QUESTIONS = [
       "Not less than 200ft."
     ],
     "a": 0,
-    "deepExp": "La categoría III permite guía hasta la superficie y contempla operaciones con alturas de decisión muy bajas o sin DH, según la subcategoría y certificación. En la tabla de mínimos del manual, CAT IIIA tiene DH menor de 100 ft y CAT IIIB/C puede llegar a no tener DH; la opción que expresa el límite general solicitado es the surface of the runway. Sección 5.1.2, p. 134.",
+    "deepExp": "La categoría III permite guía hasta la superficie y contempla operaciones con alturas de decisión muy bajas o sin DH (altura de decisión), según la subcategoría y certificación. En la tabla de mínimos del manual, CAT (categoría) IIIA tiene DH (altura de decisión) menor de 100 ft y CAT (categoría) IIIB/C puede llegar a no tener DH (altura de decisión); la opción que expresa el límite general solicitado es the surface of the runway. Sección 5.1.2, p. 134.",
     "optionExp": [
       "CORRECTA — Un ILS CAT III puede proporcionar guía de precisión hasta la superficie de la pista, sujeto a la subcategoría, equipos y mínimos operacionales.",
       "NO — 100 ft es un umbral asociado a CAT II y a parte de la clasificación CAT III, no el límite de CAT III en general.",
@@ -2036,7 +2036,7 @@ window.NAVIGATION_QUESTIONS = [
       "Not less than 200ft."
     ],
     "a": 3,
-    "deepExp": "CAT I se define con una decision height no inferior a 200 ft. Por tanto, la guía precisa de una instalación CAT I llega hasta una altura de decisión de 200 ft, pero no por debajo de ella. Sección 5.1.2, p. 134. Fuente: TBATC_5 Navigation 4.1, p. 134.",
+    "deepExp": "CAT (categoría) I se define con una decision height no inferior a 200 ft. Por tanto, la guía precisa de una instalación CAT (categoría) I llega hasta una altura de decisión de 200 ft, pero no por debajo de ella. Sección 5.1.2, p. 134. Fuente: TBATC_5 (manual de formación inicial de controladores de tránsito aéreo) Navigation 4.1, p. 134.",
     "optionExp": [
       "NO — Llegar hasta la superficie corresponde a capacidades CAT III, no a CAT I.",
       "NO — Menos de 100 ft describe mínimos más bajos de CAT II/III, no CAT I.",
@@ -2082,7 +2082,7 @@ window.NAVIGATION_QUESTIONS = [
       "As close to the runway threshold as possible without causing an obstruction to aircraft."
     ],
     "a": 2,
-    "deepExp": "El transmisor de la senda de planeo (GP/GS) se instala aproximadamente a 300 m del umbral y a unos 200 m del borde de pista, a la altura del punto de toma de contacto. Esa disposición permite generar la guía vertical de la aproximación final; el localizador, en cambio, se sitúa en el extremo de salida opuesto. Manual, «ILS components», p. 137.",
+    "deepExp": "El transmisor de la senda de planeo (GP/GS (GP (glide path, senda de planeo) y GS (glide slope, senda de planeo))) se instala aproximadamente a 300 m del umbral y a unos 200 m del borde de pista, a la altura del punto de toma de contacto. Esa disposición permite generar la guía vertical de la aproximación final; el localizador, en cambio, se sitúa en el extremo de salida opuesto. Manual, «ILS (sistema de aterrizaje instrumental) components», p. 137.",
     "optionExp": [
       "NO — La distancia de 600 m al transmisor del localizador no es el criterio de emplazamiento del GP. El localizador y el GP son componentes distintos y se ubican en posiciones diferentes respecto de la pista.",
       "NO — Esos 150 m y 300 m no corresponden al esquema descrito para el GP en el manual; confunden la ubicación del equipo con otras distancias de una instalación ILS.",
@@ -2105,7 +2105,7 @@ window.NAVIGATION_QUESTIONS = [
       "10º."
     ],
     "a": 0,
-    "deepExp": "La cobertura del localizador CAT I indicada por el manual es de 17 NM entre 10° y 35° a cada lado de la prolongación del eje. Por eso, a 17 NM el límite angular garantizado que corresponde a la pregunta es 35°. Manual, «The Localiser coverage», p. 136.",
+    "deepExp": "La cobertura del localizador CAT (categoría) I indicada por el manual es de 17 NM (milla náutica) entre 10° y 35° a cada lado de la prolongación del eje. Por eso, a 17 NM (milla náutica) el límite angular garantizado que corresponde a la pregunta es 35°. Manual, «The Localiser coverage», p. 136.",
     "optionExp": [
       "CORRECTA — La tabla de cobertura del localizador establece 17 NM entre 10° y 35° desde la línea central prolongada; por tanto, el extremo garantizado a 17 NM es ±35°.",
       "NO — 25° no es el límite angular que acompaña a la distancia de 17 NM en la tabla del manual. El sector de ±25° no es la combinación publicada en este esquema.",
@@ -2151,7 +2151,7 @@ window.NAVIGATION_QUESTIONS = [
       "Noise abatement considerations."
     ],
     "a": 1,
-    "deepExp": "El factor primordial al diseñar una salida instrumental es asegurar la separación con los obstáculos durante el ascenso inicial en IMC. El manual señala que el terreno circundante dicta en general el diseño de las SID, aunque también pueden influir ATC, restricciones y ruido. Manual, pp. 148–149.",
+    "deepExp": "El factor primordial al diseñar una salida instrumental es asegurar la separación con los obstáculos durante el ascenso inicial en IMC (condiciones meteorológicas instrumentales). El manual señala que el terreno circundante dicta en general el diseño de las SID (salida normalizada por instrumentos), aunque también pueden influir ATC (control de tránsito aéreo), restricciones y ruido. Manual, pp. 148–149.",
     "optionExp": [
       "NO — Las ayudas a la navegación condicionan la ruta y sus medios de guía, pero no son el factor de seguridad principal: la prioridad de diseño es el franqueamiento de obstáculos.",
       "CORRECTA — El terreno es el factor más importante porque determina las superficies y el gradiente necesarios para garantizar el franqueamiento de obstáculos durante el ascenso inicial en IMC.",
@@ -2174,7 +2174,7 @@ window.NAVIGATION_QUESTIONS = [
       "ATC."
     ],
     "a": 1,
-    "deepExp": "La SID se construye con el supuesto de ascenso con todos los motores operativos. Las contingencias para un fallo de motor o una emergencia después del despegue deben ser desarrolladas por el operador, no por ATC ni por el piloto como procedimiento publicado individual. Manual, «SID Climb Requirements & Contingency Procedures», p. 151.",
+    "deepExp": "La SID (salida normalizada por instrumentos) se construye con el supuesto de ascenso con todos los motores operativos. Las contingencias para un fallo de motor o una emergencia después del despegue deben ser desarrolladas por el operador, no por ATC (control de tránsito aéreo) ni por el piloto como procedimiento publicado individual. Manual, «SID (salida normalizada por instrumentos) Climb Requirements & Contingency Procedures», p. 151.",
     "optionExp": [
       "NO — El piloto debe ejecutar la contingencia y comunicar sus intenciones, pero no es quien establece de forma organizativa el procedimiento de fallo de motor posterior al despegue.",
       "CORRECTA — El operador es responsable de desarrollar los procedimientos de contingencia para fallo de motor o emergencia después del despegue, porque la SID solo contempla el ascenso con todos los motores funcionando.",
@@ -2197,7 +2197,7 @@ window.NAVIGATION_QUESTIONS = [
       "To separate landing traffic from taxiing traffic on ground, provide security measures in the apron and avoid collisions on ground."
     ],
     "a": 2,
-    "deepExp": "El objetivo principal de una SID es proporcionar franqueamiento de obstáculos a las aeronaves que salen bajo IMC. Además, las salidas instrumentales facilitan la transición al tramo en ruta y pueden contribuir a separar tráficos o evitar zonas sensibles, pero esas funciones no desplazan el objetivo primordial de seguridad. Manual, p. 148.",
+    "deepExp": "El objetivo principal de una SID (salida normalizada por instrumentos) es proporcionar franqueamiento de obstáculos a las aeronaves que salen bajo IMC (condiciones meteorológicas instrumentales). Además, las salidas instrumentales facilitan la transición al tramo en ruta y pueden contribuir a separar tráficos o evitar zonas sensibles, pero esas funciones no desplazan el objetivo primordial de seguridad. Manual, p. 148.",
     "optionExp": [
       "NO — La separación de salidas y llegadas, la interceptación de la derrota y el ruido son beneficios o consideraciones posibles, pero esta opción reduce indebidamente el objetivo de la SID y lo presenta como «solo» esas funciones.",
       "NO — La atenuación del ruido puede influir en el diseño y justificar restricciones adicionales, pero no es el objetivo principal de una SID.",
@@ -2220,7 +2220,7 @@ window.NAVIGATION_QUESTIONS = [
       "As open triangle figures."
     ],
     "a": 2,
-    "deepExp": "Los puntos de notificación obligatoria se representan en las cartas como triángulos sólidos. En vuelos IFR controlados se exige normalmente informar sobre cada uno de ellos, con independencia de la altitud, para que ATC pueda seguir la navegación de la aeronave. Manual, p. 156.",
+    "deepExp": "Los puntos de notificación obligatoria se representan en las cartas como triángulos sólidos. En vuelos IFR (reglas de vuelo por instrumentos) controlados se exige normalmente informar sobre cada uno de ellos, con independencia de la altitud, para que ATC (control de tránsito aéreo) pueda seguir la navegación de la aeronave. Manual, p. 156.",
     "optionExp": [
       "NO — El triángulo abierto identifica un punto no obligatorio, sobre el que se informa solo cuando ATC lo solicita.",
       "NO — El círculo abierto no es el símbolo que el manual asigna a los puntos de notificación obligatoria en este banco.",
@@ -2243,7 +2243,7 @@ window.NAVIGATION_QUESTIONS = [
       "As solid circle figures."
     ],
     "a": 0,
-    "deepExp": "Los puntos de notificación no obligatoria se representan como triángulos abiertos. El informe sobre ellos no se realiza automáticamente: se efectúa únicamente cuando ATC lo solicita. Manual, p. 156.",
+    "deepExp": "Los puntos de notificación no obligatoria se representan como triángulos abiertos. El informe sobre ellos no se realiza automáticamente: se efectúa únicamente cuando ATC (control de tránsito aéreo) lo solicita. Manual, p. 156.",
     "optionExp": [
       "CORRECTA — El triángulo abierto identifica un punto no obligatorio; el piloto solo presenta el informe de posición cuando lo pide ATC.",
       "NO — El círculo abierto no es la convención indicada aquí. La distinción relevante en el manual es triángulo sólido para obligatorio y triángulo abierto para no obligatorio.",
@@ -2289,7 +2289,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above."
     ],
     "a": 3,
-    "deepExp": "Las rutas de salida y las SID se producen y publican conforme a ICAO Doc 8168, Anexo 11 y Anexo 4, en la sección AD del AIP; el manual da la misma referencia para las STAR en p. 159. Por tanto, las tres referencias de la opción conjunta son aplicables.",
+    "deepExp": "Las rutas de salida y las SID (salida normalizada por instrumentos) se producen y publican conforme a ICAO (International Civil Aviation Organization (Organización de Aviación Civil Internacional)) Doc 8168, Anexo 11 y Anexo 4, en la sección AD del AIP (Publicación de Información Aeronáutica); el manual da la misma referencia para las STAR (llegada normalizada por instrumentos) en p. 159. Por tanto, las tres referencias de la opción conjunta son aplicables.",
     "optionExp": [
       "NO — Doc 8168 es una de las referencias correctas, pero no la única: la publicación también se realiza conforme a los Anexos 11 y 4.",
       "NO — El Anexo 11 forma parte del marco aplicable, pero por sí solo no agota las referencias citadas para SID y STAR.",
@@ -2335,7 +2335,7 @@ window.NAVIGATION_QUESTIONS = [
       "FAP."
     ],
     "a": 1,
-    "deepExp": "La aproximación inicial comienza en el Initial Approach Fix (IAF) y conduce hasta el Intermediate Fix (IF), salvo configuraciones en las que el segmento pueda terminar directamente en el FAF. El IAF es, por tanto, el punto de inicio normal. Manual, p. 158.",
+    "deepExp": "La aproximación inicial comienza en el Initial Approach Fix (IAF (punto de referencia de aproximación inicial)) y conduce hasta el Intermediate Fix (IF (punto de referencia intermedio)), salvo configuraciones en las que el segmento pueda terminar directamente en el FAF (punto de referencia de aproximación final). El IAF (punto de referencia de aproximación inicial) es, por tanto, el punto de inicio normal. Manual, p. 158.",
     "optionExp": [
       "NO — El IF es normalmente el final del segmento inicial y el comienzo del segmento intermedio, no el inicio de la aproximación inicial.",
       "CORRECTA — El IAF es el punto de comienzo de la aproximación inicial según la tabla de segmentos del manual.",
@@ -2358,7 +2358,7 @@ window.NAVIGATION_QUESTIONS = [
       "FAP."
     ],
     "a": 2,
-    "deepExp": "En una aproximación no precisa, el segmento final comienza en el FAF; si no existe FAF, comienza cuando la aeronave queda establecida en la derrota final de entrada. El FAP es la referencia equivalente usada para una aproximación de precisión. Manual, p. 158.",
+    "deepExp": "En una aproximación no precisa, el segmento final comienza en el FAF (punto de referencia de aproximación final); si no existe FAF (punto de referencia de aproximación final), comienza cuando la aeronave queda establecida en la derrota final de entrada. El FAP (punto de aproximación final) es la referencia equivalente usada para una aproximación de precisión. Manual, p. 158.",
     "optionExp": [
       "NO — El IF inicia el segmento intermedio y no el segmento final de una aproximación no precisa.",
       "NO — El IAF inicia el segmento inicial; no es el punto desde el que comienza normalmente la final.",
@@ -2381,7 +2381,7 @@ window.NAVIGATION_QUESTIONS = [
       "FAP."
     ],
     "a": 3,
-    "deepExp": "En una aproximación de precisión, el segmento final comienza en el Final Approach Point (FAP), punto desde el que se sigue la guía lateral y vertical hasta la DA(H). El FAF es la referencia típica de una aproximación no precisa. Manual, p. 158.",
+    "deepExp": "En una aproximación de precisión, el segmento final comienza en el Final Approach Point (FAP (punto de aproximación final)), punto desde el que se sigue la guía lateral y vertical hasta la DA(H). El FAF (punto de referencia de aproximación final) es la referencia típica de una aproximación no precisa. Manual, p. 158.",
     "optionExp": [
       "NO — El IF es el final del tramo inicial y el inicio del intermedio; todavía no comienza la final de precisión.",
       "NO — El IAF es la entrada al procedimiento inicial, demasiado pronto para definir el segmento final.",
@@ -2427,7 +2427,7 @@ window.NAVIGATION_QUESTIONS = [
       "A circling approach."
     ],
     "a": 1,
-    "deepExp": "Una aproximación VOR proporciona guía lateral basada en la radioayuda, pero no guía vertical de precisión hasta el punto de toma de contacto. Por ello se clasifica como aproximación no precisa y se vuela normalmente hasta la MDA/MAPt conforme al procedimiento. Manual, p. 165.",
+    "deepExp": "Una aproximación VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) proporciona guía lateral basada en la radioayuda, pero no guía vertical de precisión hasta el punto de toma de contacto. Por ello se clasifica como aproximación no precisa y se vuela normalmente hasta la MDA (altitud mínima de descenso)/MAPt (punto de aproximación frustrada) conforme al procedimiento. Manual, p. 165.",
     "optionExp": [
       "NO — Una aproximación de precisión exige guía lateral y vertical; el VOR, por sí solo, no proporciona la guía vertical requerida.",
       "CORRECTA — El VOR es una ayuda de guía lateral y su aproximación es no precisa, aunque la precisión lateral pueda ser buena.",
@@ -2473,7 +2473,7 @@ window.NAVIGATION_QUESTIONS = [
       "May descend below the DA as long as they keep visual contact with the terrain and runway."
     ],
     "a": 1,
-    "deepExp": "Dentro del área de circling la aeronave debe mantener la MDA publicada hasta quedar establecida en el tramo final de la pista elegida. No debe descender por debajo de ella solo por mantener contacto visual; la DA pertenece a aproximaciones de precisión. Manual, p. 168.",
+    "deepExp": "Dentro del área de circling la aeronave debe mantener la MDA (altitud mínima de descenso) publicada hasta quedar establecida en el tramo final de la pista elegida. No debe descender por debajo de ella solo por mantener contacto visual; la DA (altitud de decisión) pertenece a aproximaciones de precisión. Manual, p. 168.",
     "optionExp": [
       "NO — La DA se utiliza como referencia de decisión en una aproximación de precisión, no como mínimo publicado para la maniobra de circling.",
       "CORRECTA — Durante el circling se mantiene la MDA publicada hasta estar establecido en el tramo final de la pista de aterrizaje.",
@@ -2542,7 +2542,7 @@ window.NAVIGATION_QUESTIONS = [
       "IF."
     ],
     "a": 2,
-    "deepExp": "En una aproximación de precisión ILS, el segmento final comienza en el FAP (Final Approach Point). El FAF se emplea para la final de una aproximación no precisa; el MAPt y la DA(H) son referencias posteriores de terminación/decisión. Manual, p. 158.",
+    "deepExp": "En una aproximación de precisión ILS (sistema de aterrizaje instrumental), el segmento final comienza en el FAP (Final Approach Point). El FAF (punto de referencia de aproximación final) se emplea para la final de una aproximación no precisa; el MAPt (punto de aproximación frustrada) y la DA(H) son referencias posteriores de terminación/decisión. Manual, p. 158.",
     "optionExp": [
       "NO — El FAF es el punto de inicio de la final no precisa; en el ILS de precisión la tabla utiliza el FAP.",
       "NO — El MAPt es el punto de aproximación frustrada de una no precisa y no el comienzo de la final ILS.",
@@ -2565,7 +2565,7 @@ window.NAVIGATION_QUESTIONS = [
       "121,700"
     ],
     "a": 2,
-    "deepExp": "El PDF de manual suministrado no contiene una versión legible del Anexo 1/diagrama de Santiago: las páginas del anexo aparecen sin el gráfico extraído. Por tanto, no es posible verificar la frecuencia en el manual; se conserva la respuesta del banco y se explica únicamente con el valor observable en sus opciones, 118,750. Referencia: Anexo 1 ausente/no legible; manual, p. 215 (encabezado del anexo).",
+    "deepExp": "El PDF (formato de documento portátil) de manual suministrado no contiene una versión legible del Anexo 1/diagrama de Santiago: las páginas del anexo aparecen sin el gráfico extraído. Por tanto, no es posible verificar la frecuencia en el manual; se conserva la respuesta del banco y se explica únicamente con el valor observable en sus opciones, 118,750. Referencia: Anexo 1 ausente/no legible; manual, p. 215 (encabezado del anexo).",
     "optionExp": [
       "NO — 121,300 no es el valor que el banco marca para TWR en el Anexo 1. Al no estar visible el gráfico, no se puede atribuir esta frecuencia a otra dependencia sin inventar datos.",
       "NO — 120,200 tampoco coincide con la respuesta consignada en el banco. El PDF suministrado no permite comprobar visualmente si corresponde a otra frecuencia del procedimiento.",
@@ -2589,7 +2589,7 @@ window.NAVIGATION_QUESTIONS = [
       "8.0 DME from STG NDB"
     ],
     "a": 0,
-    "deepExp": "El Anexo 1/diagrama de Santiago no está incluido de forma legible en el PDF suministrado. La explicación solo puede conservar el dato observable del banco: la respuesta es STG VOR/DME; no se inventa una posición, radial o distancia adicional que no aparezca en el HTML o en una imagen legible.",
+    "deepExp": "El Anexo 1/diagrama de Santiago no está incluido de forma legible en el PDF (formato de documento portátil) suministrado. La explicación solo puede conservar el dato observable del banco: la respuesta es STG (identificador de estación) VOR (radiofaro omnidireccional VHF (frecuencia muy alta))/DME (equipo medidor de distancia); no se inventa una posición, radial o distancia adicional que no aparezca en el HTML o en una imagen legible.",
     "optionExp": [
       "CORRECTA — El banco señala STG VOR/DME como el IAF. Al faltar el gráfico legible, solo puede afirmarse ese identificador observable, sin reconstruir la geometría del procedimiento.",
       "NO — 10.0 DME from STG VOR es una distancia que no es la respuesta consignada para el IAF en el banco; tampoco puede confirmarse su papel sin el diagrama.",
@@ -2613,7 +2613,7 @@ window.NAVIGATION_QUESTIONS = [
       "1,414ft."
     ],
     "a": 3,
-    "deepExp": "El PDF suministrado no permite leer el gráfico del Anexo 1 de Santiago. La respuesta se conserva literalmente del banco: 1,414 ft; no se reconstruyen elevación, altura de umbral ni otros valores del procedimiento porque no son observables en el material disponible.",
+    "deepExp": "El PDF (formato de documento portátil) suministrado no permite leer el gráfico del Anexo 1 de Santiago. La respuesta se conserva literalmente del banco: 1,414 ft; no se reconstruyen elevación, altura de umbral ni otros valores del procedimiento porque no son observables en el material disponible.",
     "optionExp": [
       "NO — 1,394 ft no es el valor marcado por el banco para la DA CAT I/CAT C. Sin el gráfico legible no puede asignarse ese número a otra mínima.",
       "NO — 163 ft aparece como opción de altura/valor pequeño, pero no es la DA que el banco señala para CAT I con aeronave CAT C.",
@@ -2637,7 +2637,7 @@ window.NAVIGATION_QUESTIONS = [
       "1,414ft."
     ],
     "a": 1,
-    "deepExp": "El diagrama del Anexo 1 no está disponible de forma legible en el PDF fuente. Se conserva el valor observable y la respuesta del banco, 163 ft, como DH CAT II para CAT C, sin inferir la altitud de decisión ni otros mínimos no visibles.",
+    "deepExp": "El diagrama del Anexo 1 no está disponible de forma legible en el PDF (formato de documento portátil) fuente. Se conserva el valor observable y la respuesta del banco, 163 ft, como DH (altura de decisión) CAT (categoría) II para CAT (categoría) C, sin inferir la altitud de decisión ni otros mínimos no visibles.",
     "optionExp": [
       "NO — 1,394 ft es una altitud absoluta mucho mayor y no es el valor que el banco marca como DH CAT II/CAT C.",
       "CORRECTA — El banco señala 163 ft como DH para CAT II ILS y aeronave CAT C. Dado que el gráfico del Anexo 1 no se puede leer, la explicación se limita a ese dato observable.",
@@ -2661,7 +2661,7 @@ window.NAVIGATION_QUESTIONS = [
       "5.2%."
     ],
     "a": 1,
-    "deepExp": "El Anexo 1/diagrama de Santiago no es legible en el PDF suministrado. La respuesta del banco es 4%; se explica únicamente a partir de ese valor observable y del propio enunciado (CAT II, DH 131 ft, CAT B), sin inventar una tabla o cálculo adicional.",
+    "deepExp": "El Anexo 1/diagrama de Santiago no es legible en el PDF (formato de documento portátil) suministrado. La respuesta del banco es 4%; se explica únicamente a partir de ese valor observable y del propio enunciado (CAT (categoría) II, DH (altura de decisión) 131 ft, CAT (categoría) B), sin inventar una tabla o cálculo adicional.",
     "optionExp": [
       "NO — 2,5% es el gradiente estándar que puede aparecer como referencia general, pero no es el valor marcado por el banco para el supuesto CAT II indicado.",
       "CORRECTA — El banco señala 4% como gradiente mínimo de ascenso de frustrada para el supuesto descrito. Al no poder leerse el Anexo 1, no se añaden razones numéricas no verificables.",
@@ -2685,7 +2685,7 @@ window.NAVIGATION_QUESTIONS = [
       "At 5.8 DME from STG VOR"
     ],
     "a": 2,
-    "deepExp": "El gráfico del Anexo 1 de Santiago no aparece de forma legible en el PDF fuente. Se conserva la respuesta observable del banco, 5.8 DME from the ILS, sin inventar la relación exacta con STG VOR ni otros puntos del procedimiento.",
+    "deepExp": "El gráfico del Anexo 1 de Santiago no aparece de forma legible en el PDF (formato de documento portátil) fuente. Se conserva la respuesta observable del banco, 5.8 DME (equipo medidor de distancia) from the ILS (sistema de aterrizaje instrumental), sin inventar la relación exacta con STG (identificador de estación) VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) ni otros puntos del procedimiento.",
     "optionExp": [
       "NO — «Overhead STG VOR/DME» describe una posición distinta y no es la respuesta marcada para el FAP en el banco.",
       "NO — 10.0 DME from STG VOR/DME no coincide con el valor que el banco consigna para el FAP.",
@@ -2709,7 +2709,7 @@ window.NAVIGATION_QUESTIONS = [
       "INS/IRS precision is affected by coastal errors."
     ],
     "a": 0,
-    "deepExp": "El INS/IRS es un sistema autocontenido: calcula la navegación con acelerómetros, giróscopos, integradores y ordenador, sin depender de transmisiones externas de tierra o del espacio. El manual lo describe como independiente y pasivo, aunque una posición pueda actualizarse posteriormente con otro sistema. Manual, p. 144.",
+    "deepExp": "El INS (sistema de navegación inercial)/IRS (sistema de referencia inercial) es un sistema autocontenido: calcula la navegación con acelerómetros, giróscopos, integradores y ordenador, sin depender de transmisiones externas de tierra o del espacio. El manual lo describe como independiente y pasivo, aunque una posición pueda actualizarse posteriormente con otro sistema. Manual, p. 144.",
     "optionExp": [
       "CORRECTA — INS/IRS son sistemas de navegación autocontenidos; pueden proporcionar información sin recurrir a fuentes externas de transmisión. Esa independencia es precisamente su característica fundamental.",
       "NO — El INS/IRS moderno puede integrarse o actualizarse con GPS, pero su principio y clasificación como autocontenido no dependen del GPS.",
@@ -2732,7 +2732,7 @@ window.NAVIGATION_QUESTIONS = [
       "To reduce airspace/runway capacity through the use of defined paths."
     ],
     "a": 1,
-    "deepExp": "RNAV permite volar trayectorias punto a punto y más directas sin sobrevolar necesariamente radioayudas terrestres. El resultado puede ser menor distancia, tiempo y consumo de combustible, además de un uso más flexible del espacio aéreo. Manual, pp. 180–181.",
+    "deepExp": "RNAV (navegación de área) permite volar trayectorias punto a punto y más directas sin sobrevolar necesariamente radioayudas terrestres. El resultado puede ser menor distancia, tiempo y consumo de combustible, además de un uso más flexible del espacio aéreo. Manual, pp. 180–181.",
     "optionExp": [
       "NO — RNAV busca reducir, no aumentar, las instrucciones del controlador mediante trayectorias definidas y mayor predictibilidad, aunque ATC siga prestando el servicio correspondiente.",
       "CORRECTA — Las rutas más directas reducen la distancia volada y, con ello, pueden ahorrar tiempo y combustible; es un beneficio expresamente enumerado por el manual.",
@@ -2755,7 +2755,7 @@ window.NAVIGATION_QUESTIONS = [
       "GPS."
     ],
     "a": 0,
-    "deepExp": "El manual enumera GNSS/GPS, IRS y DME o VOR entre las fuentes que pueden combinarse para estimar la posición RNAV. Por ello, de las opciones ofrecidas, NDB es la que no aparece como sistema utilizado para determinar esa posición en este esquema. Manual, p. 180.",
+    "deepExp": "El manual enumera GNSS (sistema mundial de navegación por satélite)/GPS (sistema de posicionamiento global), IRS (sistema de referencia inercial) y DME (equipo medidor de distancia) o VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) entre las fuentes que pueden combinarse para estimar la posición RNAV (navegación de área). Por ello, de las opciones ofrecidas, NDB (radiofaro no direccional) es la que no aparece como sistema utilizado para determinar esa posición en este esquema. Manual, p. 180.",
     "optionExp": [
       "CORRECTA — NDB no figura entre las entradas de posición RNAV enumeradas por el manual para este banco; las fuentes indicadas son GNSS, IRS, DME y VOR.",
       "NO — DME sí puede proporcionar información de distancia para que el sistema estime la posición, solo o combinado con otra fuente.",
@@ -2778,7 +2778,7 @@ window.NAVIGATION_QUESTIONS = [
       "Precision in the vertical plane and in the determination of the longitudinal position (±1NM)."
     ],
     "a": 0,
-    "deepExp": "La Basic Area Navigation del banco corresponde a B-RNAV, hoy identificado en el manual como RNAV 5 para operaciones en ruta. Su requisito es precisión lateral de ±5 NM, alcanzada al menos durante el 95% del tiempo de vuelo; es una prestación horizontal, no vertical. Manual, p. 188.",
+    "deepExp": "La Basic Area Navigation del banco corresponde a B-RNAV (navegación de área básica), hoy identificado en el manual como RNAV (navegación de área) 5 para operaciones en ruta. Su requisito es precisión lateral de ±5 NM (milla náutica), alcanzada al menos durante el 95% del tiempo de vuelo; es una prestación horizontal, no vertical. Manual, p. 188.",
     "optionExp": [
       "CORRECTA — B-RNAV/RNAV 5 proporciona precisión en el plano horizontal y una exactitud lateral de aproximadamente ±5 NM. El requisito se expresa para al menos el 95% del tiempo, no como guía vertical.",
       "NO — La navegación descrita no es precisión vertical: B-RNAV/RNAV 5 controla la posición lateral respecto de la derrota.",
@@ -2801,7 +2801,7 @@ window.NAVIGATION_QUESTIONS = [
       "Precision in the vertical plane and in the determination of the longitudinal position (±1NM)."
     ],
     "a": 2,
-    "deepExp": "La Precision Area Navigation del banco corresponde a P-RNAV y a la aplicación RNAV 1 en el marco actualizado. Su precisión lateral es ±1 NM, frente a ±5 NM de B-RNAV/RNAV 5; ambas son prestaciones horizontales, no verticales. Manual, p. 189.",
+    "deepExp": "La Precision Area Navigation del banco corresponde a P-RNAV (navegación de área de precisión) y a la aplicación RNAV (navegación de área) 1 en el marco actualizado. Su precisión lateral es ±1 NM (milla náutica), frente a ±5 NM (milla náutica) de B-RNAV (navegación de área básica)/RNAV (navegación de área) 5; ambas son prestaciones horizontales, no verticales. Manual, p. 189.",
     "optionExp": [
       "NO — ±5 NM es el valor de B-RNAV/RNAV 5 en ruta, no el de Precision Area Navigation/RNAV 1.",
       "NO — La especificación se refiere a exactitud lateral, no a precisión en el plano vertical.",
@@ -2824,7 +2824,7 @@ window.NAVIGATION_QUESTIONS = [
       "±5NM or better throughout the flight."
     ],
     "a": 0,
-    "deepExp": "RNAV 5, denominación actual de B-RNAV en el manual, requiere mantener la derrota con una precisión de ±5 NM o mejor durante al menos el 95% del tiempo de vuelo. El porcentaje es importante: no significa que el sistema nunca pueda superar el límite. Manual, p. 188.",
+    "deepExp": "RNAV (navegación de área) 5, denominación actual de B-RNAV (navegación de área básica) en el manual, requiere mantener la derrota con una precisión de ±5 NM (milla náutica) o mejor durante al menos el 95% del tiempo de vuelo. El porcentaje es importante: no significa que el sistema nunca pueda superar el límite. Manual, p. 188.",
     "optionExp": [
       "CORRECTA — La especificación RNAV 5 se expresa como ±5 NM o mejor durante el 95% del tiempo de vuelo, que es la definición de exactitud lateral utilizada por PBN.",
       "NO — ±3 NM y 90% no son los valores publicados para RNAV 5; confunden la especificación con otra posible tolerancia operacional.",
@@ -2847,7 +2847,7 @@ window.NAVIGATION_QUESTIONS = [
       "±5NM or better throughout the flight."
     ],
     "a": 1,
-    "deepExp": "La Precision RNAV del banco corresponde a RNAV 1 para operaciones terminales y requiere una exactitud lateral de ±1 NM durante al menos el 95% del tiempo de vuelo. No se exige que el límite se cumpla literalmente en cada segundo. Manual, p. 190.",
+    "deepExp": "La Precision RNAV (navegación de área) del banco corresponde a RNAV (navegación de área) 1 para operaciones terminales y requiere una exactitud lateral de ±1 NM (milla náutica) durante al menos el 95% del tiempo de vuelo. No se exige que el límite se cumpla literalmente en cada segundo. Manual, p. 190.",
     "optionExp": [
       "NO — «±105 NM» no es una magnitud válida para esta especificación; es una cifra evidentemente incompatible con RNAV 1.",
       "CORRECTA — RNAV 1/P-RNAV requiere ±1 NM o mejor durante al menos el 95% del tiempo de vuelo, según la precisión lateral de la especificación.",
@@ -2870,7 +2870,7 @@ window.NAVIGATION_QUESTIONS = [
       "GPS position."
     ],
     "a": 0,
-    "deepExp": "Entre las entradas que pueden alimentar un sistema RNAV están VOR/DME, DME/DME, INS/IRS y GNSS. La velocidad verdadera puede participar en cálculos de navegación o predicción, pero no es una fuente de posición enumerada como sensor de entrada en este contexto. Manual, p. 208.",
+    "deepExp": "Entre las entradas que pueden alimentar un sistema RNAV (navegación de área) están VOR (radiofaro omnidireccional VHF (frecuencia muy alta))/DME (equipo medidor de distancia), DME (equipo medidor de distancia)/DME (equipo medidor de distancia), INS (sistema de navegación inercial)/IRS (sistema de referencia inercial) y GNSS (sistema mundial de navegación por satélite). La velocidad verdadera puede participar en cálculos de navegación o predicción, pero no es una fuente de posición enumerada como sensor de entrada en este contexto. Manual, p. 208.",
     "optionExp": [
       "CORRECTA — True airspeed no es una entrada de posición del conjunto de sensores RNAV que enumera el manual. La posición se obtiene de radioayudas, inercial o GNSS.",
       "NO — La radial y distancia VOR/DME proporcionan referencias de posición utilizables por RNAV.",
@@ -2893,7 +2893,7 @@ window.NAVIGATION_QUESTIONS = [
       "1.5NM standard deviation or better."
     ],
     "a": 2,
-    "deepExp": "La respuesta del banco es 1 NM de desviación estándar o mejor para Precision RNAV. Debe distinguirse esta tolerancia de ±5 NM de RNAV 5; ambas expresan requisitos laterales de navegación, pero el valor de precisión RNAV es más exigente. Manual, p. 190.",
+    "deepExp": "La respuesta del banco es 1 NM (milla náutica) de desviación estándar o mejor para Precision RNAV (navegación de área). Debe distinguirse esta tolerancia de ±5 NM (milla náutica) de RNAV (navegación de área) 5; ambas expresan requisitos laterales de navegación, pero el valor de precisión RNAV (navegación de área) es más exigente. Manual, p. 190.",
     "optionExp": [
       "NO — 0,25 NM sería una exigencia más estricta que la indicada en el banco y no es el valor de esta especificación.",
       "NO — 0,5 NM tampoco es el valor consignado para la precisión RNAV de esta pregunta.",
@@ -2916,7 +2916,7 @@ window.NAVIGATION_QUESTIONS = [
       "B-RNAV is not suitable for departure or arrival procedures."
     ],
     "a": 2,
-    "deepExp": "La afirmación falsa es que B-RNAV se aplica a todos los vuelos IFR. El manual identifica B-RNAV como RNAV 5, destinado a la fase en ruta, y explica que no es adecuado para procedimientos de salida o llegada terminales; RNAV 1 cubre esas aplicaciones. Manual, p. 188.",
+    "deepExp": "La afirmación falsa es que B-RNAV (navegación de área básica) se aplica a todos los vuelos IFR (reglas de vuelo por instrumentos). El manual identifica B-RNAV (navegación de área básica) como RNAV (navegación de área) 5, destinado a la fase en ruta, y explica que no es adecuado para procedimientos de salida o llegada terminales; RNAV (navegación de área) 1 cubre esas aplicaciones. Manual, p. 188.",
     "optionExp": [
       "NO — Es verdadera como antecedente: B-RNAV fue la primera aplicación europea de navegación de área y el precedente de la evolución hacia RNAV 5.",
       "NO — El banco la trata como verdadera en su contexto ECAC: B-RNAV fue mandatado para la red en ruta europea por encima de FL95.",
@@ -2939,7 +2939,7 @@ window.NAVIGATION_QUESTIONS = [
       "None of the above is correct."
     ],
     "a": 2,
-    "deepExp": "La diferencia esencial es que una especificación RNP incluye monitorización a bordo del rendimiento y alerta cuando no se cumple, mientras que una especificación RNAV no incluye ese requisito. El manual lo afirma expresamente en p. 182 y vuelve a recogerlo en pp. 196 y 202.",
+    "deepExp": "La diferencia esencial es que una especificación RNP (navegación basada en prestaciones con monitorización y alerta a bordo) incluye monitorización a bordo del rendimiento y alerta cuando no se cumple, mientras que una especificación RNAV (navegación de área) no incluye ese requisito. El manual lo afirma expresamente en p. 182 y vuelve a recogerlo en pp. 196 y 202.",
     "optionExp": [
       "NO — Es lo contrario de la definición PBN: RNP sí incluye monitorización y alerta del rendimiento a bordo.",
       "NO — RNAV no incluye como requisito la monitorización y alerta a bordo; esa es la diferencia frente a RNP.",
@@ -2962,7 +2962,7 @@ window.NAVIGATION_QUESTIONS = [
       "All of the above are correct."
     ],
     "a": 3,
-    "deepExp": "El concepto PBN distribuye requisitos entre la aprobación del sistema/instalación, la tripulación y el proveedor de servicios: el equipo debe cumplir la especificación, la tripulación los requisitos operativos y la infraestructura debe soportar la operación. Por eso las tres primeras afirmaciones son correctas y la respuesta es «All of the above». Manual, pp. 196 y 204.",
+    "deepExp": "El concepto PBN (navegación basada en prestaciones) distribuye requisitos entre la aprobación del sistema/instalación, la tripulación y el proveedor de servicios: el equipo debe cumplir la especificación, la tripulación los requisitos operativos y la infraestructura debe soportar la operación. Por eso las tres primeras afirmaciones son correctas y la respuesta es «All of the above». Manual, pp. 196 y 204.",
     "optionExp": [
       "NO — La aprobación del sistema RNAV y de su instalación para cumplir el rendimiento requerido es una exigencia real del concepto PBN.",
       "NO — La tripulación debe satisfacer los requisitos operativos establecidos por el regulador para realizar operaciones RNAV/PBN.",
@@ -2985,7 +2985,7 @@ window.NAVIGATION_QUESTIONS = [
       "Eventual and non-published routes."
     ],
     "a": 0,
-    "deepExp": "Las fix RNAV routes son rutas ATS permanentes y publicadas que pueden planificarse para aeronaves con capacidad RNAV. Se distinguen de las rutas contingentes, que se publican para periodos limitados, y de las random, que no son rutas publicadas. Manual, p. 192.",
+    "deepExp": "Las fix RNAV (navegación de área) routes son rutas ATS (servicios de tránsito aéreo) permanentes y publicadas que pueden planificarse para aeronaves con capacidad RNAV (navegación de área). Se distinguen de las rutas contingentes, que se publican para periodos limitados, y de las random, que no son rutas publicadas. Manual, p. 192.",
     "optionExp": [
       "CORRECTA — Una fix RNAV route es permanente y publicada; el manual la define así en la sección de técnicas RNAV.",
       "NO — «Eventual» o temporal describe mejor una ruta contingent RNAV, no una ruta fija.",
@@ -3008,7 +3008,7 @@ window.NAVIGATION_QUESTIONS = [
       "A TACAN station."
     ],
     "a": 2,
-    "deepExp": "La imagen del signo mencionado en la pregunta no está extraída de forma legible en el texto suministrado: el Anexo 4 aparece como páginas gráficas sin contenido textual. Se conserva la respuesta del banco, VOR station, y se evita describir rasgos gráficos que no pueden verificarse. Referencia: «Attachment 1: ICAO Annex 4 Simbology», p. 215.",
+    "deepExp": "La imagen del signo mencionado en la pregunta no está extraída de forma legible en el texto suministrado: el Anexo 4 aparece como páginas gráficas sin contenido textual. Se conserva la respuesta del banco, VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) station, y se evita describir rasgos gráficos que no pueden verificarse. Referencia: «Attachment 1: ICAO (International Civil Aviation Organization (Organización de Aviación Civil Internacional)) Annex 4 Simbology», p. 215.",
     "optionExp": [
       "NO — El símbolo de una estación DME no es la identificación que el banco asigna al signo mostrado; además, la imagen no está disponible para comprobar su geometría.",
       "NO — VOR/DME representaría una instalación combinada, distinta de la respuesta VOR station consignada por el banco.",
@@ -3080,7 +3080,7 @@ window.NAVIGATION_QUESTIONS = [
       "The VOR signal follows an omni-directional radiation pattern which is not usable over the station."
     ],
     "a": 3,
-    "deepExp": "El VOR transmite una señal omnidireccional y no es utilizable directamente sobre la estación, donde aparece el cono de silencio/confusión. Sus radiales están referidos al norte magnético local, la DOC es válida de día y de noche, y un DVOR es un tipo de VOR, no necesariamente una instalación VOR/DME. Manual, pp. 113 y 120.",
+    "deepExp": "El VOR (radiofaro omnidireccional VHF (frecuencia muy alta)) transmite una señal omnidireccional y no es utilizable directamente sobre la estación, donde aparece el cono de silencio/confusión. Sus radiales están referidos al norte magnético local, la DOC (cobertura operacional designada) es válida de día y de noche, y un DVOR (radiofaro omnidireccional Doppler) es un tipo de VOR (radiofaro omnidireccional VHF (frecuencia muy alta)), no necesariamente una instalación VOR (radiofaro omnidireccional VHF (frecuencia muy alta))/DME (equipo medidor de distancia). Manual, pp. 113 y 120.",
     "optionExp": [
       "NO — La DOC publicada del VOR se aplica tanto de día como de noche; el manual contrasta esta característica con el NDB, cuyas ondas de cielo sí pueden causar problemas nocturnos.",
       "NO — Los 360 radiales del VOR están alineados respecto del norte magnético en la ubicación del VOR, no del norte verdadero.",
@@ -3103,7 +3103,7 @@ window.NAVIGATION_QUESTIONS = [
       "All the answers are correct."
     ],
     "a": 0,
-    "deepExp": "Un INS básico integra acelerómetros lineales, giróscopos, una plataforma estable, integradores y un ordenador. Entre las opciones, la combinación esencial que aparece como componentes del sistema es plataforma estable y acelerómetros; las estaciones terrestres no forman parte de un sistema autocontenido. Manual, p. 146.",
+    "deepExp": "Un INS (sistema de navegación inercial) básico integra acelerómetros lineales, giróscopos, una plataforma estable, integradores y un ordenador. Entre las opciones, la combinación esencial que aparece como componentes del sistema es plataforma estable y acelerómetros; las estaciones terrestres no forman parte de un sistema autocontenido. Manual, p. 146.",
     "optionExp": [
       "CORRECTA — La plataforma estable mantiene la referencia espacial y los acelerómetros detectan las aceleraciones en los ejes; ambos son componentes básicos del INS.",
       "NO — El INS no necesita estaciones terrestres para operar: es autocontenido. La plataforma estable sí es un componente, pero «ground stations» no lo es.",
@@ -3126,7 +3126,7 @@ window.NAVIGATION_QUESTIONS = [
       "The INS requires constant position updates to be used as a navigation system."
     ],
     "a": 0,
-    "deepExp": "El INS funciona independientemente de transmisiones de tierra o del espacio y es pasivo. Su error principal no es degradarse con la altitud, sino acumular pequeños errores de acelerómetros y giróscopos, que degradan la posición con el tiempo y hacen necesarias actualizaciones periódicas. Manual, p. 144.",
+    "deepExp": "El INS (sistema de navegación inercial) funciona independientemente de transmisiones de tierra o del espacio y es pasivo. Su error principal no es degradarse con la altitud, sino acumular pequeños errores de acelerómetros y giróscopos, que degradan la posición con el tiempo y hacen necesarias actualizaciones periódicas. Manual, p. 144.",
     "optionExp": [
       "CORRECTA — El INS es independiente de transmisiones espaciales y terrestres; calcula la navegación a partir de sus sensores inerciales y de la posición inicial conocida.",
       "NO — El manual identifica como error principal la degradación de la posición con el tiempo, no con la altitud.",

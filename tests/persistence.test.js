@@ -10,6 +10,7 @@ const dataFiles = [
   "data/atm.js",
   "data/fernando.js",
   "data/navigation.js",
+  "data/acronym-glossary.js",
 ];
 const appSource = fs.readFileSync(path.join(projectRoot, "js/app.js"), "utf8");
 
@@ -396,6 +397,40 @@ test("every navigation question has a general topic explanation and renders it",
   const results = mount.document.getElementById("results").innerHTML;
   assert.match(results, /Contexto general del tema/);
   assert.ok(results.indexOf("Por qué la correcta es correcta") < results.indexOf("Contexto general del tema"));
+});
+
+test("every glossary acronym in a correct-answer explanation has a parenthetical meaning", () => {
+  const mount = loadApp(new FakeStorage());
+  const glossary = vm.runInContext("window.ATCO_ACRONYM_MEANINGS", mount.context);
+  const questions = [
+    ...vm.runInContext("BANKS.leg", mount.context),
+    ...vm.runInContext("BANKS.atm", mount.context),
+    ...vm.runInContext("BANKS.fernando", mount.context),
+    ...vm.runInContext("BANKS.nav", mount.context),
+  ];
+  const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
+  const boundary = "A-Za-zÁÉÍÓÚÜÑ0-9_";
+
+  for (const question of questions) {
+    const text = question.deepExp || "";
+    for (const acronym of Object.keys(glossary)) {
+      const pattern = new RegExp(`(?<![${boundary}])${escapeRegExp(acronym)}(?![${boundary}])`, "g");
+      let match;
+      while ((match = pattern.exec(text))) {
+        const after = text.slice(match.index + acronym.length).trimStart();
+        if (after.startsWith("(")) continue;
+
+        const containingCompound = Object.keys(glossary).find((compound) => {
+          if (compound === acronym || !compound.includes(acronym)) return false;
+          return text.slice(match.index, match.index + compound.length) === compound
+            && text.slice(match.index + compound.length).trimStart().startsWith("(");
+        });
+        if (containingCompound) continue;
+
+        assert.fail(`${question.navNo || question.q}: ${acronym} lacks meaning in deepExp`);
+      }
+    }
+  }
 });
 
 test("removes malformed or incompatible persisted sessions without crashing", () => {
