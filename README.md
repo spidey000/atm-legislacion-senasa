@@ -10,7 +10,7 @@ Web estática local para practicar preguntas de Legislación Aeronáutica, Air T
 - **Banco ATM total:** 367 preguntas (ATM base + Fernando).
 - **Navegación:** 136 preguntas del HTML de referencia.
 - **Práctica:** feedback inmediato y revisión final.
-- **Examen:** 25 preguntas de Legislación o 40 de ATM/Navegación, sin feedback hasta entregar.
+- **Examen:** 25 preguntas de Legislación y Navegación, o 40 de ATM, sin feedback hasta entregar.
 - **Persistencia local:** la sesión activa, el orden de preguntas, respuestas, posición y tiempo se guardan automáticamente en `localStorage` y se restauran al volver a abrir la aplicación.
 
 ## Ejecutar

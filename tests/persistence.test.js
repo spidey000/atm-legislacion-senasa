@@ -170,6 +170,16 @@ function savedState(storage) {
   return JSON.parse(storage.getItem("atco-exam-trainer.session.v1"));
 }
 
+test("configures legislation and navigation exams with 25 questions", () => {
+  for (const kind of ["leg", "nav"]) {
+    const mount = loadApp(new FakeStorage());
+    vm.runInContext(`startSession('${kind}', 'exam')`, mount.context);
+    const state = currentState(mount.context);
+    assert.equal(state.questions.length, 25, `${kind}: exam must contain 25 questions`);
+    assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 1 de 25");
+  }
+});
+
 test("restores the active session, question order, answers and position after remount", () => {
   const storage = new FakeStorage();
   const firstMount = loadApp(storage);
@@ -260,7 +270,7 @@ test("restores a session whose saved timestamp is one hour old", () => {
     beforeRemount.questions.map((question) => question.q),
   );
   assert.equal(restored.start, oneHourAgo);
-  assert.equal(secondMount.document.getElementById("qcount").textContent, "Pregunta 5 de 40");
+  assert.equal(secondMount.document.getElementById("qcount").textContent, "Pregunta 5 de 25");
   assert.equal(secondMount.document.getElementById("clock").textContent, "60:00");
 
   vm.runInContext("showHome()", secondMount.context);
@@ -273,13 +283,13 @@ test("restores a completed exam and its result state after remount", () => {
   vm.runInContext("startSession('nav', 'exam'); finishSession()", firstMount.context);
   const beforeRemount = savedState(storage);
   assert.equal(beforeRemount.finished, true);
-  assert.equal(beforeRemount.questions.length, 40);
+  assert.equal(beforeRemount.questions.length, 25);
   assert.equal(typeof beforeRemount.durationSec, "number");
 
   const secondMount = loadApp(storage);
   const restored = currentState(secondMount.context);
   assert.equal(restored.finished, true);
-  assert.equal(restored.questions.length, 40);
+  assert.equal(restored.questions.length, 25);
   assert.equal(restored.current, beforeRemount.current);
   assert.deepEqual(restored.answers, beforeRemount.answers);
   assert.equal(secondMount.document.getElementById("results").classList.contains("hidden"), false);
@@ -351,7 +361,7 @@ test("the last exam answer stays on the last question for manual delivery", () =
   const state = currentState(mount.context);
   assert.equal(state.current, state.questions.length - 1);
   assert.notEqual(state.answers[state.current], null);
-  assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 40 de 40");
+  assert.equal(mount.document.getElementById("qcount").textContent, "Pregunta 25 de 25");
   assert.equal(mount.document.getElementById("next").textContent, "Entregar");
 });
 

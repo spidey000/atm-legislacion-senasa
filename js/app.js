@@ -8,7 +8,7 @@ const BANKS = {
 // Los «cuadros azules de Fernando» también forman parte del banco general de ATM.
 BANKS.atm = BANKS.atm.concat(BANKS.fernando);
 
-const EXAM_SIZE={leg:25,atm:40,nav:40};
+const EXAM_SIZE={leg:25,atm:40,nav:25};
 const LABEL={leg:"Legislación",atm:"ATM",fernando:"ATM · Cuadros azules de Fernando",nav:"Navegación"};
 const letters=["A","B","C","D"];
 const SESSION_STORAGE_KEY="atco-exam-trainer.session.v1";
